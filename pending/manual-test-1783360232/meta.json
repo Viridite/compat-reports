@@ -1,0 +1,7 @@
+{
+  "apk_url": "https://f-droid.org/F-Droid.apk",
+  "source_site": "f-droid.org (manual end-to-end dispatch test)",
+  "github_username": "octocat",
+  "notes": "Manual test simulating what the Cloudflare Worker will do once deployed.",
+  "submitted_at": "2026-07-06T17:50:32Z"
+}
