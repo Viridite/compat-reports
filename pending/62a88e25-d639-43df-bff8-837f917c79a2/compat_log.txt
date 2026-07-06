@@ -1,0 +1,182 @@
+[  0s] launchApk: sdmc:/AndroidHorizonNX/apks/Temple+Run_1.10.0_APKPure.apk  pkg=com.imangi.templerun  installed=1
+[  0s] Already installed — skipping extraction
+[  0s] findAllSos: libmain.so (7064 bytes)
+[  0s] findAllSos: libunity.so (12113672 bytes)
+[  0s] findAllSos: libil2cpp.so (13898960 bytes)
+[  0s] Setting up JNI environment...
+[  0s] Loading: libmain.so
+[  0s] ELF: loading sdmc:/AndroidHorizonNX/games/com.imangi.templerun/lib/libmain.so
+[  0s] SplitMap: reserved code_va=0x397800000 data_va=0x397801000 write_va=0xaf943a000 csz=0x1000 dsz=0x1000
+[  0s] ELF: stage alloc OK
+[  0s] ELF: stage zeroed
+[  0s] ELF: seg[1] vaddr=0x0 filesz=0xd74 memsz=0xd74 flags=0x5
+[  0s] ELF: seg[2] vaddr=0x1000 filesz=0x2f8 memsz=0x300 flags=0x6
+[  0s] ELF: segs copied to stage
+[  0s] ELF: stage[0]=0x464c457f after segs copy
+[  0s] ELF: dyn: strtab=0x418/278 symtab=0x1f0 syment=24 rela=0x668/192 jmprel=0x728/240 init_arr=0x12f0/8
+[  0s] ELF: so built sym_count=23 strsz=278
+[  0s] ELF: registered
+[  0s] ELF: rela 8 entries
+[  0s] RELA: all 8 entries processed
+[  0s] ELF: rela done
+[  0s] ELF: jmprel 10 entries
+[  0s] JMPREL: all 10 entries processed
+[  0s] ELF: jmprel done
+[  0s] ELF: strtab/symtab copied
+[  0s] GOT[0] @va+0x258 = 0xab57adaa0
+[  0s] GOT[1] @va+0x260 = 0xab5eb5760
+[  0s] GOT[2] @va+0x268 = 0xab5e9c4c0
+[  0s] GOT[3] @va+0x270 = 0xab5ea9940
+[  0s] GOT[4] @va+0x278 = 0xab57adb60
+[  0s] SplitMap: code_va=0x397800000 Rx data_va=0x397801000 Rw OK
+[  0s] ELF: JIT copy done, stage freed
+[  0s] ELF: 1 constructors deferred (arr=0x3978012f0)
+[  0s] ELF: loaded OK code_exec=0x397800000 data_exec=0x397801000 sym_count=23 unresolved=0
+[  0s] Loading: libunity.so
+[  0s] ELF: loading sdmc:/AndroidHorizonNX/games/com.imangi.templerun/lib/libunity.so
+[  0s] SplitMap: reserved code_va=0x8de79d000 data_va=0x8df2e5000 write_va=0xfd8962000 csz=0xb48000 dsz=0x13b000
+[  0s] ELF: stage alloc OK
+[  0s] ELF: stage zeroed
+[  0s] ELF: seg[1] vaddr=0x0 filesz=0xb47d1c memsz=0xb47d1c flags=0x5
+[  0s] ELF: seg[2] vaddr=0xb48000 filesz=0x44d40 memsz=0x13a448 flags=0x6
+[  0s] ELF: segs copied to stage
+[  0s] ELF: stage[0]=0x464c457f after segs copy
+[  0s] ELF: dyn: strtab=0x2188/3973 symtab=0x1f0 syment=24 rela=0x3db8/465480 jmprel=0x75800/6384 init_arr=0xb62308/2584
+[  0s] ELF: so built sym_count=337 strsz=3973
+[  0s] ELF: registered
+[  0s] ELF: rela 19395 entries
+[  0s] ELF: unresolved: __google_potentially_blocking_region_begin
+[  0s] ELF: unresolved: __google_potentially_blocking_region_end
+[  0s] RELA: all 19395 entries processed
+[  0s] ELF: rela done
+[  0s] ELF: jmprel 266 entries
+[  0s] ELF: unresolved: strdup
+[  0s] ELF: unresolved: pthread_condattr_init
+[  0s] ELF: unresolved: pthread_condattr_setclock
+[  0s] ELF: unresolved: pthread_condattr_destroy
+[  0s] ELF: unresolved: __system_property_get
+[  0s] ELF: unresolved: fscanf
+[  0s] ELF: unresolved: strsep
+[  0s] ELF: unresolved: ANativeWindow_fromSurface
+[  0s] ELF: unresolved: setpriority
+[  0s] ELF: unresolved: pthread_exit
+[  0s] ELF: unresolved: ASensorEventQueue_hasEvents
+[  0s] ELF: unresolved: getpagesize
+[  0s] ELF: unresolved: madvise
+[  0s] ELF: unresolved: remainder
+[  0s] ELF: unresolved: inet_ntoa
+[  0s] ELF: unresolved: getaddrinfo
+[  0s] ELF: unresolved: freeaddrinfo
+[  0s] ELF: unresolved: execl
+[  0s] ELF: unresolved: perror
+[  0s] ELF: unresolved: getpwuid
+[  0s] ELF: unresolved: truncate
+[  0s] ELF: unresolved: unlink
+[  0s] ELF: unresolved: rmdir
+[  0s] ELF: unresolved: flock
+[  0s] ELF: unresolved: lseek64
+[  0s] ELF: unresolved: statfs
+[  0s] ELF: unresolved: utime
+[  0s] ELF: unresolved: inflateInit2_
+[  0s] ELF: unresolved: inflateEnd
+[  0s] ELF: unresolved: inflate
+[  0s] ELF: unresolved: inet_addr
+[  0s] ELF: unresolved: recvfrom
+[  0s] ELF: unresolved: sendto
+[  0s] ELF: unresolved: inet_ntop
+[  0s] ELF: unresolved: inet_aton
+[  0s] ELF: unresolved: __google_potentially_blocking_region_begin
+[  0s] ELF: unresolved: __google_potentially_blocking_region_end
+[  0s] JMPREL: all 266 entries processed
+[  0s] ELF: jmprel done
+[  0s] ELF: strtab/symtab copied
+[  0s] GOT[0] @va+0x22a0 = 0xab57ada50
+[  0s] GOT[1] @va+0x22a8 = 0xab57adaa0
+[  0s] GOT[2] @va+0x22b0 = 0xab57adab0
+[  0s] GOT[3] @va+0x22b8 = 0xab5e9c4c0
+[  0s] GOT[4] @va+0x22c0 = 0xab5e9c4c0
+[  0s] SplitMap: code_va=0x8de79d000 Rx data_va=0x8df2e5000 Rw OK
+[  0s] ELF: JIT copy done, stage freed
+[  0s] ELF: 323 constructors deferred (arr=0x8df2ff308)
+[  0s] ELF: loaded OK code_exec=0x8de79d000 data_exec=0x8df2e5000 sym_count=337 unresolved=39
+[  0s] Loading: libil2cpp.so
+[  0s] ELF: loading sdmc:/AndroidHorizonNX/games/com.imangi.templerun/lib/libil2cpp.so
+[  0s] SplitMap: reserved code_va=0x8605c0000 data_va=0x861218000 write_va=0xf4c201000 csz=0xc58000 dsz=0x1a2000
+[  0s] ELF: stage alloc OK
+[  0s] ELF: stage zeroed
+[  0s] ELF: seg[0] vaddr=0x0 filesz=0xc47a50 memsz=0xc47a50 flags=0x5
+[  0s] ELF: seg[1] vaddr=0xc58000 filesz=0xf8cd8 memsz=0x1a1790 flags=0x6
+[  0s] ELF: segs copied to stage
+[  0s] ELF: stage[0]=0x464c457f after segs copy
+[  0s] ELF: dyn: strtab=0x50e0/17410 symtab=0x1408 syment=24 rela=0x9a58/2590584 jmprel=0x2821d0/7968 init_arr=0xc58000/320
+[  0s] ELF: so built sym_count=649 strsz=17410
+[  0s] ELF: registered
+[  0s] ELF: rela 107941 entries
+[  0s] ELF: unresolved: _ctype_
+[  0s] ELF: unresolved: __google_potentially_blocking_region_end
+[  0s] ELF: unresolved: __google_potentially_blocking_region_begin
+[  0s] RELA: all 107941 entries processed
+[  0s] ELF: rela done
+[  0s] ELF: jmprel 332 entries
+[  0s] ELF: unresolved: gethostname
+[  0s] ELF: unresolved: wctype
+[  0s] ELF: unresolved: writev
+[  0s] ELF: unresolved: sem_getvalue
+[  0s] ELF: unresolved: pthread_condattr_init
+[  0s] ELF: unresolved: iswctype
+[  0s] ELF: unresolved: unlink
+[  0s] ELF: unresolved: wcsftime
+[  0s] ELF: unresolved: tgkill
+[  0s] ELF: unresolved: rmdir
+[  1s] ELF: unresolved: fscanf
+[  1s] ELF: unresolved: sigsuspend
+[  1s] ELF: unresolved: uname
+[  1s] ELF: unresolved: clock_getres
+[  1s] ELF: unresolved: freeaddrinfo
+[  1s] ELF: unresolved: pthread_getattr_np
+[  1s] ELF: unresolved: recvfrom
+[  1s] ELF: unresolved: ftruncate
+[  1s] ELF: unresolved: inet_ntop
+[  1s] ELF: unresolved: __google_potentially_blocking_region_end
+[  1s] ELF: unresolved: sendto
+[  1s] ELF: unresolved: pthread_condattr_setclock
+[  1s] ELF: unresolved: __google_potentially_blocking_region_begin
+[  1s] ELF: unresolved: getaddrinfo
+[  1s] ELF: unresolved: shutdown
+[  1s] ELF: unresolved: strlcpy
+[  1s] ELF: unresolved: pthread_condattr_destroy
+[  1s] JMPREL: all 332 entries processed
+[  1s] ELF: jmprel done
+[  1s] ELF: strtab/symtab copied
+[  1s] GOT[0] @va+0xca060 = 0xab5eab500
+[  1s] GOT[1] @va+0xca068 = 0xab57afed0
+[  1s] GOT[2] @va+0xca070 = 0xab5ecbaa0
+[  1s] GOT[3] @va+0xca078 = 0xab5ea0f20
+[  1s] GOT[4] @va+0xca080 = 0x860f6df24
+[  1s] SplitMap: code_va=0x8605c0000 Rx data_va=0x861218000 Rw OK
+[  1s] ELF: JIT copy done, stage freed
+[  1s] ELF: 40 constructors deferred (arr=0x861218000)
+[  1s] ELF: loaded OK code_exec=0x8605c0000 data_exec=0x861218000 sym_count=649 unresolved=69
+[  1s] ELF: 69 total unresolved symbols across all libs
+[  1s] AndroidTLS: old TPIDR_EL0=0x0 — installing fake TLS @0xab6144750
+[  1s] CTORS: starting 364 constructors — this may take 30-120s, please wait
+[  1s] ELF: libmain.so: running 1 constructors
+[  1s] ELF: init_arr[0]=0x0
+[  1s] ELF: libmain.so: ctors done ok=0 failed=0 skipped=1
+[  1s] ELF: libunity.so: running 323 constructors
+[  1s] ELF: init_arr[0]=0x8de8188a0
+[  1s] ELF: init_arr[1]=0x8de8188f4
+[  1s] ELF: init_arr[2]=0x8de818964
+[  1s] ELF: init_arr[3]=0x8de8189a8
+[  1s] ELF: ctor[1/323] @0x8de8188a0
+[  1s] ELF: ctor[1/323] OK
+[  1s] ELF: ctor[2/323] @0x8de8188f4
+[  1s] ELF: ctor[2/323] OK
+[  1s] ELF: ctor[3/323] @0x8de818964
+[  1s] ELF: ctor[3/323] OK
+[  1s] ELF: ctor[4/323] @0x8de8189a8
+[  1s] UNRECOVERED FAULT desc=0x101 esr=0x92000004 pc=0xab57a5990 far=0xbad0bad0bacffffc lr=0xab57a598c sp=0x7fe90ab0
+[  1s] UNRECOVERED FAULT at 0xab57a5990 (host, compatLog+42800)
+[  1s] UNRECOVERED FAULT lr in 0xa730 (host, compatLog-45994281776)
+[  1s] UNRECOVERED FAULT pc 0xab57a5990: region=0xab578e000 size=0x740000 type=0x8 perm=r-x
+[  1s] UNRECOVERED FAULT far 0xd00000000: region=0xab6243000 size=0x2527bd000 type=0x0 perm=---
