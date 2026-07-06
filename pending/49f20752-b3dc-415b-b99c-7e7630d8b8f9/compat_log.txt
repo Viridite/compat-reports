@@ -1,0 +1,1271 @@
+[  0s] launchApk: sdmc:/AndroidHorizonNX/apks/com.colorswitch.switch2_2.40-1137_minAPI22(arm64-v8a,armeabi-v7a)(nodpi)_apkmirror.com.apk  pkg=com.colorswitch.switch2  installed=1
+[  0s] Already installed — skipping extraction
+[  0s] findAllSos: libmain.so (6728 bytes)
+[  0s] findAllSos: libcrashlytics-trampoline.so (9584 bytes)
+[  0s] findAllSos: libFirebaseCppCrashlytics.so (42832 bytes)
+[  0s] findAllSos: libFirebaseCppAnalytics.so (77776 bytes)
+[  0s] findAllSos: libFirebaseCppRemoteConfig.so (82448 bytes)
+[  0s] findAllSos: lib_burst_generated.so (140472 bytes)
+[  0s] findAllSos: libFirebaseCppDatabase.so (151424 bytes)
+[  0s] findAllSos: libcrashlytics-handler.so (185960 bytes)
+[  0s] findAllSos: libcrashlytics.so (195568 bytes)
+[  0s] findAllSos: libFirebaseCppAuth.so (234136 bytes)
+[  0s] findAllSos: libFirebaseCppFirestore.so (408232 bytes)
+[  0s] findAllSos: libcrashlytics-common.so (755864 bytes)
+[  0s] findAllSos: libapplovin-native-crash-reporter.so (877872 bytes)
+[  0s] findAllSos: libquack.so (1300792 bytes)
+[  0s] findAllSos: libFirebaseCppApp-11_9_0.so (6105040 bytes)
+[  0s] findAllSos: libunity.so (25009720 bytes)
+[  0s] findAllSos: libil2cpp.so (62020528 bytes)
+[  0s] Setting up JNI environment...
+[  0s] Loading: libmain.so
+[  0s] ELF: loading sdmc:/AndroidHorizonNX/games/com.colorswitch.switch2/lib/libmain.so
+[  0s] ELF: WARN 4 PT_LOAD segments (1 exec, 2 writable) — single-split-point assumption may mis-map permissions
+[  0s] SplitMap: reserved code_va=0x52380e000 data_va=0x523810000 write_va=0x320ea5000 csz=0x2000 dsz=0x3000
+[  0s] ELF: stage alloc OK
+[  0s] ELF: stage zeroed
+[  0s] ELF: seg[1] vaddr=0x0 filesz=0xa1c memsz=0xa1c flags=0x4
+[  0s] ELF: seg[2] vaddr=0x1a1c filesz=0x4e4 memsz=0x4e4 flags=0x5
+[  0s] ELF: seg[3] vaddr=0x2f00 filesz=0x238 memsz=0x238 flags=0x6
+[  0s] ELF: seg[4] vaddr=0x4138 filesz=0x30 memsz=0x40 flags=0x6
+[  0s] ELF: segs copied to stage
+[  0s] ELF: stage[0]=0x464c457f after segs copy
+[  0s] ELF: dyn: strtab=0x558/165 symtab=0x330 syment=24 rela=0x600/216 jmprel=0x6d8/264 init_arr=0x0/0
+[  0s] ELF: so built sym_count=23 strsz=165
+[  0s] ELF: registered
+[  0s] ELF: rela 9 entries
+[  0s] RELA: all 9 entries processed
+[  0s] ELF: rela done
+[  0s] ELF: jmprel 11 entries
+[  0s] JMPREL: all 11 entries processed
+[  0s] ELF: jmprel done
+[  0s] ELF: strtab/symtab copied
+[  0s] GOT[0] @va+0x10e0 = 0x24158daa0
+[  0s] GOT[1] @va+0x10e8 = 0x24158da50
+[  0s] GOT[2] @va+0x10f0 = 0x241c95760
+[  0s] GOT[3] @va+0x10f8 = 0x241c7c4c0
+[  0s] GOT[4] @va+0x1100 = 0x24158fa20
+[  0s] SplitMap: code_va=0x52380e000 Rx data_va=0x523810000 Rw OK
+[  0s] ELF: JIT copy done, stage freed
+[  0s] ELF: loaded OK code_exec=0x52380e000 data_exec=0x523810000 sym_count=23 unresolved=0
+[  0s] Loading: libcrashlytics-trampoline.so
+[  0s] ELF: loading sdmc:/AndroidHorizonNX/games/com.colorswitch.switch2/lib/libcrashlytics-trampoline.so
+[  0s] SplitMap: reserved code_va=0x25e4d2000 data_va=0x25e4d3000 write_va=0x2b21d1000 csz=0x1000 dsz=0x1000
+[  0s] ELF: stage alloc OK
+[  0s] ELF: stage zeroed
+[  0s] ELF: seg[2] vaddr=0x0 filesz=0x840 memsz=0x840 flags=0x5
+[  0s] ELF: seg[3] vaddr=0x1840 filesz=0x288 memsz=0x290 flags=0x6
+[  0s] ELF: segs copied to stage
+[  0s] ELF: stage[0]=0x464c457f after segs copy
+[  0s] ELF: dyn: strtab=0x42c/107 symtab=0x2d8 syment=24 rela=0x498/96 jmprel=0x4f8/144 init_arr=0x1850/16
+[  0s] ELF: so built sym_count=14 strsz=107
+[  0s] ELF: registered
+[  0s] ELF: rela 4 entries
+[  0s] RELA: all 4 entries processed
+[  0s] ELF: rela done
+[  0s] ELF: jmprel 6 entries
+[  0s] ELF: unresolved: __libc_init
+[  0s] JMPREL: all 6 entries processed
+[  0s] ELF: jmprel done
+[  0s] ELF: strtab/symtab copied
+[  0s] GOT[0] @va+0xa98 = 0xbad0bad0bad00000
+[  0s] GOT[1] @va+0xaa0 = 0x24158da50
+[  0s] GOT[2] @va+0xaa8 = 0x24158db60
+[  0s] GOT[3] @va+0xab0 = 0x24158faf0
+[  0s] GOT[4] @va+0xab8 = 0x24158d660
+[  0s] SplitMap: code_va=0x25e4d2000 Rx data_va=0x25e4d3000 Rw OK
+[  0s] ELF: JIT copy done, stage freed
+[  0s] ELF: 2 constructors deferred (arr=0x25e4d3850)
+[  0s] ELF: loaded OK code_exec=0x25e4d2000 data_exec=0x25e4d3000 sym_count=14 unresolved=1
+[  0s] Loading: libFirebaseCppCrashlytics.so
+[  0s] ELF: loading sdmc:/AndroidHorizonNX/games/com.colorswitch.switch2/lib/libFirebaseCppCrashlytics.so
+[  0s] SplitMap: reserved code_va=0x161c5f000 data_va=0x161c66000 write_va=0x30d734000 csz=0x7000 dsz=0x2000
+[  0s] ELF: stage alloc OK
+[  0s] ELF: stage zeroed
+[  0s] ELF: seg[0] vaddr=0x0 filesz=0x6144 memsz=0x6144 flags=0x5
+[  0s] ELF: seg[1] vaddr=0x7c68 filesz=0x460 memsz=0x480 flags=0x6
+[  0s] ELF: segs copied to stage
+[  0s] ELF: stage[0]=0x464c457f after segs copy
+[  0s] ELF: dyn: strtab=0x1038/4903 symtab=0x6c0 syment=24 rela=0x2450/360 jmprel=0x25b8/840 init_arr=0x0/0
+[  0s] ELF: so built sym_count=101 strsz=4903
+[  0s] ELF: registered
+[  0s] ELF: rela 15 entries
+[  0s] ELF: unresolved: _ZNSt16invalid_argumentD1Ev
+[  0s] ELF: unresolved: _ZTISt12out_of_range  x2
+[  0s] ELF: unresolved: _ZTVSt12out_of_range
+[  0s] ELF: unresolved: _ZTVSt16invalid_argument
+[  0s] ELF: unresolved: _ZTISt12length_error
+[  0s] ELF: unresolved: _ZNSt12out_of_rangeD1Ev
+[  0s] ELF: unresolved: _ZTVSt12length_error
+[  0s] ELF: unresolved: _ZNSt12length_errorD1Ev
+[  0s] ELF: unresolved: _ZTISt16invalid_argument  x2
+[  0s] ELF: unresolved: __gxx_personality_v0
+[  0s] RELA: all 15 entries processed
+[  0s] ELF: rela done
+[  0s] ELF: jmprel 35 entries
+[  0s] ELF: unresolved: __cxa_free_exception
+[  0s] ELF: unresolved: _ZNSt11logic_errorC2EPKc
+[  0s] ELF: unresolved: __cxa_begin_catch
+[  0s] ELF: unresolved: _Znwm
+[  0s] ELF: unresolved: _ZN8firebase11crashlytics11CrashlyticsD1Ev
+[  0s] ELF: unresolved: _ZdlPv
+[  0s] ELF: unresolved: _Znam
+[  0s] ELF: unresolved: __cxa_allocate_exception
+[  0s] ELF: unresolved: __gxx_personality_v0
+[  0s] ELF: unresolved: _ZN8firebase11crashlytics11Crashlytics31SetCrashlyticsCollectionEnabledEb
+[  0s] ELF: unresolved: __cxa_throw
+[  0s] ELF: unresolved: _ZN8firebase11crashlytics11Crashlytics30IsCrashlyticsCollectionEnabledEv
+[  0s] ELF: unresolved: __cxa_end_catch
+[  0s] ELF: unresolved: _ZN8firebase11crashlytics11Crashlytics3LogEPKc
+[  0s] ELF: unresolved: _ZN8firebase11crashlytics11Crashlytics12LogExceptionEPKcS3_NSt6__ndk16vectorINS0_5FrameENS4_9allocatorIS6_EEEE
+[  0s] ELF: unresolved: _ZN8firebase11crashlytics11Crashlytics19LogExceptionAsFatalEPKcS3_NSt6__ndk16vectorINS0_5FrameENS4_9allocatorIS6_EEEE
+[  0s] ELF: unresolved: _ZN8firebase11crashlytics11Crashlytics11GetInstanceEPNS_3AppEPNS_10InitResultE
+[  0s] ELF: unresolved: _ZN8firebase11crashlytics11Crashlytics9SetUserIdEPKc
+[  0s] ELF: unresolved: _ZN8firebase11crashlytics11Crashlytics12SetCustomKeyEPKcS3_
+[  0s] ELF: unresolved: _ZSt9terminatev
+[  0s] JMPREL: all 35 entries processed
+[  0s] ELF: jmprel done
+[  0s] ELF: strtab/symtab copied
+[  0s] GOT[0] @va+0xe98 = 0x161c63bf0
+[  0s] GOT[1] @va+0xea0 = 0xbad0bad0bad00000
+[  0s] GOT[2] @va+0xea8 = 0xbad0bad0bad00000
+[  0s] GOT[3] @va+0xeb0 = 0xbad0bad0bad00000
+[  0s] GOT[4] @va+0xeb8 = 0x24158da50
+[  0s] SplitMap: code_va=0x161c5f000 Rx data_va=0x161c66000 Rw OK
+[  0s] ELF: JIT copy done, stage freed
+[  0s] ELF: loaded OK code_exec=0x161c5f000 data_exec=0x161c66000 sym_count=101 unresolved=33
+[  0s] Loading: libFirebaseCppAnalytics.so
+[  0s] ELF: loading sdmc:/AndroidHorizonNX/games/com.colorswitch.switch2/lib/libFirebaseCppAnalytics.so
+[  0s] SplitMap: reserved code_va=0xc0b8df000 data_va=0xc0b8eb000 write_va=0x4fe435000 csz=0xc000 dsz=0x2000
+[  0s] ELF: stage alloc OK
+[  0s] ELF: stage zeroed
+[  0s] ELF: seg[0] vaddr=0x0 filesz=0xb344 memsz=0xb344 flags=0x5
+[  0s] ELF: seg[1] vaddr=0xcb28 filesz=0x5a0 memsz=0x5c8 flags=0x6
+[  0s] ELF: segs copied to stage
+[  0s] ELF: stage[0]=0x464c457f after segs copy
+[  0s] ELF: dyn: strtab=0x2530/11682 symtab=0xe38 syment=24 rela=0x54e0/552 jmprel=0x5708/1584 init_arr=0x0/0
+[  0s] ELF: so built sym_count=245 strsz=11682
+[  0s] ELF: registered
+[  0s] ELF: rela 23 entries
+[  0s] ELF: unresolved: _ZTVN10__cxxabiv117__class_type_infoE
+[  0s] ELF: unresolved: _ZTVN10__cxxabiv120__si_class_type_infoE
+[  0s] ELF: unresolved: _ZTISt12out_of_range  x2
+[  0s] ELF: unresolved: _ZTVSt12out_of_range
+[  0s] ELF: unresolved: _ZTISt12length_error
+[  0s] ELF: unresolved: _ZNSt12out_of_rangeD1Ev
+[  0s] ELF: unresolved: _ZTVSt12length_error
+[  0s] ELF: unresolved: _ZNSt12length_errorD1Ev
+[  0s] ELF: unresolved: _ZN8firebase23g_analytics_initializerE
+[  0s] ELF: unresolved: __gxx_personality_v0
+[  0s] RELA: all 23 entries processed
+[  0s] ELF: rela done
+[  0s] ELF: jmprel 66 entries
+[  0s] ELF: unresolved: _ZN8firebase9analytics15SetUserPropertyEPKcS2_
+[  0s] ELF: unresolved: _ZN8firebase9analytics18ResetAnalyticsDataEv
+[  0s] ELF: unresolved: __cxa_free_exception
+[  0s] ELF: unresolved: _ZNSt11logic_errorC2EPKc
+[  0s] ELF: unresolved: __cxa_begin_catch
+[  0s] ELF: unresolved: _ZdaPv
+[  0s] ELF: unresolved: _ZN8firebase12FutureHandleC1Ev
+[  0s] ELF: unresolved: _Znwm
+[  0s] ELF: unresolved: _ZN8firebase7Variant5ClearENS0_4TypeE
+[  0s] ELF: unresolved: _ZN8firebase5Mutex7AcquireEv
+[  0s] ELF: unresolved: _ZN8firebase9analytics8LogEventEPKc
+[  0s] ELF: unresolved: _ZN8firebase9analytics10SetConsentERKNSt6__ndk13mapINS0_11ConsentTypeENS0_13ConsentStatusENS1_4lessIS3_EENS1_9allocatorINS1_4pairIKS3_S4_EEEEEE
+[  0s] ELF: unresolved: _ZdlPv
+[  0s] ELF: unresolved: _ZN8firebase9analytics53InitiateOnDeviceConversionMeasurementWithEmailAddressEPKc
+[  0s] ELF: unresolved: _ZN8firebase9analytics29SetAnalyticsCollectionEnabledEb
+[  0s] ELF: unresolved: _ZN8firebase12FutureHandleaSERKS0_
+[  0s] ELF: unresolved: _ZN8firebase9analytics12GetSessionIdEv
+[  0s] ELF: unresolved: _Znam
+[  0s] ELF: unresolved: _ZN8firebase12FutureHandleD1Ev
+[  0s] ELF: unresolved: _ZN8firebase5MutexD1Ev
+[  0s] ELF: unresolved: _ZN8firebase9analytics8LogEventEPKcS2_S2_
+[  0s] ELF: unresolved: _ZN8firebase7VariantaSERKS0_
+[  0s] ELF: unresolved: __cxa_allocate_exception
+[  0s] ELF: unresolved: _ZN8firebase5Mutex7ReleaseEv
+[  0s] ELF: unresolved: _ZN8firebase8callback11AddCallbackEPNS0_8CallbackE
+[  0s] ELF: unresolved: __gxx_personality_v0
+[  0s] ELF: unresolved: _ZN8firebase9analytics52InitiateOnDeviceConversionMeasurementWithPhoneNumberEPKc
+[  0s] ELF: unresolved: __cxa_throw
+[  0s] ELF: unresolved: _ZN8firebase9analytics8LogEventEPKcS2_i
+[  0s] ELF: unresolved: __cxa_end_catch
+[  0s] ELF: unresolved: _ZN8firebase5MutexC1ENS0_4ModeE
+[  0s] ELF: unresolved: _ZN8firebase9analytics22GetAnalyticsInstanceIdEv
+[  0s] ELF: unresolved: _ZNK8firebase7Variant16assert_is_stringEv
+[  0s] ELF: unresolved: _ZN8firebase9analytics8LogEventEPKcS2_d
+[  0s] ELF: unresolved: _ZN8firebase9analytics8LogEventEPKcS2_l
+[  0s] ELF: unresolved: _ZN8firebase12FutureHandleC2EmPNS_6detail18FutureApiInterfaceE
+[  0s] ELF: unresolved: _ZN8firebase7VariantaSEOS0_
+[  0s] ELF: unresolved: _ZN8firebase9analytics8LogEventEPKcPKNS0_9ParameterEm
+[  0s] ELF: unresolved: _ZN8firebase9analytics25SetSessionTimeoutDurationEl
+[  0s] ELF: unresolved: _ZN8firebase9analytics9SetUserIdEPKc
+[  0s] ELF: unresolved: _ZSt9terminatev
+[  0s] JMPREL: all 66 entries processed
+[  0s] ELF: jmprel done
+[  0s] ELF: strtab/symtab copied
+[  0s] GOT[0] @va+0xda8 = 0xbad0bad0bad00000
+[  0s] GOT[1] @va+0xdb0 = 0xbad0bad0bad00000
+[  0s] GOT[2] @va+0xdb8 = 0xbad0bad0bad00000
+[  0s] GOT[3] @va+0xdc0 = 0xc0b8e7690
+[  0s] GOT[4] @va+0xdc8 = 0xbad0bad0bad00000
+[  0s] SplitMap: code_va=0xc0b8df000 Rx data_va=0xc0b8eb000 Rw OK
+[  0s] ELF: JIT copy done, stage freed
+[  0s] ELF: loaded OK code_exec=0xc0b8df000 data_exec=0xc0b8eb000 sym_count=245 unresolved=85
+[  0s] Loading: libFirebaseCppRemoteConfig.so
+[  0s] ELF: loading sdmc:/AndroidHorizonNX/games/com.colorswitch.switch2/lib/libFirebaseCppRemoteConfig.so
+[  0s] SplitMap: reserved code_va=0x376f4f000 data_va=0x376f5c000 write_va=0x2ad7c0000 csz=0xd000 dsz=0x2000
+[  0s] ELF: stage alloc OK
+[  0s] ELF: stage zeroed
+[  0s] ELF: seg[0] vaddr=0x0 filesz=0xbfa8 memsz=0xbfa8 flags=0x5
+[  0s] ELF: seg[1] vaddr=0xd998 filesz=0x738 memsz=0x7b8 flags=0x6
+[  0s] ELF: segs copied to stage
+[  0s] ELF: stage[0]=0x464c457f after segs copy
+[  0s] ELF: dyn: strtab=0x1a48/11773 symtab=0xa58 syment=24 rela=0x49c0/1248 jmprel=0x4ea0/1896 init_arr=0xd998/8
+[  0s] ELF: so built sym_count=170 strsz=11773
+[  0s] ELF: registered
+[  0s] ELF: rela 52 entries
+[  0s] ELF: unresolved: _ZTVN10__cxxabiv117__class_type_infoE  x4
+[  0s] ELF: unresolved: _ZTVN10__cxxabiv120__si_class_type_infoE  x3
+[  0s] ELF: unresolved: _ZTISt12length_error
+[  0s] ELF: unresolved: _ZTVSt12length_error
+[  0s] ELF: unresolved: _ZNSt12length_errorD1Ev
+[  0s] ELF: unresolved: _ZN8firebase27g_remote_config_initializerE
+[  0s] ELF: unresolved: __gxx_personality_v0
+[  0s] RELA: all 52 entries processed
+[  0s] ELF: rela done
+[  0s] ELF: jmprel 79 entries
+[  0s] ELF: unresolved: __cxa_free_exception
+[  0s] ELF: unresolved: _ZNSt11logic_errorC2EPKc
+[  0s] ELF: unresolved: __cxa_begin_catch
+[  0s] ELF: unresolved: _ZN8firebase5MutexC2ENS0_4ModeE
+[  0s] ELF: unresolved: _ZdaPv
+[  1s] ELF: unresolved: _ZN8firebase12FutureHandleC1Ev
+[  1s] ELF: unresolved: _Znwm
+[  1s] ELF: unresolved: _ZN8firebase13remote_config12RemoteConfig17GetConfigSettingsEv
+[  1s] ELF: unresolved: _ZN8firebase13remote_config12RemoteConfig5FetchEm
+[  1s] ELF: unresolved: _ZN8firebase5Mutex7AcquireEv
+[  1s] ELF: unresolved: _ZN8firebase13remote_config32ConfigUpdateListenerRegistrationD1Ev
+[  1s] ELF: unresolved: _ZN8firebase13remote_config12RemoteConfig7GetDataEPKcPNS0_9ValueInfoE
+[  1s] ELF: unresolved: _ZN8firebase13remote_config32ConfigUpdateListenerRegistration6RemoveEv
+[  1s] ELF: unresolved: _ZdlPv
+[  1s] ELF: unresolved: _ZN8firebase13remote_config12RemoteConfig8ActivateEv
+[  1s] ELF: unresolved: _ZN8firebase13remote_config12RemoteConfig16FetchAndActivateEv
+[  1s] ELF: unresolved: _ZN8firebase12FutureHandleaSERKS0_
+[  1s] ELF: unresolved: _Znam
+[  1s] ELF: unresolved: _ZN8firebase12FutureHandleD1Ev
+[  1s] ELF: unresolved: _ZN8firebase5MutexD1Ev
+[  1s] ELF: unresolved: __cxa_allocate_exception
+[  1s] ELF: unresolved: _ZN8firebase5Mutex7ReleaseEv
+[  1s] ELF: unresolved: _ZN8firebase8callback11AddCallbackEPNS0_8CallbackE
+[  1s] ELF: unresolved: __gxx_personality_v0
+[  1s] ELF: unresolved: _ZN8firebase13remote_config12RemoteConfig5FetchEv
+[  1s] ELF: unresolved: _ZN8firebase13remote_config32ConfigUpdateListenerRegistrationaSERKS1_
+[  1s] ELF: unresolved: _ZN8firebase13remote_config32ConfigUpdateListenerRegistrationC1ERKS1_
+[  1s] ELF: unresolved: _ZN8firebase13remote_config12RemoteConfig17EnsureInitializedEv
+[  1s] ELF: unresolved: __cxa_throw
+[  1s] ELF: unresolved: _ZN8firebase13remote_config12RemoteConfig11SetDefaultsEPKNS0_14ConfigKeyValueEm
+[  1s] ELF: unresolved: _ZNSt6__ndk112__next_primeEm
+[  1s] ELF: unresolved: _ZN8firebase13remote_config32ConfigUpdateListenerRegistrationC1Ev
+[  1s] ELF: unresolved: _ZN8firebase5MutexC1ENS0_4ModeE
+[  1s] ELF: unresolved: _ZN8firebase13remote_config12RemoteConfig25AddOnConfigUpdateListenerENSt6__ndk18functionIFvONS0_12ConfigUpdateENS0_17RemoteConfigErrorEEEE
+[  1s] ELF: unresolved: _ZN8firebase13remote_config12RemoteConfig15GetKeysByPrefixEPKc
+[  1s] ELF: unresolved: _ZN8firebase13remote_config12RemoteConfig11GetInstanceEPNS_3AppE
+[  1s] ELF: unresolved: _ZN8firebase12FutureHandleC2EmPNS_6detail18FutureApiInterfaceE
+[  1s] ELF: unresolved: _ZN8firebase13remote_config12RemoteConfig7GetInfoEv
+[  1s] ELF: unresolved: _ZN8firebase13remote_config12RemoteConfigD1Ev
+[  1s] ELF: unresolved: _ZN8firebase13remote_config12RemoteConfig17SetConfigSettingsENS0_14ConfigSettingsE
+[  1s] ELF: unresolved: _ZN8firebase13remote_config12RemoteConfig7GetKeysEv
+[  1s] ELF: unresolved: _ZSt9terminatev
+[  1s] JMPREL: all 79 entries processed
+[  1s] ELF: jmprel done
+[  1s] ELF: strtab/symtab copied
+[  1s] GOT[0] @va+0xd40 = 0x376f573b0
+[  1s] GOT[1] @va+0xd48 = 0x376f57838
+[  1s] GOT[2] @va+0xd50 = 0xbad0bad0bad00000
+[  1s] GOT[3] @va+0xd58 = 0x376f56224
+[  1s] GOT[4] @va+0xd60 = 0x376f581bc
+[  1s] SplitMap: code_va=0x376f4f000 Rx data_va=0x376f5c000 Rw OK
+[  1s] ELF: JIT copy done, stage freed
+[  1s] ELF: 1 constructors deferred (arr=0x376f5c998)
+[  1s] ELF: loaded OK code_exec=0x376f4f000 data_exec=0x376f5c000 sym_count=170 unresolved=139
+[  1s] Loading: lib_burst_generated.so
+[  1s] ELF: loading sdmc:/AndroidHorizonNX/games/com.colorswitch.switch2/lib/lib_burst_generated.so
+[  1s] ELF: WARN 4 PT_LOAD segments (1 exec, 2 writable) — single-split-point assumption may mis-map permissions
+[  1s] SplitMap: reserved code_va=0x32381a000 data_va=0x323835000 write_va=0x1efbb5000 csz=0x1b000 dsz=0x3000
+[  1s] ELF: stage alloc OK
+[  1s] ELF: stage zeroed
+[  1s] ELF: seg[1] vaddr=0x0 filesz=0x9624 memsz=0x9624 flags=0x4
+[  1s] ELF: seg[2] vaddr=0xa624 filesz=0xfa8c memsz=0xfa8c flags=0x5
+[  1s] ELF: seg[3] vaddr=0x1b0b0 filesz=0x5e0 memsz=0x5e0 flags=0x6
+[  1s] ELF: seg[4] vaddr=0x1c6c0 filesz=0xbf0 memsz=0xd18 flags=0x6
+[  1s] ELF: segs copied to stage
+[  1s] ELF: stage[0]=0x464c457f after segs copy
+[  1s] ELF: dyn: strtab=0x212c/20316 symtab=0x320 syment=24 rela=0x7088/1104 jmprel=0x74d8/2280 init_arr=0x0/0
+[  1s] ELF: so built sym_count=320 strsz=20316
+[  1s] ELF: registered
+[  1s] ELF: rela 46 entries
+[  1s] RELA: all 46 entries processed
+[  1s] ELF: rela done
+[  1s] ELF: jmprel 95 entries
+[  1s] JMPREL: all 95 entries processed
+[  1s] ELF: jmprel done
+[  1s] ELF: strtab/symtab copied
+[  1s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[  1s] WARN: failed to load lib_burst_generated.so — skipping
+[  1s] Loading: libFirebaseCppDatabase.so
+[  1s] ELF: loading sdmc:/AndroidHorizonNX/games/com.colorswitch.switch2/lib/libFirebaseCppDatabase.so
+[  1s] SplitMap: reserved code_va=0xceb58c000 data_va=0xceb5a5000 write_va=0xe90fc6000 csz=0x19000 dsz=0x2000
+[  1s] ELF: stage alloc OK
+[  1s] ELF: stage zeroed
+[  1s] ELF: seg[0] vaddr=0x0 filesz=0x17e64 memsz=0x17e64 flags=0x5
+[  1s] ELF: seg[1] vaddr=0x195b8 filesz=0xb10 memsz=0xc30 flags=0x6
+[  1s] ELF: segs copied to stage
+[  1s] ELF: stage[0]=0x464c457f after segs copy
+[  1s] ELF: dyn: strtab=0x38b0/22852 symtab=0x1408 syment=24 rela=0x9528/2544 jmprel=0x9f18/3504 init_arr=0x195b8/8
+[  1s] ELF: so built sym_count=391 strsz=22852
+[  1s] ELF: registered
+[  1s] ELF: rela 106 entries
+[  1s] ELF: unresolved: _ZTVN10__cxxabiv120__si_class_type_infoE  x7
+[  1s] ELF: unresolved: _ZTIN8firebase8database13ValueListenerE
+[  1s] ELF: unresolved: _ZTVN10__cxxabiv117__class_type_infoE  x2
+[  1s] ELF: unresolved: _ZTIN8firebase8database13ChildListenerE
+[  1s] ELF: unresolved: _ZTVN8firebase8database5QueryE
+[  1s] ELF: unresolved: _ZNSt16invalid_argumentD1Ev
+[  1s] ELF: unresolved: _ZTISt12out_of_range  x2
+[  1s] ELF: unresolved: _ZTVSt12out_of_range
+[  1s] ELF: unresolved: _ZTVSt16invalid_argument
+[  1s] ELF: unresolved: _ZTISt12length_error
+[  1s] ELF: unresolved: _ZN8firebase5MutexD1Ev
+[  1s] ELF: unresolved: _ZNSt12out_of_rangeD1Ev
+[  1s] ELF: unresolved: _ZTVSt12length_error
+[  1s] ELF: unresolved: _ZNSt12length_errorD1Ev
+[  1s] ELF: unresolved: _ZTVN8firebase8database17DatabaseReferenceE
+[  1s] ELF: unresolved: _ZTISt16invalid_argument  x2
+[  1s] ELF: unresolved: __gxx_personality_v0
+[  1s] RELA: all 106 entries processed
+[  1s] ELF: rela done
+[  1s] ELF: jmprel 146 entries
+[  1s] ELF: unresolved: _ZN8firebase8callback19AddBlockingCallbackEPNS0_8CallbackE
+[  1s] ELF: unresolved: _ZNK8firebase8database17DatabaseReference9GetParentEv
+[  1s] ELF: unresolved: _ZN8firebase8database5Query10OrderByKeyEv
+[  1s] ELF: unresolved: _ZN8firebase8database11MutableData5ChildEPKc
+[  1s] ELF: unresolved: __cxa_free_exception
+[  1s] ELF: unresolved: _ZNK8firebase8database12DataSnapshot8HasChildEPKc
+[  1s] ELF: unresolved: _ZNSt11logic_errorC2EPKc
+[  1s] ELF: unresolved: _ZN8firebase8database17DatabaseReference8SetValueENS_7VariantE
+[  1s] ELF: unresolved: __cxa_begin_catch
+[  1s] ELF: unresolved: _ZN8firebase5MutexC2ENS0_4ModeE
+[  1s] ELF: unresolved: _ZNK8firebase8database8Database3appEv
+[  1s] ELF: unresolved: _ZN8firebase8database5Query7EqualToENS_7VariantEPKc
+[  1s] ELF: unresolved: _ZN8firebase12FutureHandleC1Ev
+[  1s] ELF: unresolved: _ZNK8firebase8database8Database9log_levelEv
+[  1s] ELF: unresolved: _ZN8firebase8database12DataSnapshotC1EOS1_
+[  1s] ELF: unresolved: _Znwm
+[  1s] ELF: unresolved: _ZN8firebase8database8Database8GoOnlineEv
+[  1s] ELF: unresolved: _ZN8firebase8database11MutableData9set_valueERKNS_7VariantE
+[  1s] ELF: unresolved: _ZNK8firebase8database12DataSnapshot6existsEv
+[  1s] ELF: unresolved: _ZN8firebase8database5Query23RemoveAllValueListenersEv
+[  1s] ELF: unresolved: _ZNK8firebase8database12DataSnapshot8is_validEv
+[  1s] ELF: unresolved: _ZN8firebase7Variant5ClearENS0_4TypeE
+[  1s] ELF: unresolved: _ZN8firebase8database8Database9GoOfflineEv
+[  1s] ELF: unresolved: _ZN8firebase5Mutex7AcquireEv
+[  1s] ELF: unresolved: _ZNK8firebase8database17DatabaseReference3urlEv
+[  1s] ELF: unresolved: _ZN8firebase8database8Database22PurgeOutstandingWritesEv
+[  1s] ELF: unresolved: _ZN8firebase8database11MutableData14children_countEv
+[  1s] ELF: unresolved: _ZN8firebase8database5Query7StartAtENS_7VariantEPKc
+[  1s] ELF: unresolved: _ZN8firebase8database17DatabaseReference12OnDisconnectEv
+[  1s] ELF: unresolved: _ZdlPv
+[  1s] ELF: unresolved: _ZN8firebase8database17DatabaseReference14RunTransactionEPFNS0_17TransactionResultEPNS0_11MutableDataEPvES5_b
+[  1s] ELF: unresolved: _ZNK8firebase8database12DataSnapshot12has_childrenEv
+[  1s] ELF: unresolved: _ZN8firebase8database17DatabaseReference8GoOnlineEv
+[  1s] ELF: unresolved: _ZN8firebase12FutureHandleaSERKS0_
+[  1s] ELF: unresolved: _ZN8firebase8database20DisconnectionHandler8SetValueENS_7VariantE
+[  1s] ELF: unresolved: _ZNK8firebase8database8Database19GetReferenceFromUrlEPKc
+[  1s] ELF: unresolved: _ZN8firebase8database5Query11LimitToLastEm
+[  1s] ELF: unresolved: _ZN8firebase8database20DisconnectionHandler11RemoveValueEv
+[  1s] ELF: unresolved: _ZN8firebase8database12DataSnapshotaSEOS1_
+[  1s] ELF: unresolved: _ZNK8firebase8database17DatabaseReference3keyEv
+[  1s] ELF: unresolved: _ZN8firebase12FutureHandleD1Ev
+[  1s] ELF: unresolved: _ZN8firebase5MutexD1Ev
+[  1s] ELF: unresolved: _ZN8firebase8database17DatabaseReferenceaSEOS1_
+[  1s] ELF: unresolved: _ZN8firebase8database5Query19RemoveValueListenerEPNS0_13ValueListenerE
+[  1s] ELF: unresolved: _ZN8firebase7VariantaSERKS0_
+[  1s] ELF: unresolved: __cxa_allocate_exception
+[  1s] ELF: unresolved: _ZN8firebase5Mutex7ReleaseEv
+[  1s] ELF: unresolved: _ZN8firebase8database17DatabaseReference9GoOfflineEv
+[  1s] ELF: unresolved: _ZN8firebase8callback11AddCallbackEPNS0_8CallbackE
+[  1s] ELF: unresolved: __gxx_personality_v0
+[  1s] ELF: unresolved: _ZN8firebase8database5QueryaSEOS1_
+[  1s] ELF: unresolved: _ZNK8firebase8database12DataSnapshot8priorityEv
+[  1s] ELF: unresolved: _ZN8firebase8database13ValueListenerD2Ev
+[  1s] ELF: unresolved: _ZNK8firebase8database12DataSnapshot8childrenEv
+[  1s] ELF: unresolved: _ZN8firebase8database5Query12OrderByValueEv
+[  1s] ELF: unresolved: __cxa_throw
+[  1s] ELF: unresolved: _ZN8firebase8database5Query12OrderByChildEPKc
+[  1s] ELF: unresolved: _ZN8firebase8database12DataSnapshotC1ERKS1_
+[  1s] ELF: unresolved: _ZN8firebase8database5Query7EqualToENS_7VariantE
+[  1s] ELF: unresolved: _ZN8firebase8database20DisconnectionHandler14UpdateChildrenENS_7VariantE
+[  1s] ELF: unresolved: _ZNSt6__ndk112__next_primeEm
+[  1s] ELF: unresolved: _ZN8firebase8database8Database11GetInstanceEPNS_3AppEPKcPNS_10InitResultE
+[  1s] ELF: unresolved: _ZN8firebase8database11MutableDataD1Ev
+[  1s] ELF: unresolved: _ZN8firebase8database5Query16AddValueListenerEPNS0_13ValueListenerE
+[  1s] ELF: unresolved: _ZN8firebase8database20DisconnectionHandlerD1Ev
+[  1s] ELF: unresolved: _ZN8firebase8database17DatabaseReferenceC1ERKS1_
+[  1s] ELF: unresolved: _ZN8firebase8database5Query16AddChildListenerEPNS0_13ChildListenerE
+[  1s] ELF: unresolved: _ZN8firebase8database20DisconnectionHandler6CancelEv
+[  1s] ELF: unresolved: _ZNK8firebase8database12DataSnapshot14children_countEv
+[  1s] ELF: unresolved: _ZN8firebase8database5Query8GetValueEv
+[  1s] ELF: unresolved: _ZN8firebase8database15ServerTimestampEv
+[  1s] ELF: unresolved: __cxa_end_catch
+[  1s] ELF: unresolved: _ZN8firebase5MutexC1ENS0_4ModeE
+[  1s] ELF: unresolved: _ZN8firebase8database5Query5EndAtENS_7VariantEPKc
+[  1s] ELF: unresolved: _ZN8firebase8database8Database13set_log_levelENS_8LogLevelE
+[  1s] ELF: unresolved: _ZN8firebase8database5Query7StartAtENS_7VariantE
+[  1s] ELF: unresolved: _ZN8firebase8database13ChildListenerD2Ev
+[  1s] ELF: unresolved: _ZN8firebase8database17DatabaseReference14UpdateChildrenENS_7VariantE
+[  1s] ELF: unresolved: _ZNK8firebase8database12DataSnapshot3keyEv
+[  1s] ELF: unresolved: _ZN8firebase8database17DatabaseReference19SetValueAndPriorityENS_7VariantES2_
+[  1s] ELF: unresolved: _ZN8firebase8database5Query15OrderByPriorityEv
+[  1s] ELF: unresolved: _ZN8firebase8database17DatabaseReferenceD1Ev
+[  1s] ELF: unresolved: _ZN8firebase8database17DatabaseReference11RemoveValueEv
+[  1s] ELF: unresolved: _ZNK8firebase8database17DatabaseReference9PushChildEv
+[  1s] ELF: unresolved: _ZN8firebase8database12DataSnapshotD1Ev
+[  1s] ELF: unresolved: _ZNK8firebase8database11MutableData5valueEv
+[  1s] ELF: unresolved: _ZNK8firebase8database11MutableData8HasChildEPKc
+[  1s] ELF: unresolved: _ZNK8firebase8database12DataSnapshot5ChildEPKc
+[  1s] ELF: unresolved: _ZNK8firebase8database17DatabaseReference10key_stringEv
+[  1s] ELF: unresolved: _ZNK8firebase8database12DataSnapshot12GetReferenceEv
+[  1s] ELF: unresolved: _ZNK8firebase8database12DataSnapshot10key_stringEv
+[  1s] ELF: unresolved: _ZN8firebase8database5Query19RemoveChildListenerEPNS0_13ChildListenerE
+[  1s] ELF: unresolved: _ZN8firebase8database11MutableData8priorityEv
+[  1s] ELF: unresolved: _ZN8firebase12FutureHandleC2EmPNS_6detail18FutureApiInterfaceE
+[  1s] ELF: unresolved: _ZNK8firebase8database17DatabaseReference5ChildEPKc
+[  1s] ELF: unresolved: _ZN8firebase7VariantaSEOS0_
+[  1s] ELF: unresolved: _ZNK8firebase8database12DataSnapshot5valueEv
+[  1s] ELF: unresolved: _ZNK8firebase8database8Database12GetReferenceEv
+[  1s] ELF: unresolved: _ZN8firebase8database20DisconnectionHandler19SetValueAndPriorityENS_7VariantES2_
+[  1s] ELF: unresolved: _ZNK8firebase8database8Database12GetReferenceEPKc
+[  1s] ELF: unresolved: _ZN8firebase8database8Database11GetInstanceEPNS_3AppEPNS_10InitResultE
+[  1s] ELF: unresolved: _ZNK8firebase8database17DatabaseReference7GetRootEv
+[  1s] ELF: unresolved: _ZN8firebase8database12DataSnapshotaSERKS1_
+[  1s] ELF: unresolved: _ZNK8firebase8database17DatabaseReference7is_rootEv
+[  1s] ELF: unresolved: _ZN8firebase8database5Query5EndAtENS_7VariantE
+[  1s] ELF: unresolved: _ZN8firebase8database17DatabaseReference11SetPriorityENS_7VariantE
+[  1s] ELF: unresolved: _ZN8firebase8database15GetErrorMessageENS0_5ErrorE
+[  1s] ELF: unresolved: _ZNK8firebase8database5Query12GetReferenceEv
+[  1s] ELF: unresolved: _ZN8firebase8database11MutableData8childrenEv
+[  1s] ELF: unresolved: _ZN8firebase8database5Query19SetKeepSynchronizedEb
+[  1s] ELF: unresolved: _ZN8firebase8database11MutableData12set_priorityERKNS_7VariantE
+[  1s] ELF: unresolved: _ZN8firebase8database5Query23RemoveAllChildListenersEv
+[  1s] ELF: unresolved: _ZN8firebase8database8Database23set_persistence_enabledEb
+[  1s] ELF: unresolved: _ZNK8firebase8database11MutableData3keyEv
+[  1s] ELF: unresolved: _ZSt9terminatev
+[  1s] ELF: unresolved: _ZN8firebase8database5QueryD1Ev
+[  1s] ELF: unresolved: _ZNK8firebase8database17DatabaseReference8databaseEv
+[  1s] ELF: unresolved: _ZN8firebase8database5Query12LimitToFirstEm
+[  1s] ELF: unresolved: _ZN8firebase8database5QueryC1ERKS1_
+[  1s] ELF: unresolved: _ZN8firebase8database8DatabaseD1Ev
+[  1s] JMPREL: all 146 entries processed
+[  1s] ELF: jmprel done
+[  1s] ELF: strtab/symtab copied
+[  1s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[  1s] WARN: failed to load libFirebaseCppDatabase.so — skipping
+[  1s] Loading: libcrashlytics-handler.so
+[  1s] ELF: loading sdmc:/AndroidHorizonNX/games/com.colorswitch.switch2/lib/libcrashlytics-handler.so
+[  1s] SplitMap: reserved code_va=0xf1c717000 data_va=0xf1c742000 write_va=0xdd7fa000 csz=0x2b000 dsz=0x4000
+[  1s] ELF: stage alloc OK
+[  1s] ELF: stage zeroed
+[  1s] ELF: seg[1] vaddr=0x0 filesz=0x2a610 memsz=0x2a610 flags=0x5
+[  1s] ELF: seg[2] vaddr=0x2b610 filesz=0x27e0 memsz=0x32a1 flags=0x6
+[  1s] ELF: segs copied to stage
+[  1s] ELF: stage[0]=0x464c457f after segs copy
+[  1s] ELF: dyn: strtab=0x954/655 symtab=0x288 syment=24 rela=0xbe8/25968 jmprel=0x7158/1056 init_arr=0x2da08/8
+[  1s] ELF: so built sym_count=72 strsz=655
+[  1s] ELF: registered
+[  1s] ELF: rela 1082 entries
+[  1s] RELA: all 1082 entries processed
+[  1s] ELF: rela done
+[  1s] ELF: jmprel 44 entries
+[  1s] ELF: unresolved: __system_property_get
+[  1s] JMPREL: all 44 entries processed
+[  1s] ELF: jmprel done
+[  1s] ELF: strtab/symtab copied
+[  1s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[  1s] WARN: failed to load libcrashlytics-handler.so — skipping
+[  1s] Loading: libcrashlytics.so
+[  1s] ELF: loading sdmc:/AndroidHorizonNX/games/com.colorswitch.switch2/lib/libcrashlytics.so
+[  1s] SplitMap: reserved code_va=0xf4e795000 data_va=0xf4e7c2000 write_va=0xe5e8f5000 csz=0x2d000 dsz=0x4000
+[  1s] ELF: stage alloc OK
+[  1s] ELF: stage zeroed
+[  1s] ELF: seg[1] vaddr=0x0 filesz=0x2cb10 memsz=0x2cb10 flags=0x5
+[  1s] ELF: seg[2] vaddr=0x2db10 filesz=0x2868 memsz=0x33a1 flags=0x6
+[  1s] ELF: segs copied to stage
+[  1s] ELF: stage[0]=0x464c457f after segs copy
+[  1s] ELF: dyn: strtab=0xb10/831 symtab=0x288 syment=24 rela=0xe50/26256 jmprel=0x74e0/1200 init_arr=0x2ff48/8
+[  1s] ELF: so built sym_count=91 strsz=831
+[  1s] ELF: registered
+[  1s] ELF: rela 1094 entries
+[  1s] RELA: all 1094 entries processed
+[  1s] ELF: rela done
+[  2s] ELF: jmprel 50 entries
+[  2s] ELF: unresolved: __system_property_get
+[  2s] JMPREL: all 50 entries processed
+[  2s] ELF: jmprel done
+[  2s] ELF: strtab/symtab copied
+[  2s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[  2s] WARN: failed to load libcrashlytics.so — skipping
+[  2s] Loading: libFirebaseCppAuth.so
+[  2s] ELF: loading sdmc:/AndroidHorizonNX/games/com.colorswitch.switch2/lib/libFirebaseCppAuth.so
+[  2s] SplitMap: reserved code_va=0xdb1945000 data_va=0xdb196c000 write_va=0xfc85ea000 csz=0x27000 dsz=0x2000
+[  2s] ELF: stage alloc OK
+[  2s] ELF: stage zeroed
+[  2s] ELF: seg[0] vaddr=0x0 filesz=0x25d20 memsz=0x25d20 flags=0x5
+[  2s] ELF: seg[1] vaddr=0x27200 filesz=0xed0 memsz=0xfc0 flags=0x6
+[  2s] ELF: segs copied to stage
+[  2s] ELF: stage[0]=0x464c457f after segs copy
+[  2s] ELF: dyn: strtab=0x5560/35380 symtab=0x1f78 syment=24 rela=0xe438/4416 jmprel=0xf578/4320 init_arr=0x27200/8
+[  2s] ELF: so built sym_count=575 strsz=35380
+[  2s] ELF: registered
+[  2s] ELF: rela 184 entries
+[  2s] ELF: unresolved: _ZN8firebase4auth17PhoneAuthProvider8ListenerD2Ev
+[  2s] ELF: unresolved: _ZTVN10__cxxabiv120__si_class_type_infoE  x15
+[  2s] ELF: unresolved: _ZTIN8firebase4auth17PhoneAuthProvider8ListenerE
+[  2s] ELF: unresolved: _ZTVN10__cxxabiv117__class_type_infoE  x2
+[  2s] ELF: unresolved: _ZTIN8firebase4auth17AuthStateListenerE
+[  2s] ELF: unresolved: _ZNSt6__ndk119__shared_weak_countD2Ev
+[  2s] ELF: unresolved: _ZNKSt6__ndk119__shared_weak_count13__get_deleterERKSt9type_info
+[  2s] ELF: unresolved: _ZTINSt6__ndk119__shared_weak_countE
+[  2s] ELF: unresolved: _ZTIN8firebase4auth15IdTokenListenerE
+[  2s] ELF: unresolved: _ZNSt16invalid_argumentD1Ev
+[  2s] ELF: unresolved: _ZTISt12out_of_range  x2
+[  2s] ELF: unresolved: _ZTVSt12out_of_range
+[  2s] ELF: unresolved: _ZN8firebase4auth18GoogleAuthProvider11kProviderIdE
+[  2s] ELF: unresolved: _ZN8firebase4auth17YahooAuthProvider11kProviderIdE
+[  2s] ELF: unresolved: _ZTVSt16invalid_argument
+[  2s] ELF: unresolved: _ZTISt12length_error
+[  2s] ELF: unresolved: _ZN8firebase5MutexD1Ev
+[  2s] ELF: unresolved: _ZN8firebase4auth22GameCenterAuthProvider11kProviderIdE
+[  2s] ELF: unresolved: _ZNSt12out_of_rangeD1Ev
+[  2s] ELF: unresolved: _ZN8firebase4auth18GitHubAuthProvider11kProviderIdE
+[  2s] ELF: unresolved: _ZTVSt12length_error
+[  2s] ELF: unresolved: _ZN8firebase4auth20FacebookAuthProvider11kProviderIdE
+[  2s] ELF: unresolved: _ZNSt12length_errorD1Ev
+[  2s] ELF: unresolved: _ZN8firebase4auth19TwitterAuthProvider11kProviderIdE
+[  2s] ELF: unresolved: _ZN8firebase4auth21PlayGamesAuthProvider11kProviderIdE
+[  2s] ELF: unresolved: _ZTVN8firebase4auth17UserInfoInterfaceE
+[  2s] ELF: unresolved: _ZN8firebase4auth17PhoneAuthProvider11kProviderIdE
+[  2s] ELF: unresolved: _ZTISt16invalid_argument  x2
+[  2s] ELF: unresolved: _ZN8firebase4auth21MicrosoftAuthProvider11kProviderIdE
+[  2s] ELF: unresolved: _ZN8firebase4auth17EmailAuthProvider11kProviderIdE
+[  2s] ELF: unresolved: _ZN8firebase18g_auth_initializerE
+[  2s] ELF: unresolved: __gxx_personality_v0
+[  2s] RELA: all 184 entries processed
+[  2s] ELF: rela done
+[  2s] ELF: jmprel 180 entries
+[  2s] ELF: unresolved: _ZNK8firebase4auth4User8metadataEv
+[  2s] ELF: unresolved: _ZN8firebase4auth19PhoneAuthCredentialaSERKS1_
+[  2s] ELF: unresolved: _ZNKSt6__ndk119__shared_weak_count13__get_deleterERKSt9type_info
+[  2s] ELF: unresolved: _ZN8firebase4auth17PhoneAuthProvider19ForceResendingTokenC1ERKS2_
+[  2s] ELF: unresolved: _ZN8firebase4auth4UserC1ERKS1_
+[  2s] ELF: unresolved: _ZN8firebase4auth10CredentialaSERKS1_
+[  2s] ELF: unresolved: _ZN8firebase4auth18GitHubAuthProvider13GetCredentialEPKc
+[  2s] ELF: unresolved: _ZN8firebase4auth17EmailAuthProvider13GetCredentialEPKcS3_
+[  2s] ELF: unresolved: __cxa_free_exception
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth41CreateUserWithEmailAndPassword_DEPRECATEDEPKcS3_
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth21RemoveIdTokenListenerEPNS0_15IdTokenListenerE
+[  2s] ELF: unresolved: _ZN8firebase4auth4User14UpdatePasswordEPKc
+[  2s] ELF: unresolved: _ZNSt11logic_errorC2EPKc
+[  2s] ELF: unresolved: _ZN8firebase4auth20FacebookAuthProvider13GetCredentialEPKc
+[  2s] ELF: unresolved: __cxa_begin_catch
+[  2s] ELF: unresolved: _ZN8firebase5MutexC2ENS0_4ModeE
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth22SendPasswordResetEmailEPKc
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth35SignInAndRetrieveDataWithCredentialERKNS0_10CredentialE
+[  2s] ELF: unresolved: _ZdaPv
+[  2s] ELF: unresolved: _ZNK8firebase4auth4User27LinkWithProvider_DEPRECATEDEPNS0_21FederatedAuthProviderE
+[  2s] ELF: unresolved: _ZN8firebase4auth22FederatedOAuthProvider15SetProviderDataERKNS0_26FederatedOAuthProviderDataE
+[  2s] ELF: unresolved: _ZN8firebase12FutureHandleC1Ev
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth31SignInWithCredential_DEPRECATEDERKNS0_10CredentialE
+[  2s] ELF: unresolved: _ZN8firebase4auth4User14ReauthenticateERKNS0_10CredentialE
+[  2s] ELF: unresolved: _Znwm
+[  2s] ELF: unresolved: _ZN8firebase4auth4User21SendEmailVerificationEv
+[  2s] ELF: unresolved: _ZN8firebase4auth4User6DeleteEv
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth7SignOutEv
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth3appEv
+[  2s] ELF: unresolved: _ZN8firebase7Variant5ClearENS0_4TypeE
+[  2s] ELF: unresolved: _ZN8firebase15CleanupNotifier11FindByOwnerEPv
+[  2s] ELF: unresolved: _ZNSt6__ndk119__shared_weak_count14__release_weakEv
+[  2s] ELF: unresolved: _ZN8firebase4auth4User6UnlinkEPKc
+[  2s] ELF: unresolved: _ZN8firebase5Mutex7AcquireEv
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth21SignInWithCustomTokenEPKc
+[  2s] ELF: unresolved: _ZN8firebase4auth22FederatedOAuthProviderC1Ev
+[  2s] ELF: unresolved: _ZN8firebase4auth17PhoneAuthProvider17VerifyPhoneNumberEPKcjPKNS1_19ForceResendingTokenEPNS1_8ListenerE
+[  2s] ELF: unresolved: _ZNK8firebase4auth4User26ReauthenticateWithProviderEPNS0_21FederatedAuthProviderE
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth7GetAuthEPNS_3AppEPNS_10InitResultE
+[  2s] ELF: unresolved: _ZN8firebase4auth4User40ReauthenticateAndRetrieveData_DEPRECATEDERKNS0_10CredentialE
+[  2s] ELF: unresolved: _ZdlPv
+[  2s] ELF: unresolved: _ZNK8firebase4auth4User16LinkWithProviderEPNS0_21FederatedAuthProviderE
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth20SignInWithCredentialERKNS0_10CredentialE
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth17set_language_codeEPKc
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth28SignInAnonymously_DEPRECATEDEv
+[  2s] ELF: unresolved: _ZN8firebase4auth4User29LinkWithCredential_DEPRECATEDERKNS0_10CredentialE
+[  2s] ELF: unresolved: _ZN8firebase12FutureHandleaSERKS0_
+[  2s] ELF: unresolved: _Znam
+[  2s] ELF: unresolved: _ZN8firebase4auth10CredentialD1Ev
+[  2s] ELF: unresolved: _ZN8firebase4auth4User40SendEmailVerificationBeforeUpdatingEmailEPKc
+[  2s] ELF: unresolved: _ZN8firebase12FutureHandleD1Ev
+[  2s] ELF: unresolved: _ZN8firebase5MutexD1Ev
+[  2s] ELF: unresolved: _ZN8firebase7VariantaSERKS0_
+[  2s] ELF: unresolved: __cxa_allocate_exception
+[  2s] ELF: unresolved: _ZN8firebase4auth17PhoneAuthProvider8ListenerC2Ev
+[  2s] ELF: unresolved: _ZN8firebase4auth17UserInfoInterfaceD1Ev
+[  2s] ELF: unresolved: _ZN8firebase5Mutex7ReleaseEv
+[  2s] ELF: unresolved: _ZN8firebase8callback11AddCallbackEPNS0_8CallbackE
+[  2s] ELF: unresolved: _ZN8firebase4auth4UserD1Ev
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth14UseAppLanguageEv
+[  2s] ELF: unresolved: __gxx_personality_v0
+[  2s] ELF: unresolved: _ZN8firebase15CleanupNotifier16UnregisterObjectEPv
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth32SignInWithCustomToken_DEPRECATEDEPKc
+[  2s] ELF: unresolved: _ZN8firebase4auth4User18GetTokenThreadSafeEb
+[  2s] ELF: unresolved: _ZNK8firebase4auth4User12is_anonymousEv
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth22FetchProvidersForEmailEPKc
+[  2s] ELF: unresolved: _ZN8firebase4auth4User11UpdateEmailEPKc
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth17SignInAnonymouslyEv
+[  2s] ELF: unresolved: __cxa_throw
+[  2s] ELF: unresolved: _ZN8firebase4auth4User18LinkWithCredentialERKNS0_10CredentialE
+[  2s] ELF: unresolved: _ZNK8firebase4auth4UsereqERKS1_
+[  2s] ELF: unresolved: _ZN8firebase4auth19TwitterAuthProvider13GetCredentialEPKcS3_
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth23RemoveAuthStateListenerEPNS0_17AuthStateListenerE
+[  2s] ELF: unresolved: _ZNK8firebase4auth10Credential8providerEv
+[  2s] ELF: unresolved: _ZNSt6__ndk112__next_primeEm
+[  2s] ELF: unresolved: _ZNK8firebase7VariantltERKS0_
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth18AddIdTokenListenerEPNS0_15IdTokenListenerE
+[  2s] ELF: unresolved: _ZN8firebase4auth17PhoneAuthProvider19ForceResendingTokenD1Ev
+[  2s] ELF: unresolved: _ZN8firebase4auth4AuthD1Ev
+[  2s] ELF: unresolved: __cxa_end_catch
+[  2s] ELF: unresolved: _ZN8firebase5MutexC1ENS0_4ModeE
+[  2s] ELF: unresolved: _ZN8firebase4auth4User17Unlink_DEPRECATEDEPKc
+[  2s] ELF: unresolved: _ZN8firebase4auth4User29ReauthenticateAndRetrieveDataERKNS0_10CredentialE
+[  2s] ELF: unresolved: _ZN8firebase4auth22GameCenterAuthProvider13GetCredentialEv
+[  2s] ELF: unresolved: _ZNK8firebase4auth10Credential8is_validEv
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth37SignInWithEmailAndPassword_DEPRECATEDEPKcS3_
+[  2s] ELF: unresolved: _ZNK8firebase4auth4User37ReauthenticateWithProvider_DEPRECATEDEPNS0_21FederatedAuthProviderE
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth29SignInWithProvider_DEPRECATEDEPNS0_21FederatedAuthProviderE
+[  2s] ELF: unresolved: _ZN8firebase4auth10CredentialD2Ev
+[  2s] ELF: unresolved: _ZN8firebase4auth4User6ReloadEv
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth20AddAuthStateListenerEPNS0_17AuthStateListenerE
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth46SignInAndRetrieveDataWithCredential_DEPRECATEDERKNS0_10CredentialE
+[  2s] ELF: unresolved: _ZN8firebase4auth4UseraSERKS1_
+[  2s] ELF: unresolved: _ZNK8firebase4auth4Auth13language_codeEv
+[  2s] ELF: unresolved: _ZN8firebase4auth19PhoneAuthCredentialC1Ev
+[  2s] ELF: unresolved: _ZN8firebase4auth17PhoneAuthProvider13GetCredentialEPKcS3_
+[  2s] ELF: unresolved: _ZN8firebase4auth17PhoneAuthProvider17VerifyPhoneNumberERKNS0_16PhoneAuthOptionsEPNS1_8ListenerE
+[  2s] ELF: unresolved: _ZN8firebase4auth4User33LinkAndRetrieveDataWithCredentialERKNS0_10CredentialE
+[  2s] ELF: unresolved: _ZN8firebase4auth4User27UpdatePhoneNumberCredentialERKNS0_19PhoneAuthCredentialE
+[  2s] ELF: unresolved: _ZN8firebase15CleanupNotifier14RegisterObjectEPvPFvS1_E
+[  2s] ELF: unresolved: _ZNK8firebase4auth4User13provider_dataEv
+[  2s] ELF: unresolved: _ZN8firebase4auth4User17UpdateUserProfileERKNS1_11UserProfileE
+[  2s] ELF: unresolved: _ZN8firebase4auth18GoogleAuthProvider13GetCredentialEPKcS3_
+[  2s] ELF: unresolved: _ZN8firebase4auth16PhoneAuthOptionsC1Ev
+[  2s] ELF: unresolved: _ZN8firebase4auth13OAuthProvider13GetCredentialEPKcS3_S3_S3_
+[  2s] ELF: unresolved: _ZN8firebase4auth17PhoneAuthProvider8ListenerD2Ev
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth30CreateUserWithEmailAndPasswordEPKcS3_
+[  2s] ELF: unresolved: _ZN8firebase4auth19PhoneAuthCredentialC1ERKS1_
+[  2s] ELF: unresolved: _ZN8firebase12FutureHandleC2EmPNS_6detail18FutureApiInterfaceE
+[  2s] ELF: unresolved: _ZN8firebase4auth22GameCenterAuthProvider21IsPlayerAuthenticatedEv
+[  2s] ELF: unresolved: _ZN8firebase4auth22FederatedOAuthProviderC1ERKNS0_26FederatedOAuthProviderDataE
+[  2s] ELF: unresolved: _ZN8firebase4auth4UserC1Ev
+[  2s] ELF: unresolved: _ZN8firebase4auth17PhoneAuthProvider24GetCredential_DEPRECATEDEPKcS3_
+[  2s] ELF: unresolved: _ZNK8firebase4auth4User17is_email_verifiedEv
+[  2s] ELF: unresolved: _ZN8firebase4auth17PhoneAuthProvider11GetInstanceEPNS0_4AuthE
+[  2s] ELF: unresolved: _ZN8firebase4auth10CredentialC1ERKS1_
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth12current_userEv
+[  2s] ELF: unresolved: _ZN8firebase4auth21PlayGamesAuthProvider13GetCredentialEPKc
+[  2s] ELF: unresolved: _ZN8firebase4auth17AuthStateListenerD2Ev
+[  2s] ELF: unresolved: _ZN8firebase4auth4User38UpdatePhoneNumberCredential_DEPRECATEDERKNS0_10CredentialE
+[  2s] ELF: unresolved: _ZNK8firebase4auth19PhoneAuthCredential8sms_codeEv
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth18SignInWithProviderEPNS0_21FederatedAuthProviderE
+[  2s] ELF: unresolved: _ZNSt6__ndk119__shared_weak_countD2Ev
+[  2s] ELF: unresolved: _ZN8firebase8callback14RemoveCallbackEPv
+[  2s] ELF: unresolved: _ZN8firebase4auth13OAuthProvider13GetCredentialEPKcS3_S3_
+[  2s] ELF: unresolved: _ZSt9terminatev
+[  2s] ELF: unresolved: _ZN8firebase4auth15IdTokenListenerD2Ev
+[  2s] ELF: unresolved: _ZN8firebase4auth4Auth26SignInWithEmailAndPasswordEPKcS3_
+[  2s] ELF: unresolved: _ZNK8firebase4auth4User8is_validEv
+[  2s] JMPREL: all 180 entries processed
+[  2s] ELF: jmprel done
+[  2s] ELF: strtab/symtab copied
+[  2s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[  2s] WARN: failed to load libFirebaseCppAuth.so — skipping
+[  2s] Loading: libFirebaseCppFirestore.so
+[  2s] ELF: loading sdmc:/AndroidHorizonNX/games/com.colorswitch.switch2/lib/libFirebaseCppFirestore.so
+[  2s] SplitMap: reserved code_va=0x2802ee000 data_va=0x28033b000 write_va=0x2bd516000 csz=0x4d000 dsz=0x2000
+[  2s] ELF: stage alloc OK
+[  2s] ELF: stage zeroed
+[  2s] ELF: seg[0] vaddr=0x0 filesz=0x4bd2c memsz=0x4bd2c flags=0x5
+[  2s] ELF: seg[1] vaddr=0x4d388 filesz=0xd48 memsz=0xd90 flags=0x6
+[  2s] ELF: segs copied to stage
+[  2s] ELF: stage[0]=0x464c457f after segs copy
+[  2s] ELF: dyn: strtab=0x6240/43156 symtab=0x2238 syment=24 rela=0x11050/2160 jmprel=0x118c0/5760 init_arr=0x0/0
+[  2s] ELF: so built sym_count=683 strsz=43156
+[  2s] ELF: registered
+[  2s] ELF: rela 90 entries
+[  2s] ELF: unresolved: _ZTVN10__cxxabiv120__si_class_type_infoE  x9
+[  2s] ELF: unresolved: _ZTISt9exception  x2
+[  2s] ELF: unresolved: _ZTVN10__cxxabiv117__class_type_infoE
+[  2s] ELF: unresolved: _ZTISt12length_error
+[  2s] ELF: unresolved: _ZTVSt12length_error
+[  2s] ELF: unresolved: _ZN8firebase9firestore14DocumentChange4nposE
+[  2s] ELF: unresolved: _ZNSt12length_errorD1Ev
+[  2s] ELF: unresolved: _ZN8firebase9firestore10FieldValueD1Ev
+[  2s] ELF: unresolved: _ZTISt11logic_error
+[  2s] ELF: unresolved: _ZTISt16invalid_argument
+[  2s] ELF: unresolved: __gxx_personality_v0
+[  2s] RELA: all 90 entries processed
+[  2s] ELF: rela done
+[  2s] ELF: jmprel 240 entries
+[  2s] ELF: unresolved: _ZN8firebase9firestore6csharp28AggregateQuerySnapshotEqualsEPKNS0_22AggregateQuerySnapshotES4_
+[  2s] ELF: unresolved: _ZN8firebase9firestore10FieldValueC1EOS1_
+[  2s] ELF: unresolved: _ZN8firebase9firestore10FieldValue10ArrayUnionENSt6__ndk16vectorIS1_NS2_9allocatorIS1_EEEE
+[  2s] ELF: unresolved: __cxa_free_exception
+[  2s] ELF: unresolved: _ZN8firebase9firestore6Filter16ArrayContainsAnyERKNS0_9FieldPathERKNSt6__ndk16vectorINS0_10FieldValueENS5_9allocatorIS7_EEEE
+[  2s] ELF: unresolved: _ZN8firebase9firestore17DocumentReferenceC1ERKS1_
+[  2s] ELF: unresolved: _ZNSt11logic_errorC2EPKc
+[  2s] ELF: unresolved: _ZN8firebase9firestore16DocumentSnapshotC1EOS1_
+[  2s] ELF: unresolved: _ZN8firebase9firestore9Firestore11GetInstanceEPKcPNS_10InitResultE
+[  2s] ELF: unresolved: _ZN8firebase9firestore20ListenerRegistrationaSEOS1_
+[  2s] ELF: unresolved: __cxa_begin_catch
+[  2s] ELF: unresolved: _ZN8firebase9firestore5QueryC1ERKS1_
+[  2s] ELF: unresolved: _ZN8firebase9firestore6csharp19TransactionCallback6UpdateERKNS0_17DocumentReferenceERKNS0_10FieldValueE
+[  2s] ELF: unresolved: _ZN8firebase9firestore9Firestore17SetClientLanguageERKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+[  2s] ELF: unresolved: _ZN8firebase9firestore6Filter7EqualToERKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS0_10FieldValueE
+[  2s] ELF: unresolved: _ZN8firebase9firestore6csharp26AddSnapshotsInSyncListenerEPNS0_9FirestoreEiPFviE
+[  2s] ELF: unresolved: _ZN8firebase9firestore6Filter8LessThanERKNS0_9FieldPathERKNS0_10FieldValueE
+[  2s] ELF: unresolved: _ZN8firebase9firestore6csharp18TransactionManagerC1EPNS0_9FirestoreE
+[  2s] ELF: unresolved: _ZN8firebase9firestore6Filter2InERKNS0_9FieldPathERKNSt6__ndk16vectorINS0_10FieldValueENS5_9allocatorIS7_EEEE
+[  2s] ELF: unresolved: _ZN8firebase9firestore6Filter17LessThanOrEqualToERKNS0_9FieldPathERKNS0_10FieldValueE
+[  2s] ELF: unresolved: _ZN8firebase9firestore16DocumentSnapshotaSERKS1_
+[  2s] ELF: unresolved: _ZN8firebase9firestore5QueryC1Ev
+[  2s] ELF: unresolved: _ZN8firebase9firestore10SetOptions5MergeEv
+[  2s] ELF: unresolved: _ZN8firebase12FutureHandleC1Ev
+[  2s] ELF: unresolved: _ZN8firebase9firestore10FieldValue7IntegerEl
+[  2s] ELF: unresolved: _Znwm
+[  2s] ELF: unresolved: _ZN8firebase9firestore10SetOptions15MergeFieldPathsERKNSt6__ndk16vectorINS0_9FieldPathENS2_9allocatorIS4_EEEE
+[  2s] ELF: unresolved: _ZN8firebase9firestore6Filter13ArrayContainsERKNS0_9FieldPathERKNS0_10FieldValueE
+[  2s] ELF: unresolved: _ZN8firebase9firestore18AggregateQueryHashERKNS0_14AggregateQueryE
+[  2s] ELF: unresolved: _ZNK8firebase9firestore10FieldValue10blob_valueEv
+[  2s] ELF: unresolved: _ZN8firebase9firestore9Firestore13set_log_levelENS_8LogLevelE
+[  3s] ELF: unresolved: _ZNSt6__ndk119__shared_weak_count14__release_weakEv
+[  3s] ELF: unresolved: _ZN8firebase5Mutex7AcquireEv
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp20AggregateQueryEqualsEPKNS0_14AggregateQueryES4_
+[  3s] ELF: unresolved: _ZN8firebase9firestore10FieldValue3MapENSt6__ndk113unordered_mapINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEES1_NS2_4hashIS9_EENS2_8equal_toIS9_EENS7_INS2_4pairIKS9_S1_EEEEEE
+[  3s] ELF: unresolved: _ZN8firebase9firestore13QuerySnapshotC1ERKS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestore10FieldValue6DeleteEv
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp19TransactionCallback12OnCompletionEb
+[  3s] ELF: unresolved: _ZNK8firebase9firestore10FieldValue11array_valueEv
+[  3s] ELF: unresolved: _ZN8firebase9firestore10FieldValue4BlobEPKhm
+[  3s] ELF: unresolved: _ZN8firebase9firestore9Firestore11GetInstanceEPNS_3AppEPKcPNS_10InitResultE
+[  3s] ELF: unresolved: _ZN8firebase9firestore14AggregateQueryC1Ev
+[  3s] ELF: unresolved: __cxa_guard_release
+[  3s] ELF: unresolved: _ZN8firebase9firestore10FieldValueC1ERKS1_
+[  3s] ELF: unresolved: _ZdlPv
+[  3s] ELF: unresolved: _ZNK8firebase9firestore10FieldValue13integer_valueEv
+[  3s] ELF: unresolved: _ZN8firebase9firestore6Filter11GreaterThanERKNS0_9FieldPathERKNS0_10FieldValueE
+[  3s] ELF: unresolved: _ZN8firebase9firestore6Filter10NotEqualToERKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS0_10FieldValueE
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp21QuerySnapshotHashCodeEPKNS0_13QuerySnapshotE
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp19TransactionCallback3SetERKNS0_17DocumentReferenceERKNS0_10FieldValueERKNS0_10SetOptionsE
+[  3s] ELF: unresolved: _ZN8firebase9firestore22AggregateQuerySnapshotC1ERKS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestore20ListenerRegistrationC1Ev
+[  3s] ELF: unresolved: _ZN8firebase9firestore20ListenerRegistrationC1ERKS1_
+[  3s] ELF: unresolved: _ZN8firebase12FutureHandleaSERKS0_
+[  3s] ELF: unresolved: _ZNK8firebase9firestore10FieldValue15geo_point_valueEv
+[  3s] ELF: unresolved: _ZN8firebase9firestore16DocumentSnapshotD1Ev
+[  3s] ELF: unresolved: _ZN8firebase9firestore9Firestore11GetInstanceEPNS_10InitResultE
+[  3s] ELF: unresolved: _ZN8firebase9firestore13QuerySnapshotD1Ev
+[  3s] ELF: unresolved: _Znam
+[  3s] ELF: unresolved: _ZN8firebase9firestore14DocumentChangeaSEOS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestore14AggregateQueryC1ERKS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestore9FieldPathD1Ev
+[  3s] ELF: unresolved: _ZN8firebase9firestore10WriteBatchC1ERKS1_
+[  3s] ELF: unresolved: _ZN8firebase12FutureHandleD1Ev
+[  3s] ELF: unresolved: _ZN8firebase5MutexD1Ev
+[  3s] ELF: unresolved: _ZN8firebase9firestore10FieldValue6StringENSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+[  3s] ELF: unresolved: _ZNK8firebase9firestore10FieldValue4typeEv
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp24AddQuerySnapshotListenerEPNS0_5QueryENS0_15MetadataChangesEiPFviPNS0_13QuerySnapshotENS0_5ErrorEPKcE
+[  3s] ELF: unresolved: _ZN8firebase9firestore8Settings23set_persistence_enabledEb
+[  3s] ELF: unresolved: _ZN8firebase9firestore10FieldValue9ReferenceENS0_17DocumentReferenceE
+[  3s] ELF: unresolved: _ZN8firebase9firestore6Filter7EqualToERKNS0_9FieldPathERKNS0_10FieldValueE
+[  3s] ELF: unresolved: __cxa_allocate_exception
+[  3s] ELF: unresolved: _ZN8firebase5Mutex7ReleaseEv
+[  3s] ELF: unresolved: _ZN8firebase8callback11AddCallbackEPNS0_8CallbackE
+[  3s] ELF: unresolved: _ZN8firebase9firestore6Filter20GreaterThanOrEqualToERKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS0_10FieldValueE
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp13QueryHashCodeEPKNS0_5QueryE
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp18TransactionManagerD1Ev
+[  3s] ELF: unresolved: __gxx_personality_v0
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp19QuerySnapshotEqualsEPKNS0_13QuerySnapshotES4_
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp10LoadBundleEPNS0_9FirestoreERKNSt6__ndk112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEiPFviPNS0_22LoadBundleTaskProgressEE
+[  3s] ELF: unresolved: _ZN8firebase9firestore5QueryD1Ev
+[  3s] ELF: unresolved: _ZN8firebase9firestore16DocumentSnapshotC1ERKS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestore14AggregateQueryaSEOS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestore8GeoPointC1Edd
+[  3s] ELF: unresolved: _ZN8firebase9firestore9Firestore11GetInstanceEPNS_3AppEPNS_10InitResultE
+[  3s] ELF: unresolved: _ZN8firebase9firestore10FieldValueC1Ev
+[  3s] ELF: unresolved: _ZN8firebase9firestore10FieldValue7BooleanEb
+[  3s] ELF: unresolved: _ZN8firebase9firestore14DocumentChangeC1Ev
+[  3s] ELF: unresolved: _ZNK8firebase9firestore10FieldValue15reference_valueEv
+[  3s] ELF: unresolved: _ZN8firebase9firestore9FieldPathC1EOS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp11QueryEqualsEPKNS0_5QueryES4_
+[  3s] ELF: unresolved: _ZN8firebase9firestore8Settings8set_hostENSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+[  3s] ELF: unresolved: _ZN8firebase9firestore10FieldValue15DoubleIncrementEd
+[  3s] ELF: unresolved: _ZN8firebase9firestore6Filter13ArrayContainsERKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS0_10FieldValueE
+[  3s] ELF: unresolved: _ZN8firebase9firestore14DocumentChangeC1ERKS1_
+[  3s] ELF: unresolved: __cxa_throw
+[  3s] ELF: unresolved: _ZN8firebase9firestore6Filter5NotInERKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS2_6vectorINS0_10FieldValueENS6_ISC_EEEE
+[  3s] ELF: unresolved: __cxa_guard_abort
+[  3s] ELF: unresolved: _ZN8firebase9firestore22AggregateQuerySnapshotC1Ev
+[  3s] ELF: unresolved: _ZN8firebase9firestore19CollectionReferenceC1ERKS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestore6Filter17LessThanOrEqualToERKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS0_10FieldValueE
+[  3s] ELF: unresolved: _ZN8firebase9firestore8Settings15set_ssl_enabledEb
+[  3s] ELF: unresolved: _ZN8firebase9firestore17DocumentReferenceD1Ev
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp10LoadBundleEPNS0_9FirestoreERKNSt6__ndk112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp19TransactionCallback6UpdateERKNS0_17DocumentReferenceERKNS1_3MapINS0_9FieldPathENS0_10FieldValueEEE
+[  3s] ELF: unresolved: _ZNKSt6__ndk14hashIN8firebase9firestore9FieldPathEEclERKS3_
+[  3s] ELF: unresolved: _ZN8firebase9firestore6FilterC1EOS1_
+[  3s] ELF: unresolved: _ZNSt6__ndk112__next_primeEm
+[  3s] ELF: unresolved: _ZNK8firebase9firestore10FieldValue9map_valueEv
+[  3s] ELF: unresolved: _ZN8firebase9firestore6Filter3AndERKNSt6__ndk16vectorIS1_NS2_9allocatorIS1_EEEE
+[  3s] ELF: unresolved: _ZNK8firebase9firestore10FieldValue15timestamp_valueEv
+[  3s] ELF: unresolved: _ZN8firebase9firestore19CollectionReferenceC1Ev
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp19TransactionCallback6UpdateERKNS0_17DocumentReferenceERKNS1_3MapINSt6__ndk112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEENS0_10FieldValueEEE
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp19TransactionCallback6DeleteERKNS0_17DocumentReferenceE
+[  3s] ELF: unresolved: _ZN8firebase9TimestampC1Eli
+[  3s] ELF: unresolved: __cxa_end_catch
+[  3s] ELF: unresolved: _ZN8firebase5MutexC1ENS0_4ModeE
+[  3s] ELF: unresolved: __cxa_guard_acquire
+[  3s] ELF: unresolved: _ZN8firebase9firestore6Filter8LessThanERKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS0_10FieldValueE
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp24DocumentSnapshotHashCodeEPKNS0_16DocumentSnapshotE
+[  3s] ELF: unresolved: _ZN8firebase9firestore9FieldPathaSEOS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestore9FieldPathC1Ev
+[  3s] ELF: unresolved: _ZN8firebase9firestore10SetOptions11MergeFieldsERKNSt6__ndk16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEE
+[  3s] ELF: unresolved: _ZN8firebase9firestore10FieldValue5ArrayENSt6__ndk16vectorIS1_NS2_9allocatorIS1_EEEE
+[  3s] ELF: unresolved: _ZN8firebase9firestore16DocumentSnapshotC1Ev
+[  3s] ELF: unresolved: _ZNK8firebase9firestore10FieldValue12string_valueEv
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp18TransactionManager7DisposeEv
+[  3s] ELF: unresolved: _ZN8firebase9firestore6Filter2InERKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS2_6vectorINS0_10FieldValueENS6_ISC_EEEE
+[  3s] ELF: unresolved: _ZN8firebase9firestore8Settings20set_cache_size_bytesEl
+[  3s] ELF: unresolved: _ZN8firebase9firestore6Filter10NotEqualToERKNS0_9FieldPathERKNS0_10FieldValueE
+[  3s] ELF: unresolved: _ZN8firebase9firestore16DocumentSnapshotaSEOS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestore10FieldValue11ArrayRemoveENSt6__ndk16vectorIS1_NS2_9allocatorIS1_EEEE
+[  3s] ELF: unresolved: _ZN8firebase9firestore9FieldPathC1ERKNSt6__ndk16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEE
+[  3s] ELF: unresolved: _ZN8firebase9firestore6Filter5NotInERKNS0_9FieldPathERKNSt6__ndk16vectorINS0_10FieldValueENS5_9allocatorIS7_EEEE
+[  3s] ELF: unresolved: _ZNK8firebase9firestore10FieldValue13boolean_valueEv
+[  3s] ELF: unresolved: _ZN8firebase9firestore10FieldValue9TimestampENS_9TimestampE
+[  3s] ELF: unresolved: _ZN8firebase9firestore20ListenerRegistrationD1Ev
+[  3s] ELF: unresolved: _ZNK8firebase9Timestamp8ToStringEv
+[  3s] ELF: unresolved: _ZN8firebase9firestore5QueryaSERKS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestoreeqERKNS0_9FieldPathES3_
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp20DocumentChangeEqualsEPKNS0_14DocumentChangeES4_
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp19TransactionCallback3GetERKNS0_17DocumentReferenceE
+[  3s] ELF: unresolved: _ZN8firebase9firestore10FieldValue15ServerTimestampEv
+[  3s] ELF: unresolved: _ZN8firebase9firestore10WriteBatchaSEOS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestore10FieldValue16IntegerIncrementEl
+[  3s] ELF: unresolved: _ZN8firebase9firestore14DocumentChangeD1Ev
+[  3s] ELF: unresolved: _ZN8firebase9firestore17DocumentReferenceaSEOS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestore22AggregateQuerySnapshotD1Ev
+[  3s] ELF: unresolved: _ZN8firebase9firestore6Filter20GreaterThanOrEqualToERKNS0_9FieldPathERKNS0_10FieldValueE
+[  3s] ELF: unresolved: _ZN8firebase9firestore10FieldValue6DoubleEd
+[  3s] ELF: unresolved: _ZN8firebase9firestore18TransactionOptions16set_max_attemptsEi
+[  3s] ELF: unresolved: _ZN8firebase12FutureHandleC2EmPNS_6detail18FutureApiInterfaceE
+[  3s] ELF: unresolved: _ZN8firebase9firestore6FilterD1Ev
+[  3s] ELF: unresolved: _ZN8firebase9firestore5QueryD2Ev
+[  3s] ELF: unresolved: _ZN8firebase9firestore6Filter11GreaterThanERKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS0_10FieldValueE
+[  3s] ELF: unresolved: _ZN8firebase9firestore6Filter2OrERKNSt6__ndk16vectorIS1_NS2_9allocatorIS1_EEEE
+[  3s] ELF: unresolved: _ZN8firebase9firestore14AggregateQueryD1Ev
+[  3s] ELF: unresolved: _ZN8firebase9firestore9FieldPathC1ERKS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestore13QuerySnapshotC1Ev
+[  3s] ELF: unresolved: _ZN8firebase9firestore6FilterC1ERKS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestore10WriteBatchD1Ev
+[  3s] ELF: unresolved: _ZN8firebase9firestore10FieldValueD1Ev
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp22DocumentChangeHashCodeEPKNS0_14DocumentChangeE
+[  3s] ELF: unresolved: _ZN8firebase9firestore17DocumentReferenceC1Ev
+[  3s] ELF: unresolved: _ZN8firebase9firestore8SettingsC1Ev
+[  3s] ELF: unresolved: _ZN8firebase9firestore10FieldValue4NullEv
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp22DocumentSnapshotEqualsEPKNS0_16DocumentSnapshotES4_
+[  3s] ELF: unresolved: _ZN8firebase9firestore19CollectionReferenceaSEOS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestore17DocumentReferenceaSERKS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestore13QuerySnapshotaSERKS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp22AggregateQueryHashCodeEPKNS0_14AggregateQueryE
+[  3s] ELF: unresolved: _ZN8firebase9firestore22AggregateQuerySnapshotaSERKS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp18TransactionManager14RunTransactionEiNS0_18TransactionOptionsEPFbPNS1_19TransactionCallbackEE
+[  3s] ELF: unresolved: _ZN8firebase9firestore10WriteBatchC1Ev
+[  3s] ELF: unresolved: _ZN8firebase9firestore5QueryaSEOS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestore10FieldValue8GeoPointENS0_8GeoPointE
+[  3s] ELF: unresolved: _ZNK8firebase9firestore10FieldValue9blob_sizeEv
+[  3s] ELF: unresolved: _ZN8firebase9firestore10FieldValueaSEOS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp27AddDocumentSnapshotListenerEPNS0_17DocumentReferenceENS0_15MetadataChangesEiPFviPNS0_16DocumentSnapshotENS0_5ErrorEPKcE
+[  3s] ELF: unresolved: _ZSt9terminatev
+[  3s] ELF: unresolved: _ZN8firebase9firestore17DocumentReferenceC1EOS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestore10FieldValueaSERKS1_
+[  3s] ELF: unresolved: _ZN8firebase9firestore10SetOptionsD1Ev
+[  3s] ELF: unresolved: _ZNK8firebase9firestore10FieldValue12double_valueEv
+[  3s] ELF: unresolved: _ZNK8firebase9firestore16SnapshotMetadata8ToStringEv
+[  3s] ELF: unresolved: _ZN8firebase9Timestamp3NowEv
+[  3s] ELF: unresolved: _ZN8firebase9firestore6csharp30AggregateQuerySnapshotHashCodeEPKNS0_22AggregateQuerySnapshotE
+[  3s] ELF: unresolved: _ZN8firebase9firestore6Filter16ArrayContainsAnyERKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS2_6vectorINS0_10FieldValueENS6_ISC_EEEE
+[  3s] JMPREL: all 240 entries processed
+[  3s] ELF: jmprel done
+[  3s] ELF: strtab/symtab copied
+[  3s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[  3s] WARN: failed to load libFirebaseCppFirestore.so — skipping
+[  3s] Loading: libcrashlytics-common.so
+[  3s] ELF: loading sdmc:/AndroidHorizonNX/games/com.colorswitch.switch2/lib/libcrashlytics-common.so
+[  3s] SplitMap: reserved code_va=0x598e04000 data_va=0x598eb6000 write_va=0x2bdefa000 csz=0xb2000 dsz=0x9000
+[  3s] ELF: stage alloc OK
+[  3s] ELF: stage zeroed
+[  3s] ELF: seg[1] vaddr=0x0 filesz=0xb12f0 memsz=0xb12f0 flags=0x5
+[  3s] ELF: seg[2] vaddr=0xb22f0 filesz=0x6cd8 memsz=0x87b8 flags=0x6
+[  3s] ELF: segs copied to stage
+[  3s] ELF: stage[0]=0x464c457f after segs copy
+[  3s] ELF: dyn: strtab=0x1bb0/2039 symtab=0x2a8 syment=24 rela=0x23a8/64824 jmprel=0x120e0/4176 init_arr=0xb84f0/8
+[  3s] ELF: so built sym_count=267 strsz=2039
+[  3s] ELF: registered
+[  3s] ELF: rela 2701 entries
+[  3s] ELF: unresolved: optarg
+[  3s] ELF: unresolved: optind
+[  3s] ELF: unresolved: tzname
+[  3s] ELF: unresolved: daylight
+[  3s] ELF: unresolved: timezone
+[  3s] ELF: unresolved: _ctype_
+[  3s] RELA: all 2701 entries processed
+[  3s] ELF: rela done
+[  3s] ELF: jmprel 174 entries
+[  3s] ELF: unresolved: fsync
+[  3s] ELF: unresolved: statfs
+[  3s] ELF: unresolved: getopt_long
+[  3s] ELF: unresolved: getppid
+[  3s] ELF: unresolved: geteuid
+[  3s] ELF: unresolved: __android_log_buf_write
+[  3s] ELF: unresolved: epoll_create1
+[  3s] ELF: unresolved: eventfd
+[  3s] ELF: unresolved: epoll_ctl
+[  3s] ELF: unresolved: epoll_wait
+[  3s] ELF: unresolved: sched_getscheduler
+[  3s] ELF: unresolved: sched_getparam
+[  3s] ELF: unresolved: getpriority
+[  3s] ELF: unresolved: __system_property_get
+[  3s] ELF: unresolved: uname
+[  3s] ELF: unresolved: tzset
+[  3s] ELF: unresolved: getpagesize
+[  3s] ELF: unresolved: execv
+[  3s] ELF: unresolved: ftruncate
+[  3s] ELF: unresolved: unlink
+[  3s] ELF: unresolved: rmdir
+[  3s] ELF: unresolved: writev
+[  3s] ELF: unresolved: pread64
+[  3s] ELF: unresolved: ptrace
+[  3s] ELF: unresolved: sendmsg
+[  3s] ELF: unresolved: recvmsg
+[  3s] ELF: unresolved: __cmsg_nxthdr
+[  3s] ELF: unresolved: deflateInit2_
+[  3s] ELF: unresolved: zError
+[  3s] ELF: unresolved: deflate
+[  3s] ELF: unresolved: deflateEnd
+[  3s] ELF: unresolved: inflateEnd
+[  3s] ELF: unresolved: inflateInit_
+[  3s] ELF: unresolved: deflateInit_
+[  3s] ELF: unresolved: inflate
+[  3s] ELF: unresolved: getaddrinfo
+[  3s] ELF: unresolved: freeaddrinfo
+[  3s] JMPREL: all 174 entries processed
+[  3s] ELF: jmprel done
+[  3s] ELF: strtab/symtab copied
+[  3s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[  3s] WARN: failed to load libcrashlytics-common.so — skipping
+[  3s] Loading: libapplovin-native-crash-reporter.so
+[  3s] ELF: loading sdmc:/AndroidHorizonNX/games/com.colorswitch.switch2/lib/libapplovin-native-crash-reporter.so
+[  3s] ELF: WARN 3 PT_LOAD segments (1 exec, 2 writable) — single-split-point assumption may mis-map permissions
+[  3s] SplitMap: reserved code_va=0x654d2000 data_va=0x655a1000 write_va=0xd29b72000 csz=0xcf000 dsz=0xb000
+[  3s] ELF: stage alloc OK
+[  3s] ELF: stage zeroed
+[  3s] ELF: seg[1] vaddr=0x0 filesz=0xce3c0 memsz=0xce3c0 flags=0x5
+[  3s] ELF: seg[2] vaddr=0xcf3c0 filesz=0x7810 memsz=0x7810 flags=0x6
+[  3s] ELF: seg[3] vaddr=0xd7bd0 filesz=0xe8 memsz=0x1e30 flags=0x6
+[  3s] ELF: segs copied to stage
+[  3s] ELF: stage[0]=0x464c457f after segs copy
+[  3s] ELF: dyn: strtab=0x15b70/105041 symtab=0x2f8 syment=24 rela=0x2f5c8/71328 jmprel=0x40c68/10128 init_arr=0xd5788/16
+[  3s] ELF: so built sym_count=3674 strsz=105041
+[  3s] ELF: registered
+[  3s] ELF: rela 2972 entries
+[  3s] RELA: all 2972 entries processed
+[  3s] ELF: rela done
+[  3s] ELF: jmprel 422 entries
+[  3s] ELF: unresolved: __system_property_get
+[  3s] JMPREL: all 422 entries processed
+[  3s] ELF: jmprel done
+[  3s] ELF: strtab/symtab copied
+[  4s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[  4s] WARN: failed to load libapplovin-native-crash-reporter.so — skipping
+[  4s] Loading: libquack.so
+[  4s] ELF: loading sdmc:/AndroidHorizonNX/games/com.colorswitch.switch2/lib/libquack.so
+[  4s] SplitMap: reserved code_va=0xc265f1000 data_va=0xc26724000 write_va=0x28d587000 csz=0x133000 dsz=0xc000
+[  4s] ELF: stage alloc OK
+[  4s] ELF: stage zeroed
+[  4s] ELF: seg[0] vaddr=0x0 filesz=0x132090 memsz=0x132090 flags=0x5
+[  4s] ELF: seg[1] vaddr=0x1336b0 filesz=0xaa78 memsz=0xaf78 flags=0x6
+[  4s] ELF: segs copied to stage
+[  4s] ELF: stage[0]=0x464c457f after segs copy
+[  4s] ELF: dyn: strtab=0x7bc8/14558 symtab=0x2c48 syment=24 rela=0xbba8/85944 jmprel=0x20b60/8184 init_arr=0x0/0
+[  4s] ELF: so built sym_count=848 strsz=14558
+[  4s] ELF: registered
+[  4s] ELF: rela 3581 entries
+[  4s] RELA: all 3581 entries processed
+[  4s] ELF: rela done
+[  4s] ELF: jmprel 341 entries
+[  4s] JMPREL: all 341 entries processed
+[  4s] ELF: jmprel done
+[  4s] ELF: strtab/symtab copied
+[  4s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[  4s] WARN: failed to load libquack.so — skipping
+[  4s] Loading: libFirebaseCppApp-11_9_0.so
+[  4s] ELF: loading sdmc:/AndroidHorizonNX/games/com.colorswitch.switch2/lib/libFirebaseCppApp-11_9_0.so
+[  4s] SplitMap: reserved code_va=0xe488cb000 data_va=0xe48cce000 write_va=0x334ded000 csz=0x403000 dsz=0x20000
+[  4s] ELF: stage alloc OK
+[  4s] ELF: stage zeroed
+[  4s] ELF: seg[0] vaddr=0x0 filesz=0x402a58 memsz=0x402a58 flags=0x5
+[  4s] ELF: seg[1] vaddr=0x403ef8 filesz=0x19460 memsz=0x1e1a8 flags=0x6
+[  4s] ELF: segs copied to stage
+[  4s] ELF: stage[0]=0x464c457f after segs copy
+[  4s] ELF: dyn: strtab=0x66908/845820 symtab=0x27218 syment=24 rela=0x13a5f8/189744 jmprel=0x168b28/72024 init_arr=0x403ef8/304
+[  4s] ELF: so built sym_count=10826 strsz=845820
+[  4s] ELF: registered
+[  4s] ELF: rela 7906 entries
+[  4s] RELA: all 7906 entries processed
+[  4s] ELF: rela done
+[  4s] ELF: jmprel 3001 entries
+[  4s] ELF: unresolved: __umask_chk
+[  4s] ELF: unresolved: inotify_add_watch
+[  4s] ELF: unresolved: flock
+[  4s] ELF: unresolved: inotify_init
+[  4s] ELF: unresolved: __strncat_chk
+[  4s] JMPREL: all 3001 entries processed
+[  4s] ELF: jmprel done
+[  4s] ELF: strtab/symtab copied
+[  4s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[  4s] WARN: failed to load libFirebaseCppApp-11_9_0.so — skipping
+[  4s] Loading: libunity.so
+[  4s] ELF: loading sdmc:/AndroidHorizonNX/games/com.colorswitch.switch2/lib/libunity.so
+[  4s] ELF: WARN 4 PT_LOAD segments (1 exec, 2 writable) — single-split-point assumption may mis-map permissions
+[  4s] SplitMap: reserved code_va=0xc3fa76000 data_va=0xc411c1000 write_va=0x3d82e2000 csz=0x174b000 dsz=0x186000
+[  4s] ELF: stage alloc OK
+[  4s] ELF: stage zeroed
+[  4s] ELF: seg[1] vaddr=0x0 filesz=0x535714 memsz=0x535714 flags=0x4
+[  4s] ELF: seg[2] vaddr=0x536720 filesz=0x1213990 memsz=0x1213990 flags=0x5
+[  4s] ELF: seg[3] vaddr=0x174b0b0 filesz=0x731c0 memsz=0x731c0 flags=0x6
+[  4s] ELF: seg[4] vaddr=0x17bf270 filesz=0x1d100 memsz=0x111840 flags=0x6
+[  4s] ELF: segs copied to stage
+[  4s] ELF: stage[0]=0x464c457f after segs copy
+[  4s] ELF: dyn: strtab=0x5fac/12541 symtab=0x330 syment=24 rela=0x90b0/1299912 jmprel=0x146678/11976 init_arr=0x17b9998/3472
+[  4s] ELF: so built sym_count=986 strsz=12541
+[  4s] ELF: registered
+[  4s] ELF: rela 54163 entries
+[  4s] ELF: unresolved: _ZTH15gDeferredAction
+[  4s] ELF: unresolved: strdup  x2
+[  4s] ELF: unresolved: ANativeWindow_toSurface
+[  4s] ELF: unresolved: _ctype_
+[  4s] ELF: unresolved: nearbyintf
+[  4s] ELF: unresolved: AMEDIAFORMAT_KEY_CHANNEL_COUNT
+[  4s] ELF: unresolved: AMEDIAFORMAT_KEY_COLOR_FORMAT
+[  4s] ELF: unresolved: AMEDIAFORMAT_KEY_COLOR_RANGE
+[  4s] ELF: unresolved: AMEDIAFORMAT_KEY_COLOR_STANDARD
+[  4s] ELF: unresolved: AMEDIAFORMAT_KEY_DURATION
+[  4s] ELF: unresolved: AMEDIAFORMAT_KEY_ENCODER_DELAY
+[  4s] ELF: unresolved: AMEDIAFORMAT_KEY_FRAME_RATE
+[  4s] ELF: unresolved: AMEDIAFORMAT_KEY_HEIGHT
+[  4s] ELF: unresolved: AMEDIAFORMAT_KEY_LANGUAGE
+[  4s] ELF: unresolved: AMEDIAFORMAT_KEY_MIME
+[  4s] ELF: unresolved: AMEDIAFORMAT_KEY_ROTATION
+[  4s] ELF: unresolved: AMEDIAFORMAT_KEY_SAMPLE_RATE
+[  4s] ELF: unresolved: AMEDIAFORMAT_KEY_SLICE_HEIGHT
+[  4s] ELF: unresolved: AMEDIAFORMAT_KEY_STRIDE
+[  4s] ELF: unresolved: AMEDIAFORMAT_KEY_WIDTH
+[  4s] RELA: all 54163 entries processed
+[  4s] ELF: rela done
+[  4s] ELF: jmprel 499 entries
+[  4s] ELF: unresolved: getpagesize
+[  4s] ELF: unresolved: madvise
+[  4s] ELF: unresolved: pthread_condattr_init
+[  4s] ELF: unresolved: pthread_condattr_setclock
+[  4s] ELF: unresolved: pthread_condattr_destroy
+[  4s] ELF: unresolved: getaddrinfo
+[  4s] ELF: unresolved: freeaddrinfo
+[  4s] ELF: unresolved: execl
+[  4s] ELF: unresolved: perror
+[  4s] ELF: unresolved: _ZTH15gDeferredAction
+[  4s] ELF: unresolved: getpwuid
+[  4s] ELF: unresolved: truncate
+[  4s] ELF: unresolved: unlink
+[  4s] ELF: unresolved: rmdir
+[  4s] ELF: unresolved: flock
+[  4s] ELF: unresolved: lseek64
+[  4s] ELF: unresolved: statfs
+[  4s] ELF: unresolved: utime
+[  4s] ELF: unresolved: strdup
+[  4s] ELF: unresolved: eglSurfaceAttrib
+[  4s] ELF: unresolved: fscanf
+[  4s] ELF: unresolved: inflateInit2_
+[  4s] ELF: unresolved: inflateEnd
+[  4s] ELF: unresolved: inflate
+[  4s] ELF: unresolved: setvbuf
+[  4s] ELF: unresolved: getpriority
+[  4s] ELF: unresolved: pthread_exit
+[  4s] ELF: unresolved: ANativeWindow_fromSurface
+[  4s] ELF: unresolved: AImage_getHardwareBuffer
+[  4s] ELF: unresolved: AHardwareBuffer_acquire
+[  4s] ELF: unresolved: AImage_delete
+[  4s] ELF: unresolved: AImageReader_setBufferRemovedListener
+[  4s] ELF: unresolved: AHardwareBuffer_describe
+[  4s] ELF: unresolved: AHardwareBuffer_release
+[  4s] ELF: unresolved: AImage_deleteAsync
+[  4s] ELF: unresolved: __system_property_get
+[  4s] ELF: unresolved: ANativeWindow_toSurface
+[  4s] ELF: unresolved: AImageReader_newWithUsage
+[  4s] ELF: unresolved: AImageReader_getWindow
+[  4s] ELF: unresolved: AImageReader_setImageListener
+[  4s] ELF: unresolved: AImageReader_delete
+[  4s] ELF: unresolved: AImageReader_acquireLatestImage
+[  4s] ELF: unresolved: ASensorEventQueue_hasEvents
+[  4s] ELF: unresolved: sincos
+[  4s] ELF: unresolved: __system_property_find
+[  4s] ELF: unresolved: __system_property_read
+[  4s] ELF: unresolved: AMediaExtractor_seekTo
+[  4s] ELF: unresolved: AMediaFormat_getInt64
+[  4s] ELF: unresolved: AMediaFormat_getInt32
+[  4s] ELF: unresolved: AMediaFormat_delete
+[  4s] ELF: unresolved: AMediaExtractor_delete
+[  4s] ELF: unresolved: AMediaCodec_dequeueInputBuffer
+[  4s] ELF: unresolved: AMediaCodec_flush
+[  4s] ELF: unresolved: AMediaCodec_stop
+[  4s] ELF: unresolved: AMediaExtractor_getTrackFormat
+[  4s] ELF: unresolved: AMediaFormat_getString
+[  4s] ELF: unresolved: AMediaCodec_delete
+[  4s] ELF: unresolved: AMediaExtractor_selectTrack
+[  4s] ELF: unresolved: AMediaCodec_createDecoderByType
+[  5s] ELF: unresolved: AMediaCodec_configure
+[  5s] ELF: unresolved: AMediaCodec_start
+[  5s] ELF: unresolved: AMediaExtractor_getSampleTrackIndex
+[  5s] ELF: unresolved: AMediaExtractor_advance
+[  5s] ELF: unresolved: AMediaCodec_dequeueOutputBuffer
+[  5s] ELF: unresolved: AMediaCodec_getOutputFormat
+[  5s] ELF: unresolved: AMediaCodec_getOutputBuffer
+[  5s] ELF: unresolved: AMediaCodec_releaseOutputBuffer
+[  5s] ELF: unresolved: AMediaCodec_getInputBuffer
+[  5s] ELF: unresolved: AMediaCodec_queueInputBuffer
+[  5s] ELF: unresolved: AMediaExtractor_readSampleData
+[  5s] ELF: unresolved: AMediaExtractor_getSampleTime
+[  5s] ELF: unresolved: AMediaDataSource_delete
+[  5s] ELF: unresolved: AMediaExtractor_new
+[  5s] ELF: unresolved: AMediaDataSource_new
+[  5s] ELF: unresolved: AMediaExtractor_setDataSourceFd
+[  5s] ELF: unresolved: AMediaExtractor_setDataSource
+[  5s] ELF: unresolved: strcasestr
+[  5s] ELF: unresolved: AMediaDataSource_setUserdata
+[  5s] ELF: unresolved: AMediaDataSource_setReadAt
+[  5s] ELF: unresolved: AMediaDataSource_setGetSize
+[  5s] ELF: unresolved: AMediaDataSource_setClose
+[  5s] ELF: unresolved: AMediaExtractor_setDataSourceCustom
+[  5s] ELF: unresolved: AMediaCodec_setOutputSurface
+[  5s] ELF: unresolved: AMediaFormat_getFloat
+[  5s] ELF: unresolved: AMediaExtractor_getTrackCount
+[  5s] ELF: unresolved: AMediaFormat_setInt32
+[  5s] ELF: unresolved: AImage_getTimestamp
+[  5s] ELF: unresolved: ptrace
+[  5s] ELF: unresolved: __android_log_buf_write
+[  5s] ELF: unresolved: writev
+[  5s] ELF: unresolved: sched_setaffinity
+[  5s] ELF: unresolved: lldiv
+[  5s] ELF: unresolved: sched_getaffinity
+[  5s] ELF: unresolved: sendto
+[  5s] ELF: unresolved: recvfrom
+[  5s] ELF: unresolved: pread
+[  5s] ELF: unresolved: pwrite
+[  5s] ELF: unresolved: fsync
+[  5s] ELF: unresolved: ftruncate
+[  5s] ELF: unresolved: inet_addr
+[  5s] ELF: unresolved: gethostbyaddr
+[  5s] ELF: unresolved: shutdown
+[  5s] ELF: unresolved: inet_pton
+[  5s] ELF: unresolved: inet_ntop
+[  5s] ELF: unresolved: getpeername
+[  5s] ELF: unresolved: strcspn
+[  5s] ELF: unresolved: memrchr
+[  5s] ELF: unresolved: basename
+[  5s] ELF: unresolved: fnmatch
+[  5s] ELF: unresolved: if_nametoindex
+[  5s] ELF: unresolved: geteuid
+[  5s] ELF: unresolved: getpwuid_r
+[  5s] ELF: unresolved: setpriority
+[  5s] JMPREL: all 499 entries processed
+[  5s] ELF: jmprel done
+[  5s] ELF: strtab/symtab copied
+[  5s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[  5s] WARN: failed to load libunity.so — skipping
+[  5s] Loading: libil2cpp.so
+[  6s] ELF: loading sdmc:/AndroidHorizonNX/games/com.colorswitch.switch2/lib/libil2cpp.so
+[  6s] ELF: WARN 4 PT_LOAD segments (1 exec, 2 writable) — single-split-point assumption may mis-map permissions
+[  6s] SplitMap: reserved code_va=0x3f0816000 data_va=0x3f3eb9000 write_va=0x1c9b26000 csz=0x36a3000 dsz=0x6ad000
+[  6s] ELF: stage alloc OK
+[  6s] ELF: stage zeroed
+[  6s] ELF: seg[1] vaddr=0x0 filesz=0x15ece3c memsz=0x15ece3c flags=0x4
+[  6s] ELF: seg[2] vaddr=0x15ede3c filesz=0x20b4434 memsz=0x20b4434 flags=0x5
+[  6s] ELF: seg[3] vaddr=0x36a3270 filesz=0x244428 memsz=0x244428 flags=0x6
+[  6s] ELF: seg[4] vaddr=0x38e8698 filesz=0x23fb80 memsz=0x467728 flags=0x6
+[  6s] ELF: segs copied to stage
+[  6s] ELF: stage[0]=0x464c457f after segs copy
+[  6s] ELF: dyn: strtab=0x1a3bc/111705 symtab=0x330 syment=24 rela=0x35818/9732672 jmprel=0x97da58/13704 init_arr=0x3883e10/192
+[  6s] ELF: so built sym_count=4443 strsz=111705
+[  6s] ELF: registered
+[  6s] ELF: rela 405528 entries
+[  6s] RELA: all 405528 entries processed
+[  6s] ELF: rela done
+[  6s] ELF: jmprel 571 entries
+[  6s] ELF: unresolved: sincos
+[  6s] ELF: unresolved: inet_pton
+[  6s] ELF: unresolved: getaddrinfo
+[  6s] ELF: unresolved: inet_ntop
+[  6s] ELF: unresolved: freeaddrinfo
+[  6s] ELF: unresolved: getnameinfo
+[  6s] ELF: unresolved: gethostname
+[  6s] ELF: unresolved: getpeername
+[  6s] ELF: unresolved: shutdown
+[  6s] ELF: unresolved: recvfrom
+[  6s] ELF: unresolved: sendmsg
+[  6s] ELF: unresolved: recvmsg
+[  6s] ELF: unresolved: unlink
+[  6s] ELF: unresolved: ftruncate
+[  6s] ELF: unresolved: getpagesize
+[  6s] ELF: unresolved: strlcpy
+[  6s] ELF: unresolved: logb
+[  6s] ELF: unresolved: scalbn
+[  6s] ELF: unresolved: div
+[  6s] ELF: unresolved: uname
+[  6s] ELF: unresolved: clock_getres
+[  6s] ELF: unresolved: strdup
+[  6s] ELF: unresolved: link
+[  6s] ELF: unresolved: rmdir
+[  6s] ELF: unresolved: sendfile
+[  6s] ELF: unresolved: futimens
+[  6s] ELF: unresolved: srand48
+[  6s] ELF: unresolved: lrand48
+[  6s] ELF: unresolved: geteuid
+[  6s] ELF: unresolved: getegid
+[  6s] ELF: unresolved: pthread_getattr_np
+[  6s] ELF: unresolved: pthread_atfork
+[  6s] ELF: unresolved: sigsuspend
+[  6s] ELF: unresolved: sem_timedwait
+[  6s] ELF: unresolved: sem_getvalue
+[  6s] JMPREL: all 571 entries processed
+[  6s] ELF: jmprel done
+[  6s] ELF: strtab/symtab copied
+[  6s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[  6s] WARN: failed to load libil2cpp.so — skipping
+[  6s] Main .so failed to load
