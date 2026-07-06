@@ -1,7 +1,0 @@
-{
-  "apk_url": "https://f-droid.org/F-Droid.apk",
-  "source_site": "f-droid.org (live end-to-end Worker test)",
-  "github_username": "octocat",
-  "notes": "Live end-to-end test of the deployed Cloudflare Worker relay.",
-  "submitted_at": "2026-07-06T18:02:13.088Z"
-}

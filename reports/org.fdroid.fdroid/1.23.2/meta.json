@@ -1,0 +1,13 @@
+{
+  "game_name": "F-Droid",
+  "package_name": "org.fdroid.fdroid",
+  "version_name": "1.23.2",
+  "apk_url": "https://f-droid.org/F-Droid.apk",
+  "apk_sha256": "985f5181d48bb6bafd54083a048b391271e0ab28385881cc41294fb01a222762",
+  "source_site": "f-droid.org (live end-to-end Worker test)",
+  "submitted_by": "octocat",
+  "submitted_at": "2026-07-06T18:02:47Z",
+  "notes": "Live end-to-end test of the deployed Cloudflare Worker relay.",
+  "play_store_category_check": "NOT_FOUND",
+  "superseded_submission_by": null
+}
