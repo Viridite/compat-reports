@@ -11,5 +11,18 @@
     "submitted_by": "aaronateataco",
     "submitted_at": "2026-07-06T18:46:58Z",
     "report_path": "reports/com.fingersoft.hillclimb/1.67.0/report.md"
+  },
+  {
+    "game_name": "Subway Surf",
+    "package_name": "com.kiloo.subwaysurf",
+    "version_name": "3.37.1",
+    "verdict": "fail",
+    "verdict_label": "\u274c Fails to launch",
+    "summary": "Fails to launch / crashes before ever rendering a frame.",
+    "icon": "reports/com.kiloo.subwaysurf/3.37.1/icon.png",
+    "source_site": "APKPure",
+    "submitted_by": "aaronateataco",
+    "submitted_at": "2026-07-06T19:25:12Z",
+    "report_path": "reports/com.kiloo.subwaysurf/3.37.1/report.md"
   }
 ]
