@@ -1,0 +1,626 @@
+[  0s] launchApk: sdmc:/AndroidHorizonNX/apks/com.chillingo.robberybobfree.android.row_1.29.0-8183798_minAPI24(arm64-v8a,armeabi-v7a)(nodpi)_apkmirror.com.apk  pkg=com.chillingo.robberybobfree.android.row  installed=0
+[ 44s] Extracting APK...
+[ 44s] extract lib: libapminsighta.so
+[ 44s] extract lib: libapminsightb.so
+[ 44s] extract lib: libapplovin-native-crash-reporter.so
+[ 44s] extract lib: libbuffer_pg.so
+[ 44s] extract lib: libc++_shared.so
+[ 44s] extract lib: libcrashlytics-common.so
+[ 44s] extract lib: libcrashlytics-handler.so
+[ 44s] extract lib: libcrashlytics-trampoline.so
+[ 45s] extract lib: libcrashlytics.so
+[ 45s] extract lib: libfile_lock_pg.so
+[ 45s] extract lib: libnms.so
+[ 45s] extract lib: libpglarmor.so
+[ 45s] extract lib: libquack.so
+[ 46s] extract lib: librobberybob.so
+[ 46s] extract lib: libst-errorlogger.so
+[ 46s] extract lib: libtobEmbedPagEncrypt.so
+[ 46s] extract: done
+[ 46s] APK installed — marker written
+[ 46s] findAllSos: libcrashlytics-trampoline.so (4848 bytes)
+[ 46s] findAllSos: libtobEmbedPagEncrypt.so (8208 bytes)
+[ 46s] findAllSos: libbuffer_pg.so (10008 bytes)
+[ 46s] findAllSos: libfile_lock_pg.so (10008 bytes)
+[ 46s] findAllSos: libst-errorlogger.so (38952 bytes)
+[ 46s] findAllSos: libpglarmor.so (55544 bytes)
+[ 46s] findAllSos: libapminsighta.so (108944 bytes)
+[ 46s] findAllSos: libapminsightb.so (109392 bytes)
+[ 46s] findAllSos: libcrashlytics-handler.so (185960 bytes)
+[ 46s] findAllSos: libcrashlytics.so (195568 bytes)
+[ 46s] findAllSos: libnms.so (266056 bytes)
+[ 46s] findAllSos: libcrashlytics-common.so (755864 bytes)
+[ 46s] findAllSos: libapplovin-native-crash-reporter.so (867928 bytes)
+[ 46s] findAllSos: libc++_shared.so (911696 bytes)
+[ 46s] findAllSos: libquack.so (1300792 bytes)
+[ 46s] findAllSos: librobberybob.so (4192432 bytes)
+[ 46s] Setting up JNI environment...
+[ 46s] Loading: libcrashlytics-trampoline.so
+[ 46s] ELF: loading sdmc:/AndroidHorizonNX/games/com.chillingo.robberybobfree.android.row/lib/libcrashlytics-trampoline.so
+[ 46s] SplitMap: reserved code_va=0x1295de000 data_va=0x1295df000 write_va=0xee29d7000 csz=0x1000 dsz=0x1000
+[ 46s] ELF: stage alloc OK
+[ 46s] ELF: stage zeroed
+[ 46s] ELF: seg[2] vaddr=0x0 filesz=0x840 memsz=0x840 flags=0x5
+[ 46s] ELF: seg[3] vaddr=0x1840 filesz=0x288 memsz=0x290 flags=0x6
+[ 46s] ELF: segs copied to stage
+[ 46s] ELF: stage[0]=0x464c457f after segs copy
+[ 46s] ELF: dyn: strtab=0x42c/107 symtab=0x2d8 syment=24 rela=0x498/96 jmprel=0x4f8/144 init_arr=0x1850/16
+[ 46s] ELF: so built sym_count=14 strsz=107
+[ 46s] ELF: registered
+[ 46s] ELF: rela 4 entries
+[ 46s] RELA: all 4 entries processed
+[ 46s] ELF: rela done
+[ 46s] ELF: jmprel 6 entries
+[ 46s] ELF: unresolved: __libc_init
+[ 46s] JMPREL: all 6 entries processed
+[ 46s] ELF: jmprel done
+[ 46s] ELF: strtab/symtab copied
+[ 46s] GOT[0] @va+0xa98 = 0xbad0bad0bad00000
+[ 46s] GOT[1] @va+0xaa0 = 0xcbbae2a50
+[ 46s] GOT[2] @va+0xaa8 = 0xcbbae2b60
+[ 46s] GOT[3] @va+0xab0 = 0xcbbae4af0
+[ 46s] GOT[4] @va+0xab8 = 0xcbbae2660
+[ 46s] SplitMap: code_va=0x1295de000 Rx data_va=0x1295df000 Rw OK
+[ 46s] ELF: JIT copy done, stage freed
+[ 46s] ELF: 2 constructors deferred (arr=0x1295df850)
+[ 46s] ELF: loaded OK code_exec=0x1295de000 data_exec=0x1295df000 sym_count=14 unresolved=1
+[ 46s] Loading: libtobEmbedPagEncrypt.so
+[ 46s] ELF: loading sdmc:/AndroidHorizonNX/games/com.chillingo.robberybobfree.android.row/lib/libtobEmbedPagEncrypt.so
+[ 46s] ELF: WARN 3 PT_LOAD segments (1 exec, 2 writable) — single-split-point assumption may mis-map permissions
+[ 46s] SplitMap: reserved code_va=0x9d1628000 data_va=0x9d162a000 write_va=0x83da31000 csz=0x2000 dsz=0x2000
+[ 46s] ELF: stage alloc OK
+[ 46s] ELF: stage zeroed
+[ 46s] ELF: seg[1] vaddr=0x0 filesz=0x13f0 memsz=0x13f0 flags=0x5
+[ 46s] ELF: seg[2] vaddr=0x23f0 filesz=0x248 memsz=0x248 flags=0x6
+[ 46s] ELF: seg[3] vaddr=0x3638 filesz=0x200 memsz=0x21c flags=0x6
+[ 46s] ELF: segs copied to stage
+[ 46s] ELF: stage[0]=0x464c457f after segs copy
+[ 46s] ELF: dyn: strtab=0x5b0/358 symtab=0x2f8 syment=24 rela=0x718/120 jmprel=0x790/264 init_arr=0x0/0
+[ 46s] ELF: so built sym_count=29 strsz=358
+[ 46s] ELF: registered
+[ 46s] ELF: rela 5 entries
+[ 46s] RELA: all 5 entries processed
+[ 46s] ELF: rela done
+[ 46s] ELF: jmprel 11 entries
+[ 46s] JMPREL: all 11 entries processed
+[ 46s] ELF: jmprel done
+[ 46s] ELF: strtab/symtab copied
+[ 46s] GOT[0] @va+0x5e0 = 0xcbbae2aa0
+[ 46s] GOT[1] @va+0x5e8 = 0xcbbae2a50
+[ 46s] GOT[2] @va+0x5f0 = 0x9d1628b44
+[ 46s] GOT[3] @va+0x5f8 = 0xcbbae2ab0
+[ 46s] GOT[4] @va+0x600 = 0x9d1628b8c
+[ 46s] SplitMap: code_va=0x9d1628000 Rx data_va=0x9d162a000 Rw OK
+[ 46s] ELF: JIT copy done, stage freed
+[ 46s] ELF: loaded OK code_exec=0x9d1628000 data_exec=0x9d162a000 sym_count=29 unresolved=1
+[ 46s] Loading: libbuffer_pg.so
+[ 46s] ELF: loading sdmc:/AndroidHorizonNX/games/com.chillingo.robberybobfree.android.row/lib/libbuffer_pg.so
+[ 46s] SplitMap: reserved code_va=0x2280c4000 data_va=0x2280d5000 write_va=0x2327ec000 csz=0x11000 dsz=0x2000
+[ 46s] ELF: stage alloc OK
+[ 46s] ELF: stage zeroed
+[ 46s] ELF: seg[0] vaddr=0x0 filesz=0x1d08 memsz=0x1d08 flags=0x5
+[ 46s] ELF: seg[1] vaddr=0x11d60 filesz=0x2a8 memsz=0x2a8 flags=0x6
+[ 46s] ELF: segs copied to stage
+[ 46s] ELF: stage[0]=0x464c457f after segs copy
+[ 46s] ELF: dyn: strtab=0x728/1064 symtab=0x368 syment=24 rela=0xbc0/72 jmprel=0xc08/432 init_arr=0x0/0
+[ 46s] ELF: so built sym_count=40 strsz=1064
+[ 46s] ELF: registered
+[ 46s] ELF: rela 3 entries
+[ 46s] RELA: all 3 entries processed
+[ 46s] ELF: rela done
+[ 46s] ELF: jmprel 18 entries
+[ 46s] ELF: unresolved: msync
+[ 46s] ELF: unresolved: mremap
+[ 46s] ELF: unresolved: ftruncate
+[ 46s] JMPREL: all 18 entries processed
+[ 46s] ELF: jmprel done
+[ 47s] ELF: strtab/symtab copied
+[ 47s] GOT[0] @va+0xf68 = 0xcbbae44c0
+[ 47s] GOT[1] @va+0xf70 = 0xcbbae2aa0
+[ 47s] GOT[2] @va+0xf78 = 0xcbc1dfd80
+[ 47s] GOT[3] @va+0xf80 = 0xbad0bad0bad00000
+[ 47s] GOT[4] @va+0xf88 = 0xcbbae48d0
+[ 47s] SplitMap: code_va=0x2280c4000 Rx data_va=0x2280d5000 Rw OK
+[ 47s] ELF: JIT copy done, stage freed
+[ 47s] ELF: loaded OK code_exec=0x2280c4000 data_exec=0x2280d5000 sym_count=40 unresolved=4
+[ 47s] Loading: libfile_lock_pg.so
+[ 47s] ELF: loading sdmc:/AndroidHorizonNX/games/com.chillingo.robberybobfree.android.row/lib/libfile_lock_pg.so
+[ 47s] SplitMap: reserved code_va=0xe7fb9b000 data_va=0xe7fbac000 write_va=0x9f7752000 csz=0x11000 dsz=0x2000
+[ 47s] ELF: stage alloc OK
+[ 47s] ELF: stage zeroed
+[ 47s] ELF: seg[0] vaddr=0x0 filesz=0x1050 memsz=0x1050 flags=0x5
+[ 47s] ELF: seg[1] vaddr=0x11da8 filesz=0x260 memsz=0x260 flags=0x6
+[ 47s] ELF: segs copied to stage
+[ 47s] ELF: stage[0]=0x464c457f after segs copy
+[ 47s] ELF: dyn: strtab=0x530/605 symtab=0x2d8 syment=24 rela=0x7e0/72 jmprel=0x828/216 init_arr=0x0/0
+[ 47s] ELF: so built sym_count=25 strsz=605
+[ 47s] ELF: registered
+[ 47s] ELF: rela 3 entries
+[ 47s] RELA: all 3 entries processed
+[ 47s] ELF: rela done
+[ 47s] ELF: jmprel 9 entries
+[ 47s] JMPREL: all 9 entries processed
+[ 47s] ELF: jmprel done
+[ 47s] ELF: strtab/symtab copied
+[ 47s] GOT[0] @va+0xfb0 = 0xcbbae44c0
+[ 47s] GOT[1] @va+0xfb8 = 0xcbbae2aa0
+[ 47s] GOT[2] @va+0xfc0 = 0xcbc1e0e20
+[ 47s] GOT[3] @va+0xfc8 = 0xcbbae35d0
+[ 47s] GOT[4] @va+0xfd0 = 0xcbbae2ab0
+[ 47s] SplitMap: code_va=0xe7fb9b000 Rx data_va=0xe7fbac000 Rw OK
+[ 47s] ELF: JIT copy done, stage freed
+[ 47s] ELF: loaded OK code_exec=0xe7fb9b000 data_exec=0xe7fbac000 sym_count=25 unresolved=4
+[ 47s] Loading: libst-errorlogger.so
+[ 47s] ELF: loading sdmc:/AndroidHorizonNX/games/com.chillingo.robberybobfree.android.row/lib/libst-errorlogger.so
+[ 47s] SplitMap: reserved code_va=0xedea0d000 data_va=0xedea16000 write_va=0x1d300a000 csz=0x9000 dsz=0x2000
+[ 47s] ELF: stage alloc OK
+[ 47s] ELF: stage zeroed
+[ 47s] ELF: seg[0] vaddr=0x0 filesz=0x8054 memsz=0x8054 flags=0x5
+[ 47s] ELF: seg[1] vaddr=0x9be8 filesz=0x428 memsz=0x688 flags=0x6
+[ 47s] ELF: segs copied to stage
+[ 47s] ELF: stage[0]=0x464c457f after segs copy
+[ 47s] ELF: dyn: strtab=0xb10/3004 symtab=0x390 syment=24 rela=0x17b0/696 jmprel=0x1a68/768 init_arr=0x9be8/8
+[ 47s] ELF: so built sym_count=80 strsz=3004
+[ 47s] ELF: registered
+[ 47s] ELF: rela 29 entries
+[ 47s] ELF: unresolved: _ZTVN10__cxxabiv117__class_type_infoE
+[ 47s] ELF: unresolved: _ZTVN10__cxxabiv120__si_class_type_infoE
+[ 47s] ELF: unresolved: _ZNSt12length_errorD1Ev
+[ 47s] ELF: unresolved: _ZTISt12length_error
+[ 47s] ELF: unresolved: _ZTVSt12length_error
+[ 47s] ELF: unresolved: __gxx_personality_v0
+[ 47s] RELA: all 29 entries processed
+[ 47s] ELF: rela done
+[ 47s] ELF: jmprel 32 entries
+[ 47s] ELF: unresolved: _ZdlPv
+[ 47s] ELF: unresolved: _ZNSt11logic_errorC2EPKc
+[ 47s] ELF: unresolved: __cxa_allocate_exception
+[ 47s] ELF: unresolved: __gxx_personality_v0
+[ 47s] ELF: unresolved: _ZNSt6__ndk119__shared_weak_count14__release_weakEv
+[ 47s] ELF: unresolved: __cxa_throw
+[ 47s] ELF: unresolved: _Znwm
+[ 47s] ELF: unresolved: __cxa_free_exception
+[ 47s] JMPREL: all 32 entries processed
+[ 47s] ELF: jmprel done
+[ 47s] ELF: strtab/symtab copied
+[ 47s] GOT[0] @va+0xec0 = 0xcbc1d14c0
+[ 47s] GOT[1] @va+0xec8 = 0xbad0bad0bad00000
+[ 47s] GOT[2] @va+0xed0 = 0xbad0bad0bad00000
+[ 47s] GOT[3] @va+0xed8 = 0xbad0bad0bad00000
+[ 47s] GOT[4] @va+0xee0 = 0xcbbae4a20
+[ 47s] SplitMap: code_va=0xedea0d000 Rx data_va=0xedea16000 Rw OK
+[ 47s] ELF: JIT copy done, stage freed
+[ 47s] ELF: 1 constructors deferred (arr=0xedea16be8)
+[ 47s] ELF: loaded OK code_exec=0xedea0d000 data_exec=0xedea16000 sym_count=80 unresolved=18
+[ 47s] Loading: libpglarmor.so
+[ 47s] ELF: loading sdmc:/AndroidHorizonNX/games/com.chillingo.robberybobfree.android.row/lib/libpglarmor.so
+[ 47s] SplitMap: reserved code_va=0x802abd000 data_va=0x802aca000 write_va=0xa9effd000 csz=0xd000 dsz=0x2000
+[ 47s] ELF: stage alloc OK
+[ 47s] ELF: stage zeroed
+[ 47s] ELF: seg[0] vaddr=0x0 filesz=0xb538 memsz=0xb538 flags=0x5
+[ 47s] ELF: seg[1] vaddr=0xd4c0 filesz=0xbc0 memsz=0xbe0 flags=0x6
+[ 47s] ELF: segs copied to stage
+[ 47s] ELF: stage[0]=0x464c457f after segs copy
+[ 47s] ELF: dyn: strtab=0x658/384 symtab=0x340 syment=24 rela=0x840/2808 jmprel=0x1338/528 init_arr=0x0/0
+[ 47s] ELF: so built sym_count=33 strsz=384
+[ 47s] ELF: registered
+[ 47s] ELF: rela 117 entries
+[ 47s] RELA: all 117 entries processed
+[ 47s] ELF: rela done
+[ 47s] ELF: jmprel 22 entries
+[ 47s] ELF: unresolved: deflateEnd
+[ 47s] ELF: unresolved: inflate
+[ 47s] ELF: unresolved: inflateInit2_
+[ 47s] ELF: unresolved: deflate
+[ 47s] ELF: unresolved: deflateBound
+[ 47s] ELF: unresolved: inflateEnd
+[ 47s] ELF: unresolved: deflateInit2_
+[ 47s] JMPREL: all 22 entries processed
+[ 47s] ELF: jmprel done
+[ 47s] ELF: strtab/symtab copied
+[ 47s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[ 47s] WARN: failed to load libpglarmor.so — skipping
+[ 47s] Loading: libapminsighta.so
+[ 47s] ELF: loading sdmc:/AndroidHorizonNX/games/com.chillingo.robberybobfree.android.row/lib/libapminsighta.so
+[ 47s] SplitMap: reserved code_va=0x8b295000 data_va=0x8b2be000 write_va=0xe87de7000 csz=0x29000 dsz=0x5000
+[ 47s] ELF: stage alloc OK
+[ 47s] ELF: stage zeroed
+[ 47s] ELF: seg[0] vaddr=0x0 filesz=0x18cbc memsz=0x18cbc flags=0x5
+[ 47s] ELF: seg[1] vaddr=0x29568 filesz=0xce8 memsz=0x3ab0 flags=0x6
+[ 47s] ELF: segs copied to stage
+[ 47s] ELF: stage[0]=0x464c457f after segs copy
+[ 47s] ELF: dyn: strtab=0x1320/1684 symtab=0x630 syment=24 rela=0x1b08/3672 jmprel=0x2960/2640 init_arr=0x29568/8
+[ 47s] ELF: so built sym_count=138 strsz=1684
+[ 47s] ELF: registered
+[ 47s] ELF: rela 153 entries
+[ 47s] ELF: unresolved: _Jv_RegisterClasses
+[ 47s] ELF: unresolved: _ITM_deregisterTMCloneTable
+[ 47s] ELF: unresolved: _ITM_registerTMCloneTable
+[ 47s] RELA: all 153 entries processed
+[ 47s] ELF: rela done
+[ 47s] ELF: jmprel 110 entries
+[ 47s] ELF: unresolved: eventfd
+[ 47s] ELF: unresolved: getrlimit
+[ 47s] ELF: unresolved: setrlimit
+[ 47s] ELF: unresolved: pthread_getattr_np
+[ 47s] ELF: unresolved: clone
+[ 47s] ELF: unresolved: sigwait
+[ 47s] ELF: unresolved: pthread_condattr_init
+[ 47s] ELF: unresolved: uname
+[ 47s] ELF: unresolved: writev
+[ 47s] ELF: unresolved: sysinfo
+[ 47s] ELF: unresolved: flock
+[ 47s] ELF: unresolved: pipe2
+[ 47s] ELF: unresolved: execlp
+[ 47s] ELF: unresolved: alarm
+[ 47s] ELF: unresolved: strdup
+[ 47s] ELF: unresolved: mallinfo
+[ 47s] ELF: unresolved: execl
+[ 47s] ELF: unresolved: pthread_exit
+[ 47s] JMPREL: all 110 entries processed
+[ 47s] ELF: jmprel done
+[ 47s] ELF: strtab/symtab copied
+[ 47s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[ 47s] WARN: failed to load libapminsighta.so — skipping
+[ 47s] Loading: libapminsightb.so
+[ 47s] ELF: loading sdmc:/AndroidHorizonNX/games/com.chillingo.robberybobfree.android.row/lib/libapminsightb.so
+[ 47s] SplitMap: reserved code_va=0xebe09000 data_va=0xebe32000 write_va=0x1fca3c000 csz=0x29000 dsz=0x7000
+[ 47s] ELF: stage alloc OK
+[ 47s] ELF: stage zeroed
+[ 47s] ELF: seg[2] vaddr=0x0 filesz=0x19688 memsz=0x19688 flags=0x5
+[ 47s] ELF: seg[3] vaddr=0x299f0 filesz=0x978 memsz=0x5e98 flags=0x6
+[ 47s] ELF: segs copied to stage
+[ 47s] ELF: stage[0]=0x464c457f after segs copy
+[ 47s] ELF: dyn: strtab=0xc78/691 symtab=0x558 syment=24 rela=0x1008/1992 jmprel=0x17d0/1488 init_arr=0x29a00/16
+[ 47s] ELF: so built sym_count=76 strsz=691
+[ 47s] ELF: registered
+[ 47s] ELF: rela 83 entries
+[ 47s] RELA: all 83 entries processed
+[ 47s] ELF: rela done
+[ 47s] ELF: jmprel 62 entries
+[ 47s] ELF: unresolved: ptrace
+[ 47s] ELF: unresolved: alarm
+[ 47s] ELF: unresolved: getpagesize
+[ 47s] ELF: unresolved: strdup
+[ 47s] ELF: unresolved: __libc_init
+[ 47s] JMPREL: all 62 entries processed
+[ 47s] ELF: jmprel done
+[ 47s] ELF: strtab/symtab copied
+[ 47s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[ 47s] WARN: failed to load libapminsightb.so — skipping
+[ 47s] Loading: libcrashlytics-handler.so
+[ 47s] ELF: loading sdmc:/AndroidHorizonNX/games/com.chillingo.robberybobfree.android.row/lib/libcrashlytics-handler.so
+[ 47s] SplitMap: reserved code_va=0xc2b787000 data_va=0xc2b7b2000 write_va=0xe6716c000 csz=0x2b000 dsz=0x4000
+[ 47s] ELF: stage alloc OK
+[ 47s] ELF: stage zeroed
+[ 47s] ELF: seg[1] vaddr=0x0 filesz=0x2a610 memsz=0x2a610 flags=0x5
+[ 47s] ELF: seg[2] vaddr=0x2b610 filesz=0x27e0 memsz=0x32a1 flags=0x6
+[ 47s] ELF: segs copied to stage
+[ 47s] ELF: stage[0]=0x464c457f after segs copy
+[ 47s] ELF: dyn: strtab=0x954/655 symtab=0x288 syment=24 rela=0xbe8/25968 jmprel=0x7158/1056 init_arr=0x2da08/8
+[ 47s] ELF: so built sym_count=72 strsz=655
+[ 47s] ELF: registered
+[ 47s] ELF: rela 1082 entries
+[ 47s] RELA: all 1082 entries processed
+[ 47s] ELF: rela done
+[ 47s] ELF: jmprel 44 entries
+[ 47s] ELF: unresolved: __system_property_get
+[ 47s] JMPREL: all 44 entries processed
+[ 47s] ELF: jmprel done
+[ 47s] ELF: strtab/symtab copied
+[ 47s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[ 47s] WARN: failed to load libcrashlytics-handler.so — skipping
+[ 47s] Loading: libcrashlytics.so
+[ 47s] ELF: loading sdmc:/AndroidHorizonNX/games/com.chillingo.robberybobfree.android.row/lib/libcrashlytics.so
+[ 47s] SplitMap: reserved code_va=0xdc3dee000 data_va=0xdc3e1b000 write_va=0xccd9e2000 csz=0x2d000 dsz=0x4000
+[ 47s] ELF: stage alloc OK
+[ 47s] ELF: stage zeroed
+[ 47s] ELF: seg[1] vaddr=0x0 filesz=0x2cb10 memsz=0x2cb10 flags=0x5
+[ 47s] ELF: seg[2] vaddr=0x2db10 filesz=0x2868 memsz=0x33a1 flags=0x6
+[ 47s] ELF: segs copied to stage
+[ 47s] ELF: stage[0]=0x464c457f after segs copy
+[ 47s] ELF: dyn: strtab=0xb10/831 symtab=0x288 syment=24 rela=0xe50/26256 jmprel=0x74e0/1200 init_arr=0x2ff48/8
+[ 47s] ELF: so built sym_count=91 strsz=831
+[ 47s] ELF: registered
+[ 47s] ELF: rela 1094 entries
+[ 47s] RELA: all 1094 entries processed
+[ 47s] ELF: rela done
+[ 47s] ELF: jmprel 50 entries
+[ 47s] ELF: unresolved: __system_property_get
+[ 47s] JMPREL: all 50 entries processed
+[ 47s] ELF: jmprel done
+[ 47s] ELF: strtab/symtab copied
+[ 47s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[ 47s] WARN: failed to load libcrashlytics.so — skipping
+[ 47s] Loading: libnms.so
+[ 47s] ELF: loading sdmc:/AndroidHorizonNX/games/com.chillingo.robberybobfree.android.row/lib/libnms.so
+[ 47s] SplitMap: reserved code_va=0x957b82000 data_va=0x957bbb000 write_va=0xb60194000 csz=0x39000 dsz=0xa000
+[ 47s] ELF: stage alloc OK
+[ 47s] ELF: stage zeroed
+[ 47s] ELF: seg[0] vaddr=0x0 filesz=0x37908 memsz=0x37908 flags=0x5
+[ 47s] ELF: seg[1] vaddr=0x39890 filesz=0x7df8 memsz=0x91c8 flags=0x6
+[ 47s] ELF: segs copied to stage
+[ 47s] ELF: stage[0]=0x464c457f after segs copy
+[ 47s] ELF: dyn: strtab=0x7e0/389 symtab=0x3c0 syment=24 rela=0xa00/32232 jmprel=0x87e8/768 init_arr=0x39890/8
+[ 47s] ELF: so built sym_count=44 strsz=389
+[ 47s] ELF: registered
+[ 47s] ELF: rela 1343 entries
+[ 47s] RELA: all 1343 entries processed
+[ 47s] ELF: rela done
+[ 47s] ELF: jmprel 32 entries
+[ 47s] ELF: unresolved: __system_property_find
+[ 47s] ELF: unresolved: __system_property_read
+[ 47s] JMPREL: all 32 entries processed
+[ 47s] ELF: jmprel done
+[ 47s] ELF: strtab/symtab copied
+[ 47s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[ 47s] WARN: failed to load libnms.so — skipping
+[ 47s] Loading: libcrashlytics-common.so
+[ 48s] ELF: loading sdmc:/AndroidHorizonNX/games/com.chillingo.robberybobfree.android.row/lib/libcrashlytics-common.so
+[ 48s] SplitMap: reserved code_va=0x7c104c000 data_va=0x7c10fe000 write_va=0x9099e000 csz=0xb2000 dsz=0x9000
+[ 48s] ELF: stage alloc OK
+[ 48s] ELF: stage zeroed
+[ 48s] ELF: seg[1] vaddr=0x0 filesz=0xb12f0 memsz=0xb12f0 flags=0x5
+[ 48s] ELF: seg[2] vaddr=0xb22f0 filesz=0x6cd8 memsz=0x87b8 flags=0x6
+[ 48s] ELF: segs copied to stage
+[ 48s] ELF: stage[0]=0x464c457f after segs copy
+[ 48s] ELF: dyn: strtab=0x1bb0/2039 symtab=0x2a8 syment=24 rela=0x23a8/64824 jmprel=0x120e0/4176 init_arr=0xb84f0/8
+[ 48s] ELF: so built sym_count=267 strsz=2039
+[ 48s] ELF: registered
+[ 48s] ELF: rela 2701 entries
+[ 48s] ELF: unresolved: optarg
+[ 48s] ELF: unresolved: optind
+[ 48s] ELF: unresolved: tzname
+[ 48s] ELF: unresolved: daylight
+[ 48s] ELF: unresolved: timezone
+[ 48s] ELF: unresolved: _ctype_
+[ 48s] RELA: all 2701 entries processed
+[ 48s] ELF: rela done
+[ 48s] ELF: jmprel 174 entries
+[ 48s] ELF: unresolved: fsync
+[ 48s] ELF: unresolved: statfs
+[ 48s] ELF: unresolved: getopt_long
+[ 48s] ELF: unresolved: getppid
+[ 48s] ELF: unresolved: geteuid
+[ 48s] ELF: unresolved: __android_log_buf_write
+[ 48s] ELF: unresolved: epoll_create1
+[ 48s] ELF: unresolved: eventfd
+[ 48s] ELF: unresolved: epoll_ctl
+[ 48s] ELF: unresolved: epoll_wait
+[ 48s] ELF: unresolved: sched_getscheduler
+[ 48s] ELF: unresolved: sched_getparam
+[ 48s] ELF: unresolved: getpriority
+[ 48s] ELF: unresolved: __system_property_get
+[ 48s] ELF: unresolved: uname
+[ 48s] ELF: unresolved: tzset
+[ 48s] ELF: unresolved: getpagesize
+[ 48s] ELF: unresolved: execv
+[ 48s] ELF: unresolved: ftruncate
+[ 48s] ELF: unresolved: unlink
+[ 48s] ELF: unresolved: rmdir
+[ 48s] ELF: unresolved: writev
+[ 48s] ELF: unresolved: pread64
+[ 48s] ELF: unresolved: ptrace
+[ 48s] ELF: unresolved: sendmsg
+[ 48s] ELF: unresolved: recvmsg
+[ 48s] ELF: unresolved: __cmsg_nxthdr
+[ 48s] ELF: unresolved: deflateInit2_
+[ 48s] ELF: unresolved: zError
+[ 48s] ELF: unresolved: deflate
+[ 48s] ELF: unresolved: deflateEnd
+[ 48s] ELF: unresolved: inflateEnd
+[ 48s] ELF: unresolved: inflateInit_
+[ 48s] ELF: unresolved: deflateInit_
+[ 48s] ELF: unresolved: inflate
+[ 48s] ELF: unresolved: getaddrinfo
+[ 48s] ELF: unresolved: freeaddrinfo
+[ 48s] JMPREL: all 174 entries processed
+[ 48s] ELF: jmprel done
+[ 48s] ELF: strtab/symtab copied
+[ 48s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[ 48s] WARN: failed to load libcrashlytics-common.so — skipping
+[ 48s] Loading: libapplovin-native-crash-reporter.so
+[ 48s] ELF: loading sdmc:/AndroidHorizonNX/games/com.chillingo.robberybobfree.android.row/lib/libapplovin-native-crash-reporter.so
+[ 48s] ELF: WARN 3 PT_LOAD segments (1 exec, 2 writable) — single-split-point assumption may mis-map permissions
+[ 48s] SplitMap: reserved code_va=0xdb0a14000 data_va=0xdb0ae3000 write_va=0x201b50000 csz=0xcf000 dsz=0xf000
+[ 48s] ELF: stage alloc OK
+[ 48s] ELF: stage zeroed
+[ 48s] ELF: seg[1] vaddr=0x0 filesz=0xcbac0 memsz=0xcbac0 flags=0x5
+[ 48s] ELF: seg[2] vaddr=0xcfac0 filesz=0x79b8 memsz=0x79b8 flags=0x6
+[ 48s] ELF: seg[3] vaddr=0xdb478 filesz=0xf0 memsz=0x1e78 flags=0x6
+[ 48s] ELF: segs copied to stage
+[ 48s] ELF: stage[0]=0x464c457f after segs copy
+[ 48s] ELF: dyn: strtab=0x15770/104437 symtab=0x2f8 syment=24 rela=0x2ef68/73440 jmprel=0x40e48/9672 init_arr=0xd60f0/8
+[ 48s] ELF: so built sym_count=3631 strsz=104437
+[ 48s] ELF: registered
+[ 48s] ELF: rela 3060 entries
+[ 48s] RELA: all 3060 entries processed
+[ 48s] ELF: rela done
+[ 48s] ELF: jmprel 403 entries
+[ 48s] JMPREL: all 403 entries processed
+[ 48s] ELF: jmprel done
+[ 48s] ELF: strtab/symtab copied
+[ 48s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[ 48s] WARN: failed to load libapplovin-native-crash-reporter.so — skipping
+[ 48s] Loading: libc++_shared.so
+[ 48s] ELF: loading sdmc:/AndroidHorizonNX/games/com.chillingo.robberybobfree.android.row/lib/libc++_shared.so
+[ 48s] SplitMap: reserved code_va=0xad33a4000 data_va=0xad347b000 write_va=0xd5c9eb000 csz=0xd7000 dsz=0xc000
+[ 48s] ELF: stage alloc OK
+[ 48s] ELF: stage zeroed
+[ 48s] ELF: seg[0] vaddr=0x0 filesz=0xd5a94 memsz=0xd5a94 flags=0x5
+[ 48s] ELF: seg[1] vaddr=0xd7018 filesz=0x80e0 memsz=0xb3e8 flags=0x6
+[ 48s] ELF: segs copied to stage
+[ 48s] ELF: stage[0]=0x464c457f after segs copy
+[ 48s] ELF: dyn: strtab=0x16b90/108888 symtab=0x9120 syment=24 rela=0x32760/75240 jmprel=0x44d48/8952 init_arr=0xd7018/8
+[ 48s] ELF: so built sym_count=2330 strsz=108888
+[ 48s] ELF: registered
+[ 48s] ELF: rela 3135 entries
+[ 48s] ELF: unresolved: __cxa_thread_atexit_impl
+[ 48s] RELA: all 3135 entries processed
+[ 48s] ELF: rela done
+[ 48s] ELF: jmprel 373 entries
+[ 48s] ELF: unresolved: __cxa_thread_atexit_impl
+[ 48s] JMPREL: all 373 entries processed
+[ 48s] ELF: jmprel done
+[ 48s] ELF: strtab/symtab copied
+[ 48s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[ 48s] WARN: failed to load libc++_shared.so — skipping
+[ 48s] Loading: libquack.so
+[ 48s] ELF: loading sdmc:/AndroidHorizonNX/games/com.chillingo.robberybobfree.android.row/lib/libquack.so
+[ 48s] SplitMap: reserved code_va=0x8a628e000 data_va=0x8a63c1000 write_va=0xb29b66000 csz=0x133000 dsz=0xc000
+[ 48s] ELF: stage alloc OK
+[ 48s] ELF: stage zeroed
+[ 48s] ELF: seg[0] vaddr=0x0 filesz=0x132090 memsz=0x132090 flags=0x5
+[ 48s] ELF: seg[1] vaddr=0x1336b0 filesz=0xaa78 memsz=0xaf78 flags=0x6
+[ 48s] ELF: segs copied to stage
+[ 48s] ELF: stage[0]=0x464c457f after segs copy
+[ 48s] ELF: dyn: strtab=0x7bc8/14558 symtab=0x2c48 syment=24 rela=0xbba8/85944 jmprel=0x20b60/8184 init_arr=0x0/0
+[ 48s] ELF: so built sym_count=848 strsz=14558
+[ 48s] ELF: registered
+[ 48s] ELF: rela 3581 entries
+[ 48s] RELA: all 3581 entries processed
+[ 48s] ELF: rela done
+[ 48s] ELF: jmprel 341 entries
+[ 48s] JMPREL: all 341 entries processed
+[ 48s] ELF: jmprel done
+[ 48s] ELF: strtab/symtab copied
+[ 48s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[ 48s] WARN: failed to load libquack.so — skipping
+[ 48s] Loading: librobberybob.so
+[ 48s] ELF: loading sdmc:/AndroidHorizonNX/games/com.chillingo.robberybobfree.android.row/lib/librobberybob.so
+[ 48s] SplitMap: reserved code_va=0xc45aae000 data_va=0xc45e9e000 write_va=0xa1aeac000 csz=0x3f0000 dsz=0x5c000
+[ 48s] ELF: stage alloc OK
+[ 48s] ELF: stage zeroed
+[ 48s] ELF: seg[0] vaddr=0x0 filesz=0x3eef90 memsz=0x3eef90 flags=0x5
+[ 48s] ELF: seg[1] vaddr=0x3f0e80 filesz=0xf218 memsz=0x5a9a8 flags=0x6
+[ 48s] ELF: segs copied to stage
+[ 48s] ELF: stage[0]=0x464c457f after segs copy
+[ 48s] ELF: dyn: strtab=0x10998/44506 symtab=0x38b8 syment=24 rela=0x1c950/124800 jmprel=0x3b0d0/27792 init_arr=0x3f0e80/1088
+[ 48s] ELF: so built sym_count=2228 strsz=44506
+[ 48s] ELF: registered
+[ 48s] ELF: rela 5200 entries
+[ 48s] ELF: unresolved: _ZTVN10__cxxabiv120__si_class_type_infoE  x191
+[ 48s] ELF: unresolved: _ZTVN10__cxxabiv117__class_type_infoE  x44
+[ 48s] ELF: unresolved: _ZTINSt6__ndk18ios_baseE
+[ 48s] ELF: unresolved: _ZTVN10__cxxabiv121__vmi_class_type_infoE  x12
+[ 48s] ELF: unresolved: _ZTVN10__cxxabiv120__function_type_infoE  x5
+[ 48s] ELF: unresolved: _ZTVN10__cxxabiv119__pointer_type_infoE  x5
+[ 48s] ELF: unresolved: _ZTISt9exception  x4
+[ 48s] ELF: unresolved: _ZNSt9exceptionD2Ev  x2
+[ 48s] ELF: unresolved: _ZNKSt9exception4whatEv
+[ 48s] ELF: unresolved: _ZNKSt6__ndk119__shared_weak_count13__get_deleterERKSt9type_info  x5
+[ 48s] ELF: unresolved: _ZTINSt6__ndk119__shared_weak_countE  x6
+[ 48s] ELF: unresolved: _ZNSt6__ndk119__shared_weak_countD2Ev  x3
+[ 48s] ELF: unresolved: _ZTISt8bad_cast
+[ 48s] ELF: unresolved: _ZTVSt14overflow_error
+[ 48s] ELF: unresolved: stderr
+[ 48s] ELF: unresolved: _ZNSt14overflow_errorD1Ev
+[ 48s] ELF: unresolved: _ZTISt12out_of_range
+[ 48s] ELF: unresolved: _ZTVSt12out_of_range
+[ 48s] ELF: unresolved: _ZNSt6__ndk17codecvtIcc9mbstate_tE2idE
+[ 48s] ELF: unresolved: _ZTISt12length_error
+[ 48s] ELF: unresolved: _ZNSt12out_of_rangeD1Ev
+[ 48s] ELF: unresolved: _ZNSt8bad_castD1Ev
+[ 48s] ELF: unresolved: _ZTVSt12length_error
+[ 48s] ELF: unresolved: _ZNSt6__ndk17num_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEE2idE
+[ 48s] ELF: unresolved: _ZNSt12length_errorD1Ev
+[ 48s] ELF: unresolved: _ZTISt13runtime_error
+[ 48s] ELF: unresolved: _ZNSt6__ndk15ctypeIcE2idE
+[ 48s] ELF: unresolved: stdin
+[ 48s] ELF: unresolved: stdout
+[ 48s] ELF: unresolved: _ZTISt14overflow_error
+[ 48s] ELF: unresolved: _ZNSt13runtime_errorD1Ev
+[ 48s] ELF: unresolved: _ZNSt6__ndk18time_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEE2idE
+[ 48s] ELF: unresolved: __gxx_personality_v0
+[ 48s] RELA: all 5200 entries processed
+[ 48s] ELF: rela done
+[ 48s] ELF: jmprel 1158 entries
+[ 48s] ELF: unresolved: _ZNKSt6__ndk119__shared_weak_count13__get_deleterERKSt9type_info
+[ 48s] ELF: unresolved: fchown
+[ 48s] ELF: unresolved: utime
+[ 48s] ELF: unresolved: glTexCoordPointer
+[ 48s] ELF: unresolved: __cxa_free_exception
+[ 48s] ELF: unresolved: _ZNSt11logic_errorC2EPKc
+[ 48s] ELF: unresolved: __cxa_begin_catch
+[ 48s] ELF: unresolved: _ZNSt8bad_castC1Ev
+[ 48s] ELF: unresolved: glEnableClientState
+[ 48s] ELF: unresolved: _ZdaPv
+[ 48s] ELF: unresolved: glDeleteFramebuffersOES
+[ 48s] ELF: unresolved: glFramebufferTexture2DOES
+[ 48s] ELF: unresolved: _Znwm
+[ 48s] ELF: unresolved: glMatrixMode
+[ 48s] ELF: unresolved: glTexEnvi
+[ 48s] ELF: unresolved: glAlphaFunc
+[ 48s] ELF: unresolved: _ZNSt6__ndk119__shared_weak_count14__release_weakEv
+[ 48s] ELF: unresolved: _ZNSt6__ndk15mutexD1Ev
+[ 48s] ELF: unresolved: glMultMatrixf
+[ 48s] ELF: unresolved: _ZNSt6__ndk120__throw_system_errorEiPKc
+[ 48s] ELF: unresolved: nan
+[ 48s] ELF: unresolved: __cxa_guard_release
+[ 48s] ELF: unresolved: _ZdlPv
+[ 48s] ELF: unresolved: _ZNKSt6__ndk16locale9use_facetERNS0_2idE
+[ 48s] ELF: unresolved: glLoadIdentity
+[ 48s] ELF: unresolved: glBindFramebufferOES
+[ 48s] ELF: unresolved: _Znam
+[ 48s] ELF: unresolved: _ZSt18uncaught_exceptionv
+[ 48s] ELF: unresolved: __fwrite_chk
+[ 48s] ELF: unresolved: __cxa_allocate_exception
+[ 48s] ELF: unresolved: _ZNKSt6__ndk18ios_base6getlocEv
+[ 48s] ELF: unresolved: glNormalPointer
+[ 48s] ELF: unresolved: __gxx_personality_v0
+[ 48s] ELF: unresolved: glTexEnvf
+[ 48s] ELF: unresolved: strdup
+[ 48s] ELF: unresolved: glGenFramebuffersOES
+[ 48s] ELF: unresolved: _ZNSt6__ndk115__thread_structC1Ev
+[ 48s] ELF: unresolved: _ZNSt6__ndk16thread4joinEv
+[ 48s] ELF: unresolved: __cxa_throw
+[ 48s] ELF: unresolved: __cxa_guard_abort
+[ 48s] ELF: unresolved: glTranslatef
+[ 48s] ELF: unresolved: _ZNSt6__ndk14stoiERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPmi
+[ 48s] ELF: unresolved: __umask_chk
+[ 49s] ELF: unresolved: glDisableClientState
+[ 49s] ELF: unresolved: _ZNSt6__ndk119__shared_weak_count4lockEv
+[ 49s] ELF: unresolved: _ZNSt6__ndk112__next_primeEm
+[ 49s] ELF: unresolved: _ZNSt6__ndk16localeC1Ev
+[ 49s] ELF: unresolved: __fread_chk
+[ 49s] ELF: unresolved: _ZNSt6__ndk16threadD1Ev
+[ 49s] ELF: unresolved: _ZNSt6__ndk15mutex6unlockEv
+[ 49s] ELF: unresolved: __cxa_end_catch
+[ 49s] ELF: unresolved: __cxa_guard_acquire
+[ 49s] ELF: unresolved: glScalef
+[ 49s] ELF: unresolved: _ZNSt13runtime_errorC2EPKc
+[ 49s] ELF: unresolved: glColor4f
+[ 49s] ELF: unresolved: isascii
+[ 49s] ELF: unresolved: _ZNSt6__ndk115__thread_structD1Ev
+[ 49s] ELF: unresolved: glOrthof
+[ 49s] ELF: unresolved: glRotatef
+[ 49s] ELF: unresolved: _ZNSt6__ndk16localeD1Ev
+[ 49s] ELF: unresolved: _ZNSt13runtime_errorC1EPKc
+[ 49s] ELF: unresolved: _ZNSt6__ndk18ios_base4initEPv
+[ 49s] ELF: unresolved: _ZNSt6__ndk15mutex4lockEv
+[ 49s] ELF: unresolved: __dynamic_cast
+[ 49s] ELF: unresolved: _ZNSt6__ndk19to_stringEj
+[ 49s] ELF: unresolved: _ZNSt9exceptionD2Ev
+[ 49s] ELF: unresolved: _ZNSt6__ndk18ios_base5clearEj
+[ 49s] ELF: unresolved: glPushMatrix
+[ 49s] ELF: unresolved: _ZNSt6__ndk18ios_base33__set_badbit_and_consider_rethrowEv
+[ 49s] ELF: unresolved: _ZNSt6__ndk119__thread_local_dataEv
+[ 49s] ELF: unresolved: _ZNSt13runtime_errorC1ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+[ 49s] ELF: unresolved: glVertexPointer
+[ 49s] ELF: unresolved: glPopMatrix
+[ 49s] ELF: unresolved: _ZNSt6__ndk18ios_baseD2Ev
+[ 49s] ELF: unresolved: _ZNKSt9exception4whatEv
+[ 49s] ELF: unresolved: perror
+[ 49s] ELF: unresolved: glClientActiveTexture
+[ 49s] ELF: unresolved: glColorPointer
+[ 49s] ELF: unresolved: _ZNKSt6__ndk18time_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEE3getES4_S4_RNS_8ios_baseERjP2tmPKcSC_
+[ 49s] ELF: unresolved: __cxa_rethrow
+[ 49s] ELF: unresolved: _ZNSt6__ndk119__shared_weak_countD2Ev
+[ 49s] ELF: unresolved: _ZSt9terminatev
+[ 49s] ELF: unresolved: _ZNSt6__ndk19to_stringEi
+[ 49s] JMPREL: all 1158 entries processed
+[ 49s] ELF: jmprel done
+[ 49s] ELF: strtab/symtab copied
+[ 49s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[ 49s] WARN: failed to load librobberybob.so — skipping
+[ 49s] Main .so failed to load
