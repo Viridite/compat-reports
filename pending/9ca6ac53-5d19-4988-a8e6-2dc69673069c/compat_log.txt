@@ -1,0 +1,662 @@
+[  0s] launchApk: sdmc:/AndroidHorizonNX/apks/Subway+Surfers_3.37.1_APKPure.apk  pkg=com.kiloo.subwaysurf  installed=0
+[  0s] Extracting APK...
+[  0s] extract lib: libFirebaseCppAnalytics.so
+[  1s] extract lib: libFirebaseCppApp-12_2_0.so
+[  1s] extract lib: libFirebaseCppCrashlytics.so
+[  1s] extract lib: libNatCorder.so
+[  1s] extract lib: libNatRender.so
+[  1s] extract lib: lib_burst_generated.so
+[  1s] extract lib: libapplovin-native-crash-reporter.so
+[  1s] extract lib: libcrashlytics-common.so
+[  1s] extract lib: libcrashlytics-handler.so
+[  1s] extract lib: libcrashlytics-trampoline.so
+[  2s] extract lib: libcrashlytics.so
+[ 16s] extract lib: libil2cpp.so
+[ 16s] extract lib: libmain.so
+[ 16s] extract lib: libquack.so
+[230s] extract lib: libunity.so
+[230s] extract: done
+[230s] APK installed — marker written
+[230s] findAllSos: lib_burst_generated.so (3608 bytes)
+[230s] findAllSos: libNatRender.so (5912 bytes)
+[230s] findAllSos: libmain.so (6728 bytes)
+[230s] findAllSos: libcrashlytics-trampoline.so (9584 bytes)
+[230s] findAllSos: libNatCorder.so (10144 bytes)
+[230s] findAllSos: libFirebaseCppCrashlytics.so (42832 bytes)
+[230s] findAllSos: libFirebaseCppAnalytics.so (82912 bytes)
+[230s] findAllSos: libcrashlytics-handler.so (185960 bytes)
+[230s] findAllSos: libcrashlytics.so (195568 bytes)
+[230s] findAllSos: libcrashlytics-common.so (755864 bytes)
+[230s] findAllSos: libapplovin-native-crash-reporter.so (867928 bytes)
+[230s] findAllSos: libquack.so (1300792 bytes)
+[230s] findAllSos: libFirebaseCppApp-12_2_0.so (6062992 bytes)
+[230s] findAllSos: libunity.so (18895264 bytes)
+[230s] findAllSos: libil2cpp.so (66327392 bytes)
+[230s] Setting up JNI environment...
+[230s] Loading: lib_burst_generated.so
+[230s] ELF: loading sdmc:/AndroidHorizonNX/games/com.kiloo.subwaysurf/lib/lib_burst_generated.so
+[230s] ELF: not an ARM64 shared lib
+[230s] WARN: failed to load lib_burst_generated.so — skipping
+[230s] Loading: libNatRender.so
+[230s] ELF: loading sdmc:/AndroidHorizonNX/games/com.kiloo.subwaysurf/lib/libNatRender.so
+[230s] SplitMap: reserved code_va=0xefcf5a000 data_va=0xefcf6a000 write_va=0xed2553000 csz=0x10000 dsz=0x2000
+[230s] ELF: stage alloc OK
+[230s] ELF: stage zeroed
+[230s] ELF: seg[0] vaddr=0x0 filesz=0x7f8 memsz=0x7f8 flags=0x5
+[230s] ELF: seg[1] vaddr=0x10dc8 filesz=0x240 memsz=0x240 flags=0x6
+[230s] ELF: segs copied to stage
+[230s] ELF: stage[0]=0x464c457f after segs copy
+[230s] ELF: dyn: strtab=0x410/205 symtab=0x2c0 syment=24 rela=0x520/72 jmprel=0x568/72 init_arr=0x0/0
+[230s] ELF: so built sym_count=14 strsz=205
+[230s] ELF: registered
+[230s] ELF: rela 3 entries
+[230s] RELA: all 3 entries processed
+[230s] ELF: rela done
+[230s] ELF: jmprel 3 entries
+[230s] JMPREL: all 3 entries processed
+[230s] ELF: jmprel done
+[230s] ELF: strtab/symtab copied
+[230s] GOT[0] @va+0xfe0 = 0xfd19c5aa0
+[230s] GOT[1] @va+0xfe8 = 0xfd20b44c0
+[230s] GOT[2] @va+0xff0 = 0xfd19c5a50
+[230s] SplitMap: code_va=0xefcf5a000 Rx data_va=0xefcf6a000 Rw OK
+[230s] ELF: JIT copy done, stage freed
+[230s] ELF: loaded OK code_exec=0xefcf5a000 data_exec=0xefcf6a000 sym_count=14 unresolved=0
+[230s] Loading: libmain.so
+[230s] ELF: loading sdmc:/AndroidHorizonNX/games/com.kiloo.subwaysurf/lib/libmain.so
+[230s] ELF: WARN 4 PT_LOAD segments (1 exec, 2 writable) — single-split-point assumption may mis-map permissions
+[230s] SplitMap: reserved code_va=0xe24734000 data_va=0xe24736000 write_va=0x5b069a000 csz=0x2000 dsz=0x3000
+[230s] ELF: stage alloc OK
+[230s] ELF: stage zeroed
+[230s] ELF: seg[1] vaddr=0x0 filesz=0xa1c memsz=0xa1c flags=0x4
+[230s] ELF: seg[2] vaddr=0x1a1c filesz=0x4e4 memsz=0x4e4 flags=0x5
+[230s] ELF: seg[3] vaddr=0x2f00 filesz=0x238 memsz=0x238 flags=0x6
+[230s] ELF: seg[4] vaddr=0x4138 filesz=0x30 memsz=0x40 flags=0x6
+[230s] ELF: segs copied to stage
+[230s] ELF: stage[0]=0x464c457f after segs copy
+[230s] ELF: dyn: strtab=0x558/165 symtab=0x330 syment=24 rela=0x600/216 jmprel=0x6d8/264 init_arr=0x0/0
+[230s] ELF: so built sym_count=23 strsz=165
+[230s] ELF: registered
+[230s] ELF: rela 9 entries
+[230s] RELA: all 9 entries processed
+[230s] ELF: rela done
+[230s] ELF: jmprel 11 entries
+[230s] JMPREL: all 11 entries processed
+[230s] ELF: jmprel done
+[230s] ELF: strtab/symtab copied
+[230s] GOT[0] @va+0x10e0 = 0xfd19c5aa0
+[230s] GOT[1] @va+0x10e8 = 0xfd19c5a50
+[230s] GOT[2] @va+0x10f0 = 0xfd20cd760
+[230s] GOT[3] @va+0x10f8 = 0xfd20b44c0
+[230s] GOT[4] @va+0x1100 = 0xfd19c7a20
+[230s] SplitMap: code_va=0xe24734000 Rx data_va=0xe24736000 Rw OK
+[230s] ELF: JIT copy done, stage freed
+[230s] ELF: loaded OK code_exec=0xe24734000 data_exec=0xe24736000 sym_count=23 unresolved=0
+[230s] Loading: libcrashlytics-trampoline.so
+[230s] ELF: loading sdmc:/AndroidHorizonNX/games/com.kiloo.subwaysurf/lib/libcrashlytics-trampoline.so
+[230s] SplitMap: reserved code_va=0x19c29d000 data_va=0x19c2a1000 write_va=0x584f01000 csz=0x4000 dsz=0x1000
+[230s] ELF: stage alloc OK
+[230s] ELF: stage zeroed
+[230s] ELF: seg[2] vaddr=0x0 filesz=0x840 memsz=0x840 flags=0x5
+[230s] ELF: seg[3] vaddr=0x4840 filesz=0x288 memsz=0x290 flags=0x6
+[230s] ELF: segs copied to stage
+[230s] ELF: stage[0]=0x464c457f after segs copy
+[230s] ELF: dyn: strtab=0x42c/107 symtab=0x2d8 syment=24 rela=0x498/96 jmprel=0x4f8/144 init_arr=0x4850/16
+[230s] ELF: so built sym_count=14 strsz=107
+[230s] ELF: registered
+[230s] ELF: rela 4 entries
+[230s] RELA: all 4 entries processed
+[230s] ELF: rela done
+[230s] ELF: jmprel 6 entries
+[230s] ELF: unresolved: __libc_init
+[230s] JMPREL: all 6 entries processed
+[230s] ELF: jmprel done
+[230s] ELF: strtab/symtab copied
+[230s] GOT[0] @va+0xa98 = 0xbad0bad0bad00000
+[230s] GOT[1] @va+0xaa0 = 0xfd19c5a50
+[230s] GOT[2] @va+0xaa8 = 0xfd19c5b60
+[230s] GOT[3] @va+0xab0 = 0xfd19c7af0
+[230s] GOT[4] @va+0xab8 = 0xfd19c5660
+[230s] SplitMap: code_va=0x19c29d000 Rx data_va=0x19c2a1000 Rw OK
+[230s] ELF: JIT copy done, stage freed
+[230s] ELF: 2 constructors deferred (arr=0x19c2a1850)
+[230s] ELF: loaded OK code_exec=0x19c29d000 data_exec=0x19c2a1000 sym_count=14 unresolved=1
+[230s] Loading: libNatCorder.so
+[230s] ELF: loading sdmc:/AndroidHorizonNX/games/com.kiloo.subwaysurf/lib/libNatCorder.so
+[230s] SplitMap: reserved code_va=0x5a8681000 data_va=0x5a8692000 write_va=0xd83f9a000 csz=0x11000 dsz=0x2000
+[230s] ELF: stage alloc OK
+[230s] ELF: stage zeroed
+[230s] ELF: seg[0] vaddr=0x0 filesz=0x1cd0 memsz=0x1cd0 flags=0x5
+[230s] ELF: seg[1] vaddr=0x11db8 filesz=0x250 memsz=0x258 flags=0x6
+[230s] ELF: segs copied to stage
+[230s] ELF: stage[0]=0x464c457f after segs copy
+[230s] ELF: dyn: strtab=0x5e0/494 symtab=0x388 syment=24 rela=0x820/72 jmprel=0x868/168 init_arr=0x0/0
+[230s] ELF: so built sym_count=25 strsz=494
+[230s] ELF: registered
+[230s] ELF: rela 3 entries
+[230s] RELA: all 3 entries processed
+[230s] ELF: rela done
+[230s] ELF: jmprel 7 entries
+[230s] JMPREL: all 7 entries processed
+[230s] ELF: jmprel done
+[230s] ELF: strtab/symtab copied
+[230s] GOT[0] @va+0xfc0 = 0x5a8682294
+[230s] GOT[1] @va+0xfc8 = 0x5a8681c30
+[230s] GOT[2] @va+0xfd0 = 0xfd19c5aa0
+[230s] GOT[3] @va+0xfd8 = 0x5a8682144
+[230s] GOT[4] @va+0xfe0 = 0xfd19c5ab0
+[230s] SplitMap: code_va=0x5a8681000 Rx data_va=0x5a8692000 Rw OK
+[230s] ELF: JIT copy done, stage freed
+[230s] ELF: loaded OK code_exec=0x5a8681000 data_exec=0x5a8692000 sym_count=25 unresolved=1
+[230s] Loading: libFirebaseCppCrashlytics.so
+[230s] ELF: loading sdmc:/AndroidHorizonNX/games/com.kiloo.subwaysurf/lib/libFirebaseCppCrashlytics.so
+[230s] SplitMap: reserved code_va=0x21f657000 data_va=0x21f65e000 write_va=0x4046a4000 csz=0x7000 dsz=0x2000
+[230s] ELF: stage alloc OK
+[230s] ELF: stage zeroed
+[230s] ELF: seg[0] vaddr=0x0 filesz=0x6144 memsz=0x6144 flags=0x5
+[230s] ELF: seg[1] vaddr=0x7c68 filesz=0x460 memsz=0x480 flags=0x6
+[230s] ELF: segs copied to stage
+[230s] ELF: stage[0]=0x464c457f after segs copy
+[230s] ELF: dyn: strtab=0x1038/4903 symtab=0x6c0 syment=24 rela=0x2450/360 jmprel=0x25b8/840 init_arr=0x0/0
+[230s] ELF: so built sym_count=101 strsz=4903
+[230s] ELF: registered
+[230s] ELF: rela 15 entries
+[230s] ELF: unresolved: _ZNSt16invalid_argumentD1Ev
+[230s] ELF: unresolved: _ZTISt12out_of_range  x2
+[230s] ELF: unresolved: _ZTVSt12out_of_range
+[230s] ELF: unresolved: _ZTVSt16invalid_argument
+[230s] ELF: unresolved: _ZTISt12length_error
+[230s] ELF: unresolved: _ZNSt12out_of_rangeD1Ev
+[230s] ELF: unresolved: _ZTVSt12length_error
+[230s] ELF: unresolved: _ZNSt12length_errorD1Ev
+[230s] ELF: unresolved: _ZTISt16invalid_argument  x2
+[230s] ELF: unresolved: __gxx_personality_v0
+[230s] RELA: all 15 entries processed
+[230s] ELF: rela done
+[230s] ELF: jmprel 35 entries
+[230s] ELF: unresolved: __cxa_free_exception
+[230s] ELF: unresolved: _ZNSt11logic_errorC2EPKc
+[230s] ELF: unresolved: __cxa_begin_catch
+[230s] ELF: unresolved: _Znwm
+[230s] ELF: unresolved: _ZN8firebase11crashlytics11CrashlyticsD1Ev
+[230s] ELF: unresolved: _ZdlPv
+[230s] ELF: unresolved: _Znam
+[230s] ELF: unresolved: __cxa_allocate_exception
+[230s] ELF: unresolved: __gxx_personality_v0
+[230s] ELF: unresolved: _ZN8firebase11crashlytics11Crashlytics31SetCrashlyticsCollectionEnabledEb
+[230s] ELF: unresolved: __cxa_throw
+[230s] ELF: unresolved: _ZN8firebase11crashlytics11Crashlytics30IsCrashlyticsCollectionEnabledEv
+[230s] ELF: unresolved: __cxa_end_catch
+[230s] ELF: unresolved: _ZN8firebase11crashlytics11Crashlytics3LogEPKc
+[230s] ELF: unresolved: _ZN8firebase11crashlytics11Crashlytics12LogExceptionEPKcS3_NSt6__ndk16vectorINS0_5FrameENS4_9allocatorIS6_EEEE
+[230s] ELF: unresolved: _ZN8firebase11crashlytics11Crashlytics19LogExceptionAsFatalEPKcS3_NSt6__ndk16vectorINS0_5FrameENS4_9allocatorIS6_EEEE
+[230s] ELF: unresolved: _ZN8firebase11crashlytics11Crashlytics11GetInstanceEPNS_3AppEPNS_10InitResultE
+[230s] ELF: unresolved: _ZN8firebase11crashlytics11Crashlytics9SetUserIdEPKc
+[230s] ELF: unresolved: _ZN8firebase11crashlytics11Crashlytics12SetCustomKeyEPKcS3_
+[230s] ELF: unresolved: _ZSt9terminatev
+[230s] JMPREL: all 35 entries processed
+[230s] ELF: jmprel done
+[230s] ELF: strtab/symtab copied
+[230s] GOT[0] @va+0xe98 = 0x21f65bbf0
+[230s] GOT[1] @va+0xea0 = 0xbad0bad0bad00000
+[230s] GOT[2] @va+0xea8 = 0xbad0bad0bad00000
+[230s] GOT[3] @va+0xeb0 = 0xbad0bad0bad00000
+[230s] GOT[4] @va+0xeb8 = 0xfd19c5a50
+[230s] SplitMap: code_va=0x21f657000 Rx data_va=0x21f65e000 Rw OK
+[230s] ELF: JIT copy done, stage freed
+[230s] ELF: loaded OK code_exec=0x21f657000 data_exec=0x21f65e000 sym_count=101 unresolved=33
+[230s] Loading: libFirebaseCppAnalytics.so
+[230s] ELF: loading sdmc:/AndroidHorizonNX/games/com.kiloo.subwaysurf/lib/libFirebaseCppAnalytics.so
+[230s] SplitMap: reserved code_va=0xf39439000 data_va=0xf39446000 write_va=0x23cb69000 csz=0xd000 dsz=0x2000
+[230s] ELF: stage alloc OK
+[230s] ELF: stage zeroed
+[230s] ELF: seg[0] vaddr=0x0 filesz=0xbbfc memsz=0xbbfc flags=0x5
+[230s] ELF: seg[1] vaddr=0xdb08 filesz=0x5c0 memsz=0x5e8 flags=0x6
+[230s] ELF: segs copied to stage
+[230s] ELF: stage[0]=0x464c457f after segs copy
+[230s] ELF: dyn: strtab=0x25e8/12368 symtab=0xe60 syment=24 rela=0x5850/552 jmprel=0x5a78/1680 init_arr=0x0/0
+[230s] ELF: so built sym_count=251 strsz=12368
+[230s] ELF: registered
+[230s] ELF: rela 23 entries
+[230s] ELF: unresolved: _ZTVN10__cxxabiv117__class_type_infoE
+[230s] ELF: unresolved: _ZTVN10__cxxabiv120__si_class_type_infoE
+[230s] ELF: unresolved: _ZTISt12out_of_range  x2
+[230s] ELF: unresolved: _ZTVSt12out_of_range
+[230s] ELF: unresolved: _ZTISt12length_error
+[230s] ELF: unresolved: _ZNSt12out_of_rangeD1Ev
+[230s] ELF: unresolved: _ZTVSt12length_error
+[230s] ELF: unresolved: _ZNSt12length_errorD1Ev
+[230s] ELF: unresolved: _ZN8firebase23g_analytics_initializerE
+[230s] ELF: unresolved: __gxx_personality_v0
+[230s] RELA: all 23 entries processed
+[230s] ELF: rela done
+[230s] ELF: jmprel 70 entries
+[230s] ELF: unresolved: _ZN8firebase9analytics15SetUserPropertyEPKcS2_
+[230s] ELF: unresolved: _ZN8firebase9analytics18ResetAnalyticsDataEv
+[230s] ELF: unresolved: __cxa_free_exception
+[230s] ELF: unresolved: _ZNSt11logic_errorC2EPKc
+[230s] ELF: unresolved: __cxa_begin_catch
+[231s] ELF: unresolved: _ZdaPv
+[231s] ELF: unresolved: _ZN8firebase12FutureHandleC1Ev
+[231s] ELF: unresolved: _Znwm
+[231s] ELF: unresolved: _ZN8firebase7Variant5ClearENS0_4TypeE
+[231s] ELF: unresolved: _ZN8firebase5Mutex7AcquireEv
+[231s] ELF: unresolved: _ZN8firebase9analytics8LogEventEPKc
+[231s] ELF: unresolved: _ZN8firebase9analytics10SetConsentERKNSt6__ndk13mapINS0_11ConsentTypeENS0_13ConsentStatusENS1_4lessIS3_EENS1_9allocatorINS1_4pairIKS3_S4_EEEEEE
+[231s] ELF: unresolved: _ZdlPv
+[231s] ELF: unresolved: _ZN8firebase9analytics53InitiateOnDeviceConversionMeasurementWithEmailAddressEPKc
+[231s] ELF: unresolved: _ZN8firebase9analytics29SetAnalyticsCollectionEnabledEb
+[231s] ELF: unresolved: _ZN8firebase12FutureHandleaSERKS0_
+[231s] ELF: unresolved: _ZN8firebase9analytics12GetSessionIdEv
+[231s] ELF: unresolved: _Znam
+[231s] ELF: unresolved: _ZN8firebase12FutureHandleD1Ev
+[231s] ELF: unresolved: _ZN8firebase5MutexD1Ev
+[231s] ELF: unresolved: _ZN8firebase9analytics8LogEventEPKcS2_S2_
+[231s] ELF: unresolved: _ZN8firebase7VariantaSERKS0_
+[231s] ELF: unresolved: __cxa_allocate_exception
+[231s] ELF: unresolved: _ZN8firebase5Mutex7ReleaseEv
+[231s] ELF: unresolved: _ZN8firebase8callback11AddCallbackEPNS0_8CallbackE
+[231s] ELF: unresolved: __gxx_personality_v0
+[231s] ELF: unresolved: _ZN8firebase9analytics52InitiateOnDeviceConversionMeasurementWithPhoneNumberEPKc
+[231s] ELF: unresolved: __cxa_throw
+[231s] ELF: unresolved: _ZN8firebase9analytics8LogEventEPKcS2_i
+[231s] ELF: unresolved: __cxa_end_catch
+[231s] ELF: unresolved: _ZN8firebase5MutexC1ENS0_4ModeE
+[231s] ELF: unresolved: _ZN8firebase9analytics22GetAnalyticsInstanceIdEv
+[231s] ELF: unresolved: _ZN8firebase9analytics58InitiateOnDeviceConversionMeasurementWithHashedPhoneNumberENSt6__ndk16vectorIhNS1_9allocatorIhEEEE
+[231s] ELF: unresolved: _ZNK8firebase7Variant16assert_is_stringEv
+[231s] ELF: unresolved: _ZN8firebase9analytics8LogEventEPKcS2_d
+[231s] ELF: unresolved: _ZN8firebase9analytics8LogEventEPKcS2_l
+[231s] ELF: unresolved: _ZN8firebase12FutureHandleC2EmPNS_6detail18FutureApiInterfaceE
+[231s] ELF: unresolved: _ZN8firebase7VariantaSEOS0_
+[231s] ELF: unresolved: _ZN8firebase9analytics8LogEventEPKcPKNS0_9ParameterEm
+[231s] ELF: unresolved: _ZN8firebase9analytics25SetSessionTimeoutDurationEl
+[231s] ELF: unresolved: _ZN8firebase9analytics59InitiateOnDeviceConversionMeasurementWithHashedEmailAddressENSt6__ndk16vectorIhNS1_9allocatorIhEEEE
+[231s] ELF: unresolved: _ZN8firebase9analytics9SetUserIdEPKc
+[231s] ELF: unresolved: _ZSt9terminatev
+[231s] JMPREL: all 70 entries processed
+[231s] ELF: jmprel done
+[231s] ELF: strtab/symtab copied
+[231s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[231s] WARN: failed to load libFirebaseCppAnalytics.so — skipping
+[231s] Loading: libcrashlytics-handler.so
+[231s] ELF: loading sdmc:/AndroidHorizonNX/games/com.kiloo.subwaysurf/lib/libcrashlytics-handler.so
+[231s] SplitMap: reserved code_va=0x51be3a000 data_va=0x51be68000 write_va=0x806e5c000 csz=0x2e000 dsz=0x4000
+[231s] ELF: stage alloc OK
+[231s] ELF: stage zeroed
+[231s] ELF: seg[1] vaddr=0x0 filesz=0x2a610 memsz=0x2a610 flags=0x5
+[231s] ELF: seg[2] vaddr=0x2e610 filesz=0x27e0 memsz=0x32a1 flags=0x6
+[231s] ELF: segs copied to stage
+[231s] ELF: stage[0]=0x464c457f after segs copy
+[231s] ELF: dyn: strtab=0x954/655 symtab=0x288 syment=24 rela=0xbe8/25968 jmprel=0x7158/1056 init_arr=0x30a08/8
+[231s] ELF: so built sym_count=72 strsz=655
+[231s] ELF: registered
+[231s] ELF: rela 1082 entries
+[231s] RELA: all 1082 entries processed
+[231s] ELF: rela done
+[231s] ELF: jmprel 44 entries
+[231s] ELF: unresolved: __system_property_get
+[231s] JMPREL: all 44 entries processed
+[231s] ELF: jmprel done
+[231s] ELF: strtab/symtab copied
+[231s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[231s] WARN: failed to load libcrashlytics-handler.so — skipping
+[231s] Loading: libcrashlytics.so
+[231s] ELF: loading sdmc:/AndroidHorizonNX/games/com.kiloo.subwaysurf/lib/libcrashlytics.so
+[231s] SplitMap: reserved code_va=0x593396000 data_va=0x5933c6000 write_va=0x53911f000 csz=0x30000 dsz=0x4000
+[231s] ELF: stage alloc OK
+[231s] ELF: stage zeroed
+[231s] ELF: seg[1] vaddr=0x0 filesz=0x2cb10 memsz=0x2cb10 flags=0x5
+[231s] ELF: seg[2] vaddr=0x30b10 filesz=0x2868 memsz=0x33a1 flags=0x6
+[231s] ELF: segs copied to stage
+[231s] ELF: stage[0]=0x464c457f after segs copy
+[231s] ELF: dyn: strtab=0xb10/831 symtab=0x288 syment=24 rela=0xe50/26256 jmprel=0x74e0/1200 init_arr=0x32f48/8
+[231s] ELF: so built sym_count=91 strsz=831
+[231s] ELF: registered
+[231s] ELF: rela 1094 entries
+[231s] RELA: all 1094 entries processed
+[231s] ELF: rela done
+[231s] ELF: jmprel 50 entries
+[231s] ELF: unresolved: __system_property_get
+[231s] JMPREL: all 50 entries processed
+[231s] ELF: jmprel done
+[231s] ELF: strtab/symtab copied
+[231s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[231s] WARN: failed to load libcrashlytics.so — skipping
+[231s] Loading: libcrashlytics-common.so
+[231s] ELF: loading sdmc:/AndroidHorizonNX/games/com.kiloo.subwaysurf/lib/libcrashlytics-common.so
+[231s] SplitMap: reserved code_va=0x408498000 data_va=0x40854d000 write_va=0xe71605000 csz=0xb5000 dsz=0x9000
+[231s] ELF: stage alloc OK
+[231s] ELF: stage zeroed
+[231s] ELF: seg[1] vaddr=0x0 filesz=0xb12f0 memsz=0xb12f0 flags=0x5
+[231s] ELF: seg[2] vaddr=0xb52f0 filesz=0x6cd8 memsz=0x87b8 flags=0x6
+[231s] ELF: segs copied to stage
+[231s] ELF: stage[0]=0x464c457f after segs copy
+[231s] ELF: dyn: strtab=0x1bb0/2039 symtab=0x2a8 syment=24 rela=0x23a8/64824 jmprel=0x120e0/4176 init_arr=0xbb4f0/8
+[231s] ELF: so built sym_count=267 strsz=2039
+[231s] ELF: registered
+[231s] ELF: rela 2701 entries
+[231s] ELF: unresolved: optarg
+[231s] ELF: unresolved: optind
+[231s] ELF: unresolved: tzname
+[231s] ELF: unresolved: daylight
+[231s] ELF: unresolved: timezone
+[231s] ELF: unresolved: _ctype_
+[231s] RELA: all 2701 entries processed
+[231s] ELF: rela done
+[231s] ELF: jmprel 174 entries
+[231s] ELF: unresolved: fsync
+[231s] ELF: unresolved: statfs
+[231s] ELF: unresolved: getopt_long
+[231s] ELF: unresolved: getppid
+[231s] ELF: unresolved: geteuid
+[231s] ELF: unresolved: __android_log_buf_write
+[231s] ELF: unresolved: epoll_create1
+[231s] ELF: unresolved: eventfd
+[231s] ELF: unresolved: epoll_ctl
+[231s] ELF: unresolved: epoll_wait
+[231s] ELF: unresolved: sched_getscheduler
+[231s] ELF: unresolved: sched_getparam
+[231s] ELF: unresolved: getpriority
+[231s] ELF: unresolved: __system_property_get
+[231s] ELF: unresolved: uname
+[231s] ELF: unresolved: tzset
+[231s] ELF: unresolved: getpagesize
+[231s] ELF: unresolved: execv
+[231s] ELF: unresolved: ftruncate
+[231s] ELF: unresolved: unlink
+[231s] ELF: unresolved: rmdir
+[231s] ELF: unresolved: writev
+[231s] ELF: unresolved: pread64
+[231s] ELF: unresolved: ptrace
+[231s] ELF: unresolved: sendmsg
+[231s] ELF: unresolved: recvmsg
+[231s] ELF: unresolved: __cmsg_nxthdr
+[231s] ELF: unresolved: deflateInit2_
+[231s] ELF: unresolved: zError
+[231s] ELF: unresolved: deflate
+[231s] ELF: unresolved: deflateEnd
+[231s] ELF: unresolved: inflateEnd
+[231s] ELF: unresolved: inflateInit_
+[231s] ELF: unresolved: deflateInit_
+[231s] ELF: unresolved: inflate
+[231s] ELF: unresolved: getaddrinfo
+[231s] ELF: unresolved: freeaddrinfo
+[231s] JMPREL: all 174 entries processed
+[231s] ELF: jmprel done
+[231s] ELF: strtab/symtab copied
+[231s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[231s] WARN: failed to load libcrashlytics-common.so — skipping
+[231s] Loading: libapplovin-native-crash-reporter.so
+[231s] ELF: loading sdmc:/AndroidHorizonNX/games/com.kiloo.subwaysurf/lib/libapplovin-native-crash-reporter.so
+[231s] ELF: WARN 3 PT_LOAD segments (1 exec, 2 writable) — single-split-point assumption may mis-map permissions
+[231s] SplitMap: reserved code_va=0x104385000 data_va=0x104454000 write_va=0x1d79ab000 csz=0xcf000 dsz=0xf000
+[231s] ELF: stage alloc OK
+[231s] ELF: stage zeroed
+[231s] ELF: seg[1] vaddr=0x0 filesz=0xcbac0 memsz=0xcbac0 flags=0x5
+[231s] ELF: seg[2] vaddr=0xcfac0 filesz=0x79b8 memsz=0x79b8 flags=0x6
+[231s] ELF: seg[3] vaddr=0xdb478 filesz=0xf0 memsz=0x1e78 flags=0x6
+[231s] ELF: segs copied to stage
+[231s] ELF: stage[0]=0x464c457f after segs copy
+[231s] ELF: dyn: strtab=0x15770/104437 symtab=0x2f8 syment=24 rela=0x2ef68/73440 jmprel=0x40e48/9672 init_arr=0xd60f0/8
+[231s] ELF: so built sym_count=3631 strsz=104437
+[231s] ELF: registered
+[231s] ELF: rela 3060 entries
+[231s] RELA: all 3060 entries processed
+[231s] ELF: rela done
+[231s] ELF: jmprel 403 entries
+[231s] JMPREL: all 403 entries processed
+[231s] ELF: jmprel done
+[231s] ELF: strtab/symtab copied
+[231s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[231s] WARN: failed to load libapplovin-native-crash-reporter.so — skipping
+[231s] Loading: libquack.so
+[231s] ELF: loading sdmc:/AndroidHorizonNX/games/com.kiloo.subwaysurf/lib/libquack.so
+[231s] SplitMap: reserved code_va=0x946bf3000 data_va=0x946d26000 write_va=0x15ceb9000 csz=0x133000 dsz=0xc000
+[231s] ELF: stage alloc OK
+[231s] ELF: stage zeroed
+[231s] ELF: seg[0] vaddr=0x0 filesz=0x132090 memsz=0x132090 flags=0x5
+[231s] ELF: seg[1] vaddr=0x1336b0 filesz=0xaa78 memsz=0xaf78 flags=0x6
+[231s] ELF: segs copied to stage
+[231s] ELF: stage[0]=0x464c457f after segs copy
+[231s] ELF: dyn: strtab=0x7bc8/14558 symtab=0x2c48 syment=24 rela=0xbba8/85944 jmprel=0x20b60/8184 init_arr=0x0/0
+[231s] ELF: so built sym_count=848 strsz=14558
+[231s] ELF: registered
+[231s] ELF: rela 3581 entries
+[231s] RELA: all 3581 entries processed
+[231s] ELF: rela done
+[231s] ELF: jmprel 341 entries
+[231s] JMPREL: all 341 entries processed
+[231s] ELF: jmprel done
+[231s] ELF: strtab/symtab copied
+[231s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[231s] WARN: failed to load libquack.so — skipping
+[231s] Loading: libFirebaseCppApp-12_2_0.so
+[231s] ELF: loading sdmc:/AndroidHorizonNX/games/com.kiloo.subwaysurf/lib/libFirebaseCppApp-12_2_0.so
+[231s] SplitMap: reserved code_va=0x45b77f000 data_va=0x45bb7c000 write_va=0xf4001a000 csz=0x3fd000 dsz=0x1f000
+[231s] ELF: stage alloc OK
+[231s] ELF: stage zeroed
+[231s] ELF: seg[0] vaddr=0x0 filesz=0x3fb1b0 memsz=0x3fb1b0 flags=0x5
+[231s] ELF: seg[1] vaddr=0x3fd0d8 filesz=0x19280 memsz=0x1dfe8 flags=0x6
+[231s] ELF: segs copied to stage
+[231s] ELF: stage[0]=0x464c457f after segs copy
+[231s] ELF: dyn: strtab=0x65d08/838509 symtab=0x26f18 syment=24 rela=0x137cb0/188976 jmprel=0x165ee0/71400 init_arr=0x3fd0d8/304
+[231s] ELF: so built sym_count=10730 strsz=838509
+[231s] ELF: registered
+[231s] ELF: rela 7874 entries
+[231s] RELA: all 7874 entries processed
+[231s] ELF: rela done
+[231s] ELF: jmprel 2975 entries
+[232s] ELF: unresolved: __umask_chk
+[232s] ELF: unresolved: inotify_add_watch
+[232s] ELF: unresolved: flock
+[232s] ELF: unresolved: inotify_init
+[232s] ELF: unresolved: __strncat_chk
+[232s] JMPREL: all 2975 entries processed
+[232s] ELF: jmprel done
+[232s] ELF: strtab/symtab copied
+[232s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[232s] WARN: failed to load libFirebaseCppApp-12_2_0.so — skipping
+[232s] Loading: libunity.so
+[232s] ELF: loading sdmc:/AndroidHorizonNX/games/com.kiloo.subwaysurf/lib/libunity.so
+[232s] ELF: WARN 4 PT_LOAD segments (1 exec, 2 writable) — single-split-point assumption may mis-map permissions
+[232s] SplitMap: reserved code_va=0x827dc000 data_va=0x83986000 write_va=0x81cdab000 csz=0x11aa000 dsz=0x150000
+[232s] ELF: stage alloc OK
+[232s] ELF: stage zeroed
+[232s] ELF: seg[1] vaddr=0x0 filesz=0x3acb3c memsz=0x3acb3c flags=0x4
+[232s] ELF: seg[2] vaddr=0x3adb40 filesz=0xdfb580 memsz=0xdfb580 flags=0x5
+[232s] ELF: seg[3] vaddr=0x11aa0c0 filesz=0x43bb8 memsz=0x43bb8 flags=0x6
+[232s] ELF: seg[4] vaddr=0x11eec80 filesz=0x18c48 memsz=0x10b380 flags=0x6
+[232s] ELF: segs copied to stage
+[232s] ELF: stage[0]=0x464c457f after segs copy
+[232s] ELF: dyn: strtab=0x3a20/5879 symtab=0x320 syment=24 rela=0x5118/703392 jmprel=0xb0cb8/9264 init_arr=0x11e9c88/3440
+[232s] ELF: so built sym_count=586 strsz=5879
+[232s] ELF: registered
+[232s] ELF: rela 29308 entries
+[232s] ELF: unresolved: _ZTH15gDeferredAction
+[232s] ELF: unresolved: strdup  x2
+[232s] ELF: unresolved: _ctype_
+[232s] ELF: unresolved: AMEDIAFORMAT_KEY_CHANNEL_COUNT
+[232s] ELF: unresolved: AMEDIAFORMAT_KEY_COLOR_FORMAT
+[232s] ELF: unresolved: AMEDIAFORMAT_KEY_COLOR_RANGE
+[232s] ELF: unresolved: AMEDIAFORMAT_KEY_COLOR_STANDARD
+[232s] ELF: unresolved: AMEDIAFORMAT_KEY_DURATION
+[232s] ELF: unresolved: AMEDIAFORMAT_KEY_ENCODER_DELAY
+[232s] ELF: unresolved: AMEDIAFORMAT_KEY_FRAME_RATE
+[232s] ELF: unresolved: AMEDIAFORMAT_KEY_HEIGHT
+[232s] ELF: unresolved: AMEDIAFORMAT_KEY_LANGUAGE
+[232s] ELF: unresolved: AMEDIAFORMAT_KEY_MIME
+[232s] ELF: unresolved: AMEDIAFORMAT_KEY_ROTATION
+[232s] ELF: unresolved: AMEDIAFORMAT_KEY_SAMPLE_RATE
+[232s] ELF: unresolved: AMEDIAFORMAT_KEY_SLICE_HEIGHT
+[232s] ELF: unresolved: AMEDIAFORMAT_KEY_STRIDE
+[232s] ELF: unresolved: AMEDIAFORMAT_KEY_WIDTH
+[232s] RELA: all 29308 entries processed
+[232s] ELF: rela done
+[232s] ELF: jmprel 386 entries
+[232s] ELF: unresolved: getpagesize
+[232s] ELF: unresolved: madvise
+[232s] ELF: unresolved: pthread_condattr_init
+[232s] ELF: unresolved: pthread_condattr_setclock
+[232s] ELF: unresolved: pthread_condattr_destroy
+[232s] ELF: unresolved: _ZTH15gDeferredAction
+[232s] ELF: unresolved: getpwuid
+[232s] ELF: unresolved: truncate
+[232s] ELF: unresolved: unlink
+[232s] ELF: unresolved: rmdir
+[232s] ELF: unresolved: flock
+[232s] ELF: unresolved: lseek64
+[232s] ELF: unresolved: statfs
+[232s] ELF: unresolved: utime
+[232s] ELF: unresolved: strdup
+[232s] ELF: unresolved: eglSurfaceAttrib
+[232s] ELF: unresolved: fscanf
+[232s] ELF: unresolved: inflateInit2_
+[232s] ELF: unresolved: inflateEnd
+[232s] ELF: unresolved: inflate
+[232s] ELF: unresolved: setvbuf
+[232s] ELF: unresolved: getpriority
+[232s] ELF: unresolved: pthread_exit
+[232s] ELF: unresolved: ANativeWindow_fromSurface
+[232s] ELF: unresolved: AImage_getHardwareBuffer
+[232s] ELF: unresolved: AHardwareBuffer_describe
+[232s] ELF: unresolved: AHardwareBuffer_acquire
+[232s] ELF: unresolved: AImage_delete
+[232s] ELF: unresolved: AImageReader_setBufferRemovedListener
+[232s] ELF: unresolved: AHardwareBuffer_release
+[232s] ELF: unresolved: AImage_deleteAsync
+[232s] ELF: unresolved: __system_property_get
+[232s] ELF: unresolved: ASensorEventQueue_hasEvents
+[232s] ELF: unresolved: inet_pton
+[232s] ELF: unresolved: inet_ntop
+[232s] ELF: unresolved: strcspn
+[232s] ELF: unresolved: memrchr
+[232s] ELF: unresolved: if_nametoindex
+[232s] ELF: unresolved: getpeername
+[232s] ELF: unresolved: getaddrinfo
+[232s] ELF: unresolved: freeaddrinfo
+[232s] ELF: unresolved: fnmatch
+[232s] ELF: unresolved: basename
+[232s] ELF: unresolved: geteuid
+[232s] ELF: unresolved: getpwuid_r
+[232s] ELF: unresolved: AMediaExtractor_seekTo
+[232s] ELF: unresolved: AMediaFormat_getInt64
+[232s] ELF: unresolved: AMediaFormat_getInt32
+[232s] ELF: unresolved: AMediaFormat_delete
+[232s] ELF: unresolved: AMediaExtractor_delete
+[232s] ELF: unresolved: AMediaCodec_dequeueInputBuffer
+[232s] ELF: unresolved: AMediaCodec_flush
+[232s] ELF: unresolved: AMediaCodec_stop
+[232s] ELF: unresolved: AMediaExtractor_getTrackFormat
+[232s] ELF: unresolved: AMediaFormat_getString
+[232s] ELF: unresolved: AMediaCodec_delete
+[232s] ELF: unresolved: AImageReader_acquireLatestImage
+[232s] ELF: unresolved: AImageReader_delete
+[232s] ELF: unresolved: AMediaExtractor_selectTrack
+[232s] ELF: unresolved: AMediaCodec_createDecoderByType
+[232s] ELF: unresolved: AMediaCodec_configure
+[232s] ELF: unresolved: AMediaCodec_start
+[232s] ELF: unresolved: AImageReader_newWithUsage
+[232s] ELF: unresolved: AImageReader_getWindow
+[232s] ELF: unresolved: AImageReader_setImageListener
+[232s] ELF: unresolved: ANativeWindow_toSurface
+[232s] ELF: unresolved: AMediaExtractor_getSampleTrackIndex
+[232s] ELF: unresolved: AMediaExtractor_advance
+[232s] ELF: unresolved: AMediaCodec_dequeueOutputBuffer
+[232s] ELF: unresolved: AMediaCodec_getOutputFormat
+[232s] ELF: unresolved: AMediaCodec_getOutputBuffer
+[232s] ELF: unresolved: AMediaCodec_releaseOutputBuffer
+[232s] ELF: unresolved: AMediaCodec_getInputBuffer
+[232s] ELF: unresolved: AMediaCodec_queueInputBuffer
+[232s] ELF: unresolved: AMediaExtractor_readSampleData
+[232s] ELF: unresolved: AMediaExtractor_getSampleTime
+[232s] ELF: unresolved: AMediaDataSource_delete
+[232s] ELF: unresolved: AMediaExtractor_new
+[232s] ELF: unresolved: AMediaDataSource_new
+[232s] ELF: unresolved: AMediaExtractor_setDataSourceFd
+[232s] ELF: unresolved: AMediaExtractor_setDataSource
+[232s] ELF: unresolved: strcasestr
+[232s] ELF: unresolved: AMediaDataSource_setUserdata
+[232s] ELF: unresolved: AMediaDataSource_setReadAt
+[232s] ELF: unresolved: AMediaDataSource_setGetSize
+[232s] ELF: unresolved: AMediaDataSource_setClose
+[232s] ELF: unresolved: AMediaExtractor_setDataSourceCustom
+[232s] ELF: unresolved: AMediaCodec_setOutputSurface
+[232s] ELF: unresolved: AMediaFormat_getFloat
+[232s] ELF: unresolved: AMediaExtractor_getTrackCount
+[232s] ELF: unresolved: AMediaFormat_setInt32
+[232s] ELF: unresolved: AImage_getTimestamp
+[232s] ELF: unresolved: ptrace
+[232s] ELF: unresolved: __system_property_find
+[232s] ELF: unresolved: __system_property_read
+[232s] ELF: unresolved: sched_setaffinity
+[232s] ELF: unresolved: sched_getaffinity
+[232s] ELF: unresolved: lldiv
+[232s] ELF: unresolved: setpriority
+[232s] ELF: unresolved: inet_addr
+[232s] ELF: unresolved: gethostbyaddr
+[232s] ELF: unresolved: shutdown
+[232s] JMPREL: all 386 entries processed
+[232s] ELF: jmprel done
+[232s] ELF: strtab/symtab copied
+[232s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[232s] WARN: failed to load libunity.so — skipping
+[232s] Loading: libil2cpp.so
+[233s] ELF: loading sdmc:/AndroidHorizonNX/games/com.kiloo.subwaysurf/lib/libil2cpp.so
+[233s] ELF: WARN 4 PT_LOAD segments (1 exec, 2 writable) — single-split-point assumption may mis-map permissions
+[233s] SplitMap: reserved code_va=0x96931000 data_va=0x9a388000 write_va=0xeb72f1000 csz=0x3a57000 dsz=0x718000
+[233s] ELF: stage alloc OK
+[233s] ELF: stage zeroed
+[233s] ELF: seg[1] vaddr=0x0 filesz=0x17271a4 memsz=0x17271a4 flags=0x4
+[233s] ELF: seg[2] vaddr=0x17281a4 filesz=0x232e2ac memsz=0x232e2ac flags=0x5
+[233s] ELF: seg[3] vaddr=0x3a57450 filesz=0x278dc0 memsz=0x278dc0 flags=0x6
+[233s] ELF: seg[4] vaddr=0x3cd1210 filesz=0x2727b8 memsz=0x49d3e0 flags=0x6
+[233s] ELF: segs copied to stage
+[233s] ELF: stage[0]=0x464c457f after segs copy
+[233s] ELF: dyn: strtab=0x1a2f4/111671 symtab=0x330 syment=24 rela=0x35730/10507776 jmprel=0xa3ad30/13632 init_arr=0x3c5a968/192
+[233s] ELF: so built sym_count=4434 strsz=111671
+[233s] ELF: registered
+[233s] ELF: rela 437824 entries
+[233s] RELA: all 437824 entries processed
+[233s] ELF: rela done
+[233s] ELF: jmprel 568 entries
+[233s] ELF: unresolved: unlink
+[233s] ELF: unresolved: ftruncate
+[233s] ELF: unresolved: getpagesize
+[233s] ELF: unresolved: strlcpy
+[233s] ELF: unresolved: logb
+[233s] ELF: unresolved: scalbn
+[233s] ELF: unresolved: div
+[233s] ELF: unresolved: gethostname
+[233s] ELF: unresolved: uname
+[233s] ELF: unresolved: clock_getres
+[233s] ELF: unresolved: strdup
+[233s] ELF: unresolved: link
+[233s] ELF: unresolved: rmdir
+[233s] ELF: unresolved: sendfile
+[233s] ELF: unresolved: futimens
+[233s] ELF: unresolved: srand48
+[233s] ELF: unresolved: lrand48
+[233s] ELF: unresolved: geteuid
+[233s] ELF: unresolved: getegid
+[233s] ELF: unresolved: inet_pton
+[233s] ELF: unresolved: getaddrinfo
+[233s] ELF: unresolved: inet_ntop
+[233s] ELF: unresolved: freeaddrinfo
+[233s] ELF: unresolved: getnameinfo
+[233s] ELF: unresolved: getpeername
+[233s] ELF: unresolved: shutdown
+[233s] ELF: unresolved: recvfrom
+[233s] ELF: unresolved: sendmsg
+[233s] ELF: unresolved: recvmsg
+[233s] ELF: unresolved: pthread_getattr_np
+[233s] ELF: unresolved: pthread_atfork
+[233s] ELF: unresolved: sigsuspend
+[233s] ELF: unresolved: sem_timedwait
+[233s] ELF: unresolved: sem_getvalue
+[233s] JMPREL: all 568 entries processed
+[233s] ELF: jmprel done
+[233s] ELF: strtab/symtab copied
+[233s] SplitMap: svcCreateCodeMemory FAILED rc_hc=0x0000ce01 rc_hd=0x0000ce01
+[233s] WARN: failed to load libil2cpp.so — skipping
+[233s] Main .so failed to load
