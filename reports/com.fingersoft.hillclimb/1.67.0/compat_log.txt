@@ -1,0 +1,3818 @@
+[  0s] launchApk: sdmc:/AndroidHorizonNX/apks/Hill+Climb+Racing_1.67.0_APKPure.apk  pkg=com.fingersoft.hillclimb  installed=1
+[  0s] Already installed — skipping extraction
+[  0s] patch: replaced sdmc:/AndroidHorizonNX/games/com.fingersoft.hillclimb/assets/Moga_Pro_Guide.png (480x331, Switch controller layout)
+[  0s] patch: bundled replacement romfs:/patches/hillclimb/moga_pocket_guide.png missing (Couldn't open romfs:/patches/hillclimb/moga_pocket_guide.png) — skipped
+[  0s] findAllSos: libapplovin-native-crash-reporter.so (867928 bytes)
+[  0s] findAllSos: libquack.so (1300792 bytes)
+[  0s] findAllSos: libgame.so (8060976 bytes)
+[  0s] Setting up JNI environment...
+[  0s] Loading: libapplovin-native-crash-reporter.so
+[  0s] ELF: loading sdmc:/AndroidHorizonNX/games/com.fingersoft.hillclimb/lib/libapplovin-native-crash-reporter.so
+[  0s] ELF: WARN 3 PT_LOAD segments (1 exec, 2 writable) — single-split-point assumption may mis-map permissions
+[  0s] SplitMap: reserved code_va=0x401370000 data_va=0x40143f000 write_va=0x6f04ec000 csz=0xcf000 dsz=0xf000
+[  0s] ELF: stage alloc OK
+[  0s] ELF: stage zeroed
+[  0s] ELF: seg[1] vaddr=0x0 filesz=0xcbac0 memsz=0xcbac0 flags=0x5
+[  0s] ELF: seg[2] vaddr=0xcfac0 filesz=0x79b8 memsz=0x79b8 flags=0x6
+[  0s] ELF: seg[3] vaddr=0xdb478 filesz=0xf0 memsz=0x1e78 flags=0x6
+[  0s] ELF: segs copied to stage
+[  0s] ELF: stage[0]=0x464c457f after segs copy
+[  0s] ELF: dyn: strtab=0x15770/104437 symtab=0x2f8 syment=24 rela=0x2ef68/73440 jmprel=0x40e48/9672 init_arr=0xd60f0/8
+[  0s] ELF: so built sym_count=3631 strsz=104437
+[  0s] ELF: registered
+[  0s] ELF: rela 3060 entries
+[  0s] RELA: all 3060 entries processed
+[  0s] ELF: rela done
+[  0s] ELF: jmprel 403 entries
+[  0s] JMPREL: all 403 entries processed
+[  0s] ELF: jmprel done
+[  0s] ELF: strtab/symtab copied
+[  0s] GOT[0] @va+0x77e0 = 0x939dc1aa0
+[  0s] GOT[1] @va+0x77e8 = 0x939dc1a50
+[  0s] GOT[2] @va+0x77f0 = 0x4013d14fc
+[  0s] GOT[3] @va+0x77f8 = 0x93a4bed80
+[  0s] GOT[4] @va+0x7800 = 0x939dc1560
+[  0s] SplitMap: code_va=0x401370000 Rx data_va=0x40143f000 Rw OK
+[  0s] ELF: JIT copy done, stage freed
+[  0s] ELF: 1 constructors deferred (arr=0x4014460f0)
+[  0s] ELF: loaded OK code_exec=0x401370000 data_exec=0x40143f000 sym_count=3631 unresolved=0
+[  0s] Loading: libquack.so
+[  0s] ELF: loading sdmc:/AndroidHorizonNX/games/com.fingersoft.hillclimb/lib/libquack.so
+[  0s] SplitMap: reserved code_va=0xf5c29e000 data_va=0xf5c3d1000 write_va=0xfbf42000 csz=0x133000 dsz=0xc000
+[  0s] ELF: stage alloc OK
+[  0s] ELF: stage zeroed
+[  0s] ELF: seg[0] vaddr=0x0 filesz=0x132090 memsz=0x132090 flags=0x5
+[  0s] ELF: seg[1] vaddr=0x1336b0 filesz=0xaa78 memsz=0xaf78 flags=0x6
+[  0s] ELF: segs copied to stage
+[  0s] ELF: stage[0]=0x464c457f after segs copy
+[  0s] ELF: dyn: strtab=0x7bc8/14558 symtab=0x2c48 syment=24 rela=0xbba8/85944 jmprel=0x20b60/8184 init_arr=0x0/0
+[  0s] ELF: so built sym_count=848 strsz=14558
+[  0s] ELF: registered
+[  0s] ELF: rela 3581 entries
+[  0s] RELA: all 3581 entries processed
+[  0s] ELF: rela done
+[  0s] ELF: jmprel 341 entries
+[  0s] JMPREL: all 341 entries processed
+[  0s] ELF: jmprel done
+[  0s] ELF: strtab/symtab copied
+[  0s] GOT[0] @va+0xa3d0 = 0x939dc3df0
+[  0s] GOT[1] @va+0xa3d8 = 0x939dc15b0
+[  0s] GOT[2] @va+0xa3e0 = 0xf5c3577f0
+[  0s] GOT[3] @va+0xa3e8 = 0xf5c357910
+[  0s] GOT[4] @va+0xa3f0 = 0xf5c34be84
+[  0s] SplitMap: code_va=0xf5c29e000 Rx data_va=0xf5c3d1000 Rw OK
+[  0s] ELF: JIT copy done, stage freed
+[  0s] ELF: loaded OK code_exec=0xf5c29e000 data_exec=0xf5c3d1000 sym_count=848 unresolved=0
+[  0s] Loading: libgame.so
+[  0s] ELF: loading sdmc:/AndroidHorizonNX/games/com.fingersoft.hillclimb/lib/libgame.so
+[  0s] SplitMap: reserved code_va=0x8ab9ca000 data_va=0x8ac112000 write_va=0x901d08000 csz=0x748000 dsz=0xcf000
+[  0s] ELF: stage alloc OK
+[  0s] ELF: stage zeroed
+[  0s] ELF: seg[0] vaddr=0x0 filesz=0x746780 memsz=0x746780 flags=0x5
+[  0s] ELF: seg[1] vaddr=0x748658 filesz=0x68158 memsz=0xce308 flags=0x6
+[  0s] ELF: segs copied to stage
+[  0s] ELF: stage[0]=0x464c457f after segs copy
+[  0s] ELF: dyn: strtab=0x1b5d0/114457 symtab=0xa1d0 syment=24 rela=0x38c50/1188792 jmprel=0x15b008/21888 init_arr=0x748658/3336
+[  0s] ELF: so built sym_count=2944 strsz=114457
+[  0s] ELF: registered
+[  0s] ELF: rela 49533 entries
+[  0s] RELA: all 49533 entries processed
+[  0s] ELF: rela done
+[  0s] ELF: jmprel 912 entries
+[  0s] JMPREL: all 912 entries processed
+[  0s] ELF: jmprel done
+[  0s] ELF: strtab/symtab copied
+[  0s] GOT[0] @va+0x63d48 = 0x8abfa917c
+[  0s] GOT[1] @va+0x63d50 = 0x8abed928c
+[  0s] GOT[2] @va+0x63d58 = 0x8abebfb0c
+[  0s] GOT[3] @va+0x63d60 = 0x8abeb5348
+[  0s] GOT[4] @va+0x63d68 = 0x93a4cb2e0
+[  0s] SplitMap: code_va=0x8ab9ca000 Rx data_va=0x8ac112000 Rw OK
+[  0s] ELF: JIT copy done, stage freed
+[  1s] ELF: 417 constructors deferred (arr=0x8ac112658)
+[  1s] ELF: loaded OK code_exec=0x8ab9ca000 data_exec=0x8ac112000 sym_count=2944 unresolved=0
+[  1s] AndroidTLS: old TPIDR_EL0=0x0 — installing fake TLS @0x93a758750
+[  1s] CTORS: starting 418 constructors — this may take 30-120s, please wait
+[  1s] ELF: libapplovin-native-crash-reporter.so: SKIP constructors (crash-reporter, not needed)
+[  1s] ELF: libgame.so: running 417 constructors
+[  1s] ELF: init_arr[0]=0x8abb2e358
+[  1s] ELF: init_arr[1]=0x8abb2e408
+[  1s] ELF: init_arr[2]=0x8abb2e4b8
+[  1s] ELF: init_arr[3]=0x8abb2e568
+[  1s] ELF: ctor[1/417] @0x8abb2e358
+[  1s] ELF: ctor[1/417] OK
+[  1s] ELF: ctor[2/417] @0x8abb2e408
+[  1s] ELF: ctor[2/417] OK
+[  1s] ELF: ctor[3/417] @0x8abb2e4b8
+[  1s] ELF: ctor[3/417] OK
+[  1s] ELF: ctor[4/417] @0x8abb2e568
+[  1s] ELF: ctor[4/417] OK
+[  1s] ELF: ctor[5/417] @0x8abb2e618
+[  1s] ELF: ctor[5/417] OK
+[  1s] ELF: ctor[6/417] @0x8abb2e6c8
+[  1s] ELF: ctor[6/417] OK
+[  1s] ELF: ctor[7/417] @0x8abb2e7dc
+[  1s] ELF: ctor[7/417] OK
+[  1s] ELF: ctor[8/417] @0x8abb2e88c
+[  1s] ELF: ctor[8/417] OK
+[  1s] ELF: ctor[9/417] @0x8abb2e93c
+[  1s] ELF: ctor[9/417] OK
+[  1s] ELF: ctor[10/417] @0x8abb2e9ec
+[  1s] ELF: ctor[10/417] OK
+[  1s] ELF: ctor[11/417] @0x8abb2ea9c
+[  1s] ELF: ctor[11/417] OK
+[  1s] ELF: ctor[12/417] @0x8abb2eb4c
+[  1s] ELF: ctor[12/417] OK
+[  1s] ELF: ctor[13/417] @0x8abb2ec8c
+[  1s] ELF: ctor[13/417] OK
+[  1s] ELF: ctor[14/417] @0x8abb2eda0
+[  1s] ELF: ctor[14/417] OK
+[  1s] ELF: ctor[15/417] @0x8abb2ee50
+[  1s] ELF: ctor[15/417] OK
+[  1s] ELF: ctor[16/417] @0x8abb2ef00
+[  1s] ELF: ctor[16/417] OK
+[  1s] ELF: ctor[17/417] @0x8abb2efb0
+[  1s] ELF: ctor[17/417] OK
+[  1s] ELF: ctor[18/417] @0x8abb2f060
+[  1s] ELF: ctor[18/417] OK
+[  1s] ELF: ctor[19/417] @0x8abb2f150
+[  1s] ELF: ctor[19/417] OK
+[  1s] ELF: ctor[20/417] @0x8abb2f200
+[  1s] ELF: ctor[20/417] OK
+[  1s] ELF: ctor[21/417] @0x8abb2f2b0
+[  1s] ELF: ctor[21/417] OK
+[  1s] ELF: ctor[22/417] @0x8abb2f360
+[  1s] ELF: ctor[22/417] OK
+[  1s] ELF: ctor[23/417] @0x8abb2f410
+[  1s] ELF: ctor[23/417] OK
+[  1s] ELF: ctor[24/417] @0x8abb2f4c0
+[  1s] ELF: ctor[24/417] OK
+[  1s] ELF: ctor[25/417] @0x8abb2f570
+[  1s] ELF: ctor[25/417] OK
+[  1s] ELF: ctor[26/417] @0x8abb2f620
+[  1s] ELF: ctor[26/417] OK
+[  1s] ELF: ctor[27/417] @0x8abb2f6d0
+[  1s] ELF: ctor[27/417] OK
+[  1s] ELF: ctor[28/417] @0x8abb2f780
+[  1s] ELF: ctor[28/417] OK
+[  1s] ELF: ctor[29/417] @0x8abb2f894
+[  1s] ELF: ctor[29/417] OK
+[  1s] ELF: ctor[30/417] @0x8abb2f9c8
+[  1s] ELF: ctor[30/417] OK
+[  1s] ELF: ctor[31/417] @0x8abb2fab8
+[  1s] ELF: ctor[31/417] OK
+[  1s] ELF: ctor[32/417] @0x8abb2fb68
+[  1s] ELF: ctor[32/417] OK
+[  1s] ELF: ctor[33/417] @0x8abb2fc18
+[  1s] ELF: ctor[33/417] OK
+[  1s] ELF: ctor[34/417] @0x8abb2fcc8
+[  1s] ELF: ctor[34/417] OK
+[  1s] ELF: ctor[35/417] @0x8abb2fddc
+[  1s] ELF: ctor[35/417] OK
+[  1s] ELF: ctor[36/417] @0x8abb2fe8c
+[  1s] ELF: ctor[36/417] OK
+[  1s] ELF: ctor[37/417] @0x8abb2ff3c
+[  1s] ELF: ctor[37/417] OK
+[  1s] ELF: ctor[38/417] @0x8abb2ffec
+[  1s] ELF: ctor[38/417] OK
+[  1s] ELF: ctor[39/417] @0x8abb3009c
+[  1s] ELF: ctor[39/417] OK
+[  1s] ELF: ctor[40/417] @0x8abb3014c
+[  1s] ELF: ctor[40/417] OK
+[  1s] ELF: ctor[41/417] @0x8abb30260
+[  1s] ELF: ctor[41/417] OK
+[  1s] ELF: ctor[42/417] @0x8abb30310
+[  1s] ELF: ctor[42/417] OK
+[  1s] ELF: ctor[43/417] @0x8abb303c0
+[  1s] ELF: ctor[43/417] OK
+[  1s] ELF: ctor[44/417] @0x8abb30470
+[  1s] ELF: ctor[44/417] OK
+[  1s] ELF: ctor[45/417] @0x8abb30584
+[  1s] ELF: ctor[45/417] OK
+[  1s] ELF: ctor[46/417] @0x8abb30634
+[  1s] ELF: ctor[46/417] OK
+[  1s] ELF: ctor[47/417] @0x8abb306e4
+[  1s] ELF: ctor[47/417] OK
+[  1s] ELF: ctor[48/417] @0x8abb30794
+[  1s] ELF: ctor[48/417] OK
+[  1s] ELF: ctor[49/417] @0x8abb3086c
+[  1s] ELF: ctor[49/417] OK
+[  1s] ELF: ctor[50/417] @0x8abb3091c
+[  1s] ELF: ctor[50/417] OK
+[  1s] ELF: ctor[51/417] @0x8abb30a30
+[  1s] ELF: ctor[51/417] OK
+[  1s] ELF: ctor[52/417] @0x8abb30ae0
+[  1s] ELF: ctor[52/417] OK
+[  1s] ELF: ctor[53/417] @0x8abb30b90
+[  1s] ELF: ctor[53/417] OK
+[  1s] ELF: ctor[54/417] @0x8abb30c40
+[  1s] ELF: ctor[54/417] OK
+[  1s] ELF: ctor[55/417] @0x8abb30cf0
+[  1s] ELF: ctor[55/417] OK
+[  1s] ELF: ctor[56/417] @0x8abb30da0
+[  1s] ELF: ctor[56/417] OK
+[  1s] ELF: ctor[57/417] @0x8abb30eb4
+[  1s] ELF: ctor[57/417] OK
+[  1s] ELF: ctor[58/417] @0x8abb30f64
+[  1s] ELF: ctor[58/417] OK
+[  1s] ELF: ctor[59/417] @0x8abb31014
+[  1s] ELF: ctor[59/417] OK
+[  1s] ELF: ctor[60/417] @0x8abb310c4
+[  1s] ELF: ctor[60/417] OK
+[  1s] ELF: ctor[61/417] @0x8abb31174
+[  1s] ELF: ctor[61/417] OK
+[  1s] ELF: ctor[62/417] @0x8abb31224
+[  1s] ELF: ctor[62/417] OK
+[  1s] ELF: ctor[63/417] @0x8abb31338
+[  1s] ELF: ctor[63/417] OK
+[  1s] ELF: ctor[64/417] @0x8abb313e8
+[  1s] ELF: ctor[64/417] OK
+[  1s] ELF: ctor[65/417] @0x8abb314fc
+[  1s] ELF: ctor[65/417] OK
+[  1s] ELF: ctor[66/417] @0x8abb315ac
+[  1s] ELF: ctor[66/417] OK
+[  1s] ELF: ctor[67/417] @0x8abb31620
+[  1s] ELF: ctor[67/417] OK
+[  1s] ELF: ctor[68/417] @0x8abb316d0
+[  1s] ELF: ctor[68/417] OK
+[  1s] ELF: ctor[69/417] @0x8abb31780
+[  1s] ELF: ctor[69/417] OK
+[  1s] ELF: ctor[70/417] @0x8abb31830
+[  1s] ELF: ctor[70/417] OK
+[  1s] ELF: ctor[71/417] @0x8abb318e0
+[  1s] ELF: ctor[71/417] OK
+[  1s] ELF: ctor[72/417] @0x8abb31990
+[  1s] ELF: ctor[72/417] OK
+[  1s] ELF: ctor[73/417] @0x8abb31a40
+[  1s] ELF: ctor[73/417] OK
+[  1s] ELF: ctor[74/417] @0x8abb31af0
+[  1s] ELF: ctor[74/417] OK
+[  1s] ELF: ctor[75/417] @0x8abb31ba0
+[  1s] ELF: ctor[75/417] OK
+[  1s] ELF: ctor[76/417] @0x8abb31c50
+[  1s] ELF: ctor[76/417] OK
+[  1s] ELF: ctor[77/417] @0x8abb31d00
+[  1s] ELF: ctor[77/417] OK
+[  1s] ELF: ctor[78/417] @0x8abb31db0
+[  1s] ELF: ctor[78/417] OK
+[  1s] ELF: ctor[79/417] @0x8abb31e60
+[  1s] ELF: ctor[79/417] OK
+[  1s] ELF: ctor[80/417] @0x8abb31f24
+[  1s] ELF: ctor[80/417] OK
+[  1s] ELF: ctor[81/417] @0x8abb31fd4
+[  1s] ELF: ctor[81/417] OK
+[  1s] ELF: ctor[82/417] @0x8abb32084
+[  1s] ELF: ctor[82/417] OK
+[  1s] ELF: ctor[83/417] @0x8abb32134
+[  1s] ELF: ctor[83/417] OK
+[  1s] ELF: ctor[84/417] @0x8abb321e4
+[  1s] ELF: ctor[84/417] OK
+[  1s] ELF: ctor[85/417] @0x8abb32294
+[  1s] ELF: ctor[85/417] OK
+[  1s] ELF: ctor[86/417] @0x8abb32344
+[  1s] ELF: ctor[86/417] OK
+[  1s] ELF: ctor[87/417] @0x8abb323f4
+[  1s] ELF: ctor[87/417] OK
+[  1s] ELF: ctor[88/417] @0x8abb324a4
+[  1s] ELF: ctor[88/417] OK
+[  1s] ELF: ctor[89/417] @0x8abb32554
+[  1s] ELF: ctor[89/417] OK
+[  1s] ELF: ctor[90/417] @0x8abb32684
+[  1s] ELF: ctor[90/417] OK
+[  1s] ELF: ctor[91/417] @0x8abb32734
+[  1s] ELF: ctor[91/417] OK
+[  1s] ELF: ctor[92/417] @0x8abb327e4
+[  1s] ELF: ctor[92/417] OK
+[  1s] ELF: ctor[93/417] @0x8abb32894
+[  1s] ELF: ctor[93/417] OK
+[  1s] ELF: ctor[94/417] @0x8abb32944
+[  1s] ELF: ctor[94/417] OK
+[  1s] ELF: ctor[95/417] @0x8abb329f4
+[  1s] ELF: ctor[95/417] OK
+[  1s] ELF: ctor[96/417] @0x8abb32aa4
+[  1s] ELF: ctor[96/417] OK
+[  1s] ELF: ctor[97/417] @0x8abb32b54
+[  1s] ELF: ctor[97/417] OK
+[  1s] ELF: ctor[98/417] @0x8abb32c04
+[  1s] ELF: ctor[98/417] OK
+[  1s] ELF: ctor[99/417] @0x8abb32cb4
+[  1s] ELF: ctor[99/417] OK
+[  1s] ELF: ctor[100/417] @0x8abb32d64
+[  1s] ELF: ctor[100/417] OK
+[  1s] ELF: ctor[101/417] @0x8abb32e14
+[  1s] ELF: ctor[101/417] OK
+[  1s] ELF: ctor[102/417] @0x8abb32ec4
+[  1s] ELF: ctor[102/417] OK
+[  1s] ELF: ctor[103/417] @0x8abb32f74
+[  1s] ELF: ctor[103/417] OK
+[  1s] ELF: ctor[104/417] @0x8abb33088
+[  1s] ELF: ctor[104/417] OK
+[  1s] ELF: ctor[105/417] @0x8abb33138
+[  1s] ELF: ctor[105/417] OK
+[  1s] ELF: ctor[106/417] @0x8abb331e8
+[  1s] ELF: ctor[106/417] OK
+[  1s] ELF: ctor[107/417] @0x8abb33298
+[  1s] ELF: ctor[107/417] OK
+[  1s] ELF: ctor[108/417] @0x8abb33348
+[  1s] ELF: ctor[108/417] OK
+[  1s] ELF: ctor[109/417] @0x8abb333f8
+[  1s] ELF: ctor[109/417] OK
+[  1s] ELF: ctor[110/417] @0x8abb334a8
+[  1s] ELF: ctor[110/417] OK
+[  1s] ELF: ctor[111/417] @0x8abb33558
+[  1s] ELF: ctor[111/417] OK
+[  1s] ELF: ctor[112/417] @0x8abb33608
+[  1s] ELF: ctor[112/417] OK
+[  1s] ELF: ctor[113/417] @0x8abb33740
+[  1s] ELF: ctor[113/417] OK
+[  1s] ELF: ctor[114/417] @0x8abb337f0
+[  1s] ELF: ctor[114/417] OK
+[  1s] ELF: ctor[115/417] @0x8abb338a0
+[  1s] ELF: ctor[115/417] OK
+[  1s] ELF: ctor[116/417] @0x8abb33950
+[  1s] ELF: ctor[116/417] OK
+[  1s] ELF: ctor[117/417] @0x8abb33a00
+[  1s] ELF: ctor[117/417] OK
+[  1s] ELF: ctor[118/417] @0x8abb33ab0
+[  1s] ELF: ctor[118/417] OK
+[  1s] ELF: ctor[119/417] @0x8abb33b60
+[  1s] ELF: ctor[119/417] OK
+[  1s] ELF: ctor[120/417] @0x8abb33c10
+[  1s] ELF: ctor[120/417] OK
+[  1s] ELF: ctor[121/417] @0x8abb33cc0
+[  1s] ELF: ctor[121/417] OK
+[  1s] ELF: ctor[122/417] @0x8abb33e00
+[  1s] ELF: ctor[122/417] OK
+[  1s] ELF: ctor[123/417] @0x8abb33eb0
+[  2s] ELF: ctor[123/417] OK
+[  2s] ELF: ctor[124/417] @0x8abb33f60
+[  2s] ELF: ctor[124/417] OK
+[  2s] ELF: ctor[125/417] @0x8abb34010
+[  2s] ELF: ctor[125/417] OK
+[  2s] ELF: ctor[126/417] @0x8abb340c0
+[  2s] ELF: ctor[126/417] OK
+[  2s] ELF: ctor[127/417] @0x8abb34170
+[  2s] ELF: ctor[127/417] OK
+[  2s] ELF: ctor[128/417] @0x8abb343cc
+[  2s] ELF: ctor[128/417] OK
+[  2s] ELF: ctor[129/417] @0x8abb3447c
+[  2s] ELF: ctor[129/417] OK
+[  2s] ELF: ctor[130/417] @0x8abb3452c
+[  2s] ELF: ctor[130/417] OK
+[  2s] ELF: ctor[131/417] @0x8abb345dc
+[  2s] ELF: ctor[131/417] OK
+[  2s] ELF: ctor[132/417] @0x8abb3468c
+[  2s] ELF: ctor[132/417] OK
+[  2s] ELF: ctor[133/417] @0x8abb3473c
+[  2s] ELF: ctor[133/417] OK
+[  2s] ELF: ctor[134/417] @0x8abb347ec
+[  2s] ELF: ctor[134/417] OK
+[  2s] ELF: ctor[135/417] @0x8abb3489c
+[  2s] ELF: ctor[135/417] OK
+[  2s] ELF: ctor[136/417] @0x8abb3494c
+[  2s] ELF: ctor[136/417] OK
+[  2s] ELF: ctor[137/417] @0x8abb349fc
+[  2s] ELF: ctor[137/417] OK
+[  2s] ELF: ctor[138/417] @0x8abb34aac
+[  2s] ELF: ctor[138/417] OK
+[  2s] ELF: ctor[139/417] @0x8abb34b5c
+[  2s] ELF: ctor[139/417] OK
+[  2s] ELF: ctor[140/417] @0x8abb34c0c
+[  2s] ELF: ctor[140/417] OK
+[  2s] ELF: ctor[141/417] @0x8abb34d20
+[  2s] ELF: ctor[141/417] OK
+[  2s] ELF: ctor[142/417] @0x8abb34dd0
+[  2s] ELF: ctor[142/417] OK
+[  2s] ELF: ctor[143/417] @0x8abb34e80
+[  2s] ELF: ctor[143/417] OK
+[  2s] ELF: ctor[144/417] @0x8abb34f30
+[  2s] ELF: ctor[144/417] OK
+[  2s] ELF: ctor[145/417] @0x8abb34fe0
+[  2s] ELF: ctor[145/417] OK
+[  2s] ELF: ctor[146/417] @0x8abb35090
+[  2s] ELF: ctor[146/417] OK
+[  2s] ELF: ctor[147/417] @0x8abb35140
+[  2s] ELF: ctor[147/417] OK
+[  2s] ELF: ctor[148/417] @0x8abb35230
+[  2s] ELF: ctor[148/417] OK
+[  2s] ELF: ctor[149/417] @0x8abb352e0
+[  2s] ELF: ctor[149/417] OK
+[  2s] ELF: ctor[150/417] @0x8abb35390
+[  2s] ELF: ctor[150/417] OK
+[  2s] ELF: ctor[151/417] @0x8abb35440
+[  2s] ELF: ctor[151/417] OK
+[  2s] ELF: ctor[152/417] @0x8abb35554
+[  2s] ELF: ctor[152/417] OK
+[  2s] ELF: ctor[153/417] @0x8abb35604
+[  2s] ELF: ctor[153/417] OK
+[  2s] ELF: ctor[154/417] @0x8abb356b4
+[  2s] ELF: ctor[154/417] OK
+[  2s] ELF: ctor[155/417] @0x8abb35764
+[  2s] ELF: ctor[155/417] OK
+[  2s] ELF: ctor[156/417] @0x8abb35814
+[  2s] ELF: ctor[156/417] OK
+[  2s] ELF: ctor[157/417] @0x8abb358c4
+[  2s] ELF: ctor[157/417] OK
+[  2s] ELF: ctor[158/417] @0x8abb35974
+[  2s] ELF: ctor[158/417] OK
+[  2s] ELF: ctor[159/417] @0x8abb35a24
+[  2s] ELF: ctor[159/417] OK
+[  2s] ELF: ctor[160/417] @0x8abb35ad4
+[  2s] ELF: ctor[160/417] OK
+[  2s] ELF: ctor[161/417] @0x8abb35b84
+[  2s] ELF: ctor[161/417] OK
+[  2s] ELF: ctor[162/417] @0x8abb35c34
+[  2s] ELF: ctor[162/417] OK
+[  2s] ELF: ctor[163/417] @0x8abb35d0c
+[  2s] ELF: ctor[163/417] OK
+[  2s] ELF: ctor[164/417] @0x8abb35dbc
+[  2s] ELF: ctor[164/417] OK
+[  2s] ELF: ctor[165/417] @0x8abb35e6c
+[  2s] ELF: ctor[165/417] OK
+[  2s] ELF: ctor[166/417] @0x8abb35f1c
+[  2s] ELF: ctor[166/417] OK
+[  2s] ELF: ctor[167/417] @0x8abb35fcc
+[  2s] ELF: ctor[167/417] OK
+[  2s] ELF: ctor[168/417] @0x8abb360a4
+[  2s] ELF: ctor[168/417] OK
+[  2s] ELF: ctor[169/417] @0x8abb36154
+[  2s] ELF: ctor[169/417] OK
+[  2s] ELF: ctor[170/417] @0x8abb36204
+[  2s] ELF: ctor[170/417] OK
+[  2s] ELF: ctor[171/417] @0x8abb362b4
+[  2s] ELF: ctor[171/417] OK
+[  2s] ELF: ctor[172/417] @0x8abb36364
+[  2s] ELF: ctor[172/417] OK
+[  2s] ELF: ctor[173/417] @0x8abb36414
+[  2s] ELF: ctor[173/417] OK
+[  2s] ELF: ctor[174/417] @0x8abb364c4
+[  2s] ELF: ctor[174/417] OK
+[  2s] ELF: ctor[175/417] @0x8abb36574
+[  2s] ELF: ctor[175/417] OK
+[  2s] ELF: ctor[176/417] @0x8abb36624
+[  2s] ELF: ctor[176/417] OK
+[  2s] ELF: ctor[177/417] @0x8abb36738
+[  2s] ELF: ctor[177/417] OK
+[  2s] ELF: ctor[178/417] @0x8abb367e8
+[  2s] ELF: ctor[178/417] OK
+[  2s] ELF: ctor[179/417] @0x8abb36898
+[  2s] ELF: ctor[179/417] OK
+[  2s] ELF: ctor[180/417] @0x8abb36948
+[  2s] ELF: ctor[180/417] OK
+[  2s] ELF: ctor[181/417] @0x8abb369f8
+[  2s] ELF: ctor[181/417] OK
+[  2s] ELF: ctor[182/417] @0x8abb36aa8
+[  2s] ELF: ctor[182/417] OK
+[  2s] ELF: ctor[183/417] @0x8abb36b58
+[  2s] ELF: ctor[183/417] OK
+[  2s] ELF: ctor[184/417] @0x8abb36c08
+[  2s] ELF: ctor[184/417] OK
+[  2s] ELF: ctor[185/417] @0x8abb36cb8
+[  2s] ELF: ctor[185/417] OK
+[  2s] ELF: ctor[186/417] @0x8abb36d68
+[  2s] ELF: ctor[186/417] OK
+[  2s] ELF: ctor[187/417] @0x8abb36e7c
+[  2s] ELF: ctor[187/417] OK
+[  2s] ELF: ctor[188/417] @0x8abb36f2c
+[  2s] ELF: ctor[188/417] OK
+[  2s] ELF: ctor[189/417] @0x8abb36fdc
+[  2s] ELF: ctor[189/417] OK
+[  2s] ELF: ctor[190/417] @0x8abb3708c
+[  2s] ELF: ctor[190/417] OK
+[  2s] ELF: ctor[191/417] @0x8abb3713c
+[  2s] ELF: ctor[191/417] OK
+[  2s] ELF: ctor[192/417] @0x8abb371ec
+[  2s] ELF: ctor[192/417] OK
+[  2s] ELF: ctor[193/417] @0x8abb37390
+[  2s] ELF: ctor[193/417] OK
+[  2s] ELF: ctor[194/417] @0x8abb37440
+[  2s] ELF: ctor[194/417] OK
+[  2s] ELF: ctor[195/417] @0x8abb374f0
+[  2s] ELF: ctor[195/417] OK
+[  2s] ELF: ctor[196/417] @0x8abb375a0
+[  2s] ELF: ctor[196/417] OK
+[  2s] ELF: ctor[197/417] @0x8abb37650
+[  2s] ELF: ctor[197/417] OK
+[  2s] ELF: ctor[198/417] @0x8abb37700
+[  2s] ELF: ctor[198/417] OK
+[  2s] ELF: ctor[199/417] @0x8abb377b0
+[  2s] ELF: ctor[199/417] OK
+[  2s] ELF: ctor[200/417] @0x8abb378c4
+[  2s] ELF: ctor[200/417] OK
+[  2s] ELF: ctor[201/417] @0x8abb37974
+[  2s] ELF: ctor[201/417] OK
+[  2s] ELF: ctor[202/417] @0x8abb37a24
+[  2s] ELF: ctor[202/417] OK
+[  2s] ELF: ctor[203/417] @0x8abb37ad4
+[  2s] ELF: ctor[203/417] OK
+[  2s] ELF: ctor[204/417] @0x8abb37b84
+[  2s] ELF: ctor[204/417] OK
+[  2s] ELF: ctor[205/417] @0x8abb37c34
+[  2s] ELF: ctor[205/417] OK
+[  2s] ELF: ctor[206/417] @0x8abb37d48
+[  2s] ELF: ctor[206/417] OK
+[  2s] ELF: ctor[207/417] @0x8abb37df8
+[  2s] ELF: ctor[207/417] OK
+[  2s] ELF: ctor[208/417] @0x8abb37ea8
+[  2s] ELF: ctor[208/417] OK
+[  2s] ELF: ctor[209/417] @0x8abb37f58
+[  2s] ELF: ctor[209/417] OK
+[  2s] ELF: ctor[210/417] @0x8abb38080
+[  2s] ELF: ctor[210/417] OK
+[  2s] ELF: ctor[211/417] @0x8abb38130
+[  2s] ELF: ctor[211/417] OK
+[  2s] ELF: ctor[212/417] @0x8abb381e0
+[  2s] ELF: ctor[212/417] OK
+[  2s] ELF: ctor[213/417] @0x8abb38290
+[  2s] ELF: ctor[213/417] OK
+[  2s] ELF: ctor[214/417] @0x8abb38340
+[  2s] ELF: ctor[214/417] OK
+[  2s] ELF: ctor[215/417] @0x8abb38418
+[  2s] ELF: ctor[215/417] OK
+[  2s] ELF: ctor[216/417] @0x8abb384c8
+[  2s] ELF: ctor[216/417] OK
+[  2s] ELF: ctor[217/417] @0x8abb38608
+[  2s] ELF: ctor[217/417] OK
+[  2s] ELF: ctor[218/417] @0x8abb386b8
+[  2s] ELF: ctor[218/417] OK
+[  2s] ELF: ctor[219/417] @0x8abb38768
+[  2s] ELF: ctor[219/417] OK
+[  2s] ELF: ctor[220/417] @0x8abb38818
+[  2s] ELF: ctor[220/417] OK
+[  2s] ELF: ctor[221/417] @0x8abb388c8
+[  2s] ELF: ctor[221/417] OK
+[  2s] ELF: ctor[222/417] @0x8abb38978
+[  2s] ELF: ctor[222/417] OK
+[  2s] ELF: ctor[223/417] @0x8abb38a28
+[  2s] ELF: ctor[223/417] OK
+[  2s] ELF: ctor[224/417] @0x8abb38ad8
+[  2s] ELF: ctor[224/417] OK
+[  2s] ELF: ctor[225/417] @0x8abb38b88
+[  2s] ELF: ctor[225/417] OK
+[  2s] ELF: ctor[226/417] @0x8abb38c38
+[  2s] ELF: ctor[226/417] OK
+[  2s] ELF: ctor[227/417] @0x8abb38ce8
+[  2s] ELF: ctor[227/417] OK
+[  2s] ELF: ctor[228/417] @0x8abb38d98
+[  2s] ELF: ctor[228/417] OK
+[  2s] ELF: ctor[229/417] @0x8abb38e48
+[  2s] ELF: ctor[229/417] OK
+[  2s] ELF: ctor[230/417] @0x8abb38ef8
+[  2s] ELF: ctor[230/417] OK
+[  2s] ELF: ctor[231/417] @0x8abb38fa8
+[  2s] ELF: ctor[231/417] OK
+[  2s] ELF: ctor[232/417] @0x8abb39058
+[  2s] ELF: ctor[232/417] OK
+[  2s] ELF: ctor[233/417] @0x8abb39108
+[  2s] ELF: ctor[233/417] OK
+[  2s] ELF: ctor[234/417] @0x8abb391b8
+[  2s] ELF: ctor[234/417] OK
+[  2s] ELF: ctor[235/417] @0x8abb39268
+[  2s] ELF: ctor[235/417] OK
+[  2s] ELF: ctor[236/417] @0x8abb39318
+[  2s] ELF: ctor[236/417] OK
+[  2s] ELF: ctor[237/417] @0x8abb3942c
+[  2s] ELF: ctor[237/417] OK
+[  2s] ELF: ctor[238/417] @0x8abb394dc
+[  2s] ELF: ctor[238/417] OK
+[  2s] ELF: ctor[239/417] @0x8abb3958c
+[  2s] ELF: ctor[239/417] OK
+[  2s] ELF: ctor[240/417] @0x8abb39664
+[  2s] ELF: ctor[240/417] OK
+[  2s] ELF: ctor[241/417] @0x8abb39714
+[  2s] ELF: ctor[241/417] OK
+[  2s] ELF: ctor[242/417] @0x8abb397c4
+[  2s] ELF: ctor[242/417] OK
+[  2s] ELF: ctor[243/417] @0x8abb39874
+[  2s] ELF: ctor[243/417] OK
+[  2s] ELF: ctor[244/417] @0x8abb39924
+[  2s] ELF: ctor[244/417] OK
+[  2s] ELF: ctor[245/417] @0x8abb399d4
+[  2s] ELF: ctor[245/417] OK
+[  2s] ELF: ctor[246/417] @0x8abb39a84
+[  2s] ELF: ctor[246/417] OK
+[  2s] ELF: ctor[247/417] @0x8abb39b34
+[  2s] ELF: ctor[247/417] OK
+[  2s] ELF: ctor[248/417] @0x8abb39be4
+[  2s] ELF: ctor[248/417] OK
+[  2s] ELF: ctor[249/417] @0x8abb39cf8
+[  2s] ELF: ctor[249/417] OK
+[  2s] ELF: ctor[250/417] @0x8abb39da8
+[  2s] ELF: ctor[250/417] OK
+[  2s] ELF: ctor[251/417] @0x8abb39e58
+[  2s] ELF: ctor[251/417] OK
+[  2s] ELF: ctor[252/417] @0x8abb39f08
+[  2s] ELF: ctor[252/417] OK
+[  2s] ELF: ctor[253/417] @0x8abb39fb8
+[  2s] ELF: ctor[253/417] OK
+[  2s] ELF: ctor[254/417] @0x8abb3a068
+[  2s] ELF: ctor[254/417] OK
+[  2s] ELF: ctor[255/417] @0x8abb3a118
+[  2s] ELF: ctor[255/417] OK
+[  2s] ELF: ctor[256/417] @0x8abb3a1c8
+[  2s] ELF: ctor[256/417] OK
+[  2s] ELF: ctor[257/417] @0x8abb3a278
+[  2s] ELF: ctor[257/417] OK
+[  2s] ELF: ctor[258/417] @0x8abb3a328
+[  2s] ELF: ctor[258/417] OK
+[  2s] ELF: ctor[259/417] @0x8abb3a44c
+[  2s] ELF: ctor[259/417] OK
+[  2s] ELF: ctor[260/417] @0x8abb3a4fc
+[  2s] ELF: ctor[260/417] OK
+[  3s] ELF: ctor[261/417] @0x8abb3a5ac
+[  3s] ELF: ctor[261/417] OK
+[  3s] ELF: ctor[262/417] @0x8abb3a65c
+[  3s] ELF: ctor[262/417] OK
+[  3s] ELF: ctor[263/417] @0x8abb3a70c
+[  3s] ELF: ctor[263/417] OK
+[  3s] ELF: ctor[264/417] @0x8abb3a7bc
+[  3s] ELF: ctor[264/417] OK
+[  3s] ELF: ctor[265/417] @0x8abb3a88c
+[  3s] ELF: ctor[265/417] OK
+[  3s] ELF: ctor[266/417] @0x8abb3a93c
+[  3s] ELF: ctor[266/417] OK
+[  3s] ELF: ctor[267/417] @0x8abb3a9ec
+[  3s] ELF: ctor[267/417] OK
+[  3s] ELF: ctor[268/417] @0x8abb3aa9c
+[  3s] ELF: ctor[268/417] OK
+[  3s] ELF: ctor[269/417] @0x8abb3ab4c
+[  3s] ELF: ctor[269/417] OK
+[  3s] ELF: ctor[270/417] @0x8abb3ac60
+[  3s] ELF: ctor[270/417] OK
+[  3s] ELF: ctor[271/417] @0x8abb3ad10
+[  3s] ELF: ctor[271/417] OK
+[  3s] ELF: ctor[272/417] @0x8abb3adc0
+[  3s] ELF: ctor[272/417] OK
+[  3s] ELF: ctor[273/417] @0x8abb3ae70
+[  3s] ELF: ctor[273/417] OK
+[  3s] ELF: ctor[274/417] @0x8abb3af20
+[  3s] ELF: ctor[274/417] OK
+[  3s] ELF: ctor[275/417] @0x8abb3afd0
+[  3s] ELF: ctor[275/417] OK
+[  3s] ELF: ctor[276/417] @0x8abb3b080
+[  3s] ELF: ctor[276/417] OK
+[  3s] ELF: ctor[277/417] @0x8abb3b194
+[  3s] ELF: ctor[277/417] OK
+[  3s] ELF: ctor[278/417] @0x8abb3b244
+[  3s] ELF: ctor[278/417] OK
+[  3s] ELF: ctor[279/417] @0x8abb3b2f4
+[  3s] ELF: ctor[279/417] OK
+[  3s] ELF: ctor[280/417] @0x8abb3b3a4
+[  3s] ELF: ctor[280/417] OK
+[  3s] ELF: ctor[281/417] @0x8abb3b454
+[  3s] ELF: ctor[281/417] OK
+[  3s] ELF: ctor[282/417] @0x8abb3b504
+[  3s] ELF: ctor[282/417] OK
+[  3s] ELF: ctor[283/417] @0x8abb3b5b4
+[  3s] ELF: ctor[283/417] OK
+[  3s] ELF: ctor[284/417] @0x8abb3b664
+[  3s] ELF: ctor[284/417] OK
+[  3s] ELF: ctor[285/417] @0x8abb3b714
+[  3s] ELF: ctor[285/417] OK
+[  3s] ELF: ctor[286/417] @0x8abb3b7c4
+[  3s] ELF: ctor[286/417] OK
+[  3s] ELF: ctor[287/417] @0x8abb3b874
+[  3s] ELF: ctor[287/417] OK
+[  3s] ELF: ctor[288/417] @0x8abb3b924
+[  3s] ELF: ctor[288/417] OK
+[  3s] ELF: ctor[289/417] @0x8abb3b9d4
+[  3s] ELF: ctor[289/417] OK
+[  3s] ELF: ctor[290/417] @0x8abb3ba84
+[  3s] ELF: ctor[290/417] OK
+[  3s] ELF: ctor[291/417] @0x8abb3bb34
+[  3s] ELF: ctor[291/417] OK
+[  3s] ELF: ctor[292/417] @0x8abb3bbe4
+[  3s] ELF: ctor[292/417] OK
+[  3s] ELF: ctor[293/417] @0x8abb3bc94
+[  3s] ELF: ctor[293/417] OK
+[  3s] ELF: ctor[294/417] @0x8abb3bd44
+[  3s] ELF: ctor[294/417] OK
+[  3s] ELF: ctor[295/417] @0x8abb3bdf4
+[  3s] ELF: ctor[295/417] OK
+[  3s] ELF: ctor[296/417] @0x8abb3bea4
+[  3s] ELF: ctor[296/417] OK
+[  3s] ELF: ctor[297/417] @0x8abb3bf54
+[  3s] ELF: ctor[297/417] OK
+[  3s] ELF: ctor[298/417] @0x8abb3c004
+[  3s] ELF: ctor[298/417] OK
+[  3s] ELF: ctor[299/417] @0x8abb3c0b4
+[  3s] ELF: ctor[299/417] OK
+[  3s] ELF: ctor[300/417] @0x8abb3c164
+[  3s] ELF: ctor[300/417] OK
+[  3s] ELF: ctor[301/417] @0x8abb3c214
+[  3s] ELF: ctor[301/417] OK
+[  3s] ELF: ctor[302/417] @0x8abb3c2c4
+[  3s] ELF: ctor[302/417] OK
+[  3s] ELF: ctor[303/417] @0x8abb3c374
+[  3s] ELF: ctor[303/417] OK
+[  3s] ELF: ctor[304/417] @0x8abb3c424
+[  3s] ELF: ctor[304/417] OK
+[  3s] ELF: ctor[305/417] @0x8abb3c4d4
+[  3s] ELF: ctor[305/417] OK
+[  3s] ELF: ctor[306/417] @0x8abb3c584
+[  3s] ELF: ctor[306/417] OK
+[  3s] ELF: ctor[307/417] @0x8abb3c634
+[  3s] ELF: ctor[307/417] OK
+[  3s] ELF: ctor[308/417] @0x8abb3c6e4
+[  3s] ELF: ctor[308/417] OK
+[  3s] ELF: ctor[309/417] @0x8abb3c794
+[  3s] ELF: ctor[309/417] OK
+[  3s] ELF: ctor[310/417] @0x8abb3c844
+[  3s] ELF: ctor[310/417] OK
+[  3s] ELF: ctor[311/417] @0x8abb3c8f4
+[  3s] ELF: ctor[311/417] OK
+[  3s] ELF: ctor[312/417] @0x8abb3c9a4
+[  3s] ELF: ctor[312/417] OK
+[  3s] ELF: ctor[313/417] @0x8abb3ca54
+[  3s] ELF: ctor[313/417] OK
+[  3s] ELF: ctor[314/417] @0x8abb3cb04
+[  3s] ELF: ctor[314/417] OK
+[  3s] ELF: ctor[315/417] @0x8abb3cbb4
+[  3s] ELF: ctor[315/417] OK
+[  3s] ELF: ctor[316/417] @0x8abb3cc64
+[  3s] ELF: ctor[316/417] OK
+[  3s] ELF: ctor[317/417] @0x8abb3cd30
+[  3s] ELF: ctor[317/417] OK
+[  3s] ELF: ctor[318/417] @0x8abb3cdfc
+[  3s] ELF: ctor[318/417] OK
+[  3s] ELF: ctor[319/417] @0x8abb3ceac
+[  3s] ELF: ctor[319/417] OK
+[  3s] ELF: ctor[320/417] @0x8abb3cf5c
+[  3s] ELF: ctor[320/417] OK
+[  3s] ELF: ctor[321/417] @0x8abb3d00c
+[  3s] ELF: ctor[321/417] OK
+[  3s] ELF: ctor[322/417] @0x8abb3d0bc
+[  3s] ELF: ctor[322/417] OK
+[  3s] ELF: ctor[323/417] @0x8abb3d1a0
+[  3s] ELF: ctor[323/417] OK
+[  3s] ELF: ctor[324/417] @0x8abb3d250
+[  3s] ELF: ctor[324/417] OK
+[  3s] ELF: ctor[325/417] @0x8abb3d300
+[  3s] ELF: ctor[325/417] OK
+[  3s] ELF: ctor[326/417] @0x8abb3d3b0
+[  3s] ELF: ctor[326/417] OK
+[  3s] ELF: ctor[327/417] @0x8abb3d460
+[  3s] ELF: ctor[327/417] OK
+[  3s] ELF: ctor[328/417] @0x8abb3d510
+[  3s] ELF: ctor[328/417] OK
+[  3s] ELF: ctor[329/417] @0x8abb3d5c0
+[  3s] ELF: ctor[329/417] OK
+[  3s] ELF: ctor[330/417] @0x8abb3d670
+[  3s] ELF: ctor[330/417] OK
+[  3s] ELF: ctor[331/417] @0x8abb3d720
+[  3s] ELF: ctor[331/417] OK
+[  3s] ELF: ctor[332/417] @0x8abb3d7d0
+[  3s] ELF: ctor[332/417] OK
+[  3s] ELF: ctor[333/417] @0x8abb3d880
+[  3s] ELF: ctor[333/417] OK
+[  3s] ELF: ctor[334/417] @0x8abb3d930
+[  3s] ELF: ctor[334/417] OK
+[  3s] ELF: ctor[335/417] @0x8abb3d9e0
+[  3s] ELF: ctor[335/417] OK
+[  3s] ELF: ctor[336/417] @0x8abb3da90
+[  3s] ELF: ctor[336/417] OK
+[  3s] ELF: ctor[337/417] @0x8abb3db40
+[  3s] ELF: ctor[337/417] OK
+[  3s] ELF: ctor[338/417] @0x8abb3dbf0
+[  3s] ELF: ctor[338/417] OK
+[  3s] ELF: ctor[339/417] @0x8abb3dca0
+[  3s] ELF: ctor[339/417] OK
+[  3s] ELF: ctor[340/417] @0x8abb3dd50
+[  3s] ELF: ctor[340/417] OK
+[  3s] ELF: ctor[341/417] @0x8abb3de00
+[  3s] ELF: ctor[341/417] OK
+[  3s] ELF: ctor[342/417] @0x8abb3deb0
+[  3s] ELF: ctor[342/417] OK
+[  3s] ELF: ctor[343/417] @0x8abb3df60
+[  3s] ELF: ctor[343/417] OK
+[  3s] ELF: ctor[344/417] @0x8abb3e010
+[  3s] ELF: ctor[344/417] OK
+[  3s] ELF: ctor[345/417] @0x8abb3e0c0
+[  3s] ELF: ctor[345/417] OK
+[  3s] ELF: ctor[346/417] @0x8abb3e170
+[  3s] ELF: ctor[346/417] OK
+[  3s] ELF: ctor[347/417] @0x8abb3e220
+[  3s] ELF: ctor[347/417] OK
+[  3s] ELF: ctor[348/417] @0x8abb3e2d0
+[  3s] ELF: ctor[348/417] OK
+[  3s] ELF: ctor[349/417] @0x8abb3e380
+[  3s] ELF: ctor[349/417] OK
+[  3s] ELF: ctor[350/417] @0x8abb3e430
+[  3s] ELF: ctor[350/417] OK
+[  3s] ELF: ctor[351/417] @0x8abb3e4e0
+[  3s] ELF: ctor[351/417] OK
+[  3s] ELF: ctor[352/417] @0x8abb3e590
+[  3s] ELF: ctor[352/417] OK
+[  3s] ELF: ctor[353/417] @0x8abb3e640
+[  3s] ELF: ctor[353/417] OK
+[  3s] ELF: ctor[354/417] @0x8abb3e6f0
+[  3s] ELF: ctor[354/417] OK
+[  3s] ELF: ctor[355/417] @0x8abb3e7a0
+[  3s] ELF: ctor[355/417] OK
+[  3s] ELF: ctor[356/417] @0x8abb3e850
+[  3s] ELF: ctor[356/417] OK
+[  3s] ELF: ctor[357/417] @0x8abb3e900
+[  3s] ELF: ctor[357/417] OK
+[  3s] ELF: ctor[358/417] @0x8abb3e9b0
+[  3s] ELF: ctor[358/417] OK
+[  3s] ELF: ctor[359/417] @0x8abb3ea60
+[  3s] ELF: ctor[359/417] OK
+[  3s] ELF: ctor[360/417] @0x8abb3eb10
+[  3s] ELF: ctor[360/417] OK
+[  3s] ELF: ctor[361/417] @0x8abb3ebc0
+[  3s] ELF: ctor[361/417] OK
+[  3s] ELF: ctor[362/417] @0x8abb3ec70
+[  3s] ELF: ctor[362/417] OK
+[  3s] ELF: ctor[363/417] @0x8abb3ed20
+[  3s] ELF: ctor[363/417] OK
+[  3s] ELF: ctor[364/417] @0x8abb3edd0
+[  3s] ELF: ctor[364/417] OK
+[  3s] ELF: ctor[365/417] @0x8abb3ee80
+[  3s] ELF: ctor[365/417] OK
+[  3s] ELF: ctor[366/417] @0x8abb3ef30
+[  3s] ELF: ctor[366/417] OK
+[  3s] ELF: ctor[367/417] @0x8abb3f028
+[  3s] ELF: ctor[367/417] OK
+[  3s] ELF: ctor[368/417] @0x8abb3f0d8
+[  3s] ELF: ctor[368/417] OK
+[  3s] ELF: ctor[369/417] @0x8abb3f188
+[  3s] ELF: ctor[369/417] OK
+[  3s] ELF: ctor[370/417] @0x8abb3f238
+[  3s] ELF: ctor[370/417] OK
+[  3s] ELF: ctor[371/417] @0x8abb3f2e8
+[  3s] ELF: ctor[371/417] OK
+[  3s] ELF: ctor[372/417] @0x8abb3f398
+[  3s] ELF: ctor[372/417] OK
+[  3s] ELF: ctor[373/417] @0x8abb3f448
+[  3s] ELF: ctor[373/417] OK
+[  3s] ELF: ctor[374/417] @0x8abb3f4f8
+[  3s] ELF: ctor[374/417] OK
+[  3s] ELF: ctor[375/417] @0x8abb3f5a8
+[  3s] ELF: ctor[375/417] OK
+[  3s] ELF: ctor[376/417] @0x8abb3f658
+[  3s] ELF: ctor[376/417] OK
+[  3s] ELF: ctor[377/417] @0x8abb3f708
+[  3s] ELF: ctor[377/417] OK
+[  3s] ELF: ctor[378/417] @0x8abb3f7dc
+[  3s] ELF: ctor[378/417] OK
+[  3s] ELF: ctor[379/417] @0x8abb3f88c
+[  3s] ELF: ctor[379/417] OK
+[  3s] ELF: ctor[380/417] @0x8abb3f93c
+[  3s] ELF: ctor[380/417] OK
+[  3s] ELF: ctor[381/417] @0x8abb3fa18
+[  3s] ELF: ctor[381/417] OK
+[  3s] ELF: ctor[382/417] @0x8abb3fac8
+[  3s] ELF: ctor[382/417] OK
+[  3s] ELF: ctor[383/417] @0x8abb3fb78
+[  3s] ELF: ctor[383/417] OK
+[  3s] ELF: ctor[384/417] @0x8abb3fc28
+[  3s] ELF: ctor[384/417] OK
+[  3s] ELF: ctor[385/417] @0x8abb3fcd8
+[  3s] ELF: ctor[385/417] OK
+[  3s] ELF: ctor[386/417] @0x8abb3fd88
+[  3s] ELF: ctor[386/417] OK
+[  3s] ELF: ctor[387/417] @0x8abb3fe38
+[  3s] ELF: ctor[387/417] OK
+[  3s] ELF: ctor[388/417] @0x8abb3fee8
+[  3s] ELF: ctor[388/417] OK
+[  3s] ELF: ctor[389/417] @0x8abb3ff98
+[  3s] ELF: ctor[389/417] OK
+[  3s] ELF: ctor[390/417] @0x8abb40048
+[  3s] ELF: ctor[390/417] OK
+[  3s] ELF: ctor[391/417] @0x8abb400f8
+[  3s] ELF: ctor[391/417] OK
+[  3s] ELF: ctor[392/417] @0x8abb401a8
+[  4s] ELF: ctor[392/417] OK
+[  4s] ELF: ctor[393/417] @0x8abb40258
+[  4s] ELF: ctor[393/417] OK
+[  4s] ELF: ctor[394/417] @0x8abb40308
+[  4s] ELF: ctor[394/417] OK
+[  4s] ELF: ctor[395/417] @0x8abb403b8
+[  4s] ELF: ctor[395/417] OK
+[  4s] ELF: ctor[396/417] @0x8abb40468
+[  4s] ELF: ctor[396/417] OK
+[  4s] ELF: ctor[397/417] @0x8abb40518
+[  4s] ELF: ctor[397/417] OK
+[  4s] ELF: ctor[398/417] @0x8abb405f4
+[  4s] ELF: ctor[398/417] OK
+[  4s] ELF: ctor[399/417] @0x8abb406a4
+[  4s] ELF: ctor[399/417] OK
+[  4s] ELF: ctor[400/417] @0x8abb40754
+[  4s] ELF: ctor[400/417] OK
+[  4s] ELF: ctor[401/417] @0x8abb40804
+[  4s] ELF: ctor[401/417] OK
+[  4s] ELF: ctor[402/417] @0x8abb408b4
+[  4s] ELF: ctor[402/417] OK
+[  4s] ELF: ctor[403/417] @0x8abb40964
+[  4s] ELF: ctor[403/417] OK
+[  4s] ELF: ctor[404/417] @0x8abb40a14
+[  4s] ELF: ctor[404/417] OK
+[  4s] ELF: ctor[405/417] @0x8abb40ac4
+[  4s] ELF: ctor[405/417] OK
+[  4s] ELF: ctor[406/417] @0x8abb40b74
+[  4s] ELF: ctor[406/417] OK
+[  4s] ELF: ctor[407/417] @0x8abb40c48
+[  4s] ELF: ctor[407/417] OK
+[  4s] ELF: ctor[408/417] @0x8abb40cf8
+[  4s] ELF: ctor[408/417] OK
+[  4s] ELF: ctor[409/417] @0x8abb40da8
+[  4s] ELF: ctor[409/417] OK
+[  4s] ELF: ctor[410/417] @0x8abb40e58
+[  4s] ELF: ctor[410/417] OK
+[  4s] ELF: ctor[411/417] @0x8abb40f08
+[  4s] ELF: ctor[411/417] OK
+[  4s] ELF: ctor[412/417] @0x8abb40fb8
+[  4s] ELF: ctor[412/417] OK
+[  4s] ELF: ctor[413/417] @0x8abb41068
+[  4s] ELF: ctor[413/417] OK
+[  4s] ELF: ctor[414/417] @0x8abb41118
+[  4s] ELF: ctor[414/417] OK
+[  4s] ELF: ctor[415/417] @0x8abb411c8
+[  4s] ELF: ctor[415/417] OK
+[  4s] ELF: ctor[416/417] @0x8abb41224
+[  4s] ELF: ctor[416/417] OK
+[  4s] ELF: ctor[417/417] @0x8abb418ec
+[  4s] syscall(178) → ENOSYS  x3
+[  4s] ELF: ctor[417/417] OK
+[  4s] ELF: libgame.so: ctors done ok=417 failed=0 skipped=0
+[  4s] Scanning for Java_ native methods in main .so...
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_closeWithEulaDecline @0x8abe26214
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_onPaymentWallAdsUpdated @0x8abd3000c
+[  4s] JAVA_METHOD: Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeTouchesMove @0x8abe6c200
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_userHasGivenConsentForTargetedAds @0x8abd2fe94
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_getPlayerInfoAdFreeStatus @0x8abd30f10
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_onVideoStartedFail @0x8abd30f6c
+[  4s] JAVA_METHOD: Java_com_fingersoft_utils_CloudHelperNew_onSignInCompleted @0x8abdb5778
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_setInAppItemEnabled @0x8abd2fd8c
+[  4s] JAVA_METHOD: Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeKeyDown @0x8abe6c478
+[  4s] JAVA_METHOD: Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeOnResume @0x8abe6ba18
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_getPlayerInfoGDPRValue @0x8abd30ecc
+[  4s] JAVA_METHOD: Java_com_fingersoft_utils_CloudHelperNew_onSyncDataLoadedGarage @0x8abdb58d8
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_passGDPRConsentValueToNativeSide @0x8abd2fec0
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_consentFormHasBeenShown @0x8abd30f54
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_updateRingerStateAndVolumeLevel @0x8abe25dd4
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_setPromoClosed @0x8abe26210
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_setInAppItemPrice @0x8abd2fa84
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_eulaHasBeenAccepted @0x8abe26230
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_onVideoStartedSuccess @0x8abd30f84
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_createRewardedInterstitialFrequencyCap @0x8abe261a8
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_userHasNotGivenConsentForTargetedAds @0x8abd2feac
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_crossPromoShowing @0x8abe25dcc
+[  4s] JAVA_METHOD: Java_org_cocos2dx_lib_Cocos2dxBitmap_nativeInitBitmapDC @0x8abe6b320
+[  4s] JAVA_METHOD: Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeInit @0x8abb41fb8
+[  4s] JAVA_METHOD: Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeDeleteBackward @0x8abe6b908
+[  4s] JAVA_METHOD: Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeInsertText @0x8abe6b894
+[  4s] JAVA_METHOD: Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeResize @0x8abb41f6c
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_getPlayerConsentLocation @0x8abd30ff0
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_interstialClosed @0x8abe25d38
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_createInterstitialFrequencyCap @0x8abe26158
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_setNativePlayerGDPRStatus @0x8abd31450
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_getContentVersionFromGlobalH @0x8abdb5770
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_returnCountryCode @0x8abd30ff4
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_onVideoCompletedSuccess @0x8abd30fb4
+[  4s] JAVA_METHOD: Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeTouchesBegin @0x8abe6c128
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_returnFileDownloadResult @0x8abd30df4
+[  4s] JAVA_METHOD: Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeGetContentText @0x8abe6b91c
+[  4s] JAVA_METHOD: Java_org_cocos2dx_lib_Cocos2dxActivity_nativeSetPaths @0x8abe6be48
+[  4s] JAVA_METHOD: Java_com_fingersoft_utils_CloudHelperNew_onSyncDataLoaded @0x8abdb57f0
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_onControllerKeyEvent @0x8abbdd6ac
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_setInAppItem @0x8abd2fbc4
+[  4s] JAVA_METHOD: Java_com_fingersoft_utils_CloudHelperNew_onSyncDeviceLimitReached @0x8abdb57a0
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_returnMissionJson @0x8abd30c58
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_isTestingMode @0x8abdb5768
+[  4s] JAVA_METHOD: Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeOnPause @0x8abe6b9cc
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_setServerTime @0x8abd2fdec
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_onVideoCompletedFail @0x8abd30f9c
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_startPopupOfferHandler @0x8abd30eb4
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_clearStoreItems @0x8abd2ff3c
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_onRewardedInterstitialCompleted @0x8abd30fcc
+[  4s] JAVA_METHOD: Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeTouchesEnd @0x8abe6c194
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_onControllerConnectionEvent @0x8abbdd9ec
+[  4s] JAVA_METHOD: Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeTouchesCancel @0x8abe6c33c
+[  4s] JAVA_METHOD: Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeRender @0x8abe6b9b0
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_returnPopupOfferJson @0x8abd30d30
+[  4s] JAVA_METHOD: Java_com_fingersoft_utils_CloudHelperNew_onSyncDataLoadedSkins @0x8abdb59c0
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_setCustomRewardVideoAdCompleted @0x8abd2fe80
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_crossPromoClosed @0x8abe25dd0
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_reportConsentDialogDismissed @0x8abd30f68
+[  4s] JAVA_METHOD: Java_com_fingersoft_utils_CloudHelperNew_onAchievementProgressLoaded @0x8abdb5aa8
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_setInAppItemCurrencyCode @0x8abd2fb24
+[  4s] JAVA_METHOD: Java_com_fingersoft_game_MainActivity_UpdateLevelBattles @0x8abd2fa70
+[  4s] JAVA_METHOD: 62 total Java_ symbols found
+[  4s] ELF: loading complete — game execution on main thread
+[  4s] perf: CPU boost mode -> FastLoad (game startup/loading, GPU throttled)
+[  4s] AndroidTLS: old TPIDR_EL0=0x0 — installing fake TLS @0x93a758750
+[  4s] audio: assets dir = sdmc:/AndroidHorizonNX/games/com.fingersoft.hillclimb/assets
+[  4s] audio: SDL_mixer ready (codecs=0x18)
+[  4s] UserDefaults: loaded 5302 ints, 3 floats, 49 strings
+[  4s] EGL: using SDL2 context on main thread
+[  4s] main/render thread tid=0x93a84d390
+[  4s] Calling JNI_OnLoad @0x8abb41d78 ...
+[  4s] [main] JNI_OnLoad: Init
+[  4s] JNI FindClass: org/cocos2dx/lib/Cocos2dxActivity
+[  4s] JNI_OnLoad returned: 0x10004
+[  4s] No NativeActivity — Cocos2d-x direct Java_ path
+[  4s] Cocos2d-x: nativeSetPaths @0x8abe6be48
+[  4s] Cocos2d-x: nativeSetPaths OK
+[  4s] Cocos2d-x: nativeInit @0x8abb41fb8 1280x720
+[  4s] syscall(178) → ENOSYS
+[  4s] JNI FindClass: org/cocos2dx/lib/Cocos2dxRenderer
+[  4s] JNI GetStaticMethodID: setAnimationInterval (D)V
+[  4s] JNI CallStaticVoidMethodV: setAnimationInterval (D)V
+[  4s] fopen FAIL:  (mode=r)
+[  4s] game stdio[tid=0x93a84d390]: I/O 
+[  4s] game stdio[tid=0x93a84d390]: error : 
+[  4s] game stdio[tid=0x93a84d390]: No such file or directory
+
+[  4s] fopen FAIL:  (mode=r)
+[  4s] game stdio[tid=0x93a84d390]: I/O 
+[  4s] game stdio[tid=0x93a84d390]: error : 
+[  4s] game stdio[tid=0x93a84d390]: No such file or directory
+
+[  4s] game stdio[tid=0x93a84d390]: I/O 
+[  4s] game stdio[tid=0x93a84d390]: warning : 
+[  4s] game stdio[tid=0x93a84d390]: failed to load external entity ""
+
+[  4s] JNI FindClass: org/cocos2dx/lib/Cocos2dxUserDefault
+[  4s] JNI GetStaticMethodID: getIntegerForKey (Ljava/lang/String;I)I
+[  4s] JNI GetStaticMethodID: getStringForKey (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+[  4s] JNI FindClass: com/fingersoft/game/MainActivity
+[  4s] JNI GetStaticMethodID: getMarketVariation ()I
+[  4s] JNI GetStaticMethodID: isTv ()Z
+[  4s] JNI CallStaticBooleanMethodV: isTv → false
+[  4s] JNI GetStaticMethodID: hasValue (Ljava/lang/String;)Z
+[  4s] JNI CallStaticBooleanMethodV: hasValue → false
+[  4s] JNI GetStaticMethodID: getDeviceLanguage ()Ljava/lang/String;
+[  4s] JNI CallStaticObjectMethodV: getDeviceLanguage ()Ljava/lang/String; → ""
+[  4s] JNI GetStaticMethodID: debugStringOnAndroid (Ljava/lang/String;)V
+[  4s] game debug: Day Today:6 PrevDayInMonth:6
+[  4s] JNI GetStaticMethodID: getFloatForKey (Ljava/lang/String;F)F
+[  4s] JNI GetStaticMethodID: aesEncrypt (Ljava/lang/String;)Ljava/lang/String;
+[  4s] JNI GetStaticMethodID: retrieveDefaultsString (Ljava/lang/String;)Ljava/lang/String;
+[  5s] JNI GetStaticMethodID: aesDecrypt (Ljava/lang/String;)Ljava/lang/String;
+[  5s] JNI getIntegerForKey: 2000 reads
+[  5s] JNI getIntegerForKey: 4000 reads
+[  5s] JNI GetStaticMethodID: getSettingInt (Ljava/lang/String;I)I
+[  5s] JNI GetStaticMethodID: getFirebaseRemoteConfigInt (Ljava/lang/String;I)I
+[  5s] JNI GetStaticMethodID: getFirebaseRemoteConfigString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+[  5s] JNI CallStaticObjectMethodV: getFirebaseRemoteConfigString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; → ""
+[  5s] JNI GetStaticMethodID: startAdView ()V
+[  5s] JNI CallStaticVoidMethodV: startAdView ()V
+[  5s] Cocos2d-x: nativeInit OK
+[  5s] touch: begin=0x8abe6c128 end=0x8abe6c194 move=0x8abe6c200 keyDown=0x8abe6c478
+[  5s] Cocos2d-x: nativeRender @0x8abe6b9b0 — game loop
+[  5s] branding: probe [0]=0,0,0(want 46,51,63)X [1]=0,0,0(want 46,51,63)X [2]=0,0,0(want 16,19,27)X → no match
+[  5s] [libSimpleAudioEngine] Get Env
+[  5s] JNI GetStaticMethodID: getAndroidVersion ()Ljava/lang/String;
+[  5s] JNI CallStaticObjectMethodV: getAndroidVersion ()Ljava/lang/String; → ""
+[  5s] JNI GetStaticMethodID: preloadEffect (Ljava/lang/String;)V
+[  5s] STALL(severe): frame 2 stalled for 414ms
+[  8s] JNI GetStaticMethodID: playEffect (Ljava/lang/String;ZFF)I
+[  8s] JNI GetStaticMethodID: splashScreenHasCompleted ()V
+[  8s] JNI splashScreenHasCompleted — hiding branding overlay
+[  8s] [libSimpleAudioEngine] Get Env
+[  8s] stall: frame 152 stalled for 54ms
+[  8s] JNI GetStaticMethodID: stopBackgroundMusic ()V
+[  8s] JNI GetStaticMethodID: playBackgroundMusic (Ljava/lang/String;Z)V
+[  8s] audio: music sdmc:/AndroidHorizonNX/games/com.fingersoft.hillclimb/assets/audio/bgmusic00.ogg loop=1
+[  8s] JNI GetStaticMethodID: setBackgroundMusicVolume (F)V
+[  8s] JNI setBackgroundMusicVolume(0.500000)
+[  8s] stall: frame 153 stalled for 35ms
+[  8s] branding: overlay ready (593x35 texture)
+[  8s] stall: frame 164 stalled for 75ms
+[  8s] stall: frame 170 stalled for 37ms
+[  8s] stall: frame 171 stalled for 39ms
+[  8s] stall: frame 172 stalled for 52ms
+[  8s] stall: frame 173 stalled for 51ms
+[  8s] stall: frame 174 stalled for 40ms
+[  8s] stall: frame 175 stalled for 42ms
+[  8s] stall: frame 176 stalled for 49ms
+[  8s] stall: frame 177 stalled for 44ms
+[  8s] stall: frame 178 stalled for 80ms
+[  9s] stall: frame 179 stalled for 80ms
+[  9s] branding: confirmed on loading screen (frame 180)
+[  9s] STALL(severe): frame 180 stalled for 111ms
+[  9s] STALL(severe): frame 181 stalled for 124ms
+[  9s] STALL(severe): frame 182 stalled for 411ms
+[  9s] STALL(severe): frame 183 stalled for 235ms
+[ 10s] STALL(severe): frame 184 stalled for 117ms
+[ 10s] STALL(severe): frame 185 stalled for 248ms
+[ 10s] STALL(severe): frame 186 stalled for 248ms
+[ 10s] STALL(severe): frame 187 stalled for 214ms
+[ 11s] STALL(severe): frame 188 stalled for 226ms
+[ 11s] STALL(severe): frame 189 stalled for 106ms
+[ 11s] STALL(severe): frame 190 stalled for 106ms
+[ 11s] stall: frame 191 stalled for 38ms
+[ 11s] stall: frame 192 stalled for 51ms
+[ 11s] stall: frame 193 stalled for 43ms
+[ 11s] stall: frame 194 stalled for 54ms
+[ 11s] stall: frame 195 stalled for 54ms
+[ 11s] stall: frame 196 stalled for 61ms
+[ 11s] stall: frame 197 stalled for 54ms
+[ 11s] stall: frame 198 stalled for 49ms
+[ 11s] stall: frame 199 stalled for 50ms
+[ 11s] stall: frame 200 stalled for 57ms
+[ 11s] stall: frame 201 stalled for 49ms
+[ 11s] stall: frame 202 stalled for 46ms
+[ 11s] stall: frame 203 stalled for 46ms
+[ 11s] stall: frame 204 stalled for 57ms
+[ 11s] stall: frame 205 stalled for 47ms
+[ 12s] stall: frame 206 stalled for 47ms
+[ 12s] stall: frame 207 stalled for 47ms
+[ 12s] stall: frame 208 stalled for 59ms
+[ 12s] stall: frame 209 stalled for 47ms
+[ 12s] stall: frame 210 stalled for 55ms
+[ 12s] stall: frame 211 stalled for 50ms
+[ 12s] stall: frame 212 stalled for 50ms
+[ 12s] stall: frame 213 stalled for 42ms
+[ 12s] stall: frame 214 stalled for 43ms
+[ 12s] stall: frame 215 stalled for 43ms
+[ 12s] stall: frame 216 stalled for 50ms
+[ 12s] stall: frame 217 stalled for 42ms
+[ 12s] stall: frame 218 stalled for 42ms
+[ 12s] stall: frame 219 stalled for 43ms
+[ 12s] stall: frame 220 stalled for 52ms
+[ 12s] stall: frame 221 stalled for 43ms
+[ 12s] stall: frame 222 stalled for 44ms
+[ 12s] stall: frame 223 stalled for 42ms
+[ 12s] stall: frame 224 stalled for 52ms
+[ 12s] stall: frame 225 stalled for 42ms
+[ 12s] stall: frame 226 stalled for 43ms
+[ 12s] stall: frame 227 stalled for 43ms
+[ 13s] stall: frame 228 stalled for 52ms
+[ 13s] stall: frame 229 stalled for 41ms
+[ 13s] stall: frame 230 stalled for 42ms
+[ 13s] stall: frame 231 stalled for 42ms
+[ 13s] stall: frame 232 stalled for 49ms
+[ 13s] stall: frame 233 stalled for 42ms
+[ 13s] stall: frame 234 stalled for 44ms
+[ 13s] stall: frame 235 stalled for 42ms
+[ 13s] stall: frame 236 stalled for 49ms
+[ 13s] stall: frame 237 stalled for 43ms
+[ 13s] stall: frame 238 stalled for 43ms
+[ 13s] stall: frame 239 stalled for 43ms
+[ 13s] stall: frame 240 stalled for 51ms
+[ 13s] stall: frame 241 stalled for 43ms
+[ 13s] stall: frame 242 stalled for 42ms
+[ 13s] stall: frame 243 stalled for 43ms
+[ 13s] stall: frame 244 stalled for 55ms
+[ 13s] stall: frame 245 stalled for 49ms
+[ 13s] stall: frame 246 stalled for 44ms
+[ 13s] stall: frame 247 stalled for 43ms
+[ 13s] stall: frame 248 stalled for 53ms
+[ 13s] stall: frame 249 stalled for 44ms
+[ 14s] stall: frame 250 stalled for 45ms
+[ 14s] stall: frame 251 stalled for 45ms
+[ 14s] stall: frame 252 stalled for 58ms
+[ 14s] stall: frame 253 stalled for 50ms
+[ 14s] stall: frame 254 stalled for 52ms
+[ 14s] stall: frame 255 stalled for 49ms
+[ 14s] stall: frame 256 stalled for 55ms
+[ 14s] stall: frame 257 stalled for 49ms
+[ 14s] stall: frame 258 stalled for 55ms
+[ 14s] stall: frame 259 stalled for 55ms
+[ 14s] stall: frame 260 stalled for 64ms
+[ 14s] stall: frame 261 stalled for 58ms
+[ 14s] stall: frame 262 stalled for 58ms
+[ 14s] stall: frame 263 stalled for 57ms
+[ 14s] stall: frame 264 stalled for 60ms
+[ 14s] stall: frame 265 stalled for 53ms
+[ 14s] stall: frame 266 stalled for 54ms
+[ 14s] stall: frame 267 stalled for 57ms
+[ 15s] stall: frame 268 stalled for 65ms
+[ 15s] stall: frame 269 stalled for 56ms
+[ 15s] stall: frame 270 stalled for 57ms
+[ 15s] stall: frame 271 stalled for 52ms
+[ 15s] stall: frame 272 stalled for 65ms
+[ 15s] stall: frame 273 stalled for 50ms
+[ 15s] stall: frame 274 stalled for 49ms
+[ 15s] stall: frame 275 stalled for 45ms
+[ 15s] stall: frame 276 stalled for 54ms
+[ 15s] stall: frame 277 stalled for 47ms
+[ 15s] stall: frame 278 stalled for 46ms
+[ 15s] game stdio[tid=0x93a84d390]: libpng warning: iCCP: known incorrect sRGB profile
+[ 15s] stall: frame 279 stalled for 52ms
+[ 15s] stall: frame 280 stalled for 56ms
+[ 15s] stall: frame 281 stalled for 48ms
+[ 15s] stall: frame 282 stalled for 47ms
+[ 15s] stall: frame 283 stalled for 51ms
+[ 15s] stall: frame 284 stalled for 55ms
+[ 15s] stall: frame 285 stalled for 49ms
+[ 15s] stall: frame 286 stalled for 51ms
+[ 16s] stall: frame 287 stalled for 49ms
+[ 16s] STALL(severe): frame 288 stalled for 106ms
+[ 16s] STALL(severe): frame 289 stalled for 110ms
+[ 16s] STALL(severe): frame 290 stalled for 106ms
+[ 16s] STALL(severe): frame 291 stalled for 106ms
+[ 16s] STALL(severe): frame 292 stalled for 110ms
+[ 16s] STALL(severe): frame 293 stalled for 102ms
+[ 16s] STALL(severe): frame 294 stalled for 106ms
+[ 16s] STALL(severe): frame 295 stalled for 103ms
+[ 17s] STALL(severe): frame 296 stalled for 109ms
+[ 17s] stall: frame 297 stalled for 99ms
+[ 17s] STALL(severe): frame 298 stalled for 102ms
+[ 17s] stall: frame 299 stalled for 99ms
+[ 17s] branding: probe [0]=48,54,66(want 46,51,63) [1]=45,49,60(want 46,51,63) [2]=16,19,27(want 16,19,27) → MATCH
+[ 17s] STALL(severe): frame 300 stalled for 106ms
+[ 17s] stall: frame 301 stalled for 97ms
+[ 17s] stall: frame 302 stalled for 98ms
+[ 17s] stall: frame 303 stalled for 97ms
+[ 17s] STALL(severe): frame 304 stalled for 105ms
+[ 17s] STALL(severe): frame 305 stalled for 101ms
+[ 18s] STALL(severe): frame 306 stalled for 101ms
+[ 18s] STALL(severe): frame 307 stalled for 100ms
+[ 18s] STALL(severe): frame 308 stalled for 113ms
+[ 18s] stall: frame 309 stalled for 99ms
+[ 18s] stall: frame 310 stalled for 99ms
+[ 18s] STALL(severe): frame 311 stalled for 101ms
+[ 18s] STALL(severe): frame 312 stalled for 112ms
+[ 18s] stall: frame 313 stalled for 97ms
+[ 18s] STALL(severe): frame 314 stalled for 100ms
+[ 18s] STALL(severe): frame 315 stalled for 101ms
+[ 19s] STALL(severe): frame 316 stalled for 105ms
+[ 19s] stall: frame 317 stalled for 97ms
+[ 19s] stall: frame 318 stalled for 97ms
+[ 19s] syscall(178) → ENOSYS
+[ 19s] JNI GetStaticMethodID: getFilesDirectory ()Ljava/lang/String;
+[ 19s] JNI CallStaticObjectMethodV: getFilesDirectory ()Ljava/lang/String; → ""
+[ 19s] game debug: Starting encryption...
+[ 19s] JNI GetStaticMethodID: setIntegerForKey (Ljava/lang/String;I)V
+[ 19s] JNI setIntegerForKey(maxSkippableMissions, 2)
+[ 19s] JNI setIntegerForKey(gemCompensationForExcessiveNitros, 2000)
+[ 20s] JNI GetStaticMethodID: flush ()V
+[ 20s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[ 20s] game debug: Starting decryption...
+[ 20s] JNI GetStaticMethodID: sendMissionJsonRequestToUrl (Ljava/lang/String;)V
+[ 20s] JNI CallStaticVoidMethodV: sendMissionJsonRequestToUrl (Ljava/lang/String;)V
+[ 20s] [fsgame] Event start time 1783281251
+[ 20s] JNI setIntegerForKey(last_saved_timestamp, 1783359906)
+[ 20s] JNI setIntegerForKey(stage, 0)
+[ 20s] JNI setIntegerForKey(coins, 89100)
+[ 20s] JNI setIntegerForKey(highscore, 0)
+[ 20s] JNI setIntegerForKey(level_engine, 1)
+[ 20s] JNI setIntegerForKey(level_suspension, 1)
+[ 20s] JNI setIntegerForKey(level_awd, 1)
+[ 20s] JNI setIntegerForKey(level_traction, 1)
+[ 20s] JNI setIntegerForKey(level_body, 1)
+[ 20s] JNI setIntegerForKey(stage_selection, 4)
+[ 20s] JNI setIntegerForKey(stage_selection_carousel, 5)
+[ 20s] JNI setIntegerForKey(car_selection, 1)
+[ 20s] JNI setIntegerForKey(car_selection_carousel, -1)
+[ 20s] JNI setIntegerForKey(adfree, 0)
+[ 20s] JNI setIntegerForKey(adFreeIAPPurchased, 0)
+[ 20s] JNI setIntegerForKey(gems, 242)
+[ 20s] JNI setIntegerForKey(daily_missions_streak, 0)
+[ 20s] JNI setIntegerForKey(chestg, 0)
+[ 20s] JNI setIntegerForKey(chests, 0)
+[ 20s] JNI setIntegerForKey(chestr, 0)
+[ 20s] JNI setIntegerForKey(unlockg, 0)
+[ 20s] JNI setIntegerForKey(brew, 0)
+[ 20s] JNI setIntegerForKey(garagecar_selection, 0)
+[ 20s] JNI setIntegerForKey(auto_sign_in, 0)
+[ 20s] JNI setIntegerForKey(render_dirt, 1)
+[ 20s] JNI setIntegerForKey(halloween_content, 1)
+[ 20s] JNI setIntegerForKey(music, 1)
+[ 20s] JNI setIntegerForKey(sound, 1)
+[ 20s] JNI setIntegerForKey(moga_pro_guide, 0)
+[ 20s] JNI setIntegerForKey(moga_pocket_guide, 0)
+[ 20s] JNI setIntegerForKey(display_mode, 0)
+[ 20s] JNI setIntegerForKey(facebook_like_rewarded, 0)
+[ 20s] JNI setIntegerForKey(video_ads_enabled, 1)
+[ 20s] JNI GetStaticMethodID: setStringForKey (Ljava/lang/String;Ljava/lang/String;)V
+[ 20s] JNI setStringForKey(language, "translations/english.po")
+[ 20s] JNI setIntegerForKey(daily_double_used, 0)
+[ 20s] JNI setIntegerForKey(new_day, 0)
+[ 20s] JNI setIntegerForKey(previous_day_in_month, 6)
+[ 20s] JNI setIntegerForKey(show_eula_counter, 0)
+[ 20s] JNI setIntegerForKey(eula_has_been_accepted, 1)
+[ 20s] JNI setIntegerForKey(eula_accepted_version, 1)
+[ 20s] JNI setIntegerForKey(bundlea, 13)
+[ 20s] JNI setIntegerForKey(bundlerefsh, 1783359874)
+[ 20s] JNI setIntegerForKey(chal, 0)
+[ 20s] JNI setIntegerForKey(chalc, 4)
+[ 20s] JNI setIntegerForKey(chalfa, 5)
+[ 20s] JNI setIntegerForKey(chalrc, 0)
+[ 20s] JNI setIntegerForKey(chalrew, 140)
+[ 20s] JNI setIntegerForKey(chalgoal, 5300)
+[ 20s] JNI setIntegerForKey(chalv, 1)
+[ 20s] JNI setIntegerForKey(chalprev, 186)
+[ 20s] JNI setIntegerForKey(maalitynnyrit, 305419896)
+[ 20s] JNI setIntegerForKey(mustontulluurheiluhullu, 305419889)
+[ 20s] JNI setIntegerForKey(erikoisfiat, 305419896)
+[ 20s] JNI setStringForKey(hippikaara, "1783281251")
+[ 20s] JNI setIntegerForKey(tasohoula, 305419896)
+[ 20s] JNI setIntegerForKey(sahanpuru, 305419896)
+[ 20s] JNI setIntegerForKey(is_gdpr_country, 0)
+[ 20s] JNI setIntegerForKey(CPPA_consent, 0)
+[ 20s] JNI setIntegerForKey(CCPA_EULA_updated, 0)
+[ 20s] JNI setIntegerForKey(show_GDPR_V3_dialog, 0)
+[ 20s] JNI setIntegerForKey(GDPR_consent, 1)
+[ 20s] JNI setIntegerForKey(determinedGdprLocation, 0)
+[ 20s] JNI setIntegerForKey(gdprLocation, 2)
+[ 20s] JNI setIntegerForKey(lowrider_hop, 0)
+[ 20s] JNI setIntegerForKey(lowrider_jump, 0)
+[ 20s] JNI GetStaticMethodID: setFloatForKey (Ljava/lang/String;F)V
+[ 20s] JNI setFloatForKey(space_best_time, 0.000000)
+[ 20s] JNI setIntegerForKey(bogland_berries, 0)
+[ 20s] JNI setIntegerForKey(retro_hiscore, 0)
+[ 20s] JNI setIntegerForKey(retro_coins, 0)
+[ 20s] JNI setIntegerForKey(retro_upgrades, 8191)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_0, 4999490)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_1, 900)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_2, 2304)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_3, 0)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_4, 5719374)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_5, 700)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_6, 1792)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_7, 0)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_8, 5132116)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_9, 500)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_10, 1280)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_11, 0)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_12, 5130566)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_13, 200)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_14, 512)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_15, 0)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_16, 5391687)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_17, 100)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_18, 256)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_19, 0)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_20, 5523027)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_21, 50)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_22, 80)
+[ 20s] JNI setIntegerForKey(retro_hiscoretable_23, 0)
+[ 20s] JNI setIntegerForKey(adsWatchedToday, 0)
+[ 20s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[ 20s] JNI setIntegerForKey(double_money_video_watched, 0)
+[ 20s] JNI setIntegerForKey(is_double_money_active, 0)
+[ 20s] JNI setIntegerForKey(custom1_unlocked, 0)
+[ 20s] JNI setIntegerForKey(custom1_chestconsumed, 0)
+[ 20s] JNI setIntegerForKey(custom1_powerupsel, 0)
+[ 20s] JNI setStringForKey(custom1_attachments, "")
+[ 20s] JNI setIntegerForKey(jeep_engine, 5)
+[ 20s] JNI setIntegerForKey(jeep_engineH, 5)
+[ 20s] JNI setIntegerForKey(jeep_suspension, 4)
+[ 20s] JNI setIntegerForKey(jeep_suspensionH, 4)
+[ 20s] JNI setIntegerForKey(jeep_tires, 4)
+[ 20s] JNI setIntegerForKey(jeep_tiresH, 4)
+[ 20s] JNI setIntegerForKey(jeep_awd, 3)
+[ 20s] JNI setIntegerForKey(jeep_awdH, 3)
+[ 20s] JNI setIntegerForKey(jeep_unlocked, 1)
+[ 20s] JNI setIntegerForKey(jeep_chestconsumed, 1)
+[ 20s] JNI setIntegerForKey(jeep_powerupsel, 0)
+[ 20s] JNI setStringForKey(jeep_attachments, "")
+[ 20s] JNI setIntegerForKey(bike_engine, 1)
+[ 20s] JNI setIntegerForKey(bike_engineH, 1)
+[ 20s] JNI setIntegerForKey(bike_suspension, 1)
+[ 20s] JNI setIntegerForKey(bike_suspensionH, 1)
+[ 20s] JNI setIntegerForKey(bike_tires, 1)
+[ 20s] JNI setIntegerForKey(bike_tiresH, 1)
+[ 20s] JNI setIntegerForKey(bike_rotation, 1)
+[ 20s] JNI setIntegerForKey(bike_rotationH, 1)
+[ 20s] JNI setIntegerForKey(bike_unlocked, 0)
+[ 20s] JNI setIntegerForKey(bike_chestconsumed, 0)
+[ 20s] JNI setIntegerForKey(bike_powerupsel, 0)
+[ 20s] JNI setStringForKey(bike_attachments, "")
+[ 20s] JNI setIntegerForKey(monster_engine, 3)
+[ 20s] JNI setIntegerForKey(monster_engineH, 3)
+[ 20s] JNI setIntegerForKey(monster_suspension, 3)
+[ 20s] JNI setIntegerForKey(monster_suspensionH, 3)
+[ 20s] JNI setIntegerForKey(monster_tires, 4)
+[ 20s] JNI setIntegerForKey(monster_tiresH, 4)
+[ 20s] JNI setIntegerForKey(monster_awd, 1)
+[ 20s] JNI setIntegerForKey(monster_awdH, 1)
+[ 20s] JNI setIntegerForKey(monster_unlocked, 1)
+[ 20s] JNI setIntegerForKey(monster_chestconsumed, 0)
+[ 20s] JNI setIntegerForKey(monster_powerupsel, 0)
+[ 20s] JNI setStringForKey(monster_attachments, "")
+[ 20s] JNI setIntegerForKey(tractor_engine, 1)
+[ 20s] JNI setIntegerForKey(tractor_engineH, 1)
+[ 20s] JNI setIntegerForKey(tractor_tires, 1)
+[ 20s] JNI setIntegerForKey(tractor_tiresH, 1)
+[ 20s] JNI setIntegerForKey(tractor_fuel, 1)
+[ 20s] JNI setIntegerForKey(tractor_fuelH, 1)
+[ 20s] JNI setIntegerForKey(tractor_stability, 1)
+[ 20s] JNI setIntegerForKey(tractor_stabilityH, 1)
+[ 20s] JNI setIntegerForKey(tractor_unlocked, 0)
+[ 20s] JNI setIntegerForKey(tractor_chestconsumed, 0)
+[ 20s] JNI setIntegerForKey(tractor_powerupsel, 0)
+[ 20s] JNI setStringForKey(tractor_attachments, "")
+[ 20s] JNI setIntegerForKey(hippievan_engine, 1)
+[ 20s] JNI setIntegerForKey(hippievan_engineH, 1)
+[ 20s] JNI setIntegerForKey(hippievan_suspension, 1)
+[ 20s] JNI setIntegerForKey(hippievan_suspensionH, 1)
+[ 20s] JNI setIntegerForKey(hippievan_boost, 1)
+[ 20s] JNI setIntegerForKey(hippievan_boostH, 1)
+[ 20s] JNI setIntegerForKey(hippievan_fuel, 1)
+[ 20s] JNI setIntegerForKey(hippievan_fuelH, 1)
+[ 20s] JNI setIntegerForKey(hippievan_unlocked, 0)
+[ 20s] JNI setIntegerForKey(hippievan_chestconsumed, 0)
+[ 20s] JNI setIntegerForKey(hippievan_powerupsel, 0)
+[ 20s] JNI setStringForKey(hippievan_attachments, "")
+[ 20s] JNI setIntegerForKey(onewheeler_engine, 1)
+[ 20s] JNI setIntegerForKey(onewheeler_engineH, 1)
+[ 20s] JNI setIntegerForKey(onewheeler_suspension, 1)
+[ 20s] JNI setIntegerForKey(onewheeler_suspensionH, 1)
+[ 20s] JNI setIntegerForKey(onewheeler_tires, 1)
+[ 21s] JNI setIntegerForKey(onewheeler_tiresH, 1)
+[ 21s] JNI setIntegerForKey(onewheeler_battery, 1)
+[ 21s] JNI setIntegerForKey(onewheeler_batteryH, 1)
+[ 21s] JNI setIntegerForKey(onewheeler_unlocked, 0)
+[ 21s] JNI setIntegerForKey(onewheeler_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(onewheeler_powerupsel, 0)
+[ 21s] JNI setStringForKey(onewheeler_attachments, "")
+[ 21s] JNI setIntegerForKey(quadbike_engine, 1)
+[ 21s] JNI setIntegerForKey(quadbike_engineH, 1)
+[ 21s] JNI setIntegerForKey(quadbike_suspension, 1)
+[ 21s] JNI setIntegerForKey(quadbike_suspensionH, 1)
+[ 21s] JNI setIntegerForKey(quadbike_tires, 1)
+[ 21s] JNI setIntegerForKey(quadbike_tiresH, 1)
+[ 21s] JNI setIntegerForKey(quadbike_awd, 1)
+[ 21s] JNI setIntegerForKey(quadbike_awdH, 1)
+[ 21s] JNI setIntegerForKey(quadbike_unlocked, 0)
+[ 21s] JNI setIntegerForKey(quadbike_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(quadbike_powerupsel, 0)
+[ 21s] JNI setStringForKey(quadbike_attachments, "")
+[ 21s] JNI setIntegerForKey(trophytruck_engine, 1)
+[ 21s] JNI setIntegerForKey(trophytruck_engineH, 1)
+[ 21s] JNI setIntegerForKey(trophytruck_suspension, 1)
+[ 21s] JNI setIntegerForKey(trophytruck_suspensionH, 1)
+[ 21s] JNI setIntegerForKey(trophytruck_tires, 1)
+[ 21s] JNI setIntegerForKey(trophytruck_tiresH, 1)
+[ 21s] JNI setIntegerForKey(trophytruck_fuel, 1)
+[ 21s] JNI setIntegerForKey(trophytruck_fuelH, 1)
+[ 21s] JNI setIntegerForKey(trophytruck_unlocked, 0)
+[ 21s] JNI setIntegerForKey(trophytruck_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(trophytruck_powerupsel, 0)
+[ 21s] JNI setStringForKey(trophytruck_attachments, "")
+[ 21s] JNI setIntegerForKey(touristbus_engine, 1)
+[ 21s] JNI setIntegerForKey(touristbus_engineH, 1)
+[ 21s] JNI setIntegerForKey(touristbus_suspension, 1)
+[ 21s] JNI setIntegerForKey(touristbus_suspensionH, 1)
+[ 21s] JNI setIntegerForKey(touristbus_tires, 1)
+[ 21s] JNI setIntegerForKey(touristbus_tiresH, 1)
+[ 21s] JNI setIntegerForKey(touristbus_fuel, 1)
+[ 21s] JNI setIntegerForKey(touristbus_fuelH, 1)
+[ 21s] JNI setIntegerForKey(touristbus_unlocked, 0)
+[ 21s] JNI setIntegerForKey(touristbus_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(touristbus_powerupsel, 0)
+[ 21s] JNI setStringForKey(touristbus_attachments, "")
+[ 21s] JNI setIntegerForKey(racecar_engine, 1)
+[ 21s] JNI setIntegerForKey(racecar_engineH, 1)
+[ 21s] JNI setIntegerForKey(racecar_suspension, 1)
+[ 21s] JNI setIntegerForKey(racecar_suspensionH, 1)
+[ 21s] JNI setIntegerForKey(racecar_tires, 1)
+[ 21s] JNI setIntegerForKey(racecar_tiresH, 1)
+[ 21s] JNI setIntegerForKey(racecar_downforce, 1)
+[ 21s] JNI setIntegerForKey(racecar_downforceH, 1)
+[ 21s] JNI setIntegerForKey(racecar_unlocked, 0)
+[ 21s] JNI setIntegerForKey(racecar_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(racecar_powerupsel, 0)
+[ 21s] JNI setStringForKey(racecar_attachments, "")
+[ 21s] JNI setIntegerForKey(screw_finger_engine, 1)
+[ 21s] JNI setIntegerForKey(screw_finger_engineH, 1)
+[ 21s] JNI setIntegerForKey(screw_finger_stability, 1)
+[ 21s] JNI setIntegerForKey(screw_finger_stabilityH, 1)
+[ 21s] JNI setIntegerForKey(screw_finger_tires, 1)
+[ 21s] JNI setIntegerForKey(screw_finger_tiresH, 1)
+[ 21s] JNI setIntegerForKey(screw_finger_fuel, 1)
+[ 21s] JNI setIntegerForKey(screw_finger_fuelH, 1)
+[ 21s] JNI setIntegerForKey(screwfinger_unlocked, 0)
+[ 21s] JNI setIntegerForKey(screwfinger_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(screwfinger_powerupsel, 0)
+[ 21s] JNI setStringForKey(screwfinger_attachments, "")
+[ 21s] JNI setIntegerForKey(policecar_engine, 1)
+[ 21s] JNI setIntegerForKey(policecar_engineH, 1)
+[ 21s] JNI setIntegerForKey(policecar_suspension, 1)
+[ 21s] JNI setIntegerForKey(policecar_suspensionH, 1)
+[ 21s] JNI setIntegerForKey(policecar_tires, 1)
+[ 21s] JNI setIntegerForKey(policecar_tiresH, 1)
+[ 21s] JNI setIntegerForKey(policecar_fuel, 1)
+[ 21s] JNI setIntegerForKey(policecar_fuelH, 1)
+[ 21s] JNI setIntegerForKey(policecar_unlocked, 0)
+[ 21s] JNI setIntegerForKey(policecar_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(policecar_powerupsel, 0)
+[ 21s] JNI setStringForKey(policecar_attachments, "")
+[ 21s] JNI setIntegerForKey(ambulance_engine, 1)
+[ 21s] JNI setIntegerForKey(ambulance_engineH, 1)
+[ 21s] JNI setIntegerForKey(ambulance_suspension, 1)
+[ 21s] JNI setIntegerForKey(ambulance_suspensionH, 1)
+[ 21s] JNI setIntegerForKey(ambulance_tires, 1)
+[ 21s] JNI setIntegerForKey(ambulance_tiresH, 1)
+[ 21s] JNI setIntegerForKey(ambulance_fuel, 1)
+[ 21s] JNI setIntegerForKey(ambulance_fuelH, 1)
+[ 21s] JNI setIntegerForKey(ambulance_unlocked, 0)
+[ 21s] JNI setIntegerForKey(ambulance_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(ambulance_powerupsel, 0)
+[ 21s] JNI setStringForKey(ambulance_attachments, "")
+[ 21s] JNI setIntegerForKey(electric_engine_rear, 1)
+[ 21s] JNI setIntegerForKey(electric_engine_rearH, 1)
+[ 21s] JNI setIntegerForKey(electric_battery, 1)
+[ 21s] JNI setIntegerForKey(electric_batteryH, 1)
+[ 21s] JNI setIntegerForKey(electric_tires, 1)
+[ 21s] JNI setIntegerForKey(electric_tiresH, 1)
+[ 21s] JNI setIntegerForKey(electric_engine_front, 1)
+[ 21s] JNI setIntegerForKey(electric_engine_frontH, 1)
+[ 21s] JNI setIntegerForKey(electric_unlocked, 0)
+[ 21s] JNI setIntegerForKey(electric_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(electric_powerupsel, 0)
+[ 21s] JNI setStringForKey(electric_attachments, "")
+[ 21s] JNI setIntegerForKey(dieseltruck_engine, 1)
+[ 21s] JNI setIntegerForKey(dieseltruck_engineH, 1)
+[ 21s] JNI setIntegerForKey(dieseltruck_suspension, 1)
+[ 21s] JNI setIntegerForKey(dieseltruck_suspensionH, 1)
+[ 21s] JNI setIntegerForKey(dieseltruck_tires, 1)
+[ 21s] JNI setIntegerForKey(dieseltruck_tiresH, 1)
+[ 21s] JNI setIntegerForKey(dieseltruck_fuel, 1)
+[ 21s] JNI setIntegerForKey(dieseltruck_fuelH, 1)
+[ 21s] JNI setIntegerForKey(dieseltruck_unlocked, 0)
+[ 21s] JNI setIntegerForKey(dieseltruck_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(dieseltruck_powerupsel, 0)
+[ 21s] JNI setStringForKey(dieseltruck_attachments, "")
+[ 21s] JNI setIntegerForKey(rallycar_engine, 1)
+[ 21s] JNI setIntegerForKey(rallycar_engineH, 1)
+[ 21s] JNI setIntegerForKey(rallycar_suspension, 1)
+[ 21s] JNI setIntegerForKey(rallycar_suspensionH, 1)
+[ 21s] JNI setIntegerForKey(rallycar_tires, 1)
+[ 21s] JNI setIntegerForKey(rallycar_tiresH, 1)
+[ 21s] JNI setIntegerForKey(rallycar_downforce, 1)
+[ 21s] JNI setIntegerForKey(rallycar_downforceH, 1)
+[ 21s] JNI setIntegerForKey(rallycar_unlocked, 0)
+[ 21s] JNI setIntegerForKey(rallycar_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(rallycar_powerupsel, 0)
+[ 21s] JNI setStringForKey(rallycar_attachments, "")
+[ 21s] JNI setIntegerForKey(dragster_engine, 1)
+[ 21s] JNI setIntegerForKey(dragster_engineH, 1)
+[ 21s] JNI setIntegerForKey(dragster_tires, 1)
+[ 21s] JNI setIntegerForKey(dragster_tiresH, 1)
+[ 21s] JNI setIntegerForKey(dragster_fuel, 1)
+[ 21s] JNI setIntegerForKey(dragster_fuelH, 1)
+[ 21s] JNI setIntegerForKey(dragster_stability, 1)
+[ 21s] JNI setIntegerForKey(dragster_stabilityH, 1)
+[ 21s] JNI setIntegerForKey(dragster_unlocked, 0)
+[ 21s] JNI setIntegerForKey(dragster_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(dragster_powerupsel, 0)
+[ 21s] JNI setStringForKey(dragster_attachments, "")
+[ 21s] JNI setIntegerForKey(firetruck_engine, 1)
+[ 21s] JNI setIntegerForKey(firetruck_engineH, 1)
+[ 21s] JNI setIntegerForKey(firetruck_brakes, 1)
+[ 21s] JNI setIntegerForKey(firetruck_brakesH, 1)
+[ 21s] JNI setIntegerForKey(firetruck_tire, 1)
+[ 21s] JNI setIntegerForKey(firetruck_tireH, 1)
+[ 21s] JNI setIntegerForKey(firetruck_fuel, 1)
+[ 21s] JNI setIntegerForKey(firetruck_fuelH, 1)
+[ 21s] JNI setIntegerForKey(firetruck_unlocked, 0)
+[ 21s] JNI setIntegerForKey(firetruck_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(firetruck_powerupsel, 0)
+[ 21s] JNI setStringForKey(firetruck_attachments, "")
+[ 21s] JNI setIntegerForKey(chopper_engine, 1)
+[ 21s] JNI setIntegerForKey(chopper_engineH, 1)
+[ 21s] JNI setIntegerForKey(chopper_suspension, 1)
+[ 21s] JNI setIntegerForKey(chopper_suspensionH, 1)
+[ 21s] JNI setIntegerForKey(bike_sissybar, 1)
+[ 21s] JNI setIntegerForKey(bike_sissybarH, 1)
+[ 21s] JNI setIntegerForKey(bike_fork, 1)
+[ 21s] JNI setIntegerForKey(bike_forkH, 1)
+[ 21s] JNI setIntegerForKey(chopperbike_unlocked, 0)
+[ 21s] JNI setIntegerForKey(chopperbike_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(chopperbike_powerupsel, 0)
+[ 21s] JNI setStringForKey(chopperbike_attachments, "")
+[ 21s] JNI setIntegerForKey(lowrider_engine, 1)
+[ 21s] JNI setIntegerForKey(lowrider_engineH, 1)
+[ 21s] JNI setIntegerForKey(lowrider_tires, 1)
+[ 21s] JNI setIntegerForKey(lowrider_tiresH, 1)
+[ 21s] JNI setIntegerForKey(lowrider_suspension_rear, 1)
+[ 21s] JNI setIntegerForKey(lowrider_suspension_rearH, 1)
+[ 21s] JNI setIntegerForKey(lowrider_suspension_front, 1)
+[ 21s] JNI setIntegerForKey(lowrider_suspension_frontH, 1)
+[ 21s] JNI setIntegerForKey(lowrider_unlocked, 0)
+[ 21s] JNI setIntegerForKey(lowrider_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(lowrider_powerupsel, 0)
+[ 21s] JNI setStringForKey(lowrider_attachments, "")
+[ 21s] JNI setIntegerForKey(tank_engine, 1)
+[ 21s] JNI setIntegerForKey(tank_engineH, 1)
+[ 21s] JNI setIntegerForKey(tank_suspension, 1)
+[ 21s] JNI setIntegerForKey(tank_suspensionH, 1)
+[ 21s] JNI setIntegerForKey(tank_tires, 1)
+[ 21s] JNI setIntegerForKey(tank_tiresH, 1)
+[ 21s] JNI setIntegerForKey(tank_fuel, 1)
+[ 21s] JNI setIntegerForKey(tank_fuelH, 1)
+[ 21s] JNI setIntegerForKey(tank_unlocked, 0)
+[ 21s] JNI setIntegerForKey(tank_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(tank_powerupsel, 0)
+[ 21s] JNI setStringForKey(tank_attachments, "")
+[ 21s] JNI setIntegerForKey(snowmobile_engine, 1)
+[ 21s] JNI setIntegerForKey(snowmobile_engineH, 1)
+[ 21s] JNI setIntegerForKey(snowmobile_suspension, 1)
+[ 21s] JNI setIntegerForKey(snowmobile_suspensionH, 1)
+[ 21s] JNI setIntegerForKey(snowmobile_tires, 1)
+[ 21s] JNI setIntegerForKey(snowmobile_tiresH, 1)
+[ 21s] JNI setIntegerForKey(snowmobile_fuel, 1)
+[ 21s] JNI setIntegerForKey(snowmobile_fuelH, 1)
+[ 21s] JNI setIntegerForKey(snowmobile_unlocked, 0)
+[ 21s] JNI setIntegerForKey(snowmobile_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(snowmobile_powerupsel, 0)
+[ 21s] JNI setStringForKey(snowmobile_attachments, "")
+[ 21s] JNI setIntegerForKey(superoffroad_engine, 1)
+[ 21s] JNI setIntegerForKey(superoffroad_engineH, 1)
+[ 21s] JNI setIntegerForKey(superoffroad_tires, 1)
+[ 21s] JNI setIntegerForKey(superoffroad_tiresH, 1)
+[ 21s] JNI setIntegerForKey(superoffroad_downforce, 1)
+[ 21s] JNI setIntegerForKey(superoffroad_downforceH, 1)
+[ 21s] JNI setIntegerForKey(superoffroad_fuel, 1)
+[ 21s] JNI setIntegerForKey(superoffroad_fuelH, 1)
+[ 21s] JNI setIntegerForKey(superoffroad_unlocked, 0)
+[ 21s] JNI setIntegerForKey(superoffroad_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(superoffroad_powerupsel, 0)
+[ 21s] JNI setStringForKey(superoffroad_attachments, "")
+[ 21s] JNI setIntegerForKey(truck_engine, 1)
+[ 21s] JNI setIntegerForKey(truck_engineH, 1)
+[ 21s] JNI setIntegerForKey(truck_suspension, 1)
+[ 21s] JNI setIntegerForKey(truck_suspensionH, 1)
+[ 21s] JNI setIntegerForKey(truck_tires, 1)
+[ 21s] JNI setIntegerForKey(truck_tiresH, 1)
+[ 21s] JNI setIntegerForKey(truck_fuel, 1)
+[ 21s] JNI setIntegerForKey(truck_fuelH, 1)
+[ 21s] JNI setIntegerForKey(truck_unlocked, 0)
+[ 21s] JNI setIntegerForKey(truck_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(truck_powerupsel, 0)
+[ 21s] JNI setStringForKey(truck_attachments, "")
+[ 21s] JNI setIntegerForKey(dunebuggy_engine, 1)
+[ 21s] JNI setIntegerForKey(dunebuggy_engineH, 1)
+[ 21s] JNI setIntegerForKey(dunebuggy_suspension, 1)
+[ 21s] JNI setIntegerForKey(dunebuggy_suspensionH, 1)
+[ 21s] JNI setIntegerForKey(dunebuggy_tires, 1)
+[ 21s] JNI setIntegerForKey(dunebuggy_tiresH, 1)
+[ 21s] JNI setIntegerForKey(dunebuggy_fuel, 1)
+[ 21s] JNI setIntegerForKey(dunebuggy_fuelH, 1)
+[ 21s] JNI setIntegerForKey(dunebuggy_unlocked, 0)
+[ 21s] JNI setIntegerForKey(dunebuggy_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(dunebuggy_powerupsel, 0)
+[ 21s] JNI setStringForKey(dunebuggy_attachments, "")
+[ 21s] JNI setIntegerForKey(hovercraft_engine, 1)
+[ 21s] JNI setIntegerForKey(hovercraft_engineH, 1)
+[ 21s] JNI setIntegerForKey(hovercraft_stability, 1)
+[ 21s] JNI setIntegerForKey(hovercraft_stabilityH, 1)
+[ 21s] JNI setIntegerForKey(hovercraft_friction, 1)
+[ 21s] JNI setIntegerForKey(hovercraft_frictionH, 1)
+[ 21s] JNI setIntegerForKey(hovercraft_aerodynamics, 1)
+[ 21s] JNI setIntegerForKey(hovercraft_aerodynamicsH, 1)
+[ 21s] JNI setIntegerForKey(hovercraft_unlocked, 0)
+[ 21s] JNI setIntegerForKey(hovercraft_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(hovercraft_powerupsel, 0)
+[ 21s] JNI setStringForKey(hovercraft_attachments, "")
+[ 21s] JNI setIntegerForKey(minibike_engine, 1)
+[ 21s] JNI setIntegerForKey(minibike_engineH, 1)
+[ 21s] JNI setIntegerForKey(minibike_suspension, 1)
+[ 21s] JNI setIntegerForKey(minibike_suspensionH, 1)
+[ 21s] JNI setIntegerForKey(minibike_tires, 1)
+[ 21s] JNI setIntegerForKey(minibike_tiresH, 1)
+[ 21s] JNI setIntegerForKey(minibike_fuel, 1)
+[ 21s] JNI setIntegerForKey(minibike_fuelH, 1)
+[ 21s] JNI setIntegerForKey(minibike_unlocked, 0)
+[ 21s] JNI setIntegerForKey(minibike_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(minibike_powerupsel, 0)
+[ 21s] JNI setStringForKey(minibike_attachments, "")
+[ 21s] JNI setIntegerForKey(bigfinger_engine, 1)
+[ 21s] JNI setIntegerForKey(bigfinger_engineH, 1)
+[ 21s] JNI setIntegerForKey(bigfinger_stability, 1)
+[ 21s] JNI setIntegerForKey(bigfinger_stabilityH, 1)
+[ 21s] JNI setIntegerForKey(bigfinger_rollcage, 1)
+[ 21s] JNI setIntegerForKey(bigfinger_rollcageH, 1)
+[ 21s] JNI setIntegerForKey(bigfinger_fuel, 1)
+[ 21s] JNI setIntegerForKey(bigfinger_fuelH, 1)
+[ 21s] JNI setIntegerForKey(bigfinger_unlocked, 0)
+[ 21s] JNI setIntegerForKey(bigfinger_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(bigfinger_powerupsel, 0)
+[ 21s] JNI setStringForKey(bigfinger_attachments, "")
+[ 21s] JNI setIntegerForKey(train_engine, 1)
+[ 21s] JNI setIntegerForKey(train_engineH, 1)
+[ 21s] JNI setIntegerForKey(train_suspension, 1)
+[ 21s] JNI setIntegerForKey(train_suspensionH, 1)
+[ 21s] JNI setIntegerForKey(train_tires, 1)
+[ 21s] JNI setIntegerForKey(train_tiresH, 1)
+[ 21s] JNI setIntegerForKey(train_fuel, 1)
+[ 21s] JNI setIntegerForKey(train_fuelH, 1)
+[ 21s] JNI setIntegerForKey(train_unlocked, 0)
+[ 21s] JNI setIntegerForKey(train_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(train_powerupsel, 0)
+[ 21s] JNI setStringForKey(train_attachments, "")
+[ 21s] JNI setIntegerForKey(moonlander_engine, 1)
+[ 21s] JNI setIntegerForKey(moonlander_engineH, 1)
+[ 21s] JNI setIntegerForKey(moonlander_suspension, 1)
+[ 21s] JNI setIntegerForKey(moonlander_suspensionH, 1)
+[ 21s] JNI setIntegerForKey(moonlander_thruster, 1)
+[ 21s] JNI setIntegerForKey(moonlander_thrusterH, 1)
+[ 21s] JNI setIntegerForKey(moonlander_fuel, 1)
+[ 21s] JNI setIntegerForKey(moonlander_fuelH, 1)
+[ 21s] JNI setIntegerForKey(moonlander_unlocked, 0)
+[ 21s] JNI setIntegerForKey(moonlander_chestconsumed, 0)
+[ 21s] JNI setIntegerForKey(moonlander_powerupsel, 0)
+[ 21s] JNI setStringForKey(moonlander_attachments, "")
+[ 21s] JNI setIntegerForKey(hotrod_rear_tire, 1)
+[ 21s] JNI setIntegerForKey(hotrod_rear_tireH, 1)
+[ 21s] JNI setIntegerForKey(hotrod_drive, 1)
+[ 21s] JNI setIntegerForKey(hotrod_driveH, 1)
+[ 21s] JNI setIntegerForKey(hotrod_engine, 1)
+[ 21s] JNI setIntegerForKey(hotrod_engineH, 1)
+[ 21s] JNI setIntegerForKey(hotrod_front_tire, 1)
+[ 22s] JNI setIntegerForKey(hotrod_front_tireH, 1)
+[ 22s] JNI setIntegerForKey(hotrod_unlocked, 0)
+[ 22s] JNI setIntegerForKey(hotrod_chestconsumed, 0)
+[ 22s] JNI setIntegerForKey(hotrod_powerupsel, 0)
+[ 22s] JNI setStringForKey(hotrod_attachments, "")
+[ 22s] JNI setIntegerForKey(bubblecar_engine, 1)
+[ 22s] JNI setIntegerForKey(bubblecar_engineH, 1)
+[ 22s] JNI setIntegerForKey(bubblecar_tires, 1)
+[ 22s] JNI setIntegerForKey(bubblecar_tiresH, 1)
+[ 22s] JNI setIntegerForKey(bubblecar_suspension, 1)
+[ 22s] JNI setIntegerForKey(bubblecar_suspensionH, 1)
+[ 22s] JNI setIntegerForKey(bubblecar_rocket, 1)
+[ 22s] JNI setIntegerForKey(bubblecar_rocketH, 1)
+[ 22s] JNI setIntegerForKey(bubblecar_unlocked, 0)
+[ 22s] JNI setIntegerForKey(bubblecar_chestconsumed, 0)
+[ 22s] JNI setIntegerForKey(bubblecar_powerupsel, 0)
+[ 22s] JNI setStringForKey(bubblecar_attachments, "")
+[ 22s] JNI setIntegerForKey(shapeshifter_engine, 1)
+[ 22s] JNI setIntegerForKey(shapeshifter_engineH, 1)
+[ 22s] JNI setIntegerForKey(shapeshifter_suspension, 1)
+[ 22s] JNI setIntegerForKey(shapeshifter_suspensionH, 1)
+[ 22s] JNI setIntegerForKey(shapeshifter_tires, 1)
+[ 22s] JNI setIntegerForKey(shapeshifter_tiresH, 1)
+[ 22s] JNI setIntegerForKey(shapeshifter_downforce, 1)
+[ 22s] JNI setIntegerForKey(shapeshifter_downforceH, 1)
+[ 22s] JNI setIntegerForKey(shapeshifter_unlocked, 0)
+[ 22s] JNI setIntegerForKey(shapeshifter_chestconsumed, 0)
+[ 22s] JNI setIntegerForKey(shapeshifter_powerupsel, 0)
+[ 22s] JNI setStringForKey(shapeshifter_attachments, "")
+[ 22s] JNI setIntegerForKey(luxury_engine, 1)
+[ 22s] JNI setIntegerForKey(luxury_engineH, 1)
+[ 22s] JNI setIntegerForKey(luxury_suspension, 1)
+[ 22s] JNI setIntegerForKey(luxury_suspensionH, 1)
+[ 22s] JNI setIntegerForKey(luxury_tires, 1)
+[ 22s] JNI setIntegerForKey(luxury_tiresH, 1)
+[ 22s] JNI setIntegerForKey(luxury_wealth, 1)
+[ 22s] JNI setIntegerForKey(luxury_wealthH, 1)
+[ 22s] JNI setIntegerForKey(luxury_unlocked, 0)
+[ 22s] JNI setIntegerForKey(luxury_chestconsumed, 0)
+[ 22s] JNI setIntegerForKey(luxury_powerupsel, 0)
+[ 22s] JNI setStringForKey(luxury_attachments, "")
+[ 22s] JNI setIntegerForKey(spider_engine, 1)
+[ 22s] JNI setIntegerForKey(spider_engineH, 1)
+[ 22s] JNI setIntegerForKey(spider_torque, 1)
+[ 22s] JNI setIntegerForKey(spider_torqueH, 1)
+[ 22s] JNI setIntegerForKey(spider_grip, 1)
+[ 22s] JNI setIntegerForKey(spider_gripH, 1)
+[ 22s] JNI setIntegerForKey(spider_fuel, 1)
+[ 22s] JNI setIntegerForKey(spider_fuelH, 1)
+[ 22s] JNI setIntegerForKey(spider_unlocked, 0)
+[ 22s] JNI setIntegerForKey(spider_chestconsumed, 0)
+[ 22s] JNI setIntegerForKey(spider_powerupsel, 0)
+[ 22s] JNI setStringForKey(spider_attachments, "")
+[ 22s] JNI setIntegerForKey(hachiroku_engine, 1)
+[ 22s] JNI setIntegerForKey(hachiroku_engineH, 1)
+[ 22s] JNI setIntegerForKey(hachiroku_suspension, 1)
+[ 22s] JNI setIntegerForKey(hachiroku_suspensionH, 1)
+[ 22s] JNI setIntegerForKey(hachiroku_tires, 1)
+[ 22s] JNI setIntegerForKey(hachiroku_tiresH, 1)
+[ 22s] JNI setIntegerForKey(hachiroku_stiffness, 1)
+[ 22s] JNI setIntegerForKey(hachiroku_stiffnessH, 1)
+[ 22s] JNI setIntegerForKey(hachiroku_unlocked, 0)
+[ 22s] JNI setIntegerForKey(hachiroku_chestconsumed, 0)
+[ 22s] JNI setIntegerForKey(hachiroku_powerupsel, 0)
+[ 22s] JNI setStringForKey(hachiroku_attachments, "")
+[ 22s] JNI setIntegerForKey(superhillclimber_engine, 1)
+[ 22s] JNI setIntegerForKey(superhillclimber_engineH, 1)
+[ 22s] JNI setIntegerForKey(superhillclimber_suspension, 1)
+[ 22s] JNI setIntegerForKey(superhillclimber_suspensionH, 1)
+[ 22s] JNI setIntegerForKey(superhillclimber_tires, 1)
+[ 22s] JNI setIntegerForKey(superhillclimber_tiresH, 1)
+[ 22s] JNI setIntegerForKey(superhillclimber_awd, 1)
+[ 22s] JNI setIntegerForKey(superhillclimber_awdH, 1)
+[ 22s] JNI setIntegerForKey(superhillclimber_unlocked, 0)
+[ 22s] JNI setIntegerForKey(superhillclimber_chestconsumed, 0)
+[ 22s] JNI setIntegerForKey(superhillclimber_powerupsel, 0)
+[ 22s] JNI setStringForKey(superhillclimber_attachments, "")
+[ 22s] JNI setIntegerForKey(carcar_engine, 1)
+[ 22s] JNI setIntegerForKey(carcar_engineH, 1)
+[ 22s] JNI setIntegerForKey(carcar_suspension, 1)
+[ 22s] JNI setIntegerForKey(carcar_suspensionH, 1)
+[ 22s] JNI setIntegerForKey(carcar_tires, 1)
+[ 22s] JNI setIntegerForKey(carcar_tiresH, 1)
+[ 22s] JNI setIntegerForKey(carcar_carness, 1)
+[ 22s] JNI setIntegerForKey(carcar_carnessH, 1)
+[ 22s] JNI setIntegerForKey(carcar_unlocked, 0)
+[ 22s] JNI setIntegerForKey(carcar_chestconsumed, 0)
+[ 22s] JNI setIntegerForKey(carcar_powerupsel, 0)
+[ 22s] JNI setStringForKey(carcar_attachments, "")
+[ 22s] JNI setIntegerForKey(aircar_engine, 1)
+[ 22s] JNI setIntegerForKey(aircar_engineH, 1)
+[ 22s] JNI setIntegerForKey(aircar_suspension, 1)
+[ 22s] JNI setIntegerForKey(aircar_suspensionH, 1)
+[ 22s] JNI setIntegerForKey(aircar_tires, 1)
+[ 22s] JNI setIntegerForKey(aircar_tiresH, 1)
+[ 22s] JNI setIntegerForKey(aircar_fuel, 1)
+[ 22s] JNI setIntegerForKey(aircar_fuelH, 1)
+[ 22s] JNI setIntegerForKey(aircar_unlocked, 0)
+[ 22s] JNI setIntegerForKey(aircar_chestconsumed, 0)
+[ 22s] JNI setIntegerForKey(aircar_powerupsel, 0)
+[ 22s] JNI setStringForKey(aircar_attachments, "")
+[ 22s] JNI setIntegerForKey(fastbike_engine, 1)
+[ 22s] JNI setIntegerForKey(fastbike_engineH, 1)
+[ 22s] JNI setIntegerForKey(fastbike_suspension, 1)
+[ 22s] JNI setIntegerForKey(fastbike_suspensionH, 1)
+[ 22s] JNI setIntegerForKey(fastbike_tires, 1)
+[ 22s] JNI setIntegerForKey(fastbike_tiresH, 1)
+[ 22s] JNI setIntegerForKey(fastbike_turbo, 1)
+[ 22s] JNI setIntegerForKey(fastbike_turboH, 1)
+[ 22s] JNI setIntegerForKey(fastbike_unlocked, 0)
+[ 22s] JNI setIntegerForKey(fastbike_chestconsumed, 0)
+[ 22s] JNI setIntegerForKey(fastbike_powerupsel, 0)
+[ 22s] JNI setStringForKey(fastbike_attachments, "")
+[ 22s] JNI setIntegerForKey(ufo_engine, 1)
+[ 22s] JNI setIntegerForKey(ufo_engineH, 1)
+[ 22s] JNI setIntegerForKey(ufo_rotation, 1)
+[ 22s] JNI setIntegerForKey(ufo_rotationH, 1)
+[ 22s] JNI setIntegerForKey(ufo_thruster, 1)
+[ 22s] JNI setIntegerForKey(ufo_thrusterH, 1)
+[ 22s] JNI setIntegerForKey(ufo_fuel, 1)
+[ 22s] JNI setIntegerForKey(ufo_fuelH, 1)
+[ 22s] JNI setIntegerForKey(ufo_unlocked, 0)
+[ 22s] JNI setIntegerForKey(ufo_chestconsumed, 0)
+[ 22s] JNI setIntegerForKey(ufo_powerupsel, 0)
+[ 22s] JNI setStringForKey(ufo_attachments, "")
+[ 22s] JNI setIntegerForKey(boringcar_engine, 1)
+[ 22s] JNI setIntegerForKey(boringcar_engineH, 1)
+[ 22s] JNI setIntegerForKey(boringcar_suspension, 1)
+[ 22s] JNI setIntegerForKey(boringcar_suspensionH, 1)
+[ 22s] JNI setIntegerForKey(boringcar_tires, 1)
+[ 22s] JNI setIntegerForKey(boringcar_tiresH, 1)
+[ 22s] JNI setIntegerForKey(boringcar_mileage, 1)
+[ 22s] JNI setIntegerForKey(boringcar_mileageH, 1)
+[ 22s] JNI setIntegerForKey(boringcar_unlocked, 0)
+[ 22s] JNI setIntegerForKey(boringcar_chestconsumed, 0)
+[ 22s] JNI setIntegerForKey(boringcar_powerupsel, 0)
+[ 22s] JNI setStringForKey(boringcar_attachments, "")
+[ 22s] JNI setIntegerForKey(badcar_engine, 1)
+[ 22s] JNI setIntegerForKey(badcar_engineH, 1)
+[ 22s] JNI setIntegerForKey(badcar_suspension, 1)
+[ 22s] JNI setIntegerForKey(badcar_suspensionH, 1)
+[ 22s] JNI setIntegerForKey(badcar_tires, 1)
+[ 22s] JNI setIntegerForKey(badcar_tiresH, 1)
+[ 22s] JNI setIntegerForKey(badcar_mileage, 1)
+[ 22s] JNI setIntegerForKey(badcar_mileageH, 1)
+[ 22s] JNI setIntegerForKey(badcar_unlocked, 0)
+[ 22s] JNI setIntegerForKey(badcar_chestconsumed, 0)
+[ 22s] JNI setIntegerForKey(badcar_powerupsel, 0)
+[ 22s] JNI setStringForKey(badcar_attachments, "")
+[ 22s] JNI setIntegerForKey(reindeers, 1)
+[ 22s] JNI setIntegerForKey(reindeersH, 1)
+[ 22s] JNI setIntegerForKey(sleigh_suspension, 1)
+[ 22s] JNI setIntegerForKey(sleigh_suspensionH, 1)
+[ 22s] JNI setIntegerForKey(reindeer_shoes, 1)
+[ 22s] JNI setIntegerForKey(reindeer_shoesH, 1)
+[ 22s] JNI setIntegerForKey(reindeer_food, 1)
+[ 22s] JNI setIntegerForKey(reindeer_foodH, 1)
+[ 22s] JNI setIntegerForKey(sleigh_unlocked, 0)
+[ 22s] JNI setIntegerForKey(sleigh_chestconsumed, 0)
+[ 22s] JNI setIntegerForKey(sleigh_powerupsel, 0)
+[ 22s] JNI setStringForKey(sleigh_attachments, "")
+[ 22s] JNI setIntegerForKey(TOTAL_DISTANCE_1_000_unlocked, 1)
+[ 22s] JNI setIntegerForKey(TOTAL_DISTANCE_1_000_steps, 1000)
+[ 22s] JNI setIntegerForKey(TOTAL_DISTANCE_10_000_unlocked, 1)
+[ 22s] JNI setIntegerForKey(TOTAL_DISTANCE_10_000_steps, 10000)
+[ 22s] JNI setIntegerForKey(TOTAL_DISTANCE_100_000_unlocked, 0)
+[ 22s] JNI setIntegerForKey(TOTAL_DISTANCE_100_000_steps, 18946)
+[ 22s] JNI setIntegerForKey(TOTAL_DISTANCE_1_000_000_unlocked, 0)
+[ 22s] JNI setIntegerForKey(TOTAL_DISTANCE_1_000_000_steps, 18946)
+[ 22s] JNI setIntegerForKey(STAGES_UNLOCKED_2_unlocked, 1)
+[ 22s] JNI setIntegerForKey(STAGES_UNLOCKED_2_steps, 0)
+[ 22s] JNI setIntegerForKey(STAGES_UNLOCKED_5_unlocked, 1)
+[ 22s] JNI setIntegerForKey(STAGES_UNLOCKED_5_steps, 0)
+[ 22s] JNI setIntegerForKey(STAGES_UNLOCKED_10_unlocked, 0)
+[ 22s] JNI setIntegerForKey(STAGES_UNLOCKED_10_steps, 0)
+[ 22s] JNI setIntegerForKey(STAGES_UNLOCKED_ALL_unlocked, 0)
+[ 22s] JNI setIntegerForKey(STAGES_UNLOCKED_ALL_steps, 0)
+[ 22s] JNI setIntegerForKey(VEHICLES_UNLOCKED_2_unlocked, 1)
+[ 22s] JNI setIntegerForKey(VEHICLES_UNLOCKED_2_steps, 0)
+[ 22s] JNI setIntegerForKey(VEHICLES_UNLOCKED_5_unlocked, 0)
+[ 22s] JNI setIntegerForKey(VEHICLES_UNLOCKED_5_steps, 0)
+[ 22s] JNI setIntegerForKey(VEHICLES_UNLOCKED_10_unlocked, 0)
+[ 22s] JNI setIntegerForKey(VEHICLES_UNLOCKED_10_steps, 0)
+[ 22s] JNI setIntegerForKey(VEHICLES_UNLOCKED_ALL_unlocked, 0)
+[ 22s] JNI setIntegerForKey(VEHICLES_UNLOCKED_ALL_steps, 0)
+[ 22s] JNI setIntegerForKey(VEHICLES_UPGRADED_1_unlocked, 0)
+[ 22s] JNI setIntegerForKey(VEHICLES_UPGRADED_1_steps, 0)
+[ 22s] JNI setIntegerForKey(VEHICLES_UPGRADED_5_unlocked, 0)
+[ 22s] JNI setIntegerForKey(VEHICLES_UPGRADED_5_steps, 0)
+[ 22s] JNI setIntegerForKey(VEHICLES_UPGRADED_10_unlocked, 0)
+[ 22s] JNI setIntegerForKey(VEHICLES_UPGRADED_10_steps, 0)
+[ 22s] JNI setIntegerForKey(VEHICLES_UPGRADED_ALL_unlocked, 0)
+[ 22s] JNI setIntegerForKey(VEHICLES_UPGRADED_ALL_steps, 0)
+[ 22s] JNI setIntegerForKey(TOTAL_FLIPS_10_unlocked, 0)
+[ 22s] JNI setIntegerForKey(TOTAL_FLIPS_10_steps, 5)
+[ 22s] JNI setIntegerForKey(TOTAL_FLIPS_100_unlocked, 0)
+[ 22s] JNI setIntegerForKey(TOTAL_FLIPS_100_steps, 5)
+[ 22s] JNI setIntegerForKey(TOTAL_FLIPS_1_000_unlocked, 0)
+[ 22s] JNI setIntegerForKey(TOTAL_FLIPS_1_000_steps, 5)
+[ 22s] JNI setIntegerForKey(TOTAL_BACKFLIPS_10_unlocked, 0)
+[ 22s] JNI setIntegerForKey(TOTAL_BACKFLIPS_10_steps, 1)
+[ 22s] JNI setIntegerForKey(TOTAL_BACKFLIPS_100_unlocked, 0)
+[ 22s] JNI setIntegerForKey(TOTAL_BACKFLIPS_100_steps, 1)
+[ 22s] JNI setIntegerForKey(TOTAL_BACKFLIPS_1_000_unlocked, 0)
+[ 22s] JNI setIntegerForKey(TOTAL_BACKFLIPS_1_000_steps, 1)
+[ 22s] JNI setIntegerForKey(TOTAL_NECKFLIPS_5_unlocked, 1)
+[ 22s] JNI setIntegerForKey(TOTAL_NECKFLIPS_5_steps, 5)
+[ 22s] JNI setIntegerForKey(TOTAL_NECKFLIPS_10_unlocked, 0)
+[ 22s] JNI setIntegerForKey(TOTAL_NECKFLIPS_10_steps, 5)
+[ 22s] JNI setIntegerForKey(TOTAL_NECKFLIPS_50_unlocked, 0)
+[ 22s] JNI setIntegerForKey(TOTAL_NECKFLIPS_50_steps, 5)
+[ 22s] JNI setIntegerForKey(SINGLE_RUN_100_000_unlocked, 0)
+[ 22s] JNI setIntegerForKey(SINGLE_RUN_100_000_steps, 0)
+[ 22s] JNI setIntegerForKey(SINGLE_RUN_1_000_000_unlocked, 0)
+[ 22s] JNI setIntegerForKey(SINGLE_RUN_1_000_000_steps, 0)
+[ 22s] JNI setIntegerForKey(SHARE_RESULT_unlocked, 1)
+[ 22s] JNI setIntegerForKey(SHARE_RESULT_steps, 0)
+[ 22s] JNI setIntegerForKey(jeep_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(jeep_mastery_steps, 16360)
+[ 22s] JNI setIntegerForKey(bike_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(bike_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(monster_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(monster_mastery_steps, 2586)
+[ 22s] JNI setIntegerForKey(tractor_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(tractor_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(hippievan_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(hippievan_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(onewheeler_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(onewheeler_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(quadbike_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(quadbike_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(touristbus_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(touristbus_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(racecar_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(racecar_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(policecar_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(policecar_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(ambulance_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(ambulance_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(dieseltruck_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(dieseltruck_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(rallycar_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(rallycar_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(dragster_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(dragster_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(firetruck_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(firetruck_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(tank_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(tank_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(snowmobile_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(snowmobile_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(superoffroad_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(superoffroad_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(truck_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(truck_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(dunebuggy_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(dunebuggy_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(hovercraft_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(hovercraft_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(minibike_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(minibike_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(bigfinger_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(bigfinger_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(train_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(train_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(moonlander_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(moonlander_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(sleigh_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(sleigh_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(hotrod_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(hotrod_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(electric_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(electric_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(PICKUP_FUEL_WITH_EMPTY_TANK_unlocked, 0)
+[ 22s] JNI setIntegerForKey(PICKUP_FUEL_WITH_EMPTY_TANK_steps, 0)
+[ 22s] JNI setIntegerForKey(NECKFLIP_WITHIN_5S_unlocked, 0)
+[ 22s] JNI setIntegerForKey(NECKFLIP_WITHIN_5S_steps, 0)
+[ 22s] JNI setIntegerForKey(FLIPS_IN_ONE_RUN_10_unlocked, 0)
+[ 22s] JNI setIntegerForKey(FLIPS_IN_ONE_RUN_10_steps, 0)
+[ 22s] JNI setIntegerForKey(BACKFLIPS_IN_ONE_RUN_10_unlocked, 0)
+[ 22s] JNI setIntegerForKey(BACKFLIPS_IN_ONE_RUN_10_steps, 0)
+[ 22s] JNI setIntegerForKey(WATCH_CREDITS_unlocked, 0)
+[ 22s] JNI setIntegerForKey(WATCH_CREDITS_steps, 0)
+[ 22s] JNI setIntegerForKey(DETACH_ALL_CARRIAGES_unlocked, 0)
+[ 22s] JNI setIntegerForKey(DETACH_ALL_CARRIAGES_steps, 0)
+[ 22s] JNI setIntegerForKey(NUCLEAR_SECRET_unlocked, 0)
+[ 22s] JNI setIntegerForKey(NUCLEAR_SECRET_steps, 0)
+[ 22s] JNI setIntegerForKey(TOTAL_PUMPKINS_unlocked, 0)
+[ 22s] JNI setIntegerForKey(TOTAL_PUMPKINS_steps, 0)
+[ 22s] JNI setIntegerForKey(TOTAL_PRESENTS_unlocked, 0)
+[ 22s] JNI setIntegerForKey(TOTAL_PRESENTS_steps, 0)
+[ 22s] JNI setIntegerForKey(TROLL_MASTER_unlocked, 0)
+[ 22s] JNI setIntegerForKey(TROLL_MASTER_steps, 0)
+[ 22s] JNI setIntegerForKey(TOTAL_PACKAGES_unlocked, 0)
+[ 22s] JNI setIntegerForKey(TOTAL_PACKAGES_steps, 0)
+[ 22s] JNI setIntegerForKey(SEASONS_YEARS_COMPLETED_unlocked, 0)
+[ 22s] JNI setIntegerForKey(SEASONS_YEARS_COMPLETED_steps, 0)
+[ 22s] JNI setIntegerForKey(screwfinger_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(screwfinger_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(SKIJUMP_JUMPS_COMPLETED_unlocked, 0)
+[ 22s] JNI setIntegerForKey(SKIJUMP_JUMPS_COMPLETED_steps, 0)
+[ 22s] JNI setIntegerForKey(trophytruck_mastery_unlocked, 0)
+[ 22s] JNI setIntegerForKey(trophytruck_mastery_steps, 0)
+[ 22s] JNI setIntegerForKey(CHALLENGE_DISTANCE_COMPLETED_unlocked, 0)
+[ 23s] JNI setIntegerForKey(CHALLENGE_DISTANCE_COMPLETED_steps, 0)
+[ 23s] JNI setIntegerForKey(chopperbike_mastery_unlocked, 0)
+[ 23s] JNI setIntegerForKey(chopperbike_mastery_steps, 0)
+[ 23s] JNI setIntegerForKey(JUNGLE_KING_unlocked, 0)
+[ 23s] JNI setIntegerForKey(JUNGLE_KING_steps, 0)
+[ 23s] JNI setIntegerForKey(TREASURE_HUNTER_unlocked, 0)
+[ 23s] JNI setIntegerForKey(TREASURE_HUNTER_steps, 0)
+[ 23s] JNI setIntegerForKey(HIP_HOPPER_unlocked, 0)
+[ 23s] JNI setIntegerForKey(HIP_HOPPER_steps, 0)
+[ 23s] JNI setIntegerForKey(GRASSHOPPER_unlocked, 0)
+[ 23s] JNI setIntegerForKey(GRASSHOPPER_steps, 0)
+[ 23s] JNI setIntegerForKey(lowrider_mastery_unlocked, 0)
+[ 23s] JNI setIntegerForKey(lowrider_mastery_steps, 0)
+[ 23s] JNI setIntegerForKey(NEON_KING_unlocked, 0)
+[ 23s] JNI setIntegerForKey(NEON_KING_steps, 0)
+[ 23s] JNI setIntegerForKey(LIFTOFF_unlocked, 0)
+[ 23s] JNI setIntegerForKey(LIFTOFF_steps, 0)
+[ 23s] JNI setIntegerForKey(bubblecar_mastery_unlocked, 0)
+[ 23s] JNI setIntegerForKey(bubblecar_mastery_steps, 0)
+[ 23s] JNI setIntegerForKey(shapeshifter_mastery_unlocked, 0)
+[ 23s] JNI setIntegerForKey(shapeshifter_mastery_steps, 0)
+[ 23s] JNI setIntegerForKey(CHAUFFEUR_unlocked, 0)
+[ 23s] JNI setIntegerForKey(CHAUFFEUR_steps, 0)
+[ 23s] JNI setIntegerForKey(luxury_mastery_unlocked, 0)
+[ 23s] JNI setIntegerForKey(luxury_mastery_steps, 0)
+[ 23s] JNI setIntegerForKey(BERRY_PICKER_unlocked, 0)
+[ 23s] JNI setIntegerForKey(BERRY_PICKER_steps, 0)
+[ 23s] JNI setIntegerForKey(BOG_DIGGER_unlocked, 0)
+[ 23s] JNI setIntegerForKey(BOG_DIGGER_steps, 0)
+[ 23s] JNI setIntegerForKey(SPIDER_WALKER_unlocked, 0)
+[ 23s] JNI setIntegerForKey(SPIDER_WALKER_steps, 0)
+[ 23s] JNI setIntegerForKey(spider_mastery_unlocked, 0)
+[ 23s] JNI setIntegerForKey(spider_mastery_steps, 0)
+[ 23s] JNI setIntegerForKey(GARBAGE_COLLECTOR_unlocked, 0)
+[ 23s] JNI setIntegerForKey(GARBAGE_COLLECTOR_steps, 0)
+[ 23s] JNI setIntegerForKey(hachiroku_mastery_unlocked, 0)
+[ 23s] JNI setIntegerForKey(hachiroku_mastery_steps, 0)
+[ 23s] JNI setIntegerForKey(POTATO_PICKER_unlocked, 0)
+[ 23s] JNI setIntegerForKey(POTATO_PICKER_steps, 0)
+[ 23s] JNI setIntegerForKey(POTATO_MAN_unlocked, 0)
+[ 23s] JNI setIntegerForKey(POTATO_MAN_steps, 0)
+[ 23s] JNI setIntegerForKey(LOYAL_CUSTOMER_unlocked, 0)
+[ 23s] JNI setIntegerForKey(LOYAL_CUSTOMER_steps, 0)
+[ 23s] JNI setIntegerForKey(RETRO_RACER_unlocked, 0)
+[ 23s] JNI setIntegerForKey(RETRO_RACER_steps, 0)
+[ 23s] JNI setIntegerForKey(MOTHER_GOOSE_unlocked, 0)
+[ 23s] JNI setIntegerForKey(MOTHER_GOOSE_steps, 0)
+[ 23s] JNI setIntegerForKey(aircar_mastery_unlocked, 0)
+[ 23s] JNI setIntegerForKey(aircar_mastery_steps, 0)
+[ 23s] JNI setIntegerForKey(FUEL_SWOOPER_unlocked, 0)
+[ 23s] JNI setIntegerForKey(FUEL_SWOOPER_steps, 0)
+[ 23s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[ 23s] game debug: Starting decryption...
+[ 23s] [fsgame] Prize pool loaded from file
+[ 23s] JNI setFloatForKey(space_best_time, 0.000000)
+[ 23s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[ 23s] pthread_create: real thread fn=0x8abe7c18c handle=0xc02ebb800 core=1
+[ 23s] JNI GetStaticMethodID: onFinishedAssetLoader ()V
+[ 23s] JNI CallStaticVoidMethodV: onFinishedAssetLoader ()V
+[ 23s] JNI GetStaticMethodID: getSettingString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+[ 24s] JNI CallStaticObjectMethodV: getSettingString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; → ""
+[ 24s] fopen FAIL: gcEventDetails (mode=r)
+[ 26s] game stdio[tid=0x93a84d390]: libpng warning: iCCP: known incorrect sRGB profile  x2
+[ 26s] JNI GetStaticMethodID: hasVideoCampaigns (I)I
+[ 26s] JNI getIntegerForKey: 6000 reads
+[ 26s] JNI getIntegerForKey: 8000 reads
+[ 27s] game stdio[tid=0xc02ebb800]: libpng warning: iCCP: known incorrect sRGB profile
+[ 27s] game debug: init Stage deep link stage
+[ 27s] JNI GetStaticMethodID: startAdvertisements ()V
+[ 27s] JNI CallStaticVoidMethodV: startAdvertisements ()V
+[ 27s] STALL(severe): frame 348 stalled for 8160ms
+[ 28s] [fsgame] Event textures asset loaded (1/1)
+[ 28s] [fsgame] Event textures asset loaded (33/33)
+[ 28s] JNI GetStaticMethodID: getIAPCoins ()I
+[ 28s] JNI GetStaticMethodID: getIAPGems ()I
+[ 28s] JNI GetStaticMethodID: getIAPPaints ()I
+[ 28s] JNI GetStaticMethodID: getIAPAdFree ()I
+[ 28s] JNI GetStaticMethodID: getIAPBundle ()I
+[ 28s] JNI GetStaticMethodID: getIAPError ()I
+[ 28s] JNI GetStaticMethodID: hasInstallReward ()Z
+[ 28s] JNI CallStaticBooleanMethodV: hasInstallReward → false
+[ 29s] stall: frame 410 stalled for 33ms
+[ 29s] [libSimpleAudioEngine] Get Env
+[ 29s] game debug: Android: RingerMode
+[ 29s] JNI GetStaticMethodID: trackEvent (Ljava/lang/String;Ljava/util/HashMap;)V
+[ 29s] JNI FindClass: java/util/HashMap
+[ 29s] JNI GetMethodID: <init> ()V
+[ 29s] JNI GetMethodID: put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+[ 29s] JNI CallObjectMethodV  x12
+[ 29s] JNI CallStaticVoidMethodV: trackEvent (Ljava/lang/String;Ljava/util/HashMap;)V
+[ 29s] JNI CallObjectMethodV
+[ 29s] JNI setFloatForKey(space_best_time, 0.000000)
+[ 30s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[ 30s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[ 30s] JNI GetStaticMethodID: disableAdManagerPopupDialogs ()V
+[ 30s] JNI CallStaticVoidMethodV: disableAdManagerPopupDialogs ()V
+[ 31s] [libSimpleAudioEngine] Get Env
+[ 31s] JNI GetStaticMethodID: trackPage (Ljava/lang/String;)V
+[ 31s] JNI trackPage(stage/countryside/start/jeep)
+[ 31s] branding: trackPage fired — definitely past loading, overlay off for rest of session
+[ 31s] perf: CPU boost mode -> Normal (leaving loading, GPU clocks restored)
+[ 31s] [libSimpleAudioEngine] Get Env
+[ 31s] JNI GetStaticMethodID: setEffectVolume (IF)V
+[ 31s] JNI setEffectVolume(id=0, vol=0.150000)
+[ 31s] JNI GetStaticMethodID: setEffectRate (IF)V
+[ 31s] JNI GetStaticMethodID: stopAdView ()V
+[ 31s] JNI CallStaticVoidMethodV: stopAdView ()V
+[ 31s] JNI GetStaticMethodID: enterInGame ()V
+[ 31s] JNI CallStaticVoidMethodV: enterInGame ()V
+[ 31s] audio: music sdmc:/AndroidHorizonNX/games/com.fingersoft.hillclimb/assets/audio/bgmusic01.ogg loop=1
+[ 31s] JNI setBackgroundMusicVolume(0.500000)
+[ 32s] STALL(severe): frame 457 stalled for 2400ms
+[ 32s] [libSimpleAudioEngine] Get Env
+[ 32s] JNI setEffectVolume(id=0, vol=0.150000)
+[ 32s] [libSimpleAudioEngine] Get Env
+[ 33s] JNI setEffectVolume(id=0, vol=0.150000)
+[ 33s] [libSimpleAudioEngine] Get Env
+[ 33s] JNI setEffectVolume(id=0, vol=0.150000)
+[ 33s] [libSimpleAudioEngine] Get Env
+[ 34s] JNI setEffectVolume(id=0, vol=0.150000)
+[ 34s] [libSimpleAudioEngine] Get Env
+[ 34s] JNI setEffectVolume(id=0, vol=0.148346)
+[ 34s] [libSimpleAudioEngine] Get Env
+[ 35s] JNI setEffectVolume(id=0, vol=0.091387)
+[ 35s] [libSimpleAudioEngine] Get Env
+[ 35s] JNI setEffectVolume(id=0, vol=0.084372)
+[ 36s] [libSimpleAudioEngine] Get Env
+[ 36s] JNI setEffectVolume(id=0, vol=0.081938)
+[ 36s] [libSimpleAudioEngine] Get Env
+[ 36s] JNI setEffectVolume(id=0, vol=0.079246)
+[ 37s] [libSimpleAudioEngine] Get Env
+[ 37s] JNI setEffectVolume(id=0, vol=0.078883)
+[ 37s] [libSimpleAudioEngine] Get Env
+[ 37s] JNI setEffectVolume(id=0, vol=0.078351)
+[ 38s] [libSimpleAudioEngine] Get Env
+[ 38s] JNI setEffectVolume(id=0, vol=0.077324)
+[ 38s] [libSimpleAudioEngine] Get Env
+[ 38s] JNI setEffectVolume(id=0, vol=0.074217)
+[ 38s] game stdio[tid=0x93a84d390]: libpng warning: iCCP: known incorrect sRGB profile
+[ 38s] stall: frame 856 stalled for 62ms
+[ 39s] [libSimpleAudioEngine] Get Env
+[ 39s] JNI setEffectVolume(id=0, vol=0.071659)
+[ 39s] game: frame 900
+[ 39s] [libSimpleAudioEngine] Get Env
+[ 39s] JNI setEffectVolume(id=0, vol=0.074928)
+[ 40s] JNI setIntegerForKey(hcr1-nitro, 4)
+[ 40s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[ 40s] [libSimpleAudioEngine] Get Env
+[ 40s] JNI setEffectVolume(id=0, vol=0.075733)
+[ 40s] STALL(severe): frame 920 stalled for 792ms
+[ 40s] [libSimpleAudioEngine] Get Env
+[ 41s] JNI setEffectVolume(id=0, vol=0.051333)
+[ 41s] [libSimpleAudioEngine] Get Env
+[ 41s] JNI setEffectVolume(id=0, vol=0.067072)
+[ 41s] [libSimpleAudioEngine] Get Env
+[ 42s] JNI setEffectVolume(id=0, vol=0.050000)
+[ 42s] JNI GetStaticMethodID: stopEffect (I)V
+[ 42s] [libSimpleAudioEngine] Get Env
+[ 42s] JNI setEffectVolume(id=0, vol=0.050000)
+[ 43s] [libSimpleAudioEngine] Get Env
+[ 43s] JNI setEffectVolume(id=0, vol=0.114114)
+[ 43s] [libSimpleAudioEngine] Get Env
+[ 43s] JNI setEffectVolume(id=0, vol=0.083215)
+[ 44s] [libSimpleAudioEngine] Get Env
+[ 44s] JNI setEffectVolume(id=0, vol=0.118942)
+[ 44s] [libSimpleAudioEngine] Get Env
+[ 44s] JNI setEffectVolume(id=0, vol=0.082296)
+[ 45s] [libSimpleAudioEngine] Get Env
+[ 45s] JNI setEffectVolume(id=0, vol=0.078154)
+[ 45s] [libSimpleAudioEngine] Get Env
+[ 45s] JNI setEffectVolume(id=0, vol=0.113800)
+[ 46s] [libSimpleAudioEngine] Get Env
+[ 46s] JNI setEffectVolume(id=0, vol=0.126960)
+[ 46s] [libSimpleAudioEngine] Get Env
+[ 47s] JNI setEffectVolume(id=0, vol=0.083666)
+[ 47s] [libSimpleAudioEngine] Get Env
+[ 47s] JNI setEffectVolume(id=0, vol=0.080077)
+[ 47s] [libSimpleAudioEngine] Get Env
+[ 48s] JNI setEffectVolume(id=0, vol=0.076612)
+[ 48s] [libSimpleAudioEngine] Get Env
+[ 48s] JNI setEffectVolume(id=0, vol=0.086404)
+[ 48s] [libSimpleAudioEngine] Get Env
+[ 49s] JNI setEffectVolume(id=0, vol=0.115614)
+[ 49s] [libSimpleAudioEngine] Get Env
+[ 49s] JNI setEffectVolume(id=0, vol=0.088375)
+[ 49s] [libSimpleAudioEngine] Get Env
+[ 50s] JNI setEffectVolume(id=0, vol=0.087843)
+[ 50s] [libSimpleAudioEngine] Get Env
+[ 50s] JNI setEffectVolume(id=0, vol=0.079702)
+[ 50s] [libSimpleAudioEngine] Get Env
+[ 51s] JNI setEffectVolume(id=0, vol=0.087102)
+[ 51s] [libSimpleAudioEngine] Get Env
+[ 51s] JNI setEffectVolume(id=0, vol=0.080784)
+[ 51s] [libSimpleAudioEngine] Get Env
+[ 52s] JNI setEffectVolume(id=0, vol=0.081573)
+[ 52s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[ 52s] [libSimpleAudioEngine] Get Env
+[ 52s] JNI setEffectVolume(id=0, vol=0.079176)
+[ 53s] STALL(severe): frame 1607 stalled for 762ms
+[ 53s] [libSimpleAudioEngine] Get Env
+[ 53s] JNI setEffectVolume(id=0, vol=0.097446)
+[ 53s] [libSimpleAudioEngine] Get Env
+[ 54s] JNI setEffectVolume(id=1, vol=0.034917)
+[ 54s] [libSimpleAudioEngine] Get Env
+[ 54s] JNI setEffectVolume(id=0, vol=0.060868)
+[ 54s] [libSimpleAudioEngine] Get Env
+[ 55s] JNI setEffectVolume(id=0, vol=0.059037)
+[ 55s] [libSimpleAudioEngine] Get Env
+[ 55s] JNI setEffectVolume(id=0, vol=0.077037)
+[ 55s] [libSimpleAudioEngine] Get Env
+[ 55s] JNI setEffectVolume(id=0, vol=0.127426)
+[ 55s] game: frame 1800
+[ 56s] [libSimpleAudioEngine] Get Env
+[ 56s] JNI setEffectVolume(id=0, vol=0.100306)
+[ 56s] [libSimpleAudioEngine] Get Env
+[ 57s] JNI setEffectVolume(id=0, vol=0.111838)
+[ 57s] [libSimpleAudioEngine] Get Env
+[ 57s] JNI setEffectVolume(id=0, vol=0.091398)
+[ 57s] JNI getIntegerForKey: 10000 reads
+[ 57s] [libSimpleAudioEngine] Get Env
+[ 58s] JNI setEffectVolume(id=0, vol=0.138051)
+[ 58s] [libSimpleAudioEngine] Get Env
+[ 58s] JNI setEffectVolume(id=1, vol=0.053175)
+[ 58s] [libSimpleAudioEngine] Get Env
+[ 59s] JNI setEffectVolume(id=0, vol=0.085130)
+[ 59s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[ 59s] [libSimpleAudioEngine] Get Env
+[ 59s] JNI setEffectVolume(id=0, vol=0.079867)
+[ 60s] STALL(severe): frame 2002 stalled for 764ms
+[ 60s] [libSimpleAudioEngine] Get Env
+[ 60s] JNI setEffectVolume(id=0, vol=0.102107)
+[ 60s] [libSimpleAudioEngine] Get Env
+[ 61s] JNI setEffectVolume(id=0, vol=0.079078)
+[ 61s] [libSimpleAudioEngine] Get Env
+[ 61s] JNI setEffectVolume(id=0, vol=0.072449)
+[ 61s] [libSimpleAudioEngine] Get Env
+[ 62s] JNI setEffectVolume(id=0, vol=0.074922)
+[ 62s] [libSimpleAudioEngine] Get Env
+[ 62s] JNI setEffectVolume(id=0, vol=0.077564)
+[ 62s] [libSimpleAudioEngine] Get Env
+[ 63s] JNI setEffectVolume(id=0, vol=0.112207)
+[ 63s] [libSimpleAudioEngine] Get Env
+[ 63s] JNI setEffectVolume(id=0, vol=0.142294)
+[ 63s] [libSimpleAudioEngine] Get Env
+[ 64s] JNI setEffectVolume(id=0, vol=0.104362)
+[ 64s] [libSimpleAudioEngine] Get Env
+[ 64s] JNI setEffectVolume(id=0, vol=0.095045)
+[ 65s] [libSimpleAudioEngine] Get Env
+[ 65s] JNI setEffectVolume(id=0, vol=0.089267)
+[ 65s] [libSimpleAudioEngine] Get Env
+[ 66s] JNI setEffectVolume(id=0, vol=0.081154)
+[ 66s] [libSimpleAudioEngine] Get Env
+[ 66s] JNI setEffectVolume(id=0, vol=0.075928)
+[ 66s] [libSimpleAudioEngine] Get Env
+[ 67s] JNI setEffectVolume(id=0, vol=0.078991)
+[ 67s] [libSimpleAudioEngine] Get Env
+[ 67s] JNI setEffectVolume(id=0, vol=0.112198)
+[ 67s] [libSimpleAudioEngine] Get Env
+[ 68s] JNI setEffectVolume(id=0, vol=0.094802)
+[ 68s] [libSimpleAudioEngine] Get Env
+[ 68s] JNI setEffectVolume(id=1, vol=0.165852)
+[ 68s] [fsgame] Pedals down = 0.116667
+[ 69s] JNI setEffectVolume(id=0, vol=0.094167)
+[ 69s] [libSimpleAudioEngine] Get Env
+[ 69s] JNI setEffectVolume(id=0, vol=0.128065)
+[ 69s] [libSimpleAudioEngine] Get Env
+[ 70s] JNI setEffectVolume(id=0, vol=0.115636)
+[ 70s] [libSimpleAudioEngine] Get Env
+[ 70s] JNI setEffectVolume(id=0, vol=0.089834)
+[ 70s] [libSimpleAudioEngine] Get Env
+[ 71s] JNI setEffectVolume(id=0, vol=0.080252)
+[ 71s] [libSimpleAudioEngine] Get Env
+[ 71s] JNI setEffectVolume(id=0, vol=0.084466)
+[ 71s] game: frame 2700
+[ 71s] [libSimpleAudioEngine] Get Env
+[ 72s] JNI setEffectVolume(id=0, vol=0.095763)
+[ 72s] [libSimpleAudioEngine] Get Env
+[ 72s] JNI setEffectVolume(id=0, vol=0.088949)
+[ 72s] [libSimpleAudioEngine] Get Env
+[ 73s] JNI setEffectVolume(id=0, vol=0.082236)
+[ 73s] [libSimpleAudioEngine] Get Env
+[ 73s] JNI setEffectVolume(id=0, vol=0.085668)
+[ 73s] [libSimpleAudioEngine] Get Env
+[ 74s] JNI setEffectVolume(id=0, vol=0.133805)
+[ 74s] [libSimpleAudioEngine] Get Env
+[ 74s] JNI setEffectVolume(id=0, vol=0.121121)
+[ 74s] [libSimpleAudioEngine] Get Env
+[ 75s] JNI setEffectVolume(id=0, vol=0.087829)
+[ 75s] [libSimpleAudioEngine] Get Env
+[ 75s] JNI setEffectVolume(id=0, vol=0.136563)
+[ 75s] [libSimpleAudioEngine] Get Env
+[ 76s] JNI setEffectVolume(id=0, vol=0.116141)
+[ 76s] [libSimpleAudioEngine] Get Env
+[ 76s] JNI setEffectVolume(id=0, vol=0.083355)
+[ 76s] [libSimpleAudioEngine] Get Env
+[ 77s] JNI setEffectVolume(id=1, vol=0.165852)
+[ 77s] [libSimpleAudioEngine] Get Env
+[ 77s] JNI setEffectVolume(id=0, vol=0.111999)
+[ 77s] [libSimpleAudioEngine] Get Env
+[ 78s] JNI setEffectVolume(id=0, vol=0.079796)
+[ 78s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[ 78s] [libSimpleAudioEngine] Get Env
+[ 78s] JNI setEffectVolume(id=0, vol=0.078755)
+[ 79s] STALL(severe): frame 3088 stalled for 761ms
+[ 79s] [libSimpleAudioEngine] Get Env
+[ 79s] JNI setEffectVolume(id=0, vol=0.121626)
+[ 79s] [libSimpleAudioEngine] Get Env
+[ 80s] JNI setEffectVolume(id=1, vol=0.015000)
+[ 80s] [libSimpleAudioEngine] Get Env
+[ 80s] JNI setEffectVolume(id=0, vol=0.148758)
+[ 80s] [libSimpleAudioEngine] Get Env
+[ 81s] JNI setEffectVolume(id=0, vol=0.149747)
+[ 81s] [libSimpleAudioEngine] Get Env
+[ 81s] JNI setEffectVolume(id=0, vol=0.149948)
+[ 81s] [libSimpleAudioEngine] Get Env
+[ 82s] JNI setEffectVolume(id=0, vol=0.149989)
+[ 82s] [libSimpleAudioEngine] Get Env
+[ 82s] JNI setEffectVolume(id=0, vol=0.149998)
+[ 82s] [libSimpleAudioEngine] Get Env
+[ 83s] JNI setEffectVolume(id=0, vol=0.150000)
+[ 83s] JNI setIntegerForKey(countryside_highscore, 889)
+[ 83s] JNI setIntegerForKey(countryside_unlocked, 1)
+[ 83s] JNI setIntegerForKey(countryside_level, 4)
+[ 83s] JNI setIntegerForKey(countryside_custom1_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_jeep_highscore, 889)
+[ 83s] JNI setIntegerForKey(countryside_bike_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_monster_highscore, 604)
+[ 83s] JNI setIntegerForKey(countryside_tractor_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_hippievan_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_onewheeler_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_quadbike_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_trophytruck_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_touristbus_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_racecar_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_screwfinger_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_policecar_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_ambulance_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_electric_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_dieseltruck_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_rallycar_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_dragster_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_firetruck_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_chopperbike_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_lowrider_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_tank_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_snowmobile_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_superoffroad_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_truck_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_dunebuggy_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_hovercraft_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_minibike_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_bigfinger_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_train_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_moonlander_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_hotrod_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_bubblecar_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_shapeshifter_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_luxury_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_spider_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_hachiroku_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_superhillclimber_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_carcar_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_aircar_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_fastbike_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_ufo_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_boringcar_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_badcar_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_sleigh_highscore, 0)
+[ 83s] JNI setIntegerForKey(countryside_chestconsumed, 1)
+[ 83s] JNI setIntegerForKey(countryside_custom1_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_jeep_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_bike_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_monster_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_tractor_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_hippievan_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_onewheeler_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_quadbike_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_trophytruck_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_touristbus_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_racecar_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_screwfinger_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_policecar_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_ambulance_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_electric_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_dieseltruck_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_rallycar_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_dragster_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_firetruck_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_chopperbike_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_lowrider_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_tank_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_snowmobile_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_superoffroad_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_truck_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_dunebuggy_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_hovercraft_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_minibike_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_bigfinger_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_train_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_moonlander_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_hotrod_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_bubblecar_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_shapeshifter_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_luxury_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_spider_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_hachiroku_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_superhillclimber_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_carcar_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_aircar_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_fastbike_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_ufo_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_boringcar_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_badcar_jumprec, 0)
+[ 83s] JNI setIntegerForKey(countryside_sleigh_jumprec, 0)
+[ 83s] JNI setFloatForKey(space_best_time, 0.000000)
+[ 84s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[ 84s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[ 84s] JNI GetStaticMethodID: leaveInGame ()V
+[ 84s] JNI CallStaticVoidMethodV: leaveInGame ()V
+[ 84s] STALL(severe): frame 3344 stalled for 1187ms
+[ 85s] [libSimpleAudioEngine] Get Env  x2
+[ 85s] JNI CallObjectMethodV  x24
+[ 85s] stall: frame 3415 stalled for 63ms
+[ 88s] [libSimpleAudioEngine] Get Env  x3
+[ 88s] [fsgame] touchid = 0
+[ 88s] JNI GetStaticMethodID: setAchievementSteps (Ljava/lang/String;I)V
+[ 88s] JNI CallStaticVoidMethodV: setAchievementSteps (Ljava/lang/String;I)V
+[ 88s] game debug: Starting encryption...
+[ 92s] JNI setIntegerForKey(numberOfMissionsSkipped, 0)
+[ 92s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[ 92s] JNI setFloatForKey(space_best_time, 0.000000)
+[ 92s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[ 92s] JNI GetStaticMethodID: isGoogleSignedIn ()Z
+[ 92s] JNI CallStaticBooleanMethodV: isGoogleSignedIn → false
+[ 92s] JNI GetStaticMethodID: isRewardedInterstitialLoaded ()Z
+[ 92s] JNI CallStaticBooleanMethodV: isRewardedInterstitialLoaded → false
+[ 92s] JNI GetStaticMethodID: isInterstitialLoadedGroup (I)Z
+[ 92s] JNI CallStaticBooleanMethodV: isInterstitialLoadedGroup → false
+[ 92s] JNI GetStaticMethodID: isPurchaseStillGoingOn ()Z
+[ 92s] JNI CallStaticBooleanMethodV: isPurchaseStillGoingOn → false
+[ 92s] STALL(severe): frame 3597 stalled for 4195ms
+[ 92s] game: frame 3600
+[ 92s] [libSimpleAudioEngine] Get Env
+[ 92s] JNI GetStaticMethodID: stopAllEffects ()V
+[ 92s] audio: music sdmc:/AndroidHorizonNX/games/com.fingersoft.hillclimb/assets/audio/bgmusic00.ogg loop=1
+[ 92s] JNI setBackgroundMusicVolume(0.500000)
+[ 92s] JNI GetStaticMethodID: loadInterstitialFromGame (I)V
+[ 92s] JNI CallStaticVoidMethodV: loadInterstitialFromGame (I)V
+[ 92s] JNI GetStaticMethodID: loadRewardedVideoFromGame ()V
+[ 92s] JNI CallStaticVoidMethodV: loadRewardedVideoFromGame ()V
+[ 94s] stall: frame 3613 stalled for 45ms
+[ 94s] [libSimpleAudioEngine] Get Env
+[ 96s] STALL(severe): frame 3719 stalled for 157ms
+[ 97s] [libSimpleAudioEngine] Get Env  x2
+[ 97s] stall: frame 3899 stalled for 77ms
+[ 99s] stall: frame 3904 stalled for 74ms
+[ 99s] [libSimpleAudioEngine] Get Env
+[100s] STALL(severe): frame 4022 stalled for 162ms
+[100s] [libSimpleAudioEngine] Get Env
+[100s] JNI setFloatForKey(space_best_time, 0.000000)
+[101s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[101s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[101s] game debug: no active popup offers!
+[101s] JNI CallObjectMethodV  x2
+[101s] JNI setFloatForKey(space_best_time, 0.000000)
+[101s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[103s] STALL(severe): frame 4063 stalled for 820ms
+[103s] [libSimpleAudioEngine] Get Env
+[103s] STALL(severe): frame 4161 stalled for 119ms
+[103s] [libSimpleAudioEngine] Get Env
+[104s] STALL(severe): frame 4203 stalled for 157ms
+[104s] [libSimpleAudioEngine] Get Env
+[104s] JNI setFloatForKey(space_best_time, 0.000000)
+[105s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[105s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[105s] JNI trackPage(upgrade/bike_engine/2)
+[105s] JNI CallObjectMethodV  x6
+[105s] STALL(severe): frame 4237 stalled for 767ms
+[106s] [libSimpleAudioEngine] Get Env  x2
+[106s] JNI setFloatForKey(space_best_time, 0.000000)
+[106s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[106s] JNI trackPage(upgrade/bike_engine/3)
+[106s] JNI CallObjectMethodV  x6
+[107s] STALL(severe): frame 4293 stalled for 105ms
+[107s] [libSimpleAudioEngine] Get Env
+[108s] STALL(severe): frame 4390 stalled for 156ms
+[108s] [libSimpleAudioEngine] Get Env
+[108s] JNI setFloatForKey(space_best_time, 0.000000)
+[109s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[109s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[109s] JNI trackPage(upgrade/bike_suspension/2)
+[109s] JNI CallObjectMethodV  x6
+[110s] STALL(severe): frame 4420 stalled for 772ms
+[110s] game: frame 4500
+[116s] [libSimpleAudioEngine] Get Env
+[116s] game debug: Android: RingerMode
+[116s] JNI CallObjectMethodV  x12
+[116s] JNI setFloatForKey(space_best_time, 0.000000)
+[117s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[118s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[118s] [libSimpleAudioEngine] Get Env
+[119s] JNI trackPage(stage/countryside/start/bike)
+[119s] [libSimpleAudioEngine] Get Env
+[119s] JNI setEffectVolume(id=0, vol=0.250000)
+[119s] audio: music sdmc:/AndroidHorizonNX/games/com.fingersoft.hillclimb/assets/audio/bgmusic01.ogg loop=1
+[119s] JNI setBackgroundMusicVolume(0.500000)
+[119s] STALL(severe): frame 4867 stalled for 2655ms
+[119s] [libSimpleAudioEngine] Get Env
+[120s] JNI setEffectVolume(id=0, vol=0.250000)
+[120s] [libSimpleAudioEngine] Get Env
+[120s] JNI setEffectVolume(id=0, vol=0.235696)
+[120s] [libSimpleAudioEngine] Get Env
+[121s] JNI setEffectVolume(id=0, vol=0.210289)
+[121s] [libSimpleAudioEngine] Get Env
+[121s] JNI setEffectVolume(id=0, vol=0.167388)
+[121s] [libSimpleAudioEngine] Get Env
+[122s] JNI setEffectVolume(id=0, vol=0.148037)
+[122s] [libSimpleAudioEngine] Get Env
+[122s] JNI setEffectVolume(id=0, vol=0.144931)
+[122s] [libSimpleAudioEngine] Get Env
+[123s] JNI setEffectVolume(id=0, vol=0.142362)
+[123s] [libSimpleAudioEngine] Get Env
+[123s] JNI setEffectVolume(id=0, vol=0.141014)
+[123s] [libSimpleAudioEngine] Get Env
+[124s] JNI setEffectVolume(id=0, vol=0.140996)
+[124s] [libSimpleAudioEngine] Get Env
+[124s] JNI setEffectVolume(id=0, vol=0.139950)
+[124s] game stdio[tid=0x93a84d390]: libpng warning: iCCP: known incorrect sRGB profile
+[124s] stall: frame 5175 stalled for 58ms
+[124s] [libSimpleAudioEngine] Get Env
+[125s] JNI setEffectVolume(id=1, vol=0.080666)
+[125s] [libSimpleAudioEngine] Get Env
+[125s] JNI setEffectVolume(id=0, vol=0.139503)
+[125s] [libSimpleAudioEngine] Get Env
+[126s] JNI setEffectVolume(id=0, vol=0.142239)
+[126s] [libSimpleAudioEngine] Get Env
+[126s] JNI setEffectVolume(id=0, vol=0.216854)
+[126s] [libSimpleAudioEngine] Get Env
+[127s] JNI setEffectVolume(id=0, vol=0.164561)
+[127s] [libSimpleAudioEngine] Get Env
+[127s] JNI setEffectVolume(id=0, vol=0.144584)
+[127s] [libSimpleAudioEngine] Get Env
+[128s] JNI setEffectVolume(id=0, vol=0.145273)
+[128s] game: frame 5400
+[128s] [libSimpleAudioEngine] Get Env
+[128s] JNI setEffectVolume(id=0, vol=0.141186)
+[128s] [libSimpleAudioEngine] Get Env
+[129s] JNI setEffectVolume(id=0, vol=0.187007)
+[129s] [libSimpleAudioEngine] Get Env
+[129s] JNI setEffectVolume(id=0, vol=0.150939)
+[129s] [libSimpleAudioEngine] Get Env
+[130s] JNI setEffectVolume(id=0, vol=0.142171)
+[130s] [libSimpleAudioEngine] Get Env
+[130s] JNI setEffectVolume(id=0, vol=0.135117)
+[130s] [libSimpleAudioEngine] Get Env
+[131s] JNI setEffectVolume(id=0, vol=0.129043)
+[131s] [libSimpleAudioEngine] Get Env
+[131s] JNI setEffectVolume(id=0, vol=0.128813)
+[131s] [libSimpleAudioEngine] Get Env
+[132s] JNI setEffectVolume(id=0, vol=0.141245)
+[132s] [libSimpleAudioEngine] Get Env
+[132s] JNI setEffectVolume(id=0, vol=0.144924)
+[132s] [libSimpleAudioEngine] Get Env
+[133s] JNI setEffectVolume(id=0, vol=0.143801)
+[133s] [libSimpleAudioEngine] Get Env
+[133s] JNI setEffectVolume(id=0, vol=0.153884)
+[133s] [libSimpleAudioEngine] Get Env
+[134s] JNI setEffectVolume(id=0, vol=0.230401)
+[134s] [libSimpleAudioEngine] Get Env
+[134s] JNI setEffectVolume(id=0, vol=0.178351)
+[135s] [libSimpleAudioEngine] Get Env
+[135s] JNI setEffectVolume(id=0, vol=0.145934)
+[135s] [fsgame] touchid = 0
+[136s] JNI setEffectVolume(id=0, vol=0.151076)
+[136s] [libSimpleAudioEngine] Get Env
+[136s] JNI setEffectVolume(id=0, vol=0.229829)
+[136s] [libSimpleAudioEngine] Get Env
+[137s] JNI setEffectVolume(id=0, vol=0.245670)
+[137s] [libSimpleAudioEngine] Get Env
+[137s] JNI setEffectVolume(id=0, vol=0.249117)
+[137s] [libSimpleAudioEngine] Get Env
+[138s] JNI setEffectVolume(id=0, vol=0.144344)
+[138s] [libSimpleAudioEngine] Get Env
+[138s] JNI setEffectVolume(id=0, vol=0.145727)
+[138s] [libSimpleAudioEngine] Get Env
+[139s] JNI setEffectVolume(id=0, vol=0.139304)
+[139s] [libSimpleAudioEngine] Get Env
+[139s] JNI setEffectVolume(id=0, vol=0.149918)
+[140s] [libSimpleAudioEngine] Get Env
+[140s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[140s] [libSimpleAudioEngine] Get Env
+[140s] JNI setEffectVolume(id=0, vol=0.143354)
+[140s] STALL(severe): frame 6085 stalled for 755ms
+[140s] [libSimpleAudioEngine] Get Env
+[141s] JNI setEffectVolume(id=0, vol=0.173212)
+[141s] [libSimpleAudioEngine] Get Env
+[141s] JNI setEffectVolume(id=0, vol=0.142562)
+[141s] [libSimpleAudioEngine] Get Env
+[142s] JNI setEffectVolume(id=0, vol=0.191387)
+[142s] [libSimpleAudioEngine] Get Env
+[142s] JNI setEffectVolume(id=0, vol=0.237419)
+[142s] [libSimpleAudioEngine] Get Env
+[143s] JNI setEffectVolume(id=0, vol=0.247300)
+[143s] [libSimpleAudioEngine] Get Env
+[143s] JNI setEffectVolume(id=0, vol=0.249449)
+[143s] [libSimpleAudioEngine] Get Env
+[143s] JNI setEffectVolume(id=0, vol=0.249882)
+[143s] game: frame 6300
+[144s] [libSimpleAudioEngine] Get Env
+[144s] JNI setEffectVolume(id=0, vol=0.249976)
+[144s] [libSimpleAudioEngine] Get Env
+[145s] JNI setEffectVolume(id=0, vol=0.249995)
+[145s] [libSimpleAudioEngine] Get Env
+[145s] JNI setEffectVolume(id=0, vol=0.249999)
+[145s] JNI setFloatForKey(space_best_time, 0.000000)
+[146s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[146s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[146s] STALL(severe): frame 6409 stalled for 828ms
+[147s] [libSimpleAudioEngine] Get Env  x2
+[148s] JNI CallObjectMethodV  x24
+[149s] [libSimpleAudioEngine] Get Env  x3
+[150s] game debug: Starting encryption...
+[150s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[150s] JNI setFloatForKey(space_best_time, 0.000000)
+[150s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[150s] STALL(severe): frame 6601 stalled for 909ms
+[150s] [libSimpleAudioEngine] Get Env
+[150s] audio: music sdmc:/AndroidHorizonNX/games/com.fingersoft.hillclimb/assets/audio/bgmusic00.ogg loop=1
+[150s] JNI setBackgroundMusicVolume(0.500000)
+[152s] stall: frame 6617 stalled for 34ms
+[154s] [libSimpleAudioEngine] Get Env
+[157s] stall: frame 6860 stalled for 76ms
+[157s] [libSimpleAudioEngine] Get Env
+[157s] game debug: Android: RingerMode
+[157s] JNI CallObjectMethodV  x12
+[157s] JNI setFloatForKey(space_best_time, 0.000000)
+[158s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[159s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[159s] [libSimpleAudioEngine] Get Env
+[160s] JNI trackPage(stage/countryside/start/bike)
+[160s] [libSimpleAudioEngine] Get Env
+[160s] JNI setEffectVolume(id=0, vol=0.250000)
+[160s] audio: music sdmc:/AndroidHorizonNX/games/com.fingersoft.hillclimb/assets/audio/bgmusic01.ogg loop=1
+[160s] JNI setBackgroundMusicVolume(0.500000)
+[161s] STALL(severe): frame 7038 stalled for 2679ms
+[161s] [libSimpleAudioEngine] Get Env
+[161s] JNI setEffectVolume(id=0, vol=0.250000)
+[161s] [libSimpleAudioEngine] Get Env
+[162s] JNI setEffectVolume(id=0, vol=0.250000)
+[162s] [libSimpleAudioEngine] Get Env
+[162s] JNI setEffectVolume(id=0, vol=0.235044)
+[162s] [libSimpleAudioEngine] Get Env
+[163s] JNI setEffectVolume(id=0, vol=0.220896)
+[163s] [libSimpleAudioEngine] Get Env
+[163s] JNI setEffectVolume(id=0, vol=0.153021)
+[163s] game: frame 7200
+[163s] [libSimpleAudioEngine] Get Env
+[164s] JNI setEffectVolume(id=0, vol=0.207431)
+[164s] [libSimpleAudioEngine] Get Env
+[164s] JNI setEffectVolume(id=0, vol=0.176500)
+[164s] [libSimpleAudioEngine] Get Env
+[165s] JNI setEffectVolume(id=0, vol=0.145109)
+[165s] [libSimpleAudioEngine] Get Env
+[165s] JNI setEffectVolume(id=0, vol=0.205220)
+[165s] [libSimpleAudioEngine] Get Env
+[166s] JNI setEffectVolume(id=0, vol=0.156675)
+[166s] [libSimpleAudioEngine] Get Env
+[166s] JNI setEffectVolume(id=0, vol=0.139522)
+[166s] game stdio[tid=0x93a84d390]: libpng warning: iCCP: known incorrect sRGB profile
+[166s] stall: frame 7378 stalled for 58ms
+[166s] [libSimpleAudioEngine] Get Env
+[167s] JNI setEffectVolume(id=0, vol=0.135665)
+[167s] [libSimpleAudioEngine] Get Env
+[167s] JNI setEffectVolume(id=0, vol=0.139377)
+[167s] [libSimpleAudioEngine] Get Env
+[168s] JNI setEffectVolume(id=0, vol=0.141319)
+[168s] [libSimpleAudioEngine] Get Env
+[168s] JNI setEffectVolume(id=0, vol=0.190888)
+[168s] [libSimpleAudioEngine] Get Env
+[169s] JNI setEffectVolume(id=0, vol=0.140468)
+[169s] [libSimpleAudioEngine] Get Env
+[169s] JNI setEffectVolume(id=0, vol=0.140112)
+[169s] [libSimpleAudioEngine] Get Env
+[170s] JNI setEffectVolume(id=0, vol=0.140883)
+[170s] [libSimpleAudioEngine] Get Env
+[170s] JNI setEffectVolume(id=0, vol=0.140330)
+[170s] [libSimpleAudioEngine] Get Env
+[171s] JNI setEffectVolume(id=0, vol=0.169790)
+[171s] [libSimpleAudioEngine] Get Env
+[171s] JNI setEffectVolume(id=0, vol=0.146690)
+[171s] [libSimpleAudioEngine] Get Env
+[172s] JNI setEffectVolume(id=0, vol=0.141911)
+[172s] [libSimpleAudioEngine] Get Env
+[172s] JNI setEffectVolume(id=0, vol=0.140488)
+[172s] [libSimpleAudioEngine] Get Env
+[173s] JNI setEffectVolume(id=0, vol=0.141741)
+[173s] [libSimpleAudioEngine] Get Env
+[173s] JNI setEffectVolume(id=0, vol=0.156112)
+[173s] [libSimpleAudioEngine] Get Env
+[174s] JNI setEffectVolume(id=1, vol=0.009375)
+[174s] [libSimpleAudioEngine] Get Env
+[174s] JNI setEffectVolume(id=0, vol=0.245675)
+[174s] [libSimpleAudioEngine] Get Env
+[175s] JNI setEffectVolume(id=0, vol=0.249118)
+[175s] [libSimpleAudioEngine] Get Env
+[175s] JNI setEffectVolume(id=0, vol=0.249820)
+[175s] [libSimpleAudioEngine] Get Env
+[176s] JNI setEffectVolume(id=0, vol=0.249963)
+[176s] [libSimpleAudioEngine] Get Env
+[176s] JNI setEffectVolume(id=0, vol=0.249993)
+[176s] [libSimpleAudioEngine] Get Env
+[177s] JNI setEffectVolume(id=0, vol=0.249998)
+[177s] JNI setFloatForKey(space_best_time, 0.000000)
+[178s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[178s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[178s] STALL(severe): frame 8041 stalled for 840ms
+[179s] [libSimpleAudioEngine] Get Env
+[179s] game: frame 8100
+[179s] [fsgame] touchid = 0
+[179s] JNI CallObjectMethodV  x24
+[179s] stall: frame 8112 stalled for 59ms
+[180s] [fsgame] touchid = 0
+[181s] [libSimpleAudioEngine] Get Env  x2
+[182s] game debug: Starting encryption...
+[182s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[182s] JNI setFloatForKey(space_best_time, 0.000000)
+[182s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[182s] STALL(severe): frame 8247 stalled for 819ms
+[182s] [libSimpleAudioEngine] Get Env
+[182s] audio: music sdmc:/AndroidHorizonNX/games/com.fingersoft.hillclimb/assets/audio/bgmusic00.ogg loop=1
+[182s] JNI setBackgroundMusicVolume(0.500000)
+[183s] stall: frame 8263 stalled for 36ms
+[183s] [libSimpleAudioEngine] Get Env
+[183s] game debug: Android: RingerMode
+[183s] JNI CallObjectMethodV  x12
+[183s] JNI setFloatForKey(space_best_time, 0.000000)
+[183s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[184s] [libSimpleAudioEngine] Get Env
+[185s] JNI trackPage(stage/countryside/start/bike)
+[185s] [libSimpleAudioEngine] Get Env
+[185s] JNI setEffectVolume(id=0, vol=0.250000)
+[185s] audio: music sdmc:/AndroidHorizonNX/games/com.fingersoft.hillclimb/assets/audio/bgmusic01.ogg loop=1
+[185s] JNI setBackgroundMusicVolume(0.500000)
+[185s] STALL(severe): frame 8297 stalled for 1928ms
+[185s] [libSimpleAudioEngine] Get Env
+[186s] JNI setEffectVolume(id=0, vol=0.250000)
+[186s] [libSimpleAudioEngine] Get Env
+[186s] JNI setEffectVolume(id=0, vol=0.235683)
+[186s] [libSimpleAudioEngine] Get Env
+[187s] JNI setEffectVolume(id=0, vol=0.157318)
+[187s] [libSimpleAudioEngine] Get Env
+[187s] JNI setEffectVolume(id=0, vol=0.147375)
+[187s] [libSimpleAudioEngine] Get Env
+[188s] JNI setEffectVolume(id=0, vol=0.141501)
+[188s] [libSimpleAudioEngine] Get Env
+[188s] JNI setEffectVolume(id=0, vol=0.143545)
+[188s] [libSimpleAudioEngine] Get Env
+[189s] JNI setEffectVolume(id=0, vol=0.142085)
+[189s] [libSimpleAudioEngine] Get Env
+[189s] JNI setEffectVolume(id=0, vol=0.141455)
+[189s] [libSimpleAudioEngine] Get Env
+[189s] JNI setEffectVolume(id=0, vol=0.140948)
+[189s] game stdio[tid=0x93a84d390]: libpng warning: iCCP: known incorrect sRGB profile
+[190s] stall: frame 8586 stalled for 59ms
+[190s] [libSimpleAudioEngine] Get Env
+[190s] JNI setEffectVolume(id=0, vol=0.133494)
+[190s] [libSimpleAudioEngine] Get Env
+[191s] JNI setEffectVolume(id=0, vol=0.136367)
+[191s] [libSimpleAudioEngine] Get Env
+[191s] JNI setEffectVolume(id=0, vol=0.141436)
+[191s] [libSimpleAudioEngine] Get Env
+[192s] JNI setEffectVolume(id=0, vol=0.141041)
+[192s] [libSimpleAudioEngine] Get Env
+[192s] JNI setEffectVolume(id=0, vol=0.142088)
+[192s] [libSimpleAudioEngine] Get Env
+[193s] JNI setEffectVolume(id=0, vol=0.140485)
+[193s] [libSimpleAudioEngine] Get Env
+[193s] JNI setEffectVolume(id=0, vol=0.138476)
+[193s] [libSimpleAudioEngine] Get Env
+[194s] JNI setEffectVolume(id=0, vol=0.142763)
+[194s] [libSimpleAudioEngine] Get Env
+[194s] JNI setEffectVolume(id=0, vol=0.141098)
+[194s] [libSimpleAudioEngine] Get Env
+[195s] JNI setEffectVolume(id=0, vol=0.189156)
+[195s] [libSimpleAudioEngine] Get Env
+[195s] JNI setEffectVolume(id=0, vol=0.152322)
+[195s] [libSimpleAudioEngine] Get Env
+[196s] JNI setEffectVolume(id=0, vol=0.134930)
+[196s] [libSimpleAudioEngine] Get Env
+[196s] JNI setEffectVolume(id=0, vol=0.147077)
+[196s] [libSimpleAudioEngine] Get Env
+[196s] JNI setEffectVolume(id=0, vol=0.137494)
+[196s] game: frame 9000
+[197s] [libSimpleAudioEngine] Get Env
+[197s] JNI setEffectVolume(id=0, vol=0.153195)
+[197s] [libSimpleAudioEngine] Get Env
+[198s] JNI setEffectVolume(id=0, vol=0.230261)
+[198s] [libSimpleAudioEngine] Get Env
+[198s] JNI setEffectVolume(id=0, vol=0.245975)
+[198s] [libSimpleAudioEngine] Get Env
+[199s] JNI setEffectVolume(id=0, vol=0.249179)
+[199s] [libSimpleAudioEngine] Get Env
+[199s] JNI setEffectVolume(id=0, vol=0.249833)
+[199s] [libSimpleAudioEngine] Get Env
+[200s] JNI setEffectVolume(id=0, vol=0.249964)
+[200s] [libSimpleAudioEngine] Get Env
+[200s] JNI setEffectVolume(id=0, vol=0.249993)
+[200s] [libSimpleAudioEngine] Get Env
+[201s] JNI setEffectVolume(id=0, vol=0.249998)
+[201s] JNI setFloatForKey(space_best_time, 0.000000)
+[201s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[201s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[202s] STALL(severe): frame 9265 stalled for 838ms
+[203s] [fsgame] touchid = 0  x2
+[203s] [libSimpleAudioEngine] Get Env
+[203s] JNI CallObjectMethodV  x24
+[203s] stall: frame 9336 stalled for 64ms
+[204s] [libSimpleAudioEngine] Get Env
+[205s] [fsgame] touchid = 0  x2
+[205s] game debug: Starting encryption...
+[205s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[205s] JNI setFloatForKey(space_best_time, 0.000000)
+[205s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[206s] STALL(severe): frame 9457 stalled for 820ms
+[206s] [libSimpleAudioEngine] Get Env
+[206s] audio: music sdmc:/AndroidHorizonNX/games/com.fingersoft.hillclimb/assets/audio/bgmusic00.ogg loop=1
+[206s] JNI setBackgroundMusicVolume(0.500000)
+[207s] stall: frame 9473 stalled for 34ms
+[207s] [libSimpleAudioEngine] Get Env
+[207s] game debug: Android: RingerMode
+[207s] JNI CallObjectMethodV  x12
+[207s] JNI setFloatForKey(space_best_time, 0.000000)
+[207s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[208s] [libSimpleAudioEngine] Get Env
+[208s] JNI trackPage(stage/countryside/start/bike)
+[208s] [libSimpleAudioEngine] Get Env
+[208s] JNI setEffectVolume(id=0, vol=0.250000)
+[208s] audio: music sdmc:/AndroidHorizonNX/games/com.fingersoft.hillclimb/assets/audio/bgmusic01.ogg loop=1
+[208s] JNI setBackgroundMusicVolume(0.500000)
+[209s] STALL(severe): frame 9525 stalled for 1926ms
+[209s] [libSimpleAudioEngine] Get Env
+[209s] JNI setEffectVolume(id=0, vol=0.250000)
+[210s] [libSimpleAudioEngine] Get Env
+[210s] JNI setEffectVolume(id=0, vol=0.236132)
+[210s] [libSimpleAudioEngine] Get Env
+[210s] JNI setEffectVolume(id=0, vol=0.157078)
+[211s] [libSimpleAudioEngine] Get Env
+[211s] JNI setEffectVolume(id=0, vol=0.147770)
+[211s] [libSimpleAudioEngine] Get Env
+[211s] JNI setEffectVolume(id=0, vol=0.143279)
+[212s] [libSimpleAudioEngine] Get Env
+[212s] JNI setEffectVolume(id=0, vol=0.143596)
+[212s] [libSimpleAudioEngine] Get Env
+[213s] JNI setEffectVolume(id=0, vol=0.141495)
+[213s] [libSimpleAudioEngine] Get Env
+[213s] JNI setEffectVolume(id=0, vol=0.140576)
+[213s] [libSimpleAudioEngine] Get Env
+[213s] JNI setEffectVolume(id=0, vol=0.140334)
+[213s] game stdio[tid=0x93a84d390]: libpng warning: iCCP: known incorrect sRGB profile
+[214s] stall: frame 9815 stalled for 60ms
+[214s] [libSimpleAudioEngine] Get Env
+[214s] JNI setEffectVolume(id=0, vol=0.134822)
+[214s] [libSimpleAudioEngine] Get Env
+[215s] JNI setEffectVolume(id=1, vol=0.080666)
+[215s] [libSimpleAudioEngine] Get Env
+[215s] JNI setEffectVolume(id=0, vol=0.140664)
+[215s] game: frame 9900
+[215s] [libSimpleAudioEngine] Get Env
+[216s] JNI setEffectVolume(id=0, vol=0.140062)
+[216s] [libSimpleAudioEngine] Get Env
+[216s] JNI setEffectVolume(id=0, vol=0.138816)
+[216s] [libSimpleAudioEngine] Get Env
+[217s] JNI setEffectVolume(id=0, vol=0.140236)
+[217s] [libSimpleAudioEngine] Get Env
+[217s] JNI setEffectVolume(id=0, vol=0.138594)
+[217s] [libSimpleAudioEngine] Get Env
+[218s] JNI setEffectVolume(id=0, vol=0.142641)
+[218s] [libSimpleAudioEngine] Get Env
+[218s] JNI setEffectVolume(id=0, vol=0.216877)
+[218s] [libSimpleAudioEngine] Get Env
+[219s] JNI setEffectVolume(id=0, vol=0.172113)
+[219s] [libSimpleAudioEngine] Get Env
+[219s] JNI setEffectVolume(id=0, vol=0.155885)
+[219s] [libSimpleAudioEngine] Get Env
+[220s] JNI setEffectVolume(id=0, vol=0.136665)
+[220s] [libSimpleAudioEngine] Get Env
+[220s] JNI setEffectVolume(id=0, vol=0.141641)
+[220s] [libSimpleAudioEngine] Get Env
+[221s] JNI setEffectVolume(id=0, vol=0.155735)
+[221s] [libSimpleAudioEngine] Get Env
+[221s] JNI setEffectVolume(id=0, vol=0.143502)
+[221s] [libSimpleAudioEngine] Get Env
+[222s] JNI setEffectVolume(id=0, vol=0.142706)
+[222s] [libSimpleAudioEngine] Get Env
+[222s] JNI setEffectVolume(id=0, vol=0.142385)
+[222s] [libSimpleAudioEngine] Get Env
+[223s] JNI setEffectVolume(id=0, vol=0.218172)
+[223s] [libSimpleAudioEngine] Get Env
+[223s] JNI setEffectVolume(id=0, vol=0.243510)
+[223s] [libSimpleAudioEngine] Get Env
+[224s] JNI setEffectVolume(id=0, vol=0.208893)
+[224s] [libSimpleAudioEngine] Get Env
+[224s] JNI setEffectVolume(id=0, vol=0.155052)
+[224s] [libSimpleAudioEngine] Get Env
+[225s] JNI setEffectVolume(id=0, vol=0.146020)
+[225s] [libSimpleAudioEngine] Get Env
+[225s] JNI setEffectVolume(id=0, vol=0.136157)
+[225s] [libSimpleAudioEngine] Get Env
+[226s] JNI setEffectVolume(id=0, vol=0.143387)
+[226s] [libSimpleAudioEngine] Get Env
+[226s] JNI setEffectVolume(id=0, vol=0.219931)
+[226s] [libSimpleAudioEngine] Get Env
+[227s] JNI setEffectVolume(id=0, vol=0.243546)
+[227s] [libSimpleAudioEngine] Get Env
+[227s] JNI setEffectVolume(id=0, vol=0.165210)
+[227s] [libSimpleAudioEngine] Get Env
+[228s] JNI setEffectVolume(id=0, vol=0.142629)
+[228s] [libSimpleAudioEngine] Get Env
+[228s] JNI setEffectVolume(id=0, vol=0.147263)
+[228s] [libSimpleAudioEngine] Get Env
+[229s] JNI setEffectVolume(id=0, vol=0.140655)
+[229s] [libSimpleAudioEngine] Get Env
+[229s] JNI setEffectVolume(id=0, vol=0.222570)
+[229s] [libSimpleAudioEngine] Get Env
+[230s] JNI setEffectVolume(id=0, vol=0.149295)
+[230s] game: frame 10800
+[230s] [libSimpleAudioEngine] Get Env
+[230s] JNI setEffectVolume(id=0, vol=0.225563)
+[230s] [libSimpleAudioEngine] Get Env
+[231s] JNI setEffectVolume(id=0, vol=0.224863)
+[231s] [libSimpleAudioEngine] Get Env
+[231s] JNI setEffectVolume(id=0, vol=0.157979)
+[231s] [libSimpleAudioEngine] Get Env
+[232s] JNI setEffectVolume(id=0, vol=0.201556)
+[232s] [libSimpleAudioEngine] Get Env
+[232s] JNI setEffectVolume(id=0, vol=0.239602)
+[232s] [libSimpleAudioEngine] Get Env
+[233s] JNI setEffectVolume(id=0, vol=0.161359)
+[233s] [libSimpleAudioEngine] Get Env
+[233s] JNI setEffectVolume(id=0, vol=0.156034)
+[233s] [libSimpleAudioEngine] Get Env
+[234s] JNI setEffectVolume(id=0, vol=0.204046)
+[234s] [libSimpleAudioEngine] Get Env
+[234s] JNI setEffectVolume(id=0, vol=0.240630)
+[234s] [libSimpleAudioEngine] Get Env
+[235s] JNI setEffectVolume(id=0, vol=0.184586)
+[235s] [libSimpleAudioEngine] Get Env
+[235s] JNI setEffectVolume(id=0, vol=0.152328)
+[235s] [libSimpleAudioEngine] Get Env
+[236s] JNI setEffectVolume(id=0, vol=0.144898)
+[236s] [libSimpleAudioEngine] Get Env
+[236s] JNI setEffectVolume(id=0, vol=0.141946)
+[236s] [libSimpleAudioEngine] Get Env
+[237s] JNI setEffectVolume(id=0, vol=0.165895)
+[237s] [libSimpleAudioEngine] Get Env
+[237s] JNI setEffectVolume(id=1, vol=0.059496)
+[238s] [libSimpleAudioEngine] Get Env
+[238s] JNI setEffectVolume(id=0, vol=0.179343)
+[238s] [libSimpleAudioEngine] Get Env
+[238s] JNI setEffectVolume(id=1, vol=0.080666)
+[239s] [libSimpleAudioEngine] Get Env
+[239s] JNI setEffectVolume(id=0, vol=0.142431)
+[239s] [fsgame] Pedals down = 0.050000
+[239s] JNI setEffectVolume(id=0, vol=0.198351)
+[240s] [libSimpleAudioEngine] Get Env
+[240s] JNI setEffectVolume(id=0, vol=0.226034)
+[240s] [libSimpleAudioEngine] Get Env
+[240s] JNI setEffectVolume(id=0, vol=0.150441)
+[241s] [libSimpleAudioEngine] Get Env
+[241s] JNI setEffectVolume(id=0, vol=0.143300)
+[241s] [libSimpleAudioEngine] Get Env
+[241s] JNI setEffectVolume(id=0, vol=0.161302)
+[242s] [libSimpleAudioEngine] Get Env
+[242s] JNI setEffectVolume(id=0, vol=0.142382)
+[242s] [libSimpleAudioEngine] Get Env
+[242s] JNI setEffectVolume(id=0, vol=0.147191)
+[243s] [libSimpleAudioEngine] Get Env
+[243s] JNI setEffectVolume(id=0, vol=0.139950)
+[243s] [libSimpleAudioEngine] Get Env
+[243s] JNI setEffectVolume(id=0, vol=0.143487)
+[244s] [libSimpleAudioEngine] Get Env
+[244s] JNI setEffectVolume(id=0, vol=0.158607)
+[244s] [libSimpleAudioEngine] Get Env
+[244s] JNI setEffectVolume(id=0, vol=0.153416)
+[245s] [libSimpleAudioEngine] Get Env
+[245s] JNI setEffectVolume(id=0, vol=0.194103)
+[245s] game: frame 11700
+[245s] [libSimpleAudioEngine] Get Env
+[245s] JNI setEffectVolume(id=0, vol=0.238002)
+[246s] [libSimpleAudioEngine] Get Env
+[246s] JNI setEffectVolume(id=0, vol=0.208113)
+[246s] [libSimpleAudioEngine] Get Env
+[247s] JNI setEffectVolume(id=0, vol=0.148262)
+[247s] [libSimpleAudioEngine] Get Env
+[247s] JNI setEffectVolume(id=0, vol=0.163424)
+[247s] [libSimpleAudioEngine] Get Env
+[248s] JNI setEffectVolume(id=0, vol=0.218524)
+[248s] [libSimpleAudioEngine] Get Env
+[248s] JNI setEffectVolume(id=0, vol=0.194015)
+[248s] [libSimpleAudioEngine] Get Env
+[249s] JNI setEffectVolume(id=0, vol=0.161453)
+[249s] [libSimpleAudioEngine] Get Env
+[249s] JNI setEffectVolume(id=1, vol=0.080666)
+[249s] [libSimpleAudioEngine] Get Env
+[250s] JNI setEffectVolume(id=0, vol=0.182153)
+[250s] [libSimpleAudioEngine] Get Env
+[250s] JNI setEffectVolume(id=1, vol=0.080666)
+[250s] [libSimpleAudioEngine] Get Env
+[251s] JNI setEffectVolume(id=0, vol=0.158046)
+[251s] [libSimpleAudioEngine] Get Env
+[251s] JNI setEffectVolume(id=0, vol=0.148784)
+[251s] [libSimpleAudioEngine] Get Env
+[252s] JNI setEffectVolume(id=0, vol=0.147679)
+[252s] [libSimpleAudioEngine] Get Env
+[252s] JNI setEffectVolume(id=0, vol=0.146487)
+[252s] [fsgame] touchid = 0
+[253s] JNI setEffectVolume(id=0, vol=0.186296)
+[253s] [libSimpleAudioEngine] Get Env
+[253s] JNI setEffectVolume(id=0, vol=0.185410)
+[253s] [libSimpleAudioEngine] Get Env
+[254s] JNI setEffectVolume(id=0, vol=0.146237)
+[254s] [libSimpleAudioEngine] Get Env
+[254s] JNI setEffectVolume(id=0, vol=0.160549)
+[254s] [libSimpleAudioEngine] Get Env
+[255s] JNI setEffectVolume(id=0, vol=0.142148)
+[255s] [libSimpleAudioEngine] Get Env
+[255s] JNI setEffectVolume(id=0, vol=0.184991)
+[255s] [libSimpleAudioEngine] Get Env
+[256s] JNI setEffectVolume(id=0, vol=0.236047)
+[256s] [libSimpleAudioEngine] Get Env
+[256s] JNI setEffectVolume(id=0, vol=0.247005)
+[256s] [libSimpleAudioEngine] Get Env
+[257s] JNI setEffectVolume(id=0, vol=0.249389)
+[257s] [libSimpleAudioEngine] Get Env
+[257s] JNI setEffectVolume(id=0, vol=0.249869)
+[257s] [libSimpleAudioEngine] Get Env
+[258s] JNI setEffectVolume(id=0, vol=0.249972)
+[258s] [libSimpleAudioEngine] Get Env
+[258s] JNI setEffectVolume(id=0, vol=0.249994)
+[258s] [libSimpleAudioEngine] Get Env
+[259s] JNI setEffectVolume(id=0, vol=0.249999)
+[259s] JNI setFloatForKey(space_best_time, 0.000000)
+[259s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[259s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[260s] STALL(severe): frame 12535 stalled for 855ms
+[260s] [libSimpleAudioEngine] Get Env
+[261s] [fsgame] touchid = 0
+[261s] game: frame 12600
+[261s] JNI CallObjectMethodV  x24
+[263s] [fsgame] touchid = 0  x4
+[264s] game debug: Starting encryption...
+[264s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[264s] JNI setFloatForKey(space_best_time, 0.000000)
+[264s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[264s] STALL(severe): frame 12749 stalled for 859ms
+[264s] [libSimpleAudioEngine] Get Env
+[264s] audio: music sdmc:/AndroidHorizonNX/games/com.fingersoft.hillclimb/assets/audio/bgmusic00.ogg loop=1
+[264s] JNI setBackgroundMusicVolume(0.500000)
+[265s] stall: frame 12765 stalled for 36ms
+[265s] [libSimpleAudioEngine] Get Env
+[265s] game debug: Android: RingerMode
+[265s] JNI CallObjectMethodV  x12
+[265s] JNI setFloatForKey(space_best_time, 0.000000)
+[266s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[266s] [libSimpleAudioEngine] Get Env
+[267s] JNI trackPage(stage/countryside/start/bike)
+[267s] [libSimpleAudioEngine] Get Env
+[267s] JNI setEffectVolume(id=0, vol=0.250000)
+[267s] audio: music sdmc:/AndroidHorizonNX/games/com.fingersoft.hillclimb/assets/audio/bgmusic01.ogg loop=1
+[267s] JNI setBackgroundMusicVolume(0.500000)
+[267s] STALL(severe): frame 12800 stalled for 1933ms
+[267s] [libSimpleAudioEngine] Get Env
+[268s] JNI setEffectVolume(id=0, vol=0.250000)
+[268s] [libSimpleAudioEngine] Get Env
+[268s] JNI setEffectVolume(id=0, vol=0.250000)
+[268s] [libSimpleAudioEngine] Get Env
+[269s] JNI setEffectVolume(id=0, vol=0.229549)
+[269s] [libSimpleAudioEngine] Get Env
+[269s] JNI setEffectVolume(id=0, vol=0.220420)
+[269s] [libSimpleAudioEngine] Get Env
+[270s] JNI setEffectVolume(id=0, vol=0.151646)
+[270s] [libSimpleAudioEngine] Get Env
+[270s] JNI setEffectVolume(id=0, vol=0.147924)
+[270s] [libSimpleAudioEngine] Get Env
+[271s] JNI setEffectVolume(id=0, vol=0.143871)
+[271s] [libSimpleAudioEngine] Get Env
+[271s] JNI setEffectVolume(id=1, vol=0.080666)
+[271s] [libSimpleAudioEngine] Get Env
+[272s] JNI setEffectVolume(id=0, vol=0.140052)
+[272s] [libSimpleAudioEngine] Get Env
+[272s] JNI setEffectVolume(id=0, vol=0.140188)
+[272s] game stdio[tid=0x93a84d390]: libpng warning: iCCP: known incorrect sRGB profile
+[272s] stall: frame 13131 stalled for 61ms
+[272s] [libSimpleAudioEngine] Get Env
+[273s] JNI setEffectVolume(id=0, vol=0.140737)
+[273s] [libSimpleAudioEngine] Get Env
+[273s] JNI setEffectVolume(id=0, vol=0.135748)
+[273s] [libSimpleAudioEngine] Get Env
+[274s] JNI setEffectVolume(id=0, vol=0.140638)
+[274s] [libSimpleAudioEngine] Get Env
+[274s] JNI setEffectVolume(id=0, vol=0.178577)
+[274s] [libSimpleAudioEngine] Get Env
+[275s] JNI setEffectVolume(id=0, vol=0.149930)
+[275s] [libSimpleAudioEngine] Get Env
+[275s] JNI setEffectVolume(id=0, vol=0.140924)
+[275s] [libSimpleAudioEngine] Get Env
+[276s] JNI setEffectVolume(id=0, vol=0.139079)
+[276s] [libSimpleAudioEngine] Get Env
+[276s] JNI setEffectVolume(id=1, vol=0.080666)
+[276s] [libSimpleAudioEngine] Get Env
+[277s] JNI setEffectVolume(id=0, vol=0.187849)
+[277s] [libSimpleAudioEngine] Get Env
+[277s] JNI setEffectVolume(id=0, vol=0.236660)
+[277s] [libSimpleAudioEngine] Get Env
+[278s] JNI setEffectVolume(id=0, vol=0.151657)
+[278s] [libSimpleAudioEngine] Get Env
+[278s] JNI setEffectVolume(id=0, vol=0.139551)
+[278s] game: frame 13500
+[278s] [libSimpleAudioEngine] Get Env
+[279s] JNI setEffectVolume(id=0, vol=0.166782)
+[279s] [libSimpleAudioEngine] Get Env
+[279s] JNI setEffectVolume(id=0, vol=0.224662)
+[279s] [libSimpleAudioEngine] Get Env
+[280s] JNI setEffectVolume(id=0, vol=0.153320)
+[280s] [libSimpleAudioEngine] Get Env
+[280s] JNI setEffectVolume(id=1, vol=0.080666)
+[280s] [libSimpleAudioEngine] Get Env
+[281s] JNI setEffectVolume(id=0, vol=0.143566)
+[281s] [fsgame] Pedals down = 0.016667
+[281s] JNI setEffectVolume(id=0, vol=0.149026)
+[281s] [libSimpleAudioEngine] Get Env
+[282s] JNI setEffectVolume(id=0, vol=0.229411)
+[282s] [libSimpleAudioEngine] Get Env
+[282s] JNI setEffectVolume(id=0, vol=0.230453)
+[282s] [libSimpleAudioEngine] Get Env
+[283s] JNI setEffectVolume(id=0, vol=0.163381)
+[283s] [libSimpleAudioEngine] Get Env
+[283s] JNI setEffectVolume(id=0, vol=0.142108)
+[283s] [libSimpleAudioEngine] Get Env
+[284s] JNI setEffectVolume(id=0, vol=0.149200)
+[284s] [libSimpleAudioEngine] Get Env
+[284s] JNI setEffectVolume(id=0, vol=0.136694)
+[284s] [libSimpleAudioEngine] Get Env
+[285s] JNI setEffectVolume(id=0, vol=0.216746)
+[285s] [libSimpleAudioEngine] Get Env
+[285s] JNI setEffectVolume(id=1, vol=0.012062)
+[285s] [libSimpleAudioEngine] Get Env
+[286s] JNI setEffectVolume(id=0, vol=0.147866)
+[286s] [libSimpleAudioEngine] Get Env
+[286s] JNI setEffectVolume(id=0, vol=0.142181)
+[286s] [libSimpleAudioEngine] Get Env
+[287s] JNI setEffectVolume(id=0, vol=0.145703)
+[287s] [libSimpleAudioEngine] Get Env
+[287s] JNI setEffectVolume(id=0, vol=0.211533)
+[287s] [libSimpleAudioEngine] Get Env
+[288s] JNI setEffectVolume(id=0, vol=0.172199)
+[288s] [libSimpleAudioEngine] Get Env
+[288s] JNI setEffectVolume(id=0, vol=0.160991)
+[288s] [libSimpleAudioEngine] Get Env
+[289s] JNI setEffectVolume(id=1, vol=0.009375)
+[289s] [libSimpleAudioEngine] Get Env
+[289s] JNI setEffectVolume(id=0, vol=0.159406)
+[289s] [libSimpleAudioEngine] Get Env
+[290s] JNI setEffectVolume(id=0, vol=0.161899)
+[290s] [libSimpleAudioEngine] Get Env
+[290s] JNI setEffectVolume(id=0, vol=0.151083)
+[290s] [libSimpleAudioEngine] Get Env
+[291s] JNI setEffectVolume(id=0, vol=0.208328)
+[291s] [libSimpleAudioEngine] Get Env
+[291s] JNI setEffectVolume(id=0, vol=0.162056)
+[292s] [libSimpleAudioEngine] Get Env
+[292s] JNI setEffectVolume(id=0, vol=0.173493)
+[292s] [libSimpleAudioEngine] Get Env
+[292s] JNI setEffectVolume(id=0, vol=0.140705)
+[293s] [libSimpleAudioEngine] Get Env
+[293s] JNI setEffectVolume(id=0, vol=0.155400)
+[293s] [libSimpleAudioEngine] Get Env
+[293s] JNI setEffectVolume(id=0, vol=0.218453)
+[293s] game: frame 14400
+[294s] [libSimpleAudioEngine] Get Env
+[294s] JNI setEffectVolume(id=0, vol=0.228966)
+[294s] [libSimpleAudioEngine] Get Env
+[294s] JNI setEffectVolume(id=0, vol=0.168698)
+[295s] [libSimpleAudioEngine] Get Env
+[295s] JNI setEffectVolume(id=0, vol=0.145260)
+[295s] [libSimpleAudioEngine] Get Env
+[296s] JNI setEffectVolume(id=0, vol=0.169087)
+[296s] [libSimpleAudioEngine] Get Env
+[296s] JNI setEffectVolume(id=0, vol=0.165106)
+[296s] [libSimpleAudioEngine] Get Env
+[297s] JNI setEffectVolume(id=0, vol=0.144123)
+[297s] [libSimpleAudioEngine] Get Env
+[297s] JNI setEffectVolume(id=0, vol=0.142021)
+[297s] [libSimpleAudioEngine] Get Env
+[298s] JNI setEffectVolume(id=0, vol=0.212769)
+[298s] [libSimpleAudioEngine] Get Env
+[298s] JNI setEffectVolume(id=0, vol=0.223523)
+[298s] [libSimpleAudioEngine] Get Env
+[299s] JNI setEffectVolume(id=0, vol=0.173179)
+[299s] [libSimpleAudioEngine] Get Env
+[299s] JNI setEffectVolume(id=0, vol=0.145929)
+[299s] [libSimpleAudioEngine] Get Env
+[300s] JNI setEffectVolume(id=0, vol=0.147252)
+[300s] [libSimpleAudioEngine] Get Env
+[300s] JNI setEffectVolume(id=0, vol=0.155032)
+[300s] [libSimpleAudioEngine] Get Env
+[301s] JNI setEffectVolume(id=0, vol=0.150793)
+[301s] [libSimpleAudioEngine] Get Env
+[301s] JNI setEffectVolume(id=0, vol=0.137219)
+[301s] [libSimpleAudioEngine] Get Env
+[302s] JNI setEffectVolume(id=0, vol=0.151250)
+[302s] [libSimpleAudioEngine] Get Env
+[302s] JNI setEffectVolume(id=0, vol=0.144779)
+[302s] [libSimpleAudioEngine] Get Env
+[303s] JNI setEffectVolume(id=0, vol=0.192393)
+[303s] [libSimpleAudioEngine] Get Env
+[303s] JNI setEffectVolume(id=0, vol=0.237635)
+[303s] [libSimpleAudioEngine] Get Env
+[304s] JNI setEffectVolume(id=0, vol=0.247479)
+[304s] [libSimpleAudioEngine] Get Env
+[304s] JNI setEffectVolume(id=0, vol=0.201664)
+[304s] [libSimpleAudioEngine] Get Env
+[305s] JNI setEffectVolume(id=0, vol=0.154126)
+[305s] [libSimpleAudioEngine] Get Env
+[305s] JNI setEffectVolume(id=0, vol=0.192836)
+[305s] [libSimpleAudioEngine] Get Env
+[306s] JNI setEffectVolume(id=0, vol=0.192099)
+[306s] [libSimpleAudioEngine] Get Env
+[306s] JNI setEffectVolume(id=0, vol=0.154748)
+[306s] [libSimpleAudioEngine] Get Env
+[307s] JNI setEffectVolume(id=0, vol=0.143443)
+[307s] [libSimpleAudioEngine] Get Env
+[307s] JNI setEffectVolume(id=0, vol=0.141074)
+[307s] [libSimpleAudioEngine] Get Env
+[308s] JNI setEffectVolume(id=0, vol=0.149706)
+[308s] [libSimpleAudioEngine] Get Env
+[308s] JNI setEffectVolume(id=0, vol=0.185260)
+[308s] [libSimpleAudioEngine] Get Env
+[308s] game: frame 15300
+[309s] JNI setEffectVolume(id=0, vol=0.191046)
+[309s] [libSimpleAudioEngine] Get Env
+[309s] JNI setEffectVolume(id=0, vol=0.152542)
+[309s] [libSimpleAudioEngine] Get Env
+[310s] JNI setEffectVolume(id=0, vol=0.132216)
+[310s] [libSimpleAudioEngine] Get Env
+[310s] JNI setEffectVolume(id=0, vol=0.129961)
+[310s] [libSimpleAudioEngine] Get Env
+[311s] JNI setEffectVolume(id=0, vol=0.225534)
+[311s] [libSimpleAudioEngine] Get Env
+[311s] JNI setEffectVolume(id=0, vol=0.169767)
+[311s] [libSimpleAudioEngine] Get Env
+[312s] JNI setEffectVolume(id=0, vol=0.154924)
+[312s] [libSimpleAudioEngine] Get Env
+[312s] JNI setEffectVolume(id=0, vol=0.171878)
+[312s] [libSimpleAudioEngine] Get Env
+[313s] JNI setEffectVolume(id=0, vol=0.234070)
+[313s] [libSimpleAudioEngine] Get Env
+[313s] JNI setEffectVolume(id=0, vol=0.220987)
+[313s] [libSimpleAudioEngine] Get Env
+[314s] JNI setEffectVolume(id=0, vol=0.155401)
+[314s] [libSimpleAudioEngine] Get Env
+[314s] JNI setEffectVolume(id=0, vol=0.221882)
+[314s] [libSimpleAudioEngine] Get Env
+[315s] JNI setEffectVolume(id=0, vol=0.177764)
+[315s] [libSimpleAudioEngine] Get Env
+[315s] JNI setEffectVolume(id=0, vol=0.141620)
+[315s] [libSimpleAudioEngine] Get Env
+[316s] JNI setEffectVolume(id=0, vol=0.202583)
+[316s] [libSimpleAudioEngine] Get Env
+[316s] JNI setEffectVolume(id=0, vol=0.151330)
+[316s] [libSimpleAudioEngine] Get Env
+[317s] JNI setEffectVolume(id=0, vol=0.144846)
+[317s] [libSimpleAudioEngine] Get Env
+[317s] JNI setEffectVolume(id=0, vol=0.194511)
+[317s] [libSimpleAudioEngine] Get Env
+[318s] JNI setEffectVolume(id=0, vol=0.155384)
+[318s] [libSimpleAudioEngine] Get Env
+[318s] JNI setEffectVolume(id=0, vol=0.146112)
+[318s] [libSimpleAudioEngine] Get Env
+[319s] JNI setEffectVolume(id=0, vol=0.142659)
+[319s] [libSimpleAudioEngine] Get Env
+[319s] JNI setEffectVolume(id=0, vol=0.144091)
+[319s] [libSimpleAudioEngine] Get Env
+[320s] JNI setEffectVolume(id=0, vol=0.159343)
+[320s] [libSimpleAudioEngine] Get Env
+[320s] JNI setEffectVolume(id=0, vol=0.178862)
+[320s] [libSimpleAudioEngine] Get Env
+[321s] JNI setEffectVolume(id=0, vol=0.174670)
+[321s] [libSimpleAudioEngine] Get Env
+[321s] JNI setEffectVolume(id=0, vol=0.193026)
+[321s] [libSimpleAudioEngine] Get Env
+[322s] JNI setEffectVolume(id=0, vol=0.152995)
+[322s] [libSimpleAudioEngine] Get Env
+[322s] JNI setEffectVolume(id=0, vol=0.173423)
+[322s] [libSimpleAudioEngine] Get Env
+[323s] JNI setEffectVolume(id=0, vol=0.151309)
+[323s] [libSimpleAudioEngine] Get Env
+[323s] JNI setEffectVolume(id=0, vol=0.150208)
+[323s] game: frame 16200
+[324s] [libSimpleAudioEngine] Get Env
+[324s] JNI setEffectVolume(id=0, vol=0.148362)
+[324s] [libSimpleAudioEngine] Get Env
+[325s] JNI setEffectVolume(id=0, vol=0.142077)
+[325s] [libSimpleAudioEngine] Get Env
+[325s] JNI setEffectVolume(id=0, vol=0.225582)
+[325s] [libSimpleAudioEngine] Get Env
+[326s] JNI setEffectVolume(id=0, vol=0.245021)
+[326s] [libSimpleAudioEngine] Get Env
+[326s] JNI setEffectVolume(id=0, vol=0.155045)
+[326s] [libSimpleAudioEngine] Get Env
+[327s] JNI setEffectVolume(id=0, vol=0.140541)
+[327s] [libSimpleAudioEngine] Get Env
+[327s] JNI setEffectVolume(id=0, vol=0.222386)
+[327s] [libSimpleAudioEngine] Get Env
+[328s] JNI setEffectVolume(id=0, vol=0.151279)
+[328s] [libSimpleAudioEngine] Get Env
+[328s] JNI setEffectVolume(id=0, vol=0.136146)
+[328s] [libSimpleAudioEngine] Get Env
+[329s] JNI setEffectVolume(id=0, vol=0.130641)
+[329s] [libSimpleAudioEngine] Get Env
+[329s] JNI setEffectVolume(id=0, vol=0.130432)
+[329s] [libSimpleAudioEngine] Get Env
+[330s] JNI setEffectVolume(id=0, vol=0.155602)
+[330s] [libSimpleAudioEngine] Get Env
+[330s] JNI setEffectVolume(id=0, vol=0.214152)
+[330s] [libSimpleAudioEngine] Get Env
+[331s] JNI setEffectVolume(id=0, vol=0.242306)
+[331s] [libSimpleAudioEngine] Get Env
+[331s] JNI setEffectVolume(id=0, vol=0.248431)
+[331s] [libSimpleAudioEngine] Get Env
+[332s] JNI setEffectVolume(id=0, vol=0.204041)
+[332s] [libSimpleAudioEngine] Get Env
+[332s] JNI setEffectVolume(id=0, vol=0.144921)
+[332s] [libSimpleAudioEngine] Get Env
+[333s] JNI setEffectVolume(id=0, vol=0.165054)
+[333s] [libSimpleAudioEngine] Get Env
+[333s] JNI setEffectVolume(id=0, vol=0.194712)
+[333s] [libSimpleAudioEngine] Get Env
+[334s] JNI setEffectVolume(id=0, vol=0.230071)
+[334s] [libSimpleAudioEngine] Get Env
+[334s] JNI setEffectVolume(id=0, vol=0.203341)
+[334s] [libSimpleAudioEngine] Get Env
+[335s] JNI setEffectVolume(id=0, vol=0.190677)
+[335s] [libSimpleAudioEngine] Get Env
+[335s] JNI setEffectVolume(id=0, vol=0.181365)
+[335s] [libSimpleAudioEngine] Get Env
+[336s] JNI setEffectVolume(id=0, vol=0.232383)
+[336s] [libSimpleAudioEngine] Get Env
+[336s] JNI setEffectVolume(id=0, vol=0.167926)
+[336s] [libSimpleAudioEngine] Get Env
+[337s] JNI setEffectVolume(id=0, vol=0.164670)
+[337s] [libSimpleAudioEngine] Get Env
+[337s] JNI setEffectVolume(id=0, vol=0.215284)
+[337s] [libSimpleAudioEngine] Get Env
+[338s] JNI setEffectVolume(id=0, vol=0.242549)
+[338s] [libSimpleAudioEngine] Get Env
+[338s] JNI setEffectVolume(id=0, vol=0.248401)
+[338s] [libSimpleAudioEngine] Get Env
+[338s] JNI setEffectVolume(id=0, vol=0.179421)
+[338s] game: frame 17100
+[339s] [libSimpleAudioEngine] Get Env
+[339s] JNI setEffectVolume(id=0, vol=0.186562)
+[339s] [libSimpleAudioEngine] Get Env
+[340s] JNI setEffectVolume(id=0, vol=0.237065)
+[340s] [libSimpleAudioEngine] Get Env
+[340s] JNI setEffectVolume(id=0, vol=0.224200)
+[340s] [libSimpleAudioEngine] Get Env
+[341s] JNI setEffectVolume(id=0, vol=0.159103)
+[341s] [libSimpleAudioEngine] Get Env
+[341s] JNI setEffectVolume(id=0, vol=0.218627)
+[341s] [libSimpleAudioEngine] Get Env
+[342s] JNI setEffectVolume(id=0, vol=0.233936)
+[342s] [libSimpleAudioEngine] Get Env
+[342s] JNI setEffectVolume(id=0, vol=0.246725)
+[342s] [libSimpleAudioEngine] Get Env
+[343s] JNI setEffectVolume(id=0, vol=0.170535)
+[343s] [libSimpleAudioEngine] Get Env
+[343s] JNI setEffectVolume(id=0, vol=0.153132)
+[343s] [libSimpleAudioEngine] Get Env
+[344s] JNI setEffectVolume(id=0, vol=0.146083)
+[344s] [libSimpleAudioEngine] Get Env
+[344s] JNI setEffectVolume(id=0, vol=0.223649)
+[344s] [libSimpleAudioEngine] Get Env
+[345s] JNI setEffectVolume(id=0, vol=0.244344)
+[345s] [libSimpleAudioEngine] Get Env
+[345s] JNI setEffectVolume(id=0, vol=0.162419)
+[345s] [libSimpleAudioEngine] Get Env
+[346s] JNI setEffectVolume(id=0, vol=0.146616)
+[346s] [libSimpleAudioEngine] Get Env
+[346s] JNI setEffectVolume(id=0, vol=0.181838)
+[346s] [libSimpleAudioEngine] Get Env
+[347s] JNI setEffectVolume(id=0, vol=0.236101)
+[347s] [libSimpleAudioEngine] Get Env
+[347s] JNI setEffectVolume(id=0, vol=0.247108)
+[347s] [fsgame] touchid = 0
+[348s] JNI setEffectVolume(id=0, vol=0.177697)
+[348s] [libSimpleAudioEngine] Get Env
+[348s] JNI setEffectVolume(id=0, vol=0.159698)
+[348s] [libSimpleAudioEngine] Get Env
+[349s] JNI setEffectVolume(id=0, vol=0.140785)
+[349s] [libSimpleAudioEngine] Get Env
+[349s] JNI setEffectVolume(id=0, vol=0.186750)
+[349s] [libSimpleAudioEngine] Get Env
+[350s] JNI setEffectVolume(id=0, vol=0.198627)
+[350s] [libSimpleAudioEngine] Get Env
+[350s] JNI setEffectVolume(id=0, vol=0.238973)
+[350s] [libSimpleAudioEngine] Get Env
+[351s] JNI setEffectVolume(id=0, vol=0.247752)
+[351s] [fsgame] touchid = 1
+[351s] JNI setEffectVolume(id=0, vol=0.239555)
+[351s] [libSimpleAudioEngine] Get Env
+[352s] JNI setEffectVolume(id=0, vol=0.213750)
+[352s] [libSimpleAudioEngine] Get Env
+[352s] JNI setEffectVolume(id=0, vol=0.161292)
+[353s] [libSimpleAudioEngine] Get Env
+[353s] JNI setEffectVolume(id=0, vol=0.150639)
+[353s] [libSimpleAudioEngine] Get Env
+[353s] JNI setEffectVolume(id=0, vol=0.158490)
+[353s] game: frame 18000
+[354s] [libSimpleAudioEngine] Get Env
+[354s] JNI setEffectVolume(id=0, vol=0.153177)
+[354s] [libSimpleAudioEngine] Get Env
+[354s] JNI setEffectVolume(id=0, vol=0.227298)
+[355s] [libSimpleAudioEngine] Get Env
+[355s] JNI setEffectVolume(id=0, vol=0.242628)
+[355s] [libSimpleAudioEngine] Get Env
+[355s] JNI setEffectVolume(id=0, vol=0.174010)
+[356s] [libSimpleAudioEngine] Get Env
+[356s] JNI setEffectVolume(id=0, vol=0.171902)
+[356s] [libSimpleAudioEngine] Get Env
+[356s] JNI setEffectVolume(id=1, vol=0.080666)
+[357s] [libSimpleAudioEngine] Get Env
+[357s] JNI setEffectVolume(id=0, vol=0.162831)
+[357s] [libSimpleAudioEngine] Get Env
+[357s] JNI setEffectVolume(id=0, vol=0.153299)
+[358s] [libSimpleAudioEngine] Get Env
+[358s] JNI setEffectVolume(id=0, vol=0.220018)
+[358s] [libSimpleAudioEngine] Get Env
+[358s] JNI setEffectVolume(id=0, vol=0.195136)
+[359s] [libSimpleAudioEngine] Get Env
+[359s] JNI setEffectVolume(id=0, vol=0.152026)
+[359s] [libSimpleAudioEngine] Get Env
+[359s] JNI setEffectVolume(id=0, vol=0.142360)
+[360s] [libSimpleAudioEngine] Get Env
+[360s] JNI setEffectVolume(id=0, vol=0.161371)
+[360s] [libSimpleAudioEngine] Get Env
+[360s] JNI setEffectVolume(id=0, vol=0.176637)
+[361s] [libSimpleAudioEngine] Get Env
+[361s] JNI setEffectVolume(id=0, vol=0.170915)
+[361s] [libSimpleAudioEngine] Get Env
+[361s] JNI setEffectVolume(id=0, vol=0.195098)
+[362s] [libSimpleAudioEngine] Get Env
+[362s] JNI setEffectVolume(id=0, vol=0.238805)
+[362s] [libSimpleAudioEngine] Get Env
+[362s] JNI setEffectVolume(id=0, vol=0.243650)
+[363s] [libSimpleAudioEngine] Get Env
+[363s] JNI setEffectVolume(id=0, vol=0.173992)
+[363s] [libSimpleAudioEngine] Get Env
+[363s] JNI setEffectVolume(id=0, vol=0.155068)
+[364s] [libSimpleAudioEngine] Get Env
+[364s] JNI setEffectVolume(id=0, vol=0.212609)
+[364s] [libSimpleAudioEngine] Get Env
+[364s] JNI setEffectVolume(id=0, vol=0.162487)
+[365s] [libSimpleAudioEngine] Get Env
+[365s] JNI setEffectVolume(id=0, vol=0.142304)
+[365s] [libSimpleAudioEngine] Get Env
+[365s] JNI setEffectVolume(id=0, vol=0.148160)
+[366s] [libSimpleAudioEngine] Get Env
+[366s] JNI setEffectVolume(id=0, vol=0.213924)
+[366s] [libSimpleAudioEngine] Get Env
+[366s] JNI setEffectVolume(id=0, vol=0.157388)
+[367s] [libSimpleAudioEngine] Get Env
+[367s] JNI setEffectVolume(id=0, vol=0.170635)
+[367s] [libSimpleAudioEngine] Get Env
+[367s] JNI setEffectVolume(id=0, vol=0.142700)
+[368s] [libSimpleAudioEngine] Get Env
+[368s] JNI setEffectVolume(id=0, vol=0.141634)
+[368s] [libSimpleAudioEngine] Get Env
+[368s] game: frame 18900
+[369s] JNI setEffectVolume(id=0, vol=0.159621)
+[369s] [libSimpleAudioEngine] Get Env
+[369s] JNI setEffectVolume(id=0, vol=0.199624)
+[369s] [libSimpleAudioEngine] Get Env
+[370s] JNI setEffectVolume(id=1, vol=0.080666)
+[370s] [libSimpleAudioEngine] Get Env
+[370s] JNI setEffectVolume(id=0, vol=0.146091)
+[370s] [libSimpleAudioEngine] Get Env
+[371s] JNI setEffectVolume(id=0, vol=0.219287)
+[371s] [libSimpleAudioEngine] Get Env
+[371s] JNI setEffectVolume(id=0, vol=0.243408)
+[371s] [libSimpleAudioEngine] Get Env
+[372s] JNI setEffectVolume(id=0, vol=0.248656)
+[372s] [libSimpleAudioEngine] Get Env
+[372s] JNI setEffectVolume(id=0, vol=0.249726)
+[372s] [libSimpleAudioEngine] Get Env
+[373s] JNI setEffectVolume(id=1, vol=0.009375)
+[373s] [libSimpleAudioEngine] Get Env
+[373s] JNI setEffectVolume(id=0, vol=0.249988)
+[373s] [libSimpleAudioEngine] Get Env
+[374s] JNI setEffectVolume(id=0, vol=0.249998)
+[374s] [libSimpleAudioEngine] Get Env
+[374s] JNI setEffectVolume(id=0, vol=0.250000)
+[374s] JNI setFloatForKey(space_best_time, 0.000000)
+[375s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[375s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[375s] STALL(severe): frame 19245 stalled for 849ms
+[376s] [libSimpleAudioEngine] Get Env
+[376s] [fsgame] touchid = 0
+[376s] JNI CallObjectMethodV  x24
+[378s] [libSimpleAudioEngine] Get Env  x2
+[378s] [fsgame] touchid = 0
+[379s] game debug: Starting encryption...
+[379s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[379s] JNI setFloatForKey(space_best_time, 0.000000)
+[379s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[379s] STALL(severe): frame 19436 stalled for 831ms
+[379s] [libSimpleAudioEngine] Get Env
+[379s] audio: music sdmc:/AndroidHorizonNX/games/com.fingersoft.hillclimb/assets/audio/bgmusic00.ogg loop=1
+[379s] JNI setBackgroundMusicVolume(0.500000)
+[382s] stall: frame 19453 stalled for 36ms
+[382s] [libSimpleAudioEngine] Get Env
+[382s] STALL(severe): frame 19604 stalled for 169ms
+[382s] [libSimpleAudioEngine] Get Env
+[382s] JNI setFloatForKey(space_best_time, 0.000000)
+[383s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[383s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[383s] JNI trackPage(upgrade/bike_rotation/2)
+[383s] JNI CallObjectMethodV  x6
+[384s] STALL(severe): frame 19640 stalled for 862ms
+[384s] [libSimpleAudioEngine] Get Env
+[385s] STALL(severe): frame 19709 stalled for 162ms
+[385s] [libSimpleAudioEngine] Get Env
+[385s] JNI setFloatForKey(space_best_time, 0.000000)
+[385s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[385s] JNI trackPage(upgrade/bike_engine/4)
+[386s] JNI CallObjectMethodV  x6
+[386s] game: frame 19800
+[391s] [libSimpleAudioEngine] Get Env  x4
+[391s] game debug: Android: RingerMode
+[391s] JNI CallObjectMethodV  x12
+[391s] JNI setFloatForKey(space_best_time, 0.000000)
+[391s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[392s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[393s] game stdio[tid=0x93a84d390]: libpng warning: iCCP: known incorrect sRGB profile  x2
+[393s] [libSimpleAudioEngine] Get Env
+[393s] game stdio[tid=0x93a84d390]: libpng warning: iCCP: known incorrect sRGB profile  x2
+[394s] JNI trackPage(stage/seasons/start/bike)
+[394s] [libSimpleAudioEngine] Get Env
+[394s] JNI setEffectVolume(id=0, vol=0.250000)
+[394s] audio: music sdmc:/AndroidHorizonNX/games/com.fingersoft.hillclimb/assets/audio/bgmusic01.ogg loop=1
+[394s] JNI setBackgroundMusicVolume(0.500000)
+[394s] STALL(severe): frame 20084 stalled for 3343ms
+[394s] [libSimpleAudioEngine] Get Env
+[395s] JNI setEffectVolume(id=0, vol=0.250000)
+[395s] [libSimpleAudioEngine] Get Env
+[396s] JNI setEffectVolume(id=0, vol=0.250000)
+[396s] [libSimpleAudioEngine] Get Env
+[396s] JNI setEffectVolume(id=1, vol=0.037110)
+[396s] [libSimpleAudioEngine] Get Env
+[397s] JNI setEffectVolume(id=0, vol=0.177928)
+[397s] [libSimpleAudioEngine] Get Env
+[397s] JNI setEffectVolume(id=0, vol=0.163429)
+[397s] [libSimpleAudioEngine] Get Env
+[398s] JNI setEffectVolume(id=0, vol=0.218166)
+[398s] [libSimpleAudioEngine] Get Env
+[398s] JNI setEffectVolume(id=0, vol=0.150456)
+[398s] [libSimpleAudioEngine] Get Env
+[399s] JNI setEffectVolume(id=0, vol=0.142731)
+[399s] [libSimpleAudioEngine] Get Env
+[399s] JNI setEffectVolume(id=0, vol=0.218651)
+[399s] [libSimpleAudioEngine] Get Env
+[400s] JNI setEffectVolume(id=0, vol=0.243271)
+[400s] [libSimpleAudioEngine] Get Env
+[400s] JNI setEffectVolume(id=0, vol=0.231931)
+[400s] [libSimpleAudioEngine] Get Env
+[401s] JNI setEffectVolume(id=0, vol=0.171214)
+[401s] [libSimpleAudioEngine] Get Env
+[401s] JNI setEffectVolume(id=0, vol=0.166306)
+[401s] [libSimpleAudioEngine] Get Env
+[402s] JNI setEffectVolume(id=0, vol=0.208810)
+[402s] [libSimpleAudioEngine] Get Env
+[402s] JNI setEffectVolume(id=0, vol=0.205349)
+[402s] [libSimpleAudioEngine] Get Env
+[403s] JNI setEffectVolume(id=0, vol=0.169758)
+[403s] [libSimpleAudioEngine] Get Env
+[403s] JNI setEffectVolume(id=0, vol=0.168290)
+[403s] game stdio[tid=0x93a84d390]: libpng warning: iCCP: known incorrect sRGB profile  x2
+[403s] STALL(severe): frame 20613 stalled for 254ms
+[403s] [libSimpleAudioEngine] Get Env
+[404s] JNI setEffectVolume(id=0, vol=0.157890)
+[404s] [libSimpleAudioEngine] Get Env
+[404s] JNI setEffectVolume(id=0, vol=0.138534)
+[404s] [libSimpleAudioEngine] Get Env
+[404s] JNI setEffectVolume(id=0, vol=0.213388)
+[404s] game: frame 20700
+[405s] [libSimpleAudioEngine] Get Env
+[405s] JNI setEffectVolume(id=0, vol=0.224236)
+[405s] [libSimpleAudioEngine] Get Env
+[405s] JNI setEffectVolume(id=0, vol=0.244470)
+[405s] game stdio[tid=0x93a84d390]: libpng warning: iCCP: known incorrect sRGB profile
+[406s] stall: frame 20752 stalled for 61ms
+[406s] [libSimpleAudioEngine] Get Env
+[406s] JNI setEffectVolume(id=0, vol=0.173570)
+[406s] [libSimpleAudioEngine] Get Env
+[407s] JNI setEffectVolume(id=0, vol=0.149011)
+[407s] [libSimpleAudioEngine] Get Env
+[407s] JNI setEffectVolume(id=0, vol=0.206179)
+[407s] [libSimpleAudioEngine] Get Env
+[408s] JNI setEffectVolume(id=0, vol=0.213444)
+[408s] [libSimpleAudioEngine] Get Env
+[408s] JNI setEffectVolume(id=0, vol=0.138639)
+[408s] [libSimpleAudioEngine] Get Env
+[409s] JNI setEffectVolume(id=0, vol=0.136161)
+[409s] [libSimpleAudioEngine] Get Env
+[409s] JNI setEffectVolume(id=0, vol=0.224169)
+[409s] [libSimpleAudioEngine] Get Env
+[410s] JNI setEffectVolume(id=0, vol=0.143788)
+[410s] [libSimpleAudioEngine] Get Env
+[410s] JNI setEffectVolume(id=1, vol=0.091360)
+[410s] [libSimpleAudioEngine] Get Env
+[411s] JNI setEffectVolume(id=0, vol=0.132589)
+[411s] [libSimpleAudioEngine] Get Env
+[411s] JNI setEffectVolume(id=0, vol=0.135225)
+[411s] [libSimpleAudioEngine] Get Env
+[412s] JNI setEffectVolume(id=0, vol=0.135196)
+[412s] [libSimpleAudioEngine] Get Env
+[412s] JNI setEffectVolume(id=0, vol=0.139540)
+[412s] [libSimpleAudioEngine] Get Env
+[413s] JNI setEffectVolume(id=0, vol=0.216769)
+[413s] [libSimpleAudioEngine] Get Env
+[413s] JNI setEffectVolume(id=0, vol=0.242867)
+[413s] [libSimpleAudioEngine] Get Env
+[414s] JNI setEffectVolume(id=0, vol=0.164564)
+[414s] [libSimpleAudioEngine] Get Env
+[414s] JNI setEffectVolume(id=0, vol=0.137631)
+[414s] [libSimpleAudioEngine] Get Env
+[415s] JNI setEffectVolume(id=0, vol=0.133915)
+[415s] [libSimpleAudioEngine] Get Env
+[415s] JNI setEffectVolume(id=0, vol=0.168783)
+[415s] [libSimpleAudioEngine] Get Env
+[416s] JNI setEffectVolume(id=0, vol=0.232568)
+[416s] [libSimpleAudioEngine] Get Env
+[416s] JNI setEffectVolume(id=0, vol=0.246445)
+[416s] [libSimpleAudioEngine] Get Env
+[417s] JNI setEffectVolume(id=0, vol=0.249275)
+[417s] [libSimpleAudioEngine] Get Env
+[417s] JNI setEffectVolume(id=0, vol=0.249852)
+[417s] [libSimpleAudioEngine] Get Env
+[418s] JNI setEffectVolume(id=0, vol=0.249968)
+[418s] [libSimpleAudioEngine] Get Env
+[418s] JNI setEffectVolume(id=0, vol=0.249993)
+[418s] [libSimpleAudioEngine] Get Env
+[419s] JNI setEffectVolume(id=0, vol=0.249999)
+[419s] JNI setIntegerForKey(seasons_highscore, 883)
+[419s] JNI setIntegerForKey(seasons_unlocked, 1)
+[419s] JNI setIntegerForKey(seasons_level, 3)
+[419s] JNI setIntegerForKey(seasons_custom1_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_jeep_highscore, 883)
+[419s] JNI setIntegerForKey(seasons_bike_highscore, 218)
+[419s] JNI setIntegerForKey(seasons_monster_highscore, 876)
+[419s] JNI setIntegerForKey(seasons_tractor_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_hippievan_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_onewheeler_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_quadbike_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_trophytruck_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_touristbus_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_racecar_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_screwfinger_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_policecar_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_ambulance_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_electric_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_dieseltruck_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_rallycar_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_dragster_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_firetruck_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_chopperbike_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_lowrider_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_tank_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_snowmobile_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_superoffroad_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_truck_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_dunebuggy_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_hovercraft_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_minibike_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_bigfinger_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_train_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_moonlander_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_hotrod_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_bubblecar_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_shapeshifter_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_luxury_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_spider_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_hachiroku_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_superhillclimber_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_carcar_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_aircar_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_fastbike_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_ufo_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_boringcar_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_badcar_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_sleigh_highscore, 0)
+[419s] JNI setIntegerForKey(seasons_chestconsumed, 0)
+[419s] JNI setIntegerForKey(seasons_custom1_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_jeep_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_bike_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_monster_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_tractor_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_hippievan_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_onewheeler_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_quadbike_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_trophytruck_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_touristbus_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_racecar_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_screwfinger_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_policecar_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_ambulance_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_electric_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_dieseltruck_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_rallycar_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_dragster_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_firetruck_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_chopperbike_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_lowrider_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_tank_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_snowmobile_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_superoffroad_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_truck_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_dunebuggy_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_hovercraft_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_minibike_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_bigfinger_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_train_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_moonlander_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_hotrod_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_bubblecar_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_shapeshifter_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_luxury_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_spider_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_hachiroku_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_superhillclimber_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_carcar_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_aircar_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_fastbike_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_ufo_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_boringcar_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_badcar_jumprec, 0)
+[419s] JNI setIntegerForKey(seasons_sleigh_jumprec, 0)
+[419s] JNI setFloatForKey(space_best_time, 0.000000)
+[420s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[420s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[420s] STALL(severe): frame 21558 stalled for 1169ms
+[421s] [libSimpleAudioEngine] Get Env
+[421s] game: frame 21600
+[421s] [libSimpleAudioEngine] Get Env
+[422s] JNI CallObjectMethodV  x24
+[424s] [libSimpleAudioEngine] Get Env  x3
+[424s] [fsgame] touchid = 0
+[424s] game debug: Starting encryption...
+[424s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[424s] JNI setFloatForKey(space_best_time, 0.000000)
+[424s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[425s] STALL(severe): frame 21774 stalled for 830ms
+[425s] [libSimpleAudioEngine] Get Env
+[425s] audio: music sdmc:/AndroidHorizonNX/games/com.fingersoft.hillclimb/assets/audio/bgmusic00.ogg loop=1
+[425s] JNI setBackgroundMusicVolume(0.500000)
+[426s] stall: frame 21791 stalled for 37ms
+[427s] [libSimpleAudioEngine] Get Env
+[428s] STALL(severe): frame 21899 stalled for 909ms
+[428s] [libSimpleAudioEngine] Get Env
+[429s] STALL(severe): frame 21948 stalled for 127ms
+[432s] [libSimpleAudioEngine] Get Env  x4
+[432s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[432s] JNI setFloatForKey(space_best_time, 0.000000)
+[432s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[432s] JNI CallObjectMethodV  x4
+[432s] JNI trackPage(iap/nitro/10)
+[432s] iap-guard: trackPage looked like Shop/IAP — forcing BACK for ~1.5s
+[432s] [libSimpleAudioEngine] Get Env
+[432s] STALL(severe): frame 22114 stalled for 792ms
+[436s] [libSimpleAudioEngine] Get Env  x5
+[436s] STALL(severe): frame 22354 stalled for 157ms
+[436s] [libSimpleAudioEngine] Get Env
+[436s] JNI setFloatForKey(space_best_time, 0.000000)
+[437s] JNI setFloatForKey(time_left_for_video_double, 0.000000)
+[437s] UserDefaults: saved 5302 ints, 3 floats, 49 strings
+[438s] JNI GetStaticMethodID: isFacebookLikeIAPPerformed ()I
+[438s] JNI trackPage(iap/playstore/view)
+[438s] iap-guard: trackPage looked like Shop/IAP — forcing BACK for ~1.5s
+[438s] game stdio[tid=0x93a84d390]: libpng warning: iCCP: known incorrect sRGB profile
+[438s] Cocos2d-x: game loop FAULT sig=257 esr=0x92000004 pc=0x8abbffbb8 far=0xfffffffffffffff8 sym=Java_com_fingersoft_game_MainActivity_onControllerConnectionEvent+0x221cc frame=22389 — stop
+[438s] FAULT pc 0x8abbffbb8: region=0x8ab9ca000 size=0x748000 type=0x14 perm=r-x
+[438s] FAULT far 0xfffffffffffffff8: region=0x1000000000 size=0xfffffff000000000 type=0x10 perm=---
+[438s] FAULT pc: sdmc:/AndroidHorizonNX/games/com.fingersoft.hillclimb/lib/libgame.so +0x235bb8 sym=Java_com_fingersoft_game_MainActivity_onControllerConnectionEvent+0x221cc
+[438s] INSN: [pc-12]=8b170c09 [pc-8]=f9000fe9 [pc-4]=a90023e0 [pc]=f9400289 [pc+4]=f8008509
+[438s] Cocos2d-x: loop done frames=22389
+[438s] Cocos2d-x: crash recovery — exiting app cleanly rather than risking a still-running game thread racing the launcher
