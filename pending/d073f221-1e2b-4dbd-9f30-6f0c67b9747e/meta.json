@@ -1,0 +1,9 @@
+{
+  "apk_url": "",
+  "apk_uploaded": true,
+  "apk_filename": "F-Droid.apk",
+  "source_site": "f-droid.org (live file-upload end-to-end test)",
+  "github_username": "octocat",
+  "notes": "Live test of direct APK file upload through the Worker.",
+  "submitted_at": "2026-07-06T18:13:38.890Z"
+}
