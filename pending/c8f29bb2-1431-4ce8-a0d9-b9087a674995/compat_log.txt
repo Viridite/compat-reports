@@ -1,0 +1,5 @@
+ELF: jmprel done
+ctors done ok=417 failed=0
+frame 1 rendered
+frame 2 rendered
+stall: frame 10 stalled for 40ms
