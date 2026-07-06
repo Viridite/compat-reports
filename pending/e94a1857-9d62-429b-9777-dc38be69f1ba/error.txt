@@ -1,1 +1,0 @@
-couldn't read the APK's manifest (couldn't read the APK's manifest (End of central directory record (EOCD) signature not found))

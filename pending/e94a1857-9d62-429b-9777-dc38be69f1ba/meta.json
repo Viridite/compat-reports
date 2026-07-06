@@ -1,7 +1,0 @@
-{
-  "apk_url": "https://21136b0e47e9e2b6afcaac7aa3f438cf.r2.cloudflarestorage.com/android-horizon-compat-uploads/38ee1214-044f-4daa-bb51-f8d78dae64c6-test.apk?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=80f44ac371e82261ca808cd344876d1a%2F20260706%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260706T183744Z&X-Amz-Expires=21600&X-Amz-SignedHeaders=host&X-Amz-Signature=4b0805d3b8b96261be8633e7519035ac4eee382b51015202ae8deb5c978eac60",
-  "source_site": "synthetic large-file R2 upload test",
-  "github_username": "octocat",
-  "notes": "Testing R2-backed large APK upload end to end. This is a synthetic 110MB file with a fake PK header, not a real APK, so androguard is expected to fail metadata extraction here — the point of this test is confirming the download-via-presigned-URL path works, not the androguard analysis.",
-  "submitted_at": "2026-07-06T18:37:44.377Z"
-}
