@@ -1,15 +1,1 @@
-[
-  {
-    "game_name": "F-Droid",
-    "package_name": "org.fdroid.fdroid",
-    "version_name": "1.23.2",
-    "verdict": "ok",
-    "verdict_label": "\u2705 Playable",
-    "summary": "Playable \u2014 no severe stalls or error markers detected.",
-    "icon": null,
-    "source_site": "f-droid.org (live end-to-end Worker test)",
-    "submitted_by": "octocat",
-    "submitted_at": "2026-07-06T18:02:47Z",
-    "report_path": "reports/org.fdroid.fdroid/1.23.2/report.md"
-  }
-]
+[]
