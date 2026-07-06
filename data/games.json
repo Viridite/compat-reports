@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "game_name": "Hill Climb Racing",
+    "package_name": "com.fingersoft.hillclimb",
+    "version_name": "1.67.0",
+    "verdict": "issues",
+    "verdict_label": "\u26a0\ufe0f Runs with issues",
+    "summary": "Runs, but with issues (77 severe stall(s), worst 8160ms; at least one error/crash marker logged).",
+    "icon": "reports/com.fingersoft.hillclimb/1.67.0/icon.png",
+    "source_site": "APKPure",
+    "submitted_by": "aaronateataco",
+    "submitted_at": "2026-07-06T18:46:58Z",
+    "report_path": "reports/com.fingersoft.hillclimb/1.67.0/report.md"
+  }
+]
