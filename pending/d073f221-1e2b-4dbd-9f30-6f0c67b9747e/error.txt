@@ -1,1 +1,0 @@
-missing required fields (apk_url / source_site / one or more logs)
