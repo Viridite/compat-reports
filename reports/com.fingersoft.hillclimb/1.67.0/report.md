@@ -6,14 +6,15 @@
 **APK SHA-256:** `542c25e56ac80768d4a9f74bd77ef463deb4517623df886ee0602315107b150a`  
 **Play Store category check:** GAME  
 **Submitted by:** aaronateataco  
+**Supersedes:** submission by aaronateataco on 2026-07-06T18:46:58Z  
 
 ## Analysis
 
-Runs, but with issues (77 severe stall(s), worst 8160ms; at least one error/crash marker logged).
+Runs, but with issues (51 severe stall(s), worst 5149ms; at least one error/crash marker logged).
 
-- Frame stalls logged: **218** (severe: **77**)
-- Worst stall: **8160ms**, average: **292.1ms**
-- First error/crash line found: `[  4s] game stdio[tid=0x93a84d390]: failed to load external entity ""`
+- Frame stalls logged: **178** (severe: **51**)
+- Worst stall: **5149ms**, average: **139.2ms**
+- First error/crash line found: `[  4s] game stdio[tid=0x2f466a4a0]: failed to load external entity ""`
 
 ## Raw logs
 
