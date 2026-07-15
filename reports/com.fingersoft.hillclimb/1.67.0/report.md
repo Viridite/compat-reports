@@ -6,7 +6,7 @@
 **APK SHA-256:** `542c25e56ac80768d4a9f74bd77ef463deb4517623df886ee0602315107b150a`  
 **Play Store category check:** GAME  
 **Submitted by:** aaronateataco  
-**Supersedes:** submission by aaronateataco on 2026-07-06T18:46:58Z  
+**Supersedes:** submission by aaronateataco on 2026-07-10T11:07:39Z  
 
 ## Analysis
 
