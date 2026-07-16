@@ -4,8 +4,10 @@
 **Verdict:** ⚠️ Runs with issues  
 **Source:** APKPure — (uploaded directly, no link)  
 **APK SHA-256:** `542c25e56ac80768d4a9f74bd77ef463deb4517623df886ee0602315107b150a`  
+**APK integrity check:** ❓ Not available (submitted before this check existed, or the engine build predates it)  
 **Play Store category check:** GAME  
 **Submitted by:** aaronateataco  
+**Test environment:** Android Horizon build `0.1.124`, Switch firmware `22.1.0`, Atmosphere `1.11.2`  
 **Supersedes:** submission by aaronateataco on 2026-07-10T11:07:39Z  
 
 ## Analysis

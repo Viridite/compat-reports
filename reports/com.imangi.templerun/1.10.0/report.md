@@ -4,8 +4,10 @@
 **Verdict:** ❌ Fails to launch  
 **Source:** APKPure — (uploaded directly, no link)  
 **APK SHA-256:** `d23d69a29f30a35fa9c23a1a0a267e5da2f6aa5de748cf7540e61a3c0ac87ea1`  
+**APK integrity check:** ❓ Not available (submitted before this check existed, or the engine build predates it)  
 **Play Store category check:** GAME  
 **Submitted by:** aaronateataco  
+**Test environment:** Android Horizon build `Unknown (submitted before build/firmware logging existed)`, Switch firmware `Unknown`, Atmosphere `Unknown`  
 
 ## Analysis
 

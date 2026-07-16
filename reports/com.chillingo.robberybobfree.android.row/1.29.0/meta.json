@@ -9,5 +9,9 @@
   "submitted_at": "2026-07-06T20:39:18Z",
   "notes": "",
   "play_store_category_check": "GAME",
-  "superseded_submission_by": null
+  "superseded_submission_by": null,
+  "engine_build": null,
+  "switch_firmware": null,
+  "atmosphere_version": null,
+  "apk_integrity_check": "not_logged"
 }

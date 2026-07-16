@@ -9,5 +9,9 @@
   "submitted_at": "2026-07-06T19:34:10Z",
   "notes": "Straight-up crashes and goes to an Atmosph\u00e8re error screen on installation and does the same when launching the broken installation.",
   "play_store_category_check": "GAME",
-  "superseded_submission_by": null
+  "superseded_submission_by": null,
+  "engine_build": null,
+  "switch_firmware": null,
+  "atmosphere_version": null,
+  "apk_integrity_check": "not_logged"
 }

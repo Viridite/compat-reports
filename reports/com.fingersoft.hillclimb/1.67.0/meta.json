@@ -9,5 +9,9 @@
   "submitted_at": "2026-07-15T12:28:27Z",
   "notes": "",
   "play_store_category_check": "GAME",
-  "superseded_submission_by": "aaronateataco"
+  "superseded_submission_by": "aaronateataco",
+  "engine_build": "0.1.124",
+  "switch_firmware": "22.1.0",
+  "atmosphere_version": "1.11.2",
+  "apk_integrity_check": "not_logged"
 }
