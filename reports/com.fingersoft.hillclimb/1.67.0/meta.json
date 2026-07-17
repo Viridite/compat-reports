@@ -13,5 +13,7 @@
   "engine_build": "0.1.124",
   "switch_firmware": "22.1.0",
   "atmosphere_version": "1.11.2",
-  "apk_integrity_check": "not_logged"
+  "apk_integrity_check": "not_logged",
+  "arch": "x64",
+  "mature": false
 }

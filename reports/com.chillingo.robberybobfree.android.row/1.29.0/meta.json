@@ -13,5 +13,7 @@
   "engine_build": null,
   "switch_firmware": null,
   "atmosphere_version": null,
-  "apk_integrity_check": "not_logged"
+  "apk_integrity_check": "not_logged",
+  "arch": "x64",
+  "mature": false
 }

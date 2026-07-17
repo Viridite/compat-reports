@@ -10,7 +10,9 @@
     "source_site": "APKMirror",
     "submitted_by": "aaronateataco",
     "submitted_at": "2026-07-06T21:16:41Z",
-    "report_path": "reports/com.colorswitch.switch2/2.40/report.md"
+    "report_path": "reports/com.colorswitch.switch2/2.40/report.md",
+    "arch": "x64",
+    "mature": false
   },
   {
     "game_name": "Hill Climb Racing",
@@ -23,7 +25,9 @@
     "source_site": "APKPure",
     "submitted_by": "aaronateataco",
     "submitted_at": "2026-07-15T12:28:27Z",
-    "report_path": "reports/com.fingersoft.hillclimb/1.67.0/report.md"
+    "report_path": "reports/com.fingersoft.hillclimb/1.67.0/report.md",
+    "arch": "x64",
+    "mature": false
   },
   {
     "game_name": "Robbery Bob",
@@ -36,7 +40,9 @@
     "source_site": "APKMirror",
     "submitted_by": "aaronateataco",
     "submitted_at": "2026-07-06T20:39:18Z",
-    "report_path": "reports/com.chillingo.robberybobfree.android.row/1.29.0/report.md"
+    "report_path": "reports/com.chillingo.robberybobfree.android.row/1.29.0/report.md",
+    "arch": "x64",
+    "mature": false
   },
   {
     "game_name": "Subway Surf",
@@ -49,7 +55,9 @@
     "source_site": "APKPure",
     "submitted_by": "aaronateataco",
     "submitted_at": "2026-07-06T19:25:12Z",
-    "report_path": "reports/com.kiloo.subwaysurf/3.37.1/report.md"
+    "report_path": "reports/com.kiloo.subwaysurf/3.37.1/report.md",
+    "arch": "x64",
+    "mature": false
   },
   {
     "game_name": "TempleRun",
@@ -62,6 +70,8 @@
     "source_site": "APKPure",
     "submitted_by": "aaronateataco",
     "submitted_at": "2026-07-06T19:34:10Z",
-    "report_path": "reports/com.imangi.templerun/1.10.0/report.md"
+    "report_path": "reports/com.imangi.templerun/1.10.0/report.md",
+    "arch": "x64",
+    "mature": false
   }
 ]
